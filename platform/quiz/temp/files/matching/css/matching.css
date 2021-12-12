@@ -1,0 +1,175 @@
+body {
+
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A ;
+    text-align: center;
+}
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body{
+    overflow: hidden;
+}
+
+
+
+
+
+.gameConainer{
+    position: absolute;
+    top:0;
+    left:0;
+    width:99%;
+    height: 99%;
+    text-align: center;
+    /*background: url(../images/22.png) repeat;*/
+    overflow: hidden;
+    /*border:1px solid red;*/
+}
+canvas{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.coloumn2{
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height: 100%;
+    /*border:2px solid #00AB67;*/
+    /*border-right: 0;*/
+}
+
+.coloumn1{
+    position: absolute;
+    top:0;
+    left:50%;
+    width:50%;
+    height: 100%;
+    /*border:2px solid #00AB67;*/
+    /*border-left: 0;*/
+}
+
+.coloumn1Element{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 0;
+    /*border:2px solid aquamarine;*/
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    right: 0;
+
+}
+
+.coloumn2Element{
+display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    /*border:2px solid aquamarine;*/
+    width: 50%;
+    margin: auto;
+    right: 0;
+}
+
+.elemMatch{
+    width: 100%;
+   border: 1px solid #00AB67;
+
+    /*-webkit-overflow-scrolling: touch;*/
+    /*overflow-y: scroll;*/
+    direction: rtl;
+    margin: 0 0 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+.elemMatch:first-child
+{
+    margin-top: 10px;
+}
+
+.imageElem{
+    width: auto;
+    height:auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+.imageCheckAnswer{
+    width:10%;
+    position: absolute;
+    left:-10%
+
+}
+
+
+/*===================start 21/1/2016====================*/
+.btn-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.audio-btn
+{
+    display: inline-block;
+    overflow: hidden;
+    border: 0;
+    border-radius: 10px;
+    background: #00AB67;
+    color: #fff;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+.audio-btn:first-child
+{
+    margin: 0 0 0 10px;
+}
+.audio-btn:hover
+{
+    background: #000;
+    color: #00AB67;
+}
+.lbl-data-matching
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    color: #00AB67;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*===================end 21/1/2016====================*/

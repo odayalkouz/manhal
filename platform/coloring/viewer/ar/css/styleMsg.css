@@ -1,0 +1,108 @@
+
+.MSGConfirm{
+    text-shadow: 1px 2px 0 #000;
+    position: absolute;
+    top:0;left:0;right: 0;left:0px;  bottom: 0;
+    margin: auto;
+    width:50%;height:200px;
+    background: rgba(0,0,0,0.8);
+    z-index: 10000000000000000000000000;
+    border: 1px solid #383636;
+   /*border-radius: 25px;*/
+    z-index: 99999999999999999;
+    background: rgba(49, 52, 56, 0.8);
+    box-shadow: 0 5px 10px rgba(72,72,72,.75);
+    color:white;
+
+}
+
+.MSGConfirm label{
+    text-shadow: 1px 2px 0 #000;
+    font-size: 20px !important;
+    color:white
+}
+
+.containerMsg{
+    position: absolute;
+    top:0;left:0;right: 0;left:0px;
+    margin: auto;
+    height:100px;
+    bottom: 0;
+    width: 365px;
+}
+
+.containerMsg button{
+    text-shadow: 1px 2px 0 #000;
+    display: inline-block;
+    margin: 17px auto;
+    border: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #fff;
+    transition: .3s;
+    text-shadow: 1px 2px 0 white;
+    font-family: 'Conv_Segoe Print';
+    color: #474747;
+    border-radius: 50px;
+    outline: none;
+    margin: 5px;
+    width: 101px;
+}
+
+.titleMsg{
+    background-color: rgba(25,25,27,.64) !important;
+    -webkit-box-shadow: 0 1px rgba(255,255,255,.06), inset 0 1px 4px rgba(0,0,0,.7) !important;
+    -moz-box-shadow: 0 1px rgba(255,255,255,.06), inset 0 1px 4px rgba(0,0,0,.7) !important;
+    box-shadow: 0 1px rgba(255,255,255,.06), inset 0 1px 4px rgba(0,0,0,.7) !important;
+    height: 38px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 27px;
+    line-height: 36px;
+    margin-top: 0px;
+}
+.btnClass{
+    margin-top: 34px;
+}
+#MessegeContainer{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999999999999999999
+
+
+}
+
+#menu,#controlPanel,#colorContainer{
+   z-index:  999999 !important;
+}
+
+.line-row-message {
+    display: block;
+    overflow: hidden;
+    margin: 20px 10px 0 0;
+}
+.colse-btn, .ok-btn {
+    display: block;
+    overflow: hidden;
+    width: 45px;
+    height: 46px;
+    -webkit-border-radius: 8px/9px;
+    -moz-border-radius: 8px/9px;
+    border-radius: 8px/9px;
+    background-color: #1c1c1c;
+    float: left;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+.colse-btn i:before, .ok-btn i:before {
+    font-size: 20px;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 0;
+}

@@ -1,0 +1,1 @@
+Select   books.*,  categories.name_ar,  categories.name_en,  users.fullname From  books Left Join  categories On books.category = categories.catid LEFT Join  users On books.userid = users.userid   WHERE `bookid` >0   LIMIT 0, 12

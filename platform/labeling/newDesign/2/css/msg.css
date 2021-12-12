@@ -1,0 +1,184 @@
+.message-main-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*background: rgba(0,0,0,0.5);*/
+    z-index: 10000000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.message-container
+{
+    display: block;
+    overflow: visible;
+    width: 504px;
+    height: 196px;
+    background-color: #e5c28a;
+    -webkit-box-shadow: 0 2px 4px rgba(193,172,114,.5), inset 0 -1px 1px #ad7a32;
+    -moz-box-shadow: 0 2px 4px rgba(193,172,114,.5), inset 0 -1px 1px #ad7a32;
+    box-shadow: 0 2px 4px rgba(193,172,114,.5), inset 0 -1px 1px #ad7a32;
+    position: absolute;
+    border: 6px solid #fff6d8;
+    border-radius: 15px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.line-row-message
+{
+    display: block;
+    overflow: visible;
+    margin: 20px 10px 0 0;
+}
+.lbl-data-message
+{
+    display: block;
+    overflow: visible;
+    width: 57%;
+}
+.lbl-data-message span,
+.lbl-data-sort-msg
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    line-height: 64px;
+    font-family: 'Droid Arabic Kufi';
+    font-size: 4vmin;
+    text-align: justify;
+    color: #32100c;
+    direction: rtl;
+    padding: 0 5px 0 0;
+}
+.colse-btn,.ok-btn
+{
+    display: block;
+    overflow: hidden;
+    width: 59px;
+    height: 61px;
+    width: 67px;
+    height: 61px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -14%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ok-btn
+{
+    background-image: url("../images/ok.svg");
+    right: 35%;
+}
+.colse-btn
+{
+    background-image: url("../images/back.svg");
+    left: 36%;
+}
+.colse-btn i:before,.ok-btn i:before
+{
+    font-size: 27px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 13px;
+}
+.ok-btn i:before
+{
+    margin-left: 15px;
+}
+.message-img
+{
+    display: block;
+    overflow: hidden;
+    width: 43%;
+    height: 65%;
+    position: absolute;
+    right: 0;
+}
+
+.sort-btn
+{
+    overflow: hidden;
+    font-size: inherit;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #f67c50;
+    color: #fff;
+    box-shadow: 0 6px #e7663e;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    margin: 0 20px 0 0;
+    border-radius: 6px;
+    font-family: 'Droid Arabic Kufi';
+    width: 130px;
+    height: 50px;
+    font-size: 2vmin;
+    line-height: 50px;
+    text-align: center;
+}
+.sort-btn:hover
+{
+    box-shadow: 0 0 #e7663e;
+    top: 6px;
+}
+
+.showSweetAlert {
+    -webkit-animation: showSweetAlert 0.3s;
+    animation: showSweetAlert 0.3s; }
+
+.hideSweetAlert {
+    -webkit-animation: hideSweetAlert 0.2s;
+    animation: hideSweetAlert 0.2s; }
+@-webkit-keyframes showSweetAlert {
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0;
+    }
+}
+
+@keyframes showSweetAlert {
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0;
+    }
+}
+
+@-webkit-keyframes hideSweetAlert {
+    from{
+        left: 0;
+    }
+    to{
+        left: -100%;
+    }
+}
+
+@keyframes hideSweetAlert {
+    from{
+        left: 0;
+    }
+    to{
+        left: -100%;
+    }
+}

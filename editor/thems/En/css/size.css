@@ -1,0 +1,17 @@
+@media all and (max-width: 1199px) and (min-width: 1025px) {
+
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px)and (orientation: landscape){}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {}
+
+@media all and (max-width: 767px) and (min-width: 740px) {}
+
+@media all and (max-width: 739px) and (min-width: 611px){}
+
+@media all and (max-width: 610px) and (min-width: 560px) {}
+
+@media (max-width: 559px) and (min-width: 460px) {}
+
+@media all and (max-width: 459px) and (min-width: 320px){}

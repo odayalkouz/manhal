@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no">
+    <title>About Us</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/size.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <!--<script src="js/ui.js"></script>-->
+    <script src="js/velocity.js"></script>
+</head>
+<body>
+<div class="main-template-aboutUs">
+    <div id="main-container" class="main-container-aboutUs">
+        <div id="inner-container" class="inner-container-aboutUs">
+            <div class="main-title" id="main-title" style="z-index: 100">
+                <div id="innertitle">
+                    <div class="main-content-aboutUs">
+                        <div class="masa-aboutUs"></div>
+                        <div class="aboutUs-text">
+                            <div class="inner-aboutUs-text">
+                                <p class="paragraph">تطبيق "سلسلة الذكاء المتعدد" هو تطبيق تفاعلي مبتكر خاص بالأجهزة اللوحية الذكية، يقدم سلسلة من القصص المفيدة، بطريقة شيقة وممتعة تهتم بتعليم الطفل وتدعو لتنمية قدراته. يساعد التطبيق الطفل على القراءة بنفسه أو بمساعدة والديه وذلك بطريقة هادفة وغير اعتيادية، تثير التفكير الإيجابي، وتجذب الانتباه بالتصاميم التي تجمع مابين البساطة والإتقان، والمؤثرات الصوتية المناسبة.</p>
+                                <p class="paragraph">أما من حيث المحتوى، فتطبيق "سلسلة الذكاء المتعدد" يحتوي على قصص سلسلة الذكاء المتعدد التي تهتم بأنواع الذكاء المتعدد وذلك بأسلوب تعليمي منظم يعين الآباء على إرساء الأساس المتين لقدرات أطفالهم، ليكونو مميزين في المستقبل.</p>
+                                <p class="paragraph">تطبيق "سلسلة الذكاء المتعدد" هو أحد إنتاجات دار المنهل ناشرون وهي إحدى دور النشر العربية المتميزة والمتخصصة في مجال أدب الأطفال، والبرامج التعليمية والثقافية المتنوعة. بدأت دار المنهل في عام 1990، ومنذ ذلك الحين برعت في نشر وتوزيع كتب رياض الأطفال والمدارس فضلاً عن الوسائل التعليمية باللغتين العربية والانجليزية، بالإضافة إلى نشر الوسائط السمعية والإلكترونية</p>
+                            </div>
+                        </div>
+                        <p class="read-more "><a d="0" href="#" class="button">اقرأ المزيد</a></p>
+                        <div class="">
+                            <span class="TypeForUs text">أكتب لنا</span>
+                            <div class="contactUs-container">
+                                <div class="logo-aboutUs floating-right fadeIn animated animated-3 webkitForceHardwareAcceleration"></div>
+                                <div class="contactUs-container-left floating-right ">
+                                    <div class="location animated animated-1 fadeInRightBig webkitForceHardwareAcceleration"></div>
+                                    <div class="number animated animated-1 fadeInRightBig webkitForceHardwareAcceleration"></div>
+                                    <div class="email animated animated-1 fadeInRightBig webkitForceHardwareAcceleration"></div>
+                                    <a class="webAddress animated animated-1 fadeInRightBig webkitForceHardwareAcceleration" href="http://manhal.com/" target="_blank"></a>
+                                </div>
+                                <div class="callUsBoy"></div>
+                            </div>
+                        </div>
+                        <a class="social-btn youtube rotateIn animated animated-1 webkitForceHardwareAcceleration"></a>
+                        <a class="social-btn instgram rotateIn animated animated-1 webkitForceHardwareAcceleration"></a>
+                        <a class="social-btn pinterest rotateIn animated animated-1 webkitForceHardwareAcceleration"></a>
+                        <a class="social-btn facebook rotateIn animated animated-1 webkitForceHardwareAcceleration"></a>
+                        <a class="social-btn twitter rotateIn animated animated-1 webkitForceHardwareAcceleration"></a>
+                        <a class="back-btn-about-us" ><span></span></a>
+                        <span class="copyRight text">جميع حقوق الطبع محفوظة &copy;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(window).on("resize", function () {
+        resizeGame();
+    })
+    $(document).ready(function () {
+
+        parent.onLoadIframeShow()
+        resizeGame()
+    })
+    $('.facebook').click(function(){
+        parent.soundEffect("sound/click.mp3");
+        window.open('https://www.facebook.com/daralmanhalpublishers/', '_system')
+    });
+    $('.twitter').click(function(){
+        parent.soundEffect("sound/click.mp3");
+        window.open('https://twitter.com/dar_manhal', '_system')
+    });
+    $('.youtube').click(function(){
+        parent.soundEffect("sound/click.mp3");
+        window.open('https://www.youtube.com/channel/UCHQkQ8ZFdArwWFRE8hmQ6Bg', '_system')
+    });
+    $('.instgram').click(function(){
+        parent.soundEffect("sound/click.mp3");
+        window.open('https://www.instagram.com/dar_al_manhal/', '_system')
+    });
+    $('.pinterest').click(function(){
+        parent.soundEffect("sound/click.mp3");
+        window.open('https://www.pinterest.com/daralmanhal/', '_system')
+    });
+    $('.number').click(function(){
+        parent.soundEffect("sound/click.mp3");
+        window.open('tel:0096265698308', '_system')
+    });
+
+    $('.TypeForUs').click(function(){
+
+        parent.sendEmail()
+        parent.soundEffect("sound/click.mp3")
+    });
+
+    $('.back-btn-about-us').click(function(){
+
+
+        parent.soundEffect("sound/click.mp3")
+        parent.showContainer()
+        parent.closeIframe()
+    });
+
+    $(function() {
+
+        var $el, $ps, $up, totalHeight;
+
+        $(".button").click(function() {
+            soundEffect("sound/click.mp3");
+            $el = $(this);
+            $p  = $el.parent();
+            $up = $(".aboutUs-text");
+            $ps = $up.find("p");
+            if($(this).attr("d")=="0"){
+                $(".TypeForUs").hide();
+                $(".contactUs-container").hide();
+                $up
+                        .css({
+                            // Set height to prevent instant jumpdown when max height is removed
+                            "height": "37%",
+                            "overflow-y":"auto"
+                        })
+                        .animate({
+                            "height": "37%"
+                        });
+
+                // fade out read-more
+                $p.css({
+                    "top":"78%"
+                });
+                $(".inner-aboutUs-text").css("overflowY","auto");
+                $(this).text("اخفاء النص");
+                $(this).attr("d","1");
+                // prevent jump-down
+                return false;
+            }
+           else{
+                $(".TypeForUs").show();
+                $(".contactUs-container").show();
+                $up
+                        .css({
+                            // Set height to prevent instant jumpdown when max height is removed
+                            "height": "10%",
+                            "overflow-y":"hidden"
+                        })
+                        .animate({
+                            "height": "10%"
+                        });
+
+                // fade in read-less
+
+                $p.css({
+                    "top":"50%"
+                });
+                $(".inner-aboutUs-text").css("overflowY","hidden");
+                $(this).text("اقراء المزيد");
+                $(this).attr("d","0");
+                // prevent jump-down
+                return false;
+            }
+
+        });
+
+    });
+
+    function resizeGame() {
+        var gameArea = document.getElementById('main-title');
+        var widthToHeight = 4 / 3;
+        var newWidth = window.innerWidth;
+        var newHeight = window.innerHeight;
+        var newWidthToHeight = newWidth / newHeight;
+
+        if (newWidthToHeight > widthToHeight) {
+            newWidth = newHeight * widthToHeight;
+            gameArea.style.height = newHeight + 'px';
+            gameArea.style.width = newWidth + 'px';
+        } else {
+            newHeight = newWidth / widthToHeight;
+            gameArea.style.width = newWidth + 'px';
+            gameArea.style.height = newHeight + 'px';
+        }
+
+        //gameArea.style.marginTop = (-newHeight / 2) + 'px';
+        //gameArea.style.marginLeft = (-newWidth / 2) + 'px';
+
+        var gameCanvas = document.getElementById('innertitle');
+        gameCanvas.style.width = newWidth + 'px';
+        gameCanvas.style.height = newHeight + 'px';
+    }
+    function soundEffect(src) {
+
+        if ($('.SoundEffect').length)
+            $('.SoundEffect').remove();
+
+        $("<audio class='SoundEffect'></audio>").attr({
+            'src': src,
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+        $(".SoundEffect").prop("loop", false);
+    }
+    
+</script>
+</body>
+</html>

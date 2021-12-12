@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="15.5184mm" height="15.5184mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 456370 456370"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:white;fill-opacity:0.470588}
+    .fil1 {fill:url(#id0)}
+    .fil2 {fill:url(#id1)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="228185" y1="35537" x2="228185" y2="420833">
+   <stop offset="0" style="stop-opacity:1; stop-color:#4D4D4D"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FEFEFE"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="228185" y1="451802" x2="228185" y2="4570.05">
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M350897 279440c629,-100108 -80011,-181769 -180105,-182393 -28856,-200 -56067,6547 -80356,18404 33491,-39651 83667,-64710 139610,-64378 100112,633 180747,82311 180108,182408 -447,71230 -42056,132458 -102029,161690 26430,-31273 42484,-71600 42772,-115731z"/>
+  <path class="fil1" d="M228185 23238c-113190,0 -204947,91760 -204947,204947 0,113189 91757,204949 204947,204949 113189,0 204949,-91760 204949,-204949 0,-113187 -91760,-204947 -204949,-204947zm0 26650c-98471,0 -178297,79826 -178297,178297 0,98473 79826,178299 178297,178299 98473,0 178299,-79826 178299,-178299 0,-98471 -79826,-178297 -178299,-178297z"/>
+  <path class="fil2" d="M228185 456370c-126021,0 -228182,-102162 -228182,-228185 0,-126021 102161,-228182 228182,-228182 126023,0 228185,102161 228185,228182 0,126023 -102162,228185 -228185,228185zm0 -29673c-109637,0 -198512,-88875 -198512,-198512 0,-109637 88875,-198512 198512,-198512 109637,0 198512,88875 198512,198512 0,109637 -88875,198512 -198512,198512z"/>
+ </g>
+</svg>

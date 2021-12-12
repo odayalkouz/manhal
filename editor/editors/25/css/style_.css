@@ -1,0 +1,1540 @@
+.floating-right
+{
+    float: right;
+}
+.floating-left
+{
+    float: left;
+}
+.text-right
+{
+    text-align: right;
+}
+.text-left
+{
+    text-align: left;
+}
+.text-center
+{
+    text-align: center;
+}
+.display-block
+{
+    display: block;
+    overflow: hidden;
+}
+.display-inline-block
+{
+    display: inline-block;
+    overflow: hidden;
+}
+.clear
+{
+    clear: both;
+}
+a
+{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+*,a,
+a:focus {
+    outline: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    text-align: center;
+}
+.top-bg
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 13.152%;
+    position: absolute;
+    top: 0;
+    background: rgb(218, 243, 251);
+    background: -moz-linear-gradient(90deg, rgb(218, 243, 251) 30%, rgb(255, 255, 255) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(218, 243, 251) 30%, rgb(255, 255, 255) 70%);
+    background: -o-linear-gradient(90deg, rgb(218, 243, 251) 30%, rgb(255, 255, 255) 70%);
+    background: -ms-linear-gradient(90deg, rgb(218, 243, 251) 30%, rgb(255, 255, 255) 70%);
+    background: linear-gradient(180deg, rgb(218, 243, 251) 30%, rgb(255, 255, 255) 70%);
+}
+.main-body
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.start-title
+{
+    display: block;
+    overflow: hidden;
+    width: 26.758%;
+    height: 5.99%;
+    position: absolute;
+    top: 9.115%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/title.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train-start-container
+{
+    display: block;
+    overflow: visible;
+    width: 60.157%;
+    height: 33.594%;
+    position: absolute;
+    top: 31.381%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+.train-start
+{
+    display: block;
+    overflow: hidden;
+    width: 96.591%;
+    height: 96.512%;
+    position: relative;
+    -webkit-animation: body-upDown 0.3s 0.2s infinite;
+    -moz-animation: body-upDown 0.3s 0.2s infinite;
+    animation: body-upDown 0.3s 0.2s infinite;
+}
+@keyframes body-upDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2px);
+    }
+}
+.train-start-inner
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 90.764%;
+    background: url("../images/train-start.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+
+.train-start .wheel-1
+{
+    display: block;
+    overflow: hidden;
+    width: 9.916%;
+    height: 23.7%;
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    background: url("../images/wheel-1.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train-start .wheel-2
+{
+    display: block;
+    overflow: hidden;
+    width: 9.916%;
+    height: 23.7%;
+    position: absolute;
+    bottom: 0;
+    left: 13.7%;
+    background: url("../images/wheel-1.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train-start .wheel-3
+{
+    display: block;
+    overflow: hidden;
+    width: 12.606%;
+    height: 30.121%;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    background: url("../images/wheel-2.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train-start .wheel-4
+{
+    display: block;
+    overflow: hidden;
+    width: 11.933%;
+    height: 28.52%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background: url("../images/wheel-3.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train-start .wheel-5
+{
+    display: block;
+    overflow: hidden;
+    width: 9.916%;
+    height: 23.7%;
+    position: absolute;
+    bottom: 0;
+    right: 17%;
+    background: url("../images/wheel-4.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train-start .wheel-6
+{
+    display: block;
+    overflow: hidden;
+    width: 9.916%;
+    height: 23.7%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url("../images/wheel-4.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train-start .wheel-1,.train-start .wheel-2,.train-start .wheel-3,
+.train-start .wheel-4,.train-start .wheel-5,.train-start .wheel-6
+{
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+.railRoad-start
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 3.49%;
+    background: url("../images/railRoad.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.btn-group-start
+{
+    display: block;
+    overflow: visible;
+    width: 39.258%;
+    height: 16.537%;
+    position: absolute;
+    bottom: 10.417%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.btn-start
+{
+    display: block;
+    overflow: hidden;
+    width: 20.896%;
+    height: 100%;
+    margin-left: 18.6%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.btn-1
+{
+    background-image: url("../images/btn-start-1.svg");
+}
+.btn-2
+{
+    background-image: url("../images/btn-start-2.svg");
+}
+.btn-3
+{
+    background-image: url("../images/btn-start-3.svg");
+    margin-left: 0;
+}
+.cloud-1
+{
+    display: block;
+    overflow: hidden;
+    width: 7.422%;
+    height: 5.21%;
+    position: absolute;
+    top: 37.37%;
+    right: 19%;
+    background: url("../images/cloud-1.svg") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-animation: cloud 50s linear infinite;
+    -moz-animation: cloud 50s linear infinite;
+    -o-animation: cloud 50s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+}
+.cloud-2
+{
+    display: block;
+    overflow: hidden;
+    width: 9.668%;
+    height: 5.99%;
+    position: absolute;
+    top: 30.86%;
+    right: 28%;
+    background: url("../images/cloud-2.svg") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-animation: cloud-1 60s linear infinite;
+    -moz-animation: cloud-1 60s linear infinite;
+    -o-animation: cloud-1 60s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+}
+.cloud-3
+{
+    display: block;
+    overflow: hidden;
+    width: 7.422%;
+    height: 5.21%;
+    position: absolute;
+    top: 19.37%;
+    right: 19%;
+    background: url("../images/cloud-1.svg") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-animation: cloud-2 70s linear infinite;
+    -moz-animation: cloud-2 70s linear infinite;
+    -o-animation: cloud-2 70s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+}
+.cloud-4
+{
+    display: block;
+    overflow: hidden;
+    width: 9.668%;
+    height: 5.99%;
+    position: absolute;
+    top: 10.86%;
+    right: 28%;
+    background: url("../images/cloud-2.svg") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-animation: cloud-3 80s linear infinite;
+    -moz-animation: cloud-3 80s linear infinite;
+    -o-animation: cloud-3 80s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+}
+.cloud-5
+{
+    display: block;
+    overflow: hidden;
+    width: 7.422%;
+    height: 5.21%;
+    position: absolute;
+    top: 27.37%;
+    right: 19%;
+    background: url("../images/cloud-1.svg") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-animation: cloud-4 90s linear infinite;
+    -moz-animation: cloud-4 90s linear infinite;
+    -o-animation: cloud-4 90s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+}
+.cloud-6
+{
+    display: block;
+    overflow: hidden;
+    width: 9.668%;
+    height: 5.99%;
+    position: absolute;
+    top: 1.86%;
+    right: 28%;
+    background: url("../images/cloud-2.svg") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-animation: cloud-5 100s linear infinite;
+    -moz-animation: cloud-5 100s linear infinite;
+    -o-animation: cloud-5 100s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+}
+.sun-main-container
+{
+    display: block;
+    overflow: visible;
+    width: 10.743%;
+    height: 14.323%;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+.sun-beam
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: url("../images/sun-beam.svg") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-animation: spin 20s linear infinite;
+    -moz-animation: spin 20s linear infinite;
+    animation: spin 20s linear infinite;
+}
+.sun
+{
+    display: block;
+    overflow: hidden;
+    width: 66.37%;
+    height: 66.37%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/sun.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+@-webkit-keyframes cloud
+{
+    0% {
+        right: -10%;
+    }
+    100% {
+        right: 200%;
+    }
+}
+@-webkit-keyframes cloud-1
+{
+    0% {
+        right: -20%;
+    }
+    100% {
+        right: 200%;
+    }
+}
+@-webkit-keyframes cloud-2
+{
+    0% {
+        right: -30%;
+    }
+    100% {
+        right: 200%;
+    }
+}
+@-webkit-keyframes cloud-3
+{
+    0% {
+        right: -40%;
+    }
+    100% {
+        right: 200%;
+    }
+}
+@-webkit-keyframes cloud-4
+{
+    0% {
+        right: -50%;
+    }
+    100% {
+        right: 200%;
+    }
+}
+@-webkit-keyframes cloud-5
+{
+    0% {
+        right: -60%;
+    }
+    100% {
+        right: 200%;
+    }
+}
+@-webkit-keyframes cloud-6
+{
+    0% {
+        right: -70%;
+    }
+    100% {
+        right: 200%;
+    }
+}
+
+.main-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.inner-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.start-page
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.poweredBy
+{
+    display: block;
+    overflow: hidden;
+    width: 14.258%;
+    height: 4.037%;
+    position: absolute;
+    bottom: 2.865%;
+    left: 2.442%;
+    background: url("../images/poweredBy.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.main-message-container
+{
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9999;
+}
+.inner-message-container
+{
+    display: block;
+    overflow: visible;
+    width: 31.153%;
+    height: 46.224%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 0 169px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 30px;
+    border: 3px solid #e2e2e2;
+    background: rgb(219,219,219);
+    background: linear-gradient(0deg, rgba(219,219,219,1) 0%, rgba(255,255,255,1) 52%);
+}
+#feedback
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.wellDonw
+{
+    width: 32.602%;
+    height: 7.89%;
+    top: 37.93%;
+    background-image: url("../images/wellDonw.svg");
+}
+.good
+{
+    width: 19.44%;
+    height: 8.17%;
+    top: 37.184%;
+    background-image: url("../images/good.svg");
+}
+.tryAgain
+{
+    width: 57.681%;
+    height: 8.451%;
+    top: 37.493%;
+    background-image: url("../images/tryAgain.svg");
+}
+
+#message-icone
+{
+    display: block;
+    overflow: hidden;
+    width: 52.98%;
+    height: 17.184%;
+    position: absolute;
+    top: 10.423%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.wellDonw-icon
+{
+    background-image: url("../images/message-icon-wellDonw.svg");
+}
+.good-icon
+{
+    background-image: url("../images/message-icon-good.svg");
+}
+.tryAgain-icon
+{
+    background-image: url("../images/message-icon-tryAgain.svg");
+}
+.result-text
+{
+    display: block;
+    overflow: hidden;
+    width: 13.17%;
+    height: 3.944%;
+    position: absolute;
+    top: 60.141%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/result-text.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.result-container
+{
+    display: block;
+    overflow: hidden;
+    width: 36.991%;
+    height: 12.113%;
+    position: absolute;
+    top: 69.592%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/result.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.result-container span
+{
+    display: block;
+    overflow: hidden;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 3vmin;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.reload
+{
+    display: block;
+    overflow: hidden;
+    width: 17.421%;
+    height: 15.803%;
+    position: absolute;
+    bottom: -6.7%;
+    left: 27%;
+    /*right: 0;*/
+    /*margin: auto;*/
+    background: url("../images/reload.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.home
+{
+    display: block;
+    overflow: hidden;
+    width: 17.421%;
+    height: 15.803%;
+    position: absolute;
+    bottom: -6.7%;
+    /*left: 0;*/
+    right: 27%;
+    /*margin: auto;*/
+    background: url("../images/reload.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.trueFalse
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    /* bottom: 0; */
+    /* right: 0; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+/*===================smoke style====================*/
+
+.train-start-container .smoke-group {
+    width: 10.8%;
+    height: 68%;
+    /* margin-top: -123px; */
+    /* margin-left: 5.3%; */
+    position: absolute;
+    top: -38%;
+    left: 5.2%;
+}
+.train-container .smoke-group {
+    width: 3.924%;
+    height: 98.871%;
+    /* margin-top: -123px; */
+    /* margin-left: 5.3%; */
+    position: absolute;
+    top: -57%;
+    left: 9.2%;
+}
+
+.smoke {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* left: calc(50% - 15px / 2); */
+    width: 34%;
+    height: 13%;
+    background-color: #d1d1d1;
+    border-radius: 7.5px;
+    -webkit-filter: blur(6px);
+    filter: blur(2px);
+    opacity: 0;
+}
+.smoke:nth-child(1) {
+    -webkit-animation-name: smoke3;
+    animation-name: smoke3;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(2) {
+    -webkit-animation-name: smoke2;
+    animation-name: smoke2;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(3) {
+    -webkit-animation-name: smoke4;
+    animation-name: smoke4;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(4) {
+    -webkit-animation-name: smoke2;
+    animation-name: smoke2;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(5) {
+    -webkit-animation-name: smoke3;
+    animation-name: smoke3;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(6) {
+    -webkit-animation-name: smoke3;
+    animation-name: smoke3;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(7) {
+    -webkit-animation-name: smoke1;
+    animation-name: smoke1;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(8) {
+    -webkit-animation-name: smoke1;
+    animation-name: smoke1;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 3.2s;
+    animation-delay: 3.2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(9) {
+    -webkit-animation-name: smoke5;
+    animation-name: smoke5;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 3.6s;
+    animation-delay: 3.6s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(10) {
+    -webkit-animation-name: smoke4;
+    animation-name: smoke4;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(11) {
+    -webkit-animation-name: smoke5;
+    animation-name: smoke5;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 4.4s;
+    animation-delay: 4.4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(12) {
+    -webkit-animation-name: smoke4;
+    animation-name: smoke4;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 4.8s;
+    animation-delay: 4.8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(13) {
+    -webkit-animation-name: smoke5;
+    animation-name: smoke5;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 5.2s;
+    animation-delay: 5.2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(14) {
+    -webkit-animation-name: smoke2;
+    animation-name: smoke2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 5.6s;
+    animation-delay: 5.6s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(15) {
+    -webkit-animation-name: smoke5;
+    animation-name: smoke5;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(16) {
+    -webkit-animation-name: smoke3;
+    animation-name: smoke3;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 6.4s;
+    animation-delay: 6.4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(17) {
+    -webkit-animation-name: smoke5;
+    animation-name: smoke5;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 6.8s;
+    animation-delay: 6.8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(18) {
+    -webkit-animation-name: smoke1;
+    animation-name: smoke1;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 7.2s;
+    animation-delay: 7.2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(19) {
+    -webkit-animation-name: smoke1;
+    animation-name: smoke1;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 7.6s;
+    animation-delay: 7.6s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.smoke:nth-child(20) {
+    -webkit-animation-name: smoke4;
+    animation-name: smoke4;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes smoke1 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(6px, -36px);
+        transform: scale(3) translate(6px, -36px);
+        opacity: 0;
+    }
+}
+
+@keyframes smoke1 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(6px, -36px);
+        transform: scale(3) translate(6px, -36px);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes smoke2 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(-8px, -50px);
+        transform: scale(3) translate(-8px, -50px);
+        opacity: 0;
+    }
+}
+@keyframes smoke2 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(-8px, -50px);
+        transform: scale(3) translate(-8px, -50px);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes smoke3 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(-1px, -41px);
+        transform: scale(3) translate(-1px, -41px);
+        opacity: 0;
+    }
+}
+@keyframes smoke3 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(-1px, -41px);
+        transform: scale(3) translate(-1px, -41px);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes smoke4 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(0px, -41px);
+        transform: scale(3) translate(0px, -41px);
+        opacity: 0;
+    }
+}
+@keyframes smoke4 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(0px, -41px);
+        transform: scale(3) translate(0px, -41px);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes smoke5 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(-4px, -42px);
+        transform: scale(3) translate(-4px, -42px);
+        opacity: 0;
+    }
+}
+@keyframes smoke5 {
+    0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(3) translate(-4px, -42px);
+        transform: scale(3) translate(-4px, -42px);
+        opacity: 0;
+    }
+}
+/*====================page-1===========*/
+.page-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.title
+{
+    display: block;
+    overflow: hidden;
+    width: 18.848%;
+    height: 4.688%;
+    position: absolute;
+    top: 6.771%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/qus.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.drag-main-container
+{
+    display: block;
+    overflow: visible;
+    width: 86.231%;
+    height: 22.006%;
+    position: absolute;
+    top: 28.256%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.drag-item
+{
+    display: block;
+    overflow: visible;
+    width: 8.608%;
+    height: 44.971%;
+    border: 2px solid #d4edfa;
+    border-radius: 10px;
+    margin-left: 2.8%;
+    margin-bottom: 1.8%;
+    position: relative;
+}
+.drag-item:nth-child(9),.drag-item:nth-child(18)
+{
+    margin-left: 0;
+}
+.drag-item:nth-child(10),.drag-item:nth-child(11),.drag-item:nth-child(12),
+.drag-item:nth-child(13),.drag-item:nth-child(14),.drag-item:nth-child(15),
+.drag-item:nth-child(16),.drag-item:nth-child(17),.drag-item:nth-child(18)
+{
+    margin-bottom: 0;
+}
+.drag-item span
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.drag-item span img
+{
+    display: block;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.line
+{
+    display: block;
+    overflow: hidden;
+    width: 86.231%;
+    height: 0.261%;
+    background: #abdeed;
+    position: absolute;
+    bottom: 40.886%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.train-container
+{
+    display: block;
+    overflow: visible;
+    width: 100%;
+    height: 23.047%;
+    position: absolute;
+    bottom: 9.766%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.train
+{
+    display: block;
+    overflow: hidden;
+    width: 85.547%;
+    height: 97.741%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*-webkit-animation: body-upDown 0.3s 0.1s infinite;*/
+    /*-moz-animation: body-upDown 0.3s 0.1s infinite;*/
+    /*animation: body-upDown 0.3s 0.1s infinite;*/
+}
+.upDown-7
+{
+    -webkit-animation: body-upDown 0.2s 0.1s infinite;
+    -moz-animation: body-upDown 0.2s 0.1s infinite;
+    animation: body-upDown 0.2s 0.1s infinite;
+}
+.upDown-6
+{
+    -webkit-animation: body-upDown 0.3s 0.2s infinite;
+    -moz-animation: body-upDown 0.3s 0.2s infinite;
+    animation: body-upDown 0.3s 0.2s infinite;
+}
+.upDown-5
+{
+    -webkit-animation: body-upDown 0.4s 0.3s infinite;
+    -moz-animation: body-upDown 0.4s 0.3s infinite;
+    animation: body-upDown 0.4s 0.3s infinite;
+}
+.upDown-4
+{
+    -webkit-animation: body-upDown 0.5s 0.4s infinite;
+    -moz-animation: body-upDown 0.5s 0.4s infinite;
+    animation: body-upDown 0.5s 0.4s infinite;
+}
+.upDown-3
+{
+    -webkit-animation: body-upDown 0.6s 0.5s infinite;
+    -moz-animation: body-upDown 0.6s 0.5s infinite;
+    animation: body-upDown 0.6s 0.5s infinite;
+}
+.upDown-2
+{
+    -webkit-animation: body-upDown 0.7s 0.6s infinite;
+    -moz-animation: body-upDown 0.7s 0.6s infinite;
+    animation: body-upDown 0.7s 0.6s infinite;
+}
+.upDown-1
+{
+    -webkit-animation: body-upDown 0.8s 0.7s infinite;
+    -moz-animation: body-upDown 0.8s 0.7s infinite;
+    animation: body-upDown 0.8s 0.7s infinite;
+}
+.train-inner
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 91.91%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/train.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.wheel-spin
+{
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+.train .wheel-1
+{
+    display: block;
+    overflow: hidden;
+    width: 3.882%;
+    height: 19.66%;
+    position: absolute;
+    bottom: 0;
+    left: 0.6%;
+    background: url("../images/wheel-1.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-2
+{
+    display: block;
+    overflow: hidden;
+    width: 3.882%;
+    height: 19.66%;
+    position: absolute;
+    bottom: 0;
+    left: 5.4%;
+    background: url("../images/wheel-1.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-3
+{
+    display: block;
+    overflow: hidden;
+    width: 4.91%;
+    height: 24.86%;
+    position: absolute;
+    bottom: 0;
+    left: 11.1%;
+    background: url("../images/wheel-2.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-4
+{
+    display: block;
+    overflow: hidden;
+    width: 4.567%;
+    height: 23.13%;
+    position: absolute;
+    bottom: 0;
+    left: 19.8%;
+    background: url("../images/wheel-3.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-5
+{
+    display: block;
+    overflow: hidden;
+    width: 3.882%;
+    height: 19.66%;
+    position: absolute;
+    bottom: 0;
+    left: 29%;
+    background: url("../images/wheel-4.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-6
+{
+    display: block;
+    overflow: hidden;
+    width: 3.882%;
+    height: 19.66%;
+    position: absolute;
+    bottom: 0;
+    left: 35.3%;
+    background: url("../images/wheel-4.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-7
+{
+    display: block;
+    overflow: hidden;
+    width: 4.567%;
+    height: 23.13%;
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    background: url("../images/wheel-3.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-8
+{
+    display: block;
+    overflow: hidden;
+    width: 3.882%;
+    height: 19.66%;
+    position: absolute;
+    bottom: 0;
+    right: 43.4%;
+    background: url("../images/wheel-4.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-9
+{
+    display: block;
+    overflow: hidden;
+    width: 3.882%;
+    height: 19.66%;
+    position: absolute;
+    bottom: 0;
+    right: 36.7%;
+    background: url("../images/wheel-4.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-10
+{
+    display: block;
+    overflow: hidden;
+    width: 4.567%;
+    height: 23.13%;
+    position: absolute;
+    bottom: 0;
+    left: 68%;
+    background: url("../images/wheel-3.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-11
+{
+    display: block;
+    overflow: hidden;
+    width: 3.882%;
+    height: 19.66%;
+    position: absolute;
+    bottom: 0;
+    right: 19.1%;
+    background: url("../images/wheel-4.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-12
+{
+    display: block;
+    overflow: hidden;
+    width: 3.882%;
+    height: 19.66%;
+    position: absolute;
+    bottom: 0;
+    right: 12.6%;
+    background: url("../images/wheel-4.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.train .wheel-13
+{
+    display: block;
+    overflow: hidden;
+    width: 4.567%;
+    height: 23.13%;
+    position: absolute;
+    bottom: 0;
+    right: 3.2%;
+    background: url("../images/wheel-3.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.railRoad
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 0.652%;
+    position: absolute;
+    bottom: 9.6%;
+    background: url("../images/railRoad-1.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.drop-container
+{
+    display: block;
+    overflow: hidden;
+    width: 82.4%;
+    height: 53%;
+    position: absolute;
+    top: 0.8%;
+    right: 0.6%;
+}
+.drop-item
+{
+    display: block;
+    overflow: hidden;
+    width: 12.3%;
+    height: 100%;
+    position: relative;
+    margin-left: 2.3%;
+}
+.drop-item:last-child
+{
+    margin-left: 0;
+}
+.drop-item img
+{
+    display: block;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: move;
+}

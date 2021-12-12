@@ -1,0 +1,997 @@
+.about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    min-height: 50px;
+    text-align: left;
+    overflow: hidden
+}
+
+#contact_form {
+    display: block;
+    overflow: hidden;
+    width: 100%
+}
+
+.about-us-main-container {
+    display: block;
+    overflow: hidden
+}
+
+.about-us-main-container .iframe-container {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #ececec;
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: linear-gradient(to top, #f2f2f2, #fff 8%);
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    position: relative
+}
+
+.about-us-main-container .map-container {
+    display: block;
+    overflow: hidden;
+    width: 1170px;
+    height: 300px;
+    margin: 0
+}
+
+.about-us-main-container .image-header-container {
+    display: block;
+    overflow: hidden;
+    background: url(../images/contactus.png) -8px -4px no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 167px;
+    position: relative;
+    margin: 0
+}
+
+.about-us-main-container .image-header-container h1 {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    line-height: 59px;
+    color: #626161;
+    font-size: 25px;
+    font-weight: 600;
+    width: 350px
+}
+
+.about-us-main-container .info-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%
+}
+
+.about-us-main-container .info-container h2 {
+    display: block;
+    color: #00a951;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+    transition: all 1.5s;
+    padding: 0;
+    height: 40px;
+    line-height: 40px
+}
+
+.about-us-main-container .info-container .bottom-container {
+    display: block;
+    overflow: hidden;
+    width: 100%
+}
+
+.about-us-main-container .info-container .bottom-container .office-position {
+    display: block;
+    overflow: hidden;
+    margin: 0 10px;
+    border-bottom: solid 1px #c7c7c7;
+    height: 50px;
+    line-height: 50px
+}
+
+.about-us-main-container .info-container .bottom-container .office-position label {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+    color: #4b4b4b;
+    font-weight: 500
+}
+
+.about-us-main-container .info-container .bottom-container .office-position span {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    margin: 0 0 0 10px;
+    color: #00a951
+}
+
+.about-us-main-container .info-container .bottom-container .item-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 48%;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    border: 1px solid #ececec;
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: linear-gradient(to top, #f2f2f2, #fff 8%);
+    position: relative;
+    margin: 0 0 30px;
+    padding-bottom: 10px;
+}
+
+.about-us-main-container .info-container .bottom-container .item-container:nth-child(even) {
+    margin: 0 0 0 38px
+}
+
+.about-us-main-container .info-container .bottom-container .item-container .view-map {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: url(../images/map-image.png) no-repeat;
+    top: 55px;
+    bottom: 0;
+    right: 20px;
+    margin: auto;
+    z-index: 9;
+    background-size: contain
+}
+
+.about-us-main-container .info-container .row {
+    display: block;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 10px 0 5px;
+    width: 80%
+}
+
+.about-us-main-container .info-container .row.opening {
+    background-image: -ms-linear-gradient(top, #FAFAFA 0, #ebebeb 100%);
+    background-image: -moz-linear-gradient(top, #FAFAFA 0, #ebebeb 100%);
+    background-image: -o-linear-gradient(top, #FAFAFA 0, #ebebeb 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FAFAFA), color-stop(100, #ebebeb));
+    background-image: -webkit-linear-gradient(top, #FAFAFA 0, #ebebeb 100%);
+    background-image: linear-gradient(to bottom, #FAFAFA 0, #ebebeb 100%);
+    height: 30px;
+    line-height: 28px;
+    border: 1px solid #e5e5e5;
+    width: 79%;
+    border-radius: 5px;
+    margin: 8px 0 0 10px
+}
+
+.about-us-main-container .info-container .row:nth-child(2) {
+    margin: 15px 0 0
+}
+
+.about-us-main-container .info-container .row:nth-child(3) {
+    margin: 10px 0 5px
+}
+
+.about-us-main-container .info-container label {
+    display: inline-block;
+    overflow: hidden;
+    color: #272727;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 10px 0 0
+}
+
+.clear-both {
+    clear: both
+}
+
+.about-us-main-container .info-container span {
+    display: inline-block;
+    overflow: hidden;
+    color: #272727;
+    font-size: 13px;
+    font-weight: 400
+}
+
+.about-us-main-container .contact-form {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0
+}
+
+.about-us-main-container .contact-form h2 {
+    display: block;
+    color: #00a951;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+    transition: all 1.5s;
+    padding: 0;
+    height: 40px;
+    line-height: 40px
+}
+
+.about-us-main-container .contact-form .line-row {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0 0
+}
+
+.about-us-main-container .contact-form .line-row .txt-a {
+    display: inline-block;
+    overflow: hidden;
+    width: 48.8%;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 15px;
+    border: 1px solid #c2c2c2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #00a951;
+    font-weight: 400;
+    margin: 0 0 0 28px
+}
+
+.about-us-main-container .separate-between {
+    margin: 0 10px
+}
+
+.about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+    width: 100%;
+    margin: 20px 0 0
+}
+
+.about-us-main-container .contact-form .line-row .txt-a:first-child {
+    margin: 0
+}
+
+.about-us-main-container .contact-form .line-row .txt-area-a {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    line-height: 30px;
+    padding: 5px 15px 0;
+    border: 1px solid #c2c2c2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #00a951;
+    font-weight: 400;
+    margin: 8px 0 0;
+    resize: none
+}
+
+.about-us-main-container .contact-form .line-row .btn-a {
+    display: inline-block;
+    overflow: hidden;
+    background: #00a951;
+    height: 35px;
+    line-height: 31px;
+    padding: 0 25px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    margin: 10px 0 8px 30px;
+    color: #fefefe;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+    cursor: pointer
+}
+
+.about-us-main-container .contact-form .line-row .btn-a:hover {
+    background-color: transparent;
+    border: 2px solid #00a951;
+    color: #00a951
+}
+
+.about-us-main-container .contact-form .line-row .txt-area-a::-webkit-input-placeholder {
+    color: #c2c2c2
+}
+
+.about-us-main-container .contact-form .line-row .txt-area-a:-moz-placeholder {
+    color: #c2c2c2
+}
+
+.about-us-main-container .contact-form .line-row .txt-area-a::-moz-placeholder {
+    color: #c2c2c2
+}
+
+.about-us-main-container .contact-form .line-row .txt-area-a:-ms-input-placeholder {
+    color: #c2c2c2
+}
+
+@media all and (max-width: 1600px) and (min-width: 1400px) {
+    .about-us-main-container .image-header-container h1 {
+        top: 11px
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 48.5%
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+        width: 99.6%
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 140px
+    }
+
+    .about-us-main-container .info-container .row.opening {
+        width: 90%
+    }
+
+    .about-us-main-container .info-container span {
+        min-height: 22px
+    }
+}
+
+@media all and (max-width: 1399px) and (min-width: 1301px) {
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 48.6% !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+        width: 99.8% !important
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 140px
+    }
+
+    .about-us-main-container .info-container .row.opening {
+        width: 90%;
+        margin: 0 0 0 10px
+    }
+
+    .about-us-main-container .info-container span {
+        min-height: 22px
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 48.5%;
+        height: 32px;
+        line-height: 32px
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px;
+        height: 137px
+    }
+
+    .about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+        font-size: 18px
+    }
+
+    .about-us-main-container .info-container label {
+        font-size: 14px
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-area-a {
+        height: 160px
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a {
+        height: 30px;
+        line-height: 27px;
+        font-size: 12px;
+        margin: 14px 0 3px 30px
+    }
+
+    .about-us-main-container .iframe-container, .about-us-main-container .map-container {
+        height: 260px
+    }
+
+    .about-us-main-container .info-container .row.opening {
+        width: 95%;
+        margin: 0 0 0 10px
+    }
+
+    .about-us-main-container .info-container span {
+        min-height: 22px
+    }
+
+    .about-us-main-container .image-header-container h1 {
+        left: 0;
+        top: 11px;
+        line-height: 49px;
+        width: 267px
+    }
+}
+
+@media all and (max-width: 1199px) and (min-width: 1025px) {
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 48.5%;
+        height: 32px !important;
+        line-height: 32px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+        width: 100%
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 137px !important
+    }
+
+    .about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+        font-size: 18px !important
+    }
+
+    .about-us-main-container .info-container label {
+        font-size: 14px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-area-a {
+        height: 160px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a {
+        height: 30px !important;
+        line-height: 27px !important;
+        font-size: 12px !important;
+        margin: 14px 0 3px 30px !important
+    }
+
+    .about-us-main-container .iframe-container, .about-us-main-container .map-container {
+        height: 260px !important
+    }
+
+    .about-us-main-container .info-container .row.opening {
+        width: 95%;
+        margin: 0 0 0 10px
+    }
+
+    .about-us-main-container .info-container span {
+        min-height: 22px
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container .view-map {
+        top: 48px
+    }
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px)and (orientation: landscape) {
+    .about-us-main-container .info-container .row.opening {
+        width: 95%
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a {
+        height: 32px !important;
+        line-height: 32px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+        width: 100%
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 137px !important
+    }
+
+    .about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+        font-size: 18px !important;
+        margin: 10px 0 0;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .about-us-main-container .info-container label {
+        font-size: 14px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-area-a {
+        height: 160px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a {
+        height: 30px !important;
+        line-height: 27px !important;
+        font-size: 12px !important;
+        margin: 14px 0 3px 30px !important
+    }
+
+    .about-us-main-container .map-container {
+        height: 260px !important
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container:nth-child(even) {
+        margin: 0 0 0 38px
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 48.5%
+    }
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+    .about-us-main-container .info-container .row.opening {
+        width: 96%;
+        margin: 0 0 0 10px
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container .view-map {
+        width: 70px;
+        height: 70px;
+        top: -12px;
+        bottom: 0;
+        right: 4px
+    }
+
+    .about-us-main-container .info-container .row, .about-us-main-container .info-container .row:nth-child(3) {
+        margin: 5px 0
+    }
+
+    .about-us-main-container .info-container span {
+        font-size: 9px
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 48%;
+        height: 32px !important;
+        line-height: 32px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+        width: 100%
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 100px !important
+    }
+
+    .about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+        font-size: 18px !important;
+        height: 40px;
+        line-height: 40px;
+        margin: 0
+    }
+
+    .about-us-main-container .info-container label {
+        font-size: 12px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-area-a {
+        height: 160px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a {
+        height: 30px !important;
+        line-height: 27px !important;
+        font-size: 12px !important;
+        margin: 14px 0 3px 30px !important
+    }
+
+    .about-us-main-container .map-container {
+        height: 260px !important
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container:nth-child(even) {
+        margin: 0 0 0 28px
+    }
+}
+
+@media all and (max-width: 767px) and (min-width: 740px) {
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 47.9%;
+        height: 32px !important;
+        line-height: 32px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3), .about-us-main-container .info-container .bottom-container .item-container {
+        width: 100%
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 97px !important
+    }
+
+    .about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+        font-size: 18px !important;
+        height: 30px;
+        line-height: 30px;
+        margin: 0
+    }
+
+    .about-us-main-container .info-container label {
+        font-size: 14px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-area-a {
+        height: 160px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a {
+        height: 30px !important;
+        line-height: 27px !important;
+        font-size: 12px !important;
+        margin: 14px 0 3px 20px !important
+    }
+
+    .about-us-main-container .map-container {
+        height: 260px !important
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container:nth-child(even) {
+        margin: 0
+    }
+}
+
+@media all and (max-width: 739px) and (min-width: 611px) {
+    .about-us-main-container .info-container .bottom-container .item-container {
+        width: 100%
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 47.5%;
+        height: 32px !important;
+        line-height: 32px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+        width: 100%
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 97px !important
+    }
+
+    .about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+        font-size: 18px !important;
+        margin: 0;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .about-us-main-container .info-container label {
+        font-size: 14px !important
+    }
+
+    .about-us-main-container .info-container {
+        width: 100% !important
+    }
+
+    .about-us-main-container .contact-form {
+        width: 100% !important;
+        margin: 0 !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-area-a {
+        height: 160px !important;
+        width: 100% !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 10px !important;
+        margin: 14px 0 3px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a.btnsend {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 10px !important;
+        margin: 14px 20px 3px 0 !important
+    }
+
+    .about-us-main-container .map-container {
+        height: 260px !important
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container:nth-child(even) {
+        margin: 0
+    }
+}
+
+@media all and (max-width: 610px) and (min-width: 560px) {
+    .about-us-main-container .info-container .bottom-container .item-container {
+        width: 100%
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 47.3%;
+        height: 32px !important;
+        line-height: 32px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+        width: 99.6%
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 70px !important
+    }
+
+    .about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+        font-size: 18px !important;
+        height: 30px;
+        line-height: 30px;
+        margin: 10px 0 0
+    }
+
+    .about-us-main-container .info-container label {
+        font-size: 14px !important
+    }
+
+    .about-us-main-container .info-container {
+        width: 100% !important
+    }
+
+    .about-us-main-container .contact-form {
+        width: 100% !important;
+        margin: 0 !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-area-a {
+        height: 160px !important;
+        width: 100% !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 10px !important;
+        margin: 14px 0 3px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a.btnsend {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 10px !important;
+        margin: 14px 20px 3px 0 !important
+    }
+
+    .about-us-main-container .map-container {
+        height: 260px !important
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container:nth-child(even) {
+        margin: 0
+    }
+
+    .about-us-main-container .info-container .row.opening {
+        width: 96%
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container .view-map {
+        top: 35px
+    }
+}
+
+@media all and (max-width: 559px) and (min-width: 460px) {
+    .about-us-main-container .info-container .bottom-container .item-container {
+        width: 100%
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 46.6%;
+        height: 32px !important;
+        line-height: 32px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+        width: 99.6%
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 57px !important
+    }
+
+    .about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+        font-size: 18px !important;
+        margin: 10px 0 0 !important
+    }
+
+    .about-us-main-container .info-container label {
+        font-size: 14px !important
+    }
+
+    .about-us-main-container .info-container {
+        width: 100% !important
+    }
+
+    .about-us-main-container .contact-form {
+        width: 100% !important;
+        margin: 0 !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-area-a {
+        height: 160px !important;
+        width: 100% !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 10px !important;
+        margin: 14px 0 3px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a.btnsend {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 10px !important;
+        margin: 14px 20px 3px 0 !important
+    }
+
+    .about-us-main-container .map-container {
+        height: 260px !important
+    }
+
+    .about-us-main-container .info-container .row {
+        line-height: 30px !important;
+        margin: 0;
+        width: 100%
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container:nth-child(even) {
+        margin: 0
+    }
+
+    .about-us-main-container .info-container .row.opening {
+        width: 100%;
+        margin: 8px 0 0;
+        border-radius: 0
+    }
+
+    .about-us-main-container .info-container .row:nth-child(3) {
+        margin: 5px 0
+    }
+
+    .about-us-main-container .info-container .row:nth-child(2) {
+        margin: 0
+    }
+
+    .about-us-main-container .info-container .bottom-container .office-position {
+        height: 40px;
+        line-height: 40px
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container .view-map {
+        width: 70px;
+        height: 70px;
+        top: 25px;
+        right: 10px
+    }
+}
+
+@media all and (max-width: 459px) and (min-width: 320px) {
+    .about-us-main-container .info-container .bottom-container .item-container {
+        width: 100%;
+        height: auto
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 100%;
+        height: 32px !important;
+        line-height: 32px !important;
+        margin: 10px 0 0
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a:nth-child(3) {
+        width: 99.6%
+    }
+
+    .about-us-main-container .image-header-container {
+        background-position: -7px -4px !important;
+        height: 37px !important;
+        background: 0 0;
+        text-align: left
+    }
+
+    .about-us-main-container .contact-form h2, .about-us-main-container .info-container h2 {
+        font-size: 18px !important;
+        margin: 10px 0 0 !important
+    }
+
+    .about-us-main-container .info-container label {
+        font-size: 12px !important
+    }
+
+    .about-us-main-container .info-container {
+        width: 100% !important
+    }
+
+    .about-us-main-container .contact-form {
+        width: 100% !important;
+        margin: 0 !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-area-a {
+        height: 160px !important;
+        width: 100% !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 10px !important;
+        margin: 14px 0 3px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .btn-a.btnsend {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 10px !important;
+        margin: 14px 20px 3px 0 !important
+    }
+
+    .about-us-main-container .map-container {
+        height: 260px !important
+    }
+
+    .about-us-main-container .info-container .row {
+        line-height: 30px !important;
+        margin: 0 !important;
+        width: 100%
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container:nth-child(even) {
+        margin: 0
+    }
+
+    .about-us-main-container .info-container .row.opening {
+        width: 100%;
+        margin: 8px 0 0;
+        border-radius: 0
+    }
+
+    .about-us-main-container .info-container .row:nth-child(3) {
+        margin: 5px 0
+    }
+
+    .about-us-main-container .info-container .row:nth-child(2) {
+        margin: 0
+    }
+
+    .about-us-main-container .info-container .bottom-container .office-position {
+        height: 30px;
+        line-height: 30px
+    }
+
+    .about-us-main-container .info-container .bottom-container .item-container .view-map {
+        width: 70px;
+        height: 70px;
+        top: 40px;
+        right: 10px;
+        z-index: 0
+    }
+}

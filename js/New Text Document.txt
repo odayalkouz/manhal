@@ -1,0 +1,2 @@
+delete (thumbnail-slider.js)
+delete (ninja-slider.js)

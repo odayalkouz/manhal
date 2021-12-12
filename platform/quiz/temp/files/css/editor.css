@@ -1,0 +1,143 @@
+.admin-login .popup-main-container {
+    display: block;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 999;
+    margin: auto;
+    background: url(bg-popup.png);
+}
+.admin-login .popup-tabel {
+    display: table;
+    overflow: hidden;
+    margin: 0px auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.admin-login .popup-row {
+    display: table-row;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+}
+.admin-login .popup-cell {
+    display: table-cell;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+}
+.admin-login .popup-container {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px;
+}
+.admin-login .popup-container .close-container {
+    display: block;
+    overflow: hidden;
+    height: 35px;
+    line-height: 35px;
+    background: #00AB67;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.admin-login .popup-container .close-container i {
+    display: block;
+    overflow: hidden;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+.admin-login .popup-content {
+    display: block;
+    overflow: hidden;
+    margin: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+.move_handler {
+    display: none;
+    overflow: hidden;
+    font-size: 18px;
+    background: #fff;
+    color: #00AB67;
+    padding: 1px 15px 1px 15px;
+    border-radius: 3px;
+    margin: -10px auto;
+    opacity: 0.9;
+}
+
+.move_handler:hover {
+    cursor: move;
+}
+
+.delete_widget {
+    display: none;
+    overflow: hidden;
+    font-size: 12px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.edit_widget {
+    display: none;
+    overflow: hidden;
+    font-size: 12px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 21px;
+    top: 0px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.real-content
+{
+    display: block;
+    overflow: hidden;
+    margin: 20px 0px 0px 0px;
+}
+.real-content p {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+}
+.remove-margin {
+    margin: 0px 0px 0px 0px !important;
+}
+
+.popup-content .container {
+    width: 700px;
+    height: 500px;
+    background: #fff;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.popup-content .containers {
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 0px 0px 5px 5px;
+}
+.popup-content form
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+

@@ -1,0 +1,482 @@
+.setting-popup
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 99999999;
+}
+.main-setting
+{
+    display: block;
+    overflow: visible;
+    width: 73%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*background: url("../images/setting-bg.svg") no-repeat center;*/
+    /*background-size: 100% 100%;*/
+}
+.setting-bg
+{
+    display: block;
+    overflow: visible;
+    width: 91%;
+    height: 88%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/setting-bg.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.setting-title
+{
+    display: block;
+    overflow: hidden;
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    top: -8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/setting-title.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.masa-setting
+{
+    display: block;
+    overflow: hidden;
+    width: 14%;
+    height: 14%;
+    position: absolute;
+    top: -4%;
+    right: 11%;
+    background: url("../images/masaChracter.svg") no-repeat center;
+    background-size: 100% 100%;
+    z-index: 99;
+}
+.close-setting
+{
+    display: block;
+    overflow: hidden;
+    width: 7%;
+    height: 9%;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    background: url("../images/icon_blank.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.close-setting i
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    height: 92%;
+    background: url("../images/x_closed.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.setting-option
+{
+    display: block;
+    overflow: visible;
+    width: 29%;
+    height: 81%;
+    background: url("../images/setting-option.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+.setting-option-container
+{
+    display: block;
+    overflow: hidden;
+    width: 60%;
+    height: 81%;
+    background: url("../images/setting-inner.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+.setting-btn
+{
+    display: block;
+    overflow: visible;
+    width: 100%;
+    height: 11%;
+    position: relative;
+    margin: 15% 0 0 0;
+}
+.setting-btn span
+{
+    display: block;
+    overflow: hidden;
+    width: 30%;
+    height: 100%;
+    background: url("../images/icon_blank.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -8%;
+}
+.setting-btn span i
+{
+    display: inline-block;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: static;
+}
+.setting-btn.view span i
+{
+    background-image: url("../images/setting-1.svg");
+    width: 50%;
+    height: 100%;
+}
+.setting-btn.sound span i
+{
+    background-image: url("../images/setting-2.svg");
+    width: 36%;
+    height: 90%;
+}
+.setting-btn.font span i
+{
+    background-image: url("../images/setting-3.svg");
+    width: 36%;
+    height: 90%;
+}
+.setting-btn i
+{
+    display: block;
+    overflow: hidden;
+    width: 60%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 21%;
+}
+.setting-btn.font i
+{
+    background-image: url("../images/fount.svg");
+    width: 42%;
+}
+.setting-btn.sound i
+{
+    background-image: url("../images/soundSetting.svg");
+}
+.setting-btn.view i
+{
+    background-image: url("../images/viewSetting.svg");
+    width: 54%;
+}
+
+.inner-setting-option-container
+{
+    display: block;
+    overflow: hidden;
+    width: 95%;
+    height: 87%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.title-setting
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 40%;
+    height: 11%;
+    /*margin: 5% 0 0 0;*/
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom: 6px groove #b9742b;
+}
+.title-setting.font
+{
+    background-image: url("../images/fount.svg");
+}
+.title-setting.sound
+{
+    background-image: url("../images/soundSetting.svg");
+}
+.title-setting.view
+{
+    background-image: url("../images/viewSetting.svg");
+}
+.fount-btn,.view-btn,.view-btn-a
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 15%;
+    position: relative;
+    margin: 3% 0 0 0;
+}
+.fount-btn span,.view-btn span,.view-btn-a span
+{
+    display: block;
+    overflow: hidden;
+    width: 13%;
+    height: 100%;
+    background: url("../images/icon_blank.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 3%;
+}
+.fount-btn span label,.view-btn span label,.view-btn-a span label
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.fount-btn.type-a span label,.view-btn.view-type-a span label
+{
+    background-image: url("../images/True.svg");
+}
+.fount-btn i,.view-btn i,.view-btn-a i
+{
+    display: block;
+    overflow: hidden;
+    width: 17%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20%;
+    font-size: 2.5vw;
+    font-style: inherit;
+    text-align: right;
+    color: #990000;
+    /*text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;*/
+    font-weight: bold;
+}
+.view-btn-a i
+{
+    width: 23%;
+    background-image: url("../images/view-d.svg");
+}
+.view-btn i
+{
+    width: 23%;
+}
+.fount-btn.type-a i
+{
+    /*background-image: url("../images/fount1.svg");*/
+    font-family: 'Droid Arabic Naskh';
+    width: 45%;
+}
+.fount-btn.type-b i
+{
+    /*background-image: url("../images/fount2.svg");*/
+    font-family: 'Droid Arabic Kufi';
+    width: 45%;
+}
+.fount-btn.type-c i
+{
+    /*background-image: url("../images/fount3.svg");*/
+    font-family: 'Amiri';
+    width: 45%;
+}
+
+.view-btn.view-type-a i
+{
+    background-image: url("../images/view-a.svg");
+    width: 19%;
+}
+.view-btn.view-type-b i
+{
+    background-image: url("../images/view-b.svg");
+}
+.view-btn.view-type-c i
+{
+    background-image: url("../images/view-c.svg");
+    width: 21%;
+}
+
+.line-row-setting
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 4% 0;
+    position: relative;
+    height: 9%;
+}
+
+.line-row-setting span
+{
+    display: block;
+    overflow: hidden;
+    width: 30%;
+    height: 50%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1%;
+    top: 19%;
+}
+.line-row-setting span.narrator
+{
+    background-image: url("../images/sound-a.svg");
+}
+.line-row-setting span.music
+{
+    background-image: url("../images/sound-b.svg");
+}
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 2% 2% 2% 10%;
+    width: 50%;
+    border-radius: 20px;
+    border-radius: 50%;
+    height: 35%;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 50%;
+    height: 90%;
+    cursor: pointer;
+    animate: 0.2s;
+    background: rgb(153, 0, 0);
+    background: -moz-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: -webkit-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0)70%);
+    background: -o-linear-gradient(0deg, rgb(102, 51, 0)  30%, rgb(153, 0, 0) 70%);
+    background: -ms-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: linear-gradient(90deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    border-radius: 20px;
+}
+input[type=range]::-webkit-slider-thumb {
+    border: 1px solid #b7742c;
+    height: 220%;
+    width: 10%;
+    border-radius: 100%;
+    background: #fee8b0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3%;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgb(153, 0, 0);
+    background: -moz-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: -webkit-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0)70%);
+    background: -o-linear-gradient(0deg, rgb(102, 51, 0)  30%, rgb(153, 0, 0) 70%);
+    background: -ms-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: linear-gradient(90deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+}
+input[type=range]::-moz-range-track {
+    width: 50%;
+    height: 90%;
+    cursor: pointer;
+    animate: 0.2s;
+    background: rgb(153, 0, 0);
+    background: -moz-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: -webkit-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0)70%);
+    background: -o-linear-gradient(0deg, rgb(102, 51, 0)  30%, rgb(153, 0, 0) 70%);
+    background: -ms-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: linear-gradient(90deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    border-radius: 20px;
+}
+input[type=range]::-moz-range-thumb {
+    border: 1px solid #b7742c;
+    height: 220%;
+    width: 10%;
+    border-radius: 100%;
+    background: #fee8b0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3%;
+}
+input[type=range]::-ms-track {
+    width: 50%;
+    height: 90%;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    border-radius: 20px;
+    border-radius: 50%;
+    background: rgb(153, 0, 0);
+    background: -moz-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: -webkit-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0)70%);
+    background: -o-linear-gradient(0deg, rgb(102, 51, 0)  30%, rgb(153, 0, 0) 70%);
+    background: -ms-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: linear-gradient(90deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+}
+input[type=range]::-ms-fill-upper {
+    border-radius: 20px;
+    border-radius: 50%;
+    background: rgb(153, 0, 0);
+    background: -moz-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: -webkit-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0)70%);
+    background: -o-linear-gradient(0deg, rgb(102, 51, 0)  30%, rgb(153, 0, 0) 70%);
+    background: -ms-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: linear-gradient(90deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+}
+input[type=range]::-ms-thumb {
+    border: 1px solid #b7742c;
+    height: 220%;
+    width: 10%;
+    border-radius: 100%;
+    background: #fee8b0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3%;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: rgb(153, 0, 0);
+    background: -moz-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: -webkit-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0)70%);
+    background: -o-linear-gradient(0deg, rgb(102, 51, 0)  30%, rgb(153, 0, 0) 70%);
+    background: -ms-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: linear-gradient(90deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: rgb(153, 0, 0);
+    background: -moz-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: -webkit-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0)70%);
+    background: -o-linear-gradient(0deg, rgb(102, 51, 0)  30%, rgb(153, 0, 0) 70%);
+    background: -ms-linear-gradient(0deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+    background: linear-gradient(90deg, rgb(102, 51, 0) 30%, rgb(153, 0, 0) 70%);
+
+    border: 1px dotted;
+}
+
+.border-bottom
+{
+    border-bottom: 6px groove #b9742b;
+}

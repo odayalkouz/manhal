@@ -1,0 +1,1 @@
+UPDATE `pages` SET `title`='Title1',`subtitle`='Subtitle',`height`=1300,`width`=980, `is_index`=1 WHERE `bookid`=1 AND `pageid`=15

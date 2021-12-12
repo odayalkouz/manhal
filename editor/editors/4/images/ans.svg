@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 234.6 96.1" style="enable-background:new 0 0 234.6 96.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.1;}
+	.st1{fill:#5E5E5E;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#97DDDB;}
+	.st4{opacity:6.000000e-02;fill:#4FBAC1;enable-background:new    ;}
+</style>
+<g>
+	<g class="st0">
+		<path class="st1" d="M15.5,96.1c-8.3,0-15-6.8-15-15V19.5c0-8.2,6.8-15,15-15h203.6c8.3,0,15,6.8,15,15v61.6c0,8.3-6.8,15-15,15
+			H15.5z"/>
+	</g>
+	<g>
+		<g>
+			<path class="st2" d="M15.5,92.1c-8.3,0-15-6.8-15-15V15.5c0-8.3,6.8-15,15-15h203.6c8.3,0,15,6.8,15,15v61.6c0,8.3-6.8,15-15,15
+				H15.5z"/>
+		</g>
+		<path class="st3" d="M219.1,92.6H15.5C7,92.6,0,85.6,0,77.1V15.5C0,7,7,0,15.5,0h203.6c8.5,0,15.5,7,15.5,15.5v61.6
+			C234.6,85.6,227.6,92.6,219.1,92.6z M15.5,1C7.5,1,1,7.5,1,15.5v61.6c0,8,6.5,14.5,14.5,14.5h203.6c8,0,14.5-6.5,14.5-14.5V15.5
+			c0-8-6.5-14.5-14.5-14.5H15.5z"/>
+	</g>
+	<path class="st4" d="M215.3,86.5h-196c-6.6,0-12-5.4-12-12v-56c0-6.6,5.4-12,12-12h196c6.6,0,12,5.4,12,12v56
+		C227.3,81.1,221.9,86.5,215.3,86.5z"/>
+</g>
+</svg>

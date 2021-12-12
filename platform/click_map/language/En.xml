@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Language>
+    <ClickMap>Click Map</ClickMap>
+    <PutCircle>Put Circle</PutCircle>
+    <TrueorFalse>True or False</TrueorFalse>
+    <Matching>Matching</Matching>
+    <FillBox>Fill in the Blanks</FillBox>
+    <Addquestion>Add question</Addquestion>
+    <Addbackground>Add background</Addbackground>
+    <Removebackground>Remove background</Removebackground>
+    <Upload>Upload</Upload>
+    <Addemptyelement>Add empty element</Addemptyelement>
+    <Addanswerbox>Add answer box</Addanswerbox>
+    <Library>Library</Library>
+    <Groups>Groups</Groups>
+    <Entertexthere>Enter text here</Entertexthere>
+    <Save>Save</Save>
+    <Properties>Properties</Properties>
+    <BringtoFront>Bring to Front</BringtoFront>
+    <BringForward>Bring Forward</BringForward>
+    <SendtoBack>Send to Back</SendtoBack>
+    <SendBackward>Send Backward</SendBackward>
+    <Flip>Flip</Flip>
+    <Setastrueanswer>Set as true answer</Setastrueanswer>
+    <Addtext>Add text</Addtext>
+    <Addsound>Add sound</Addsound>
+    <Nosound>No sound</Nosound>
+    <Preview>Preview</Preview>
+    <Savedsuccessfully>Saved successfully</Savedsuccessfully>
+    <Showandhiderootline>Show and hide root line</Showandhiderootline>
+    <Settings>Settings</Settings>
+    <Help>Help</Help>
+    <Addhelpbox>Add help box</Addhelpbox>
+    <Random>Random</Random>
+    <Showelementsrandomly>Show elements randomly</Showelementsrandomly>
+    <Draganddrop>Drag and drop</Draganddrop>
+    <Applydraganddropfeaturetothepractice>Apply drag and drop feature to the practice</Applydraganddropfeaturetothepractice>
+    <DisplayAelementsrandomly>Display A elements randomly</DisplayAelementsrandomly>
+    <DisplayBelementsrandomly>Display B elements randomly</DisplayBelementsrandomly>
+
+    <Hidethestars>Hide the stars</Hidethestars>
+    <Replace>Replace</Replace>
+
+    <Replaceelementwhendrop>Replace element when drop</Replaceelementwhendrop>
+    <Direction>Direction</Direction>
+    <BtoA>B to A</BtoA>
+    <CtoD>C to D</CtoD>
+    <DtoC>D to C</DtoC>
+    <A>A</A>
+    <B>B</B>
+    <C>C</C>
+    <D>D</D>
+    <Setelementwidthto100>Set element width to 100%</Setelementwidthto100>
+    <Setdirectionfromrighttoleft>Set direction from right to left</Setdirectionfromrighttoleft>
+    <Backgroundsound>Background sound</Backgroundsound>
+    <BackgroundImg>Background</BackgroundImg>
+    <Attempts>Attempts</Attempts>
+    <Displayresultaspercent>Display result as percent</Displayresultaspercent>
+    <Displayresultasnumber>Display result as number</Displayresultasnumber>
+    <Customizethestyle>Customize the style</Customizethestyle>
+    <Off>Off</Off>
+    <On>On</On>
+    <!--<RemoveBackground>Remove Background</RemoveBackground>-->
+    <AddorRemoveBackground>Add or Remove Background</AddorRemoveBackground>
+    <AddBackground>Add Background</AddBackground>
+
+
+    <icon>Icon</icon>
+    <addfillAnswer>Add answers separate by space</addfillAnswer>
+    <addBackgroundSound>Add backgroud sound to this file</addBackgroundSound>
+    <addBackgroundhint>Add backgroud to this file</addBackgroundhint>
+    <styletitle>Style</styletitle>
+    <Duplicate>Duplicate</Duplicate>
+    <Remove>Remove</Remove>
+    <ElmentSetting>Point Setting</ElmentSetting>
+    <SelectType>Select Type</SelectType>
+    <OK>OK</OK>
+
+    <DisplayDelementsrandomly>Display D elements randomly</DisplayDelementsrandomly>
+    <DisplayCelementsrandomly>Display C elements randomly</DisplayCelementsrandomly>
+</Language>

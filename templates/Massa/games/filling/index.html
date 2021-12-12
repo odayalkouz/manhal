@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/newStyle.css">
+
+    <link rel="stylesheet" type="text/css" href="../../css/animate.css">
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
+
+    <!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/styleMsg.css">
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/size.css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
+    <link rel="stylesheet" type="text/css" href="css/styleMsg.css">
+
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <script type="text/javascript" src="../../js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/ConfirmMsg.js"></script>
+    <script type="text/javascript" src="js/colorPicker.js"></script>
+    <script type="text/javascript" src="js/floodFill.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script type="text/javascript" src="js/udno_redo.js"></script>
+    <script type="text/javascript" src="js/colors.js"></script>
+    <script type="text/javascript" src="js/addRule.js"></script>
+    <script src="../../js/velocity.js"></script>
+
+
+</head>
+<body>
+<div class="gameConainer" id="gameConainer">
+    <div class="top-container">
+        <div class="color-bg"></div>
+        <div class="car-container"><div class="car"></div></div>
+        <div class="sun"></div>
+        <div class="small-clued"></div>
+        <div class="larg-clued"></div>
+        <div class="cat"></div>
+    </div>
+    <div class="screw bottom-left"></div>
+    <div class="screw bottom-right"></div>
+    <a class="home-back-icon home" onclick="parent.showContainer();parent.closeIframe();"><i></i></a>
+    <a class="home-back-icon back" onclick="parent.gamesHome();"><i></i></a>
+    <div class="filling-main-container">
+        <div class="tools-container floating-left">
+            <div class="tools-bg">
+                <a class="Pail-colors filing-btn" id="fill_pen" onclick="fillPen(this);fillArea()"></a>
+                <a class="Coloring-Brush filing-btn"  id="normal_pen" onclick="normalPen(this);fillArea()" ></a>
+                <a class="Magic-brush filing-btn" id=""  onclick="magicPen(this);fillArea()"></a>
+                <a class="eraser filing-btn" onclick="DrawMode='erazer';fillArea();selectErazer()" style="width: 60%"></a>
+            </div>
+            <a class="undo-redo-btn undo" onclick="hidePobUpJus(false);cUndo()"><i></i></a>
+            <a class="undo-redo-btn redo"  onclick="hidePobUpJus(false);cRedo()"><i></i></a>
+        </div>
+        <div class="color-container floating-right">
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#ff2217" data-color="#ff2217" style="background-color:#ff2217"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#3f7808" data-color="#3f7808" style="background-color:#3f7808"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#2572bb" data-color="#2572bb" style="background-color:#2572bb"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#b517ff" data-color="#b517ff" style="background-color:#b517ff"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#f6912e" data-color="#f6912e" style="background-color:#f6912e"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#fcff00" data-color="#fcff00" style="background-color:#fcff00"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#008253" data-color="#008253" style="background-color:#008253"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#3277b5" data-color="#3277b5" style="background-color:#3277b5"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#4c549f" data-color="#4c549f" style="background-color:#4c549f"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#764394" data-color="#764394" style="background-color:#764394"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#ca0d86" data-color="#ca0d86" style="background-color:#ca0d86"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#a52a2a" data-color="#a52a2a" style="background-color:#a52a2a"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#000000" data-color="#000000" style="background-color:#000000"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#663300" data-color="#663300" style="background-color:#663300"></div>
+            <div class="color-item floating-left" onclick="getColorEss(this)" colorChoo="#2572bb" data-color="#2572bb" style="background-color:#2572bb"></div>
+            <div class="color-item floating-left colorPickerThumnail" onclick="colorPicker()" colorChoo="#2572bb" data-color="#2572bb" style=""></div>
+        </div>
+
+        <div class="drawing-area floating-right">
+            <div class="screw top-left" style="height: 4%;"></div>
+            <div class="screw top-right" style="height: 4%;">></div>
+            <div class="screw bottom-left" style="height: 4%;">></div>
+            <div class="screw bottom-right" style="height: 4%;">></div>
+            <div class="canvasContainer">
+                <div id="colorpickerNew"></div>
+                <div  id="canvasContainer" align="center" >
+                    <canvas id="canvas1" width="640" height="480" > </canvas>
+                    <canvas id="canvas" width="640" height="480" > </canvas>
+                    <canvas id="canvasBackTmpMask"  width="640" height="480" > </canvas>
+                    <div id="colorPicker" class="translate3dT" onclick="">
+                        <div id="inner-colorPicker">
+                            <div class="background-colorPicker">
+                                <span id="closep" onclick=" $('#colorPicker').hide();"><i></i></span>
+                                <img id="colorPickerType" src="images/black-white.png" onclick="blackAndWhiteColors()" style="width: 10%; z-index: 100; position: absolute;right: 3%; cursor: pointer; bottom: 3%;">
+                                <div class="screw-a top-left"></div>
+                                <div class="screw-a bottom-left"></div>
+                                <div class="colorPicker-inner-container">
+                                    <div class="color-splash"></div>
+                                    <div class="color-pens"></div>
+                                    <div id="circlePciker" ></div>
+                                    <div id="colorPickerCont"></div>
+                                    <canvas id="canvas_picker" width="200" height="200"></canvas>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<a class="color-btn"></a>-->
+
+            <!--<div class="main-color-container">-->
+                <!--<div class="main">-->
+                    <!--<div id="sb-container" class="sb-container">-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#ff2217" data-color="#ff2217" style="background-color:#ff2217"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#3f7808" data-color="#3f7808" style="background-color:#3f7808"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#2572bb" data-color="#2572bb" style="background-color:#2572bb"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#b517ff" data-color="#b517ff" style="background-color:#b517ff"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#f6912e" data-color="#f6912e" style="background-color:#f6912e"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#fcff00" data-color="#fcff00" style="background-color:#fcff00"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#008253" data-color="#008253" style="background-color:#008253"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#3277b5" data-color="#3277b5" style="background-color:#3277b5"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#4c549f" data-color="#4c549f" style="background-color:#4c549f"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#764394" data-color="#764394" style="background-color:#764394"></div>-->
+                        <!--<div  onclick="getColorEss(this)" colorChoo="#ca0d86" data-color="#ca0d86" style="background-color:#ca0d86"></div>-->
+                        <!--<div><h5></h5></div>-->
+                    <!--</div>&lt;!&ndash; sb-container &ndash;&gt;-->
+                <!--</div>-->
+
+            <!--</div>-->
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.swatchbook.js"></script>
+<script>
+    parent.onLoadIframeShow()
+    function BackgroundSound(src) {
+
+        if ($('.BackgroundSound').length)
+            $('.BackgroundSound').remove();
+        // stopAll()
+
+        $("<audio class='BackgroundSound'></audio>").attr({
+            'src': "../../"+ src,
+
+
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+
+        $(".BackgroundSound").prop("loop", false);
+        $(".BackgroundSound").prop("volume",.5);
+
+        $('.BackgroundSound').on('ended', function () {
+
+            $(this).trigger('play')
+        })
+    }
+    function speachSound(src) {
+        if ($('.titleSound').length)$('.titleSound').remove();
+        if ($('.speachSound').length)
+            $('.speachSound').remove();
+        // stopAll()
+
+        $("<audio class='speachSound'></audio>").attr({
+            'src':"../../"+ src,
+
+
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+
+        $(".speachSound").prop("loop", false);
+
+
+    }
+
+    function soundEffect(src) {
+
+        if ($('.SoundEffect').length)
+            $('.SoundEffect').remove();
+        // stopAll()
+
+        $("<audio class='SoundEffect'></audio>").attr({
+            'src':"../../"+ src,
+
+
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+
+        $(".SoundEffect").prop("loop", false);
+        //  $(".SoundEffect").prop("volume", $("#musicSound").val());
+    }
+    function soundEffectLoop(src) {
+
+        if ($('.SoundEffect').length>0)
+            $('.SoundEffect').remove();
+        // stopAll()
+
+        $("<audio class='SoundEffect'></audio>").attr({
+            'src':"../../"+ src,
+
+loop:true,
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+
+        $(".SoundEffect").prop("loop", true);
+        $(".SoundEffect").prop("volume",.8);
+        //  $(".SoundEffect").prop("volume", $("#musicSound").val());
+    }
+    $(window).on("resize", function () {
+        resizecolorPicker()
+    })
+    $(document).ready(function () {
+        resizecolorPicker()
+        parent.$(".cssload-fond").remove();
+
+//        $(".color-btn").click(function () {
+//            soundEffect("sound/CardsShuffle.mp3")
+//            $(".main-color-container").toggle();
+//            $(function() {
+//
+//                $( '#sb-container' ).swatchbook( {
+//                    // number of degrees that is between each item
+//                    angleInc : 15,
+//                    // amount in degrees for the opened item's next sibling
+//                    proximity : 45,
+//                    neighbor : 4,
+//                    // index of the element that when clicked, triggers the open/close function
+//                    // by default there is no such element
+//                    closeIdx : 11
+//                } );
+//
+//            });
+//        })
+
+//        $(".sun").velocity({
+//                    opacity: "1",
+//                    translateZ: 0, // Force HA by animating a 3D property
+//                    rotateZ: "-=720deg"
+//        },
+//           {delay: 500, duration: 10000 }
+//        );
+//        $(".small-clued").velocity(
+//                {left:"24%",translateZ: 0},
+//                {delay: 500, duration: 2000 }
+//        )
+//        $(".larg-clued").velocity(
+//                {left:"34%",translateZ: 0},
+//                {delay: 500, duration: 2000 }
+//        )
+
+        $(".filing-btn").click(function () {
+            $(this).velocity({
+                translateY: "-1.5rem",
+                rotateZ: "-10deg"
+            }, 100, "easeOut").velocity({
+                rotateZ: "8deg",
+            }, 150).velocity({
+                translateY: "0",
+                rotateZ: "0"
+            }, 600, "easeOutBounce");
+        })
+    })
+
+</script>
+</body>
+</html>

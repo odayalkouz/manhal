@@ -1,0 +1,487 @@
+/*@media all and (max-device-width: 1024px) and (min-device-width: 768px)and (orientation : landscape)*/
+/*{*/
+
+/*}*/
+/*@media all and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation : portrait)*/
+/*{*/
+
+/*}*/
+/*@media all and (max-width: 767px) and (min-width: 740px)*/
+/*{*/
+    /**/
+/*}*/
+/*@media all and (max-width: 739px) and (min-width: 611px)*/
+/*{*/
+
+/*}*/
+@media all and (max-width: 688px) and (min-width: 591px)
+{
+    footer
+    {
+        height:34px;
+    }
+
+    footer .zoom-container a
+    {
+        height: 34px;
+        padding: 6px 10px 6px 10px;
+    }
+    footer .zoom-container a i
+    {
+        font-size: 18px;
+    }
+    footer .zoom-container a:first-child {
+        padding: 6px 0px 6px 10px;
+    }
+
+    footer .left-footer-button-container a {
+        height: 34px;
+        padding: 6px 10px 6px 10px;
+    }
+    footer .left-footer-button-container a i
+    {
+        font-size: 18px;
+    }
+    .goto-container
+    {
+        height:32px;
+    }
+    .goto-container a.next
+    {
+        height: 34px;
+        line-height: 34px;
+        font-size: 18px;
+    }
+    .goto-container a.prev
+    {
+        height: 34px;
+        line-height: 34px;
+        font-size: 18px;
+    }
+    .btn-prev
+    {
+        font-size: 45px;
+    }
+    .btn-next
+    {
+        font-size: 45px;
+    }
+    .goto-container .number-of
+    {
+        margin: 6px 5px 0px 10px;
+    }
+    .goto-container .goto-text input[type="text"]
+    {
+        width: 44px;
+    }
+    .book-mark-onpage i
+    {
+        font-size: 60px;
+    }
+    footer .left-footer-button-container a:last-child
+    {
+        padding: 6px 10px 6px 0px;
+    }
+}
+@media all and (max-width: 590px) and (min-width: 560px)
+{
+    footer
+    {
+        height:34px;
+    }
+
+    footer .zoom-container a
+    {
+        height: 34px;
+        padding: 6px 10px 6px 10px;
+    }
+    footer .zoom-container a i
+    {
+        font-size: 18px;
+    }
+    footer .zoom-container a:first-child {
+        padding: 6px 0px 6px 10px;
+    }
+
+    footer .left-footer-button-container a {
+        height: 34px;
+        padding: 6px 10px 6px 10px;
+    }
+    footer .left-footer-button-container a i
+    {
+        font-size: 18px;
+    }
+    .goto-container
+    {
+        height:32px;
+    }
+    .goto-container a.next
+    {
+        height: 34px;
+        line-height: 34px;
+        font-size: 18px;
+    }
+    .goto-container a.prev
+    {
+        height: 34px;
+        line-height: 34px;
+        font-size: 18px;
+    }
+    .btn-prev
+    {
+        font-size: 45px;
+    }
+    .btn-next
+    {
+        font-size: 45px;
+    }
+    .goto-container .number-of
+    {
+        margin: 6px 5px 0px 10px;
+    }
+    .goto-container .goto-text input[type="text"]
+    {
+        width: 44px;
+    }
+    .book-mark-onpage i
+    {
+        font-size: 60px;
+    }
+    footer .left-footer-button-container a:last-child
+    {
+        padding: 6px 10px 6px 0px;
+    }
+}
+@media all and (max-width: 559px) and (min-width: 460px)
+{
+    footer
+    {
+        height:34px;
+    }
+
+    footer .zoom-container a
+    {
+        height: 33px;
+        padding: 6px 5px 6px 5px;
+    }
+    footer .zoom-container a i
+    {
+        font-size: 17px;
+    }
+    footer .zoom-container a:first-child {
+        padding: 6px 0px 6px 5px;
+    }
+    footer .left-footer-button-container a:first-child
+    {
+        padding: 6px 5px 6px 5px;
+    }
+    footer .left-footer-button-container a {
+        height: 33px;
+        padding: 6px 5px 6px 5px;
+    }
+    footer .left-footer-button-container a i
+    {
+        font-size: 17px;
+    }
+    .goto-container
+    {
+        height:33px;
+    }
+    .goto-container a.next
+    {
+        height: 33px;
+        line-height: 34px;
+        font-size: 17px;
+    }
+    .goto-container a.prev
+    {
+        height: 33px;
+        line-height: 34px;
+        font-size: 17px;
+    }
+    header .search-container input[type="text"]
+    {
+        width: 180px;
+    }
+    header
+    {
+        height:53px;
+    }
+    header .logo img
+    {
+        width: 80%;
+    }
+    .goto-container .number-of
+    {
+        margin: 4px 8px 0px 15px;
+    }
+    .goto-container .goto-text input[type="text"]
+    {
+        width: 40px;
+        margin: 4px 15px 0px 0px;
+    }
+    footer .left-footer-button-container
+    {
+        margin: 0px 0px 0px 10px;
+    }
+    footer .zoom-container
+    {
+        margin: 0px 10px 0px 0px;
+    }
+    header .search-container
+    {
+        margin: 7px 0px 0px 7px;
+    }
+    header .logo
+    {
+        right: 10px;
+    }
+    .btn-prev
+    {
+        font-size: 40px;
+    }
+    .btn-next
+    {
+        font-size: 40px;
+    }
+    .book-mark-onpage i
+    {
+        font-size: 50px;
+    }
+}
+@media all and (max-width: 459px) and (min-width: 320px)
+{
+    footer
+    {
+        height:34px;
+    }
+
+    footer .zoom-container a
+    {
+        height: 33px;
+        padding: 8px 5px 6px 5px;
+    }
+    footer .zoom-container a i
+    {
+        font-size: 14px;
+        padding: 1px 2px 0px 0px;
+    }
+    footer .zoom-container a:first-child {
+        padding: 9px 0px 6px 4px;
+    }
+    footer .left-footer-button-container a:first-child
+    {
+        padding: 9px 4px 6px 4px;
+    }
+    footer .left-footer-button-container a {
+        height: 33px;
+        padding: 8px 4px 6px 4px;
+    }
+    footer .left-footer-button-container a i
+    {
+        font-size: 14px;
+        padding: 1px 2px 0px 0px;
+    }
+    .goto-container
+    {
+        height:32px;
+        padding: 0px 4px 0px 4px;
+    }
+    .goto-container a.next
+    {
+        height: 33px;
+        line-height: 34px;
+        font-size: 13px;
+    }
+    .goto-container a.prev
+    {
+        height: 33px;
+        line-height: 33px;
+        font-size: 13px;
+    }
+    header .search-container input[type="text"]
+    {
+        width: 140px;
+        height:26px;
+        line-height: 30px;
+        width: 140px;
+        height: 26px;
+        line-height: 30px;
+        font-size: 13px;
+        text-align: left;
+        padding: 0px 3px 0px 35px;
+    }
+    header .search-container a
+    {
+        width: 26px;
+        height: 26px;
+    }
+    header .search-container a i
+    {
+        padding: 4px;
+    }
+    header .search-container
+    {
+        margin: 6px 0px 0px 10px;
+    }
+    header .logo
+      {
+          right: 10px;
+      }
+    header
+    {
+        height:40px;
+    }
+    header .logo img
+    {
+        width: 80%;
+    }
+    .goto-container .number-of
+    {
+        margin: 4px 1px 0px 5px;
+    }
+    .goto-container .goto-text input[type="text"]
+    {
+        width: 25px;
+        margin: 6px 5px 0px 0px;
+        height: 22px;
+    }
+    footer .left-footer-button-container
+    {
+        margin: 0px 0px 0px 5px;
+    }
+    footer .zoom-container
+    {
+        margin: 0px 5px 0px 0px;
+    }
+    .btn-prev
+    {
+        font-size: 30px;
+    }
+    .btn-next
+    {
+        font-size: 30px;
+    }
+    footer .left-footer-button-container a:last-child {
+        padding: 9px 4px 6px 4px;
+    }
+    .book-mark-onpage i
+    {
+        font-size: 40px;
+    }
+}
+@media all and (max-width: 319px) and (min-width: 200px)
+{
+    footer
+    {
+        height:34px;
+    }
+
+    footer .zoom-container a
+    {
+        height: 33px;
+        padding: 8px 5px 6px 5px;
+    }
+    footer .zoom-container a i
+    {
+        font-size: 14px;
+        padding: 1px 2px 0px 0px;
+    }
+    footer .zoom-container a:first-child {
+        padding: 9px 0px 6px 4px;
+    }
+    footer .left-footer-button-container a:first-child
+    {
+        padding: 9px 4px 6px 4px;
+    }
+    footer .left-footer-button-container a {
+        height: 33px;
+        padding: 8px 4px 6px 4px;
+    }
+    footer .left-footer-button-container a i
+    {
+        font-size: 14px;
+        padding: 1px 2px 0px 0px;
+    }
+    .goto-container
+    {
+        height:32px;
+        padding: 0px 4px 0px 4px;
+    }
+    .goto-container a.next
+    {
+        height: 33px;
+        line-height: 34px;
+        font-size: 13px;
+    }
+    .goto-container a.prev
+    {
+        height: 33px;
+        line-height: 33px;
+        font-size: 13px;
+    }
+    header .search-container input[type="text"]
+    {
+        width: 140px;
+        height:26px;
+        line-height: 30px;
+    }
+    header .search-container a
+    {
+        width: 26px;
+        height: 26px;
+    }
+    header .search-container a i
+    {
+        padding: 4px;
+    }
+    header .search-container
+    {
+        margin: 6px 0px 0px 10px;
+    }
+    header .logo
+    {
+        right: 10px;
+    }
+    header
+    {
+        height:40px;
+    }
+    header .logo img
+    {
+        width: 80%;
+    }
+    .goto-container .number-of
+    {
+        margin: 4px 1px 0px 5px;
+    }
+    .goto-container .goto-text input[type="text"]
+    {
+        width: 25px;
+        margin: 6px 5px 0px 0px;
+        height: 22px;
+    }
+    footer .left-footer-button-container
+    {
+        margin: 0px 0px 0px 5px;
+    }
+    footer .zoom-container
+    {
+        margin: 0px 5px 0px 0px;
+    }
+    .btn-prev
+    {
+        font-size: 30px;
+    }
+    .btn-next
+    {
+        font-size: 30px;
+    }
+    footer .left-footer-button-container a:last-child {
+        padding: 9px 4px 6px 4px;
+    }
+    .book-mark-onpage i
+    {
+        font-size: 40px;
+    }
+}

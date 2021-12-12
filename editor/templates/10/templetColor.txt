@@ -1,0 +1,45 @@
+لون الأزرق
+
+:root {
+    --fontColor1: #7950a5;
+    --borderColor6: #ffbf31;
+    --haderShadow5: rgba(121,183,234,0.35);
+    --haderShadow4: rgba(121,183,234,0.1);
+    --bghader2: #79b7ea;
+ }
+===============================================================
+
+لون أخضر فاقع
+
+:root {
+    --fontColor1: #ba7560;
+    --borderColor6: #ffbf31;
+    --haderShadow5: rgba(156,207,141,0.35);
+    --haderShadow4: rgba(156,207,141,0.1);
+    --bghader2: #9ccf8d;
+ }
+
+
+===========================================================
+
+لون الأخضر
+
+:root {
+    --fontColor1: #4b5757;
+    --borderColor6: #ffbf31;
+    --haderShadow5: rgba(10,201,185,0.35);
+    --haderShadow4: rgba(10,201,185,0.1);
+    --bghader2: #0ac9b9;
+ }
+
+============================================================
+
+لون نهدي
+
+:root {
+    --fontColor1: #4f8a9e;
+    --borderColor6: #ffbf31;
+    --haderShadow5: rgba(190,155,202,0.35);
+    --haderShadow4: rgba(190,155,202,0.1);
+    --bghader2: #be9bca;
+ }

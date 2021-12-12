@@ -1,0 +1,22 @@
+ <div class="display-table-row #class#">
+    <div class="display-table-cell number" >#No#</div>
+    <div class="display-table-cell user">#User#</div>
+    <div class="display-table-cell category">#category#</div>
+    <div class="display-table-cell book-title">#titlebook#</div>
+    <div class="display-table-cell created-at">#date#</div>
+    <div class="display-table-cell width">#width#px</div>
+    <div class="display-table-cell height">#height$px</div>
+    <div class="display-table-cell action">
+        <div class="butons-container">
+            <a href="#hrefEdit$">
+                <i class="icon-delete81">#Edit#</i>
+            </a>
+            <a href="#hrefDelete#" style='#display#'>
+                <i class="icon-shopping122">#Delete#</i>
+            </a>
+            <a href="#hrefDownload#" style='#display#'>
+                <i class="icon-shopping122">#Download#</i>
+            </a>
+        </div>
+    </div>
+  </div>

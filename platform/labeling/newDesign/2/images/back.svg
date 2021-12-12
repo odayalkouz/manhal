@@ -1,0 +1,266 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="76px" height="70px" viewBox="0 0 76 70">
+<defs>
+<filter id="Filter_1" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 0 0.6 0 0 0 1 0" result="result1"/>
+</filter>
+
+<filter id="Filter_2" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.41568627450980394 0 0 0 0 0.41568627450980394 0 0 0 0 0.41568627450980394 0 0 0 1 0" result="result1"/>
+</filter>
+
+<filter id="Filter_3" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.7725490196078432 0 0 0 0 0.7568627450980392 0 0 0 0 0.7568627450980392 0 0 0 1 0" result="result1"/>
+</filter>
+
+<filter id="Filter_4" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.6431372549019608 0 0 0 0 0.6431372549019608 0 0 0 0 0.6431372549019608 0 0 0 1 0" result="result1"/>
+</filter>
+
+<g id="Layer0_0_MEMBER_0_MEMBER_0_FILL">
+<path fill="#000000" fill-opacity="0.2" stroke="none" d="
+M 191.3 168.65
+Q 191.45 162.1 188.15 158.55 185.2 155.55 180.1 155.35
+L 134.5 155.2
+Q 121.05 155.2 121.1 169.1
+L 120.95 207.1
+Q 121 212.2 124.5 215.15 127.65 217.85 132.85 217.85
+L 180.2 218.1
+Q 184.1 217.95 187.15 215.4 191 212.05 191.1 205.7
+L 191.3 168.65 Z"/>
+</g>
+
+<g id="Graphic_shape_994_0_Layer0_0_FILL">
+<path fill="#F1FEFF" stroke="none" d="
+M 10.1 2.7
+Q 11.45 3.95 11.45 5.75
+L 11.85 30.75 12.7 31.15 12.95 5.1
+Q 12.95 3 11.45 1.5 9.95 0 7.85 0 2.25 0.35 2.25 0.75
+L 3.55 1.1 5 1.3 6.95 1.45
+Q 8.75 1.45 10.1 2.7 Z"/>
+</g>
+
+<g id="Graphic_shape_995_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 54.6 10.5
+Q 54.7 5.4 52.15 2.65 49.85 0.3 45.9 0.15
+L 10.45 0.05
+Q 0 0.05 0.05 10.85
+L 0.65 40.4
+Q 0.85 48.5 9.2 48.5
+L 45.95 48.9
+Q 49 48.8 51.35 46.8 54.35 44.2 54.45 39.3
+L 54.6 10.5 Z"/>
+</g>
+
+<g id="Graphic_shape_996_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 40.65 40.55
+L 47.65 40.45
+Q 46 37.55 39.6 30.9 33.75 24.95 25.5 17.55
+L 23.6 15.9 22.65 15.1 21.7 14.25 20.75 13.45 19.8 12.65 18.85 11.85 17.9 11.05 14.25 8.15 12.5 6.8 11.65 6.2 10.8 5.55 4.85 1.65
+Q 2.05 0.1 0.7 0 0.5 0.95 0.35 5.1
+L 0.3 7.25 0.25 9.6 0.25 10.9 0.2 12.15 0.15 14.8 0.15 32.3
+Q 0.2 36.25 2.9 38.55 5.35 40.65 9.4 40.65
+L 26 40.65 29.05 40.6 38 40.6 40.65 40.55 Z"/>
+</g>
+
+<g id="Graphic_shape_997_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 51 11.8
+L 51 9.4
+Q 51.1 0.9 42.95 0.35
+L 36.85 0.25 27.45 0.25 24.95 0.3 22.4 0.3 19.9 0.35 17.55 0.35 15.3 0.4 9.85 0.4
+Q 4.3 0.4 2.25 2.35 0.25 4.25 0.25 9.2
+L 0.25 13.1 0.2 17.15 0.2 21.2 0.15 25.1
+Q 0.05 33.85 0.2 37.4 0.5 45.05 8.7 45.05
+L 11.5 45.05 13.35 45.1 17.85 45.1 19.1 45.15 25.6 45.15 26.95 45.2 35.5 45.2 41.6 45.2
+Q 46.1 45.1 48.3 43.15 50.75 40.95 50.85 36.2
+L 50.9 33.7 50.95 30.4 50.95 14.95 51 11.8 Z"/>
+</g>
+
+<g id="MovieClip_sprite_1000_copy_0_Layer2_1_FILL">
+<path fill="#8BCE00" stroke="none" d="
+M 48.25 30.95
+L 48.35 12.1
+Q 48.4 6.1 42.65 5.7
+L 13.05 5.75
+Q 9.15 5.75 7.7 7.1 6.3 8.45 6.3 11.9
+L 6.2 23.1
+Q 6.15 29.25 6.25 31.75 6.5 37.1 12.25 37.1
+L 41.7 37.25
+Q 44.9 37.15 46.45 35.85 48.15 34.3 48.25 30.95 Z"/>
+</g>
+
+<g id="Graphic_shape_998_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 42.95 10.9
+Q 50.85 10.55 50.8 1.75 49.85 3.75 47.25 4.65 45.05 5.45 41.25 5.45
+L 5.9 5.2
+Q 3.9 4.95 2.1 3.25 0.6 1.75 0 0
+L 0.25 4.65
+Q 0.6 6.9 2.2 8.75 4.1 10.85 6.95 11
+L 17.1 11.25 22.7 11.25 25.5 11.25 28.25 11.2 42.95 10.9 Z"/>
+</g>
+
+<g id="Graphic_shape_999_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 1.1 2.1
+L 0 0 0.25 5.4 0.6 6.9 1.05 7.85 1.65 8.7 2 9.1
+Q 3.75 10.8 6.25 10.95
+L 6.1 5.4 4.35 4.85 3.05 4.05 2.6 3.7 1.1 2.1 Z"/>
+</g>
+
+<g id="Graphic_shape_1874_0_Layer5_0_FILL">
+<path fill="#000000" fill-opacity="0.2" stroke="none" d="
+M 49.7 23.55
+L 49.7 21.5
+Q 49.7 19.15 48.4 17.65 46.7 15.8 43.3 15.6
+L 33.75 15.65 33.7 9.2
+Q 33.8 5.35 30.85 4.15 28.1 2.95 25.1 4.55
+L 24.8 4.7 2.45 21 2 21.45
+Q -1.15 25.65 1.7 28.75
+L 23.8 48.35
+Q 26.65 50.25 30.1 49.2 33.65 48.05 34.05 44.5
+L 34 37.4 43.4 37.4
+Q 46 37.45 48 35.5 49.75 33.75 49.75 31.5
+L 49.75 25 49.7 23.55 Z"/>
+</g>
+
+<g id="Graphic_shape_1874_0_Layer4_0_FILL">
+<path fill="#4C4C4C" stroke="none" d="
+M 49.25 19.9
+L 49.25 17.85
+Q 49.25 15.45 47.95 13.95 46.4 12.15 42.85 11.95
+L 33.3 11.95 33.25 5.55
+Q 33.35 1.75 30.45 0.5 27.7 -0.7 24.65 0.85
+L 2 17.3 1.55 17.75
+Q 0.25 19.55 0.05 21.35 -0.25 23.45 1.25 25.05
+L 23.1 44.5 23.35 44.65
+Q 26.1 46.55 29.6 45.45 33.3 44.3 33.6 40.8
+L 33.55 33.7 42.95 33.7
+Q 45.5 33.75 47.55 31.85 49.3 30.1 49.3 27.85
+L 49.3 21.3 49.25 19.9 Z"/>
+</g>
+
+<g id="Graphic_shape_1874_0_Layer3_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 46.4 15.4
+Q 45.25 14.15 42.75 14.05
+L 31.25 14.05 31.15 5.5
+Q 31.2 3.1 29.5 2.3 27.85 1.6 25.6 2.7
+L 3.25 19
+Q 0.75 22.35 3.55 24.3
+L 24.5 42.95
+Q 26.55 44.35 28.95 43.5 31.3 42.7 31.55 40.6
+L 31.45 31.6 40.65 31.6 42.25 31.65 43 31.65
+Q 44.75 31.65 46.05 30.35 47.2 29.25 47.2 27.85
+L 47.2 17.85
+Q 47.2 16.25 46.4 15.4 Z"/>
+</g>
+
+<g id="Graphic_shape_1874_0_Layer2_0_FILL">
+<path fill="#8A8A8A" stroke="none" d="
+M 3.25 18.85
+Q 0.85 22.3 3.6 24.3
+L 24.5 43.35
+Q 26.5 44.75 28.95 44 31.3 43.15 31.55 41
+L 31.5 38.05
+Q 31.1 40.05 28.8 40.75 26.45 41.4 24.5 40.1
+L 4 21.4 3.2 19.75 3.3 18.85 3.25 18.85
+M 47.2 27.9
+L 47.2 25.3
+Q 46.95 29.05 42.95 29
+L 31.45 29 31.5 31.8 42.95 31.8
+Q 47.2 31.85 47.2 27.9 Z"/>
+</g>
+
+<g id="Graphic_shape_1874_0_Layer1_0_FILL">
+<path fill="#BABABA" stroke="none" d="
+M 47.15 28.9
+L 47.3 27.3 47.25 26.1
+Q 45.55 29.45 43.2 28.95
+L 43.1 31.8 43.95 31.7 44.75 31.5 45.45 31.2 46.5 30.4 47.05 29.4 47.15 28.9 Z"/>
+</g>
+
+<g id="Graphic_shape_1874_0_Layer0_0_FILL">
+<path fill="#BABABA" stroke="none" d="
+M 30 40.25
+L 29.3 40.65 28.5 40.85 27.55 40.85 27.4 44.3 28.25 44.2 29.05 44 29.75 43.7 30.8 42.9 31.15 42.4 31.4 41.9 31.55 40.95 31.6 37.45 31.55 36.65 31.55 37.45 31.4 38.25 31.05 39 30.6 39.65 30 40.25 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, -120.95,-147.45) ">
+<use xlink:href="#Layer0_0_MEMBER_0_MEMBER_0_FILL"/>
+</g>
+
+<g transform="matrix( 1.286865234375, 0, 0, 1.286865234375, 6.45,0) ">
+<g transform="matrix( 1, 0, 0, 1, 17.8,10.25) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Graphic_shape_994_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0.1,-0.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#Graphic_shape_995_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -0.1,8.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_2)" xlink:href="#Graphic_shape_996_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 1.85,1.5) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Graphic_shape_997_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#MovieClip_sprite_1000_copy_0_Layer2_1_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 1.95,35.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_3)" xlink:href="#Graphic_shape_998_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 1.8,35.9) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_4)" xlink:href="#Graphic_shape_999_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 0.65423583984375, 0, 0, 0.65423583984375, 24.3,12.4) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Graphic_shape_1874_0_Layer5_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Graphic_shape_1874_0_Layer4_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Graphic_shape_1874_0_Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Graphic_shape_1874_0_Layer2_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Graphic_shape_1874_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Graphic_shape_1874_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

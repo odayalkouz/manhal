@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Language>
+    <ClickMap>تحديد النقاط</ClickMap>
+    <PutCircle>ضع دائرة</PutCircle>
+    <TrueorFalse>صح أو خطأ</TrueorFalse>
+    <Matching>توصيل</Matching>
+    <FillBox>املأ الفراغ</FillBox>
+    <Addquestion>إضافة سؤال</Addquestion>
+    <Addbackground>إضافة خلفية</Addbackground>
+    <Removebackground>حذف الخلفية</Removebackground>
+    <Upload>تحميل</Upload>
+    <Addemptyelement>إضافة عنصر فارغ</Addemptyelement>
+    <Addanswerbox>إضافة صندوق للإجابة</Addanswerbox>
+    <Library>المكتبة</Library>
+    <Groups>المجموعات</Groups>
+    <Entertexthere>أدخل النص هنا</Entertexthere>
+    <Save>حفظ</Save>
+    <Properties>الخصائص</Properties>
+    <BringtoFront>إحضار إلى الأمام</BringtoFront>
+    <BringForward>خطوة إلى الأمام</BringForward>
+    <SendtoBack>إرسال إلى الخلف</SendtoBack>
+    <SendBackward>خطوة إلى الخلف</SendBackward>
+    <Flip>قلب الاتجاه</Flip>
+    <Setastrueanswer>تحديد كإجابة صحيحة</Setastrueanswer>
+    <Addtext>إضافة نص</Addtext>
+    <Addsound>إضافة صوت</Addsound>
+    <Nosound>لا يوجد صوت</Nosound>
+    <Preview>استعراض</Preview>
+    <Savedsuccessfully>تم الحفظ بنجاح</Savedsuccessfully>
+    <Showandhiderootline>إظهار وإخفاء خطوط التوصيل</Showandhiderootline>
+    <Settings>الإعدادات</Settings>
+    <Help>المساعدة</Help>
+    <Addhelpbox>إضافة المساعدة</Addhelpbox>
+    <Random>ترتيب عشوائي</Random>
+    <Showelementsrandomly>ترتيب عشوائي للعناصر</Showelementsrandomly>
+    <Draganddrop>سحب وإفلات</Draganddrop>
+    <Applydraganddropfeaturetothepractice>تطبيق خاصية السحب والإفلات على التمرين</Applydraganddropfeaturetothepractice>
+    <DisplayAelementsrandomly>ترتيب عناصر A عشوائيًا</DisplayAelementsrandomly>
+    <DisplayBelementsrandomly>ترتيب عناصر B عشوائيًا</DisplayBelementsrandomly>
+    <Hidethestars>إخفاء النجوم</Hidethestars>
+    <Replace>استبدال</Replace>
+    <Replaceelementwhendrop>استبدال العنصر عند الإفلات</Replaceelementwhendrop>
+    <Direction>الاتجاه</Direction>
+    <BtoA>B to A</BtoA>
+    <CtoD>C to D</CtoD>
+    <DtoC>D to C</DtoC>
+    <A>A</A>
+    <B>B</B>
+    <C>C</C>
+    <D>D</D>
+    <Setelementwidthto100>تعيين حجم العنصر ليكون بنسبة 100%</Setelementwidthto100>
+    <Setdirectionfromrighttoleft>تغيير اتجاه اللغة من اليمين إلى اليسار</Setdirectionfromrighttoleft>
+    <Backgroundsound>صوت الخلفية</Backgroundsound>
+    <Background>الخلفية</Background>
+    <Attempts>المحاولات</Attempts>
+    <Displayresultaspercent>عرض النتيجة كنسبة</Displayresultaspercent>
+    <Displayresultasnumber>عرض النتيجة كرقم</Displayresultasnumber>
+    <Customizethestyle>تخصيص النمط (Style)</Customizethestyle>
+    <Off>إيقاف</Off>
+    <On>تشغيل</On>
+    <!--<RemoveBackground>Remove Background</RemoveBackground>-->
+    <AddorRemoveBackground>إضافة أو حذف الخلفية</AddorRemoveBackground>
+    <AddBackground>إضافة خلفية</AddBackground>
+
+    <icon>Icon</icon>
+    <addfillAnswer>Add answers separate by space</addfillAnswer>
+    <addBackgroundSound>Add backgroud sound to this file</addBackgroundSound>
+    <styletitle>Style</styletitle>
+    <HidethestarsHint>Hide star on book pages</HidethestarsHint>
+    <Duplicate>Duplicate</Duplicate>
+    <Remove>Remove</Remove>
+    <ElmentSetting>Point Setting</ElmentSetting>
+    <SelectType>Select Type</SelectType>
+    <OK>OK</OK>
+
+    <DisplayDelementsrandomly>ترتيب عناصر D عشوائيًا</DisplayDelementsrandomly>
+    <DisplayCelementsrandomly>ترتيب عناصر C عشوائيًا</DisplayCelementsrandomly>
+</Language>

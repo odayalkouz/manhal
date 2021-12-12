@@ -1,0 +1,4574 @@
+.inner-pages-main-container-worksheet .right-col-3 .advansd-search-button {
+    display: inline-block;
+    overflow: hidden;
+    background: url(../images/advansd_search.svg) 92% center no-repeat #00a951;
+    height: 30px;
+    line-height: 29px;
+    background-size: 14%;
+    margin: 15px 10px 0 20px;
+    border-radius: 4px;
+    webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    color: #fff;
+    padding: 0 30px 0 11px;
+    font-size: 12px
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .advansd-search-button.store {
+    background-size: 60%;
+    background-position: center;
+    margin: 15px 0 0 0
+}
+
+.books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+    display: block;
+    overflow: visible;
+    height: 60px;
+    width: 100%;
+    background-image: -ms-linear-gradient(top, #fafafa 0, #ebebeb 100%);
+    background-image: -moz-linear-gradient(top, #fafafa 0, #ebebeb 100%);
+    background-image: -o-linear-gradient(top, #fafafa 0, #ebebeb 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fafafa), color-stop(100, #ebebeb));
+    background-image: -webkit-linear-gradient(top, #fafafa 0, #ebebeb 100%);
+    background-image: linear-gradient(to bottom, #fafafa 0, #ebebeb 100%);
+    margin: 0 0 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #fff
+}
+
+.books-main-container-page .top-black-col .sort-by-list-container, .favorites-main-container-page .top-black-col .sort-by-list-container {
+    display: none;
+    overflow: visible;
+    margin: 0
+}
+
+.books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+    display: inline-block;
+    overflow: hidden;
+    color: #626161;
+    line-height: 59px;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.inner-pages-main-container-worksheet {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background: url(../images/sectionBg/books-bg-sub.png)
+}
+
+.inner-pages-main-container-worksheet.with-out-bg {
+    background: 0 0 !important
+}
+
+.inner-pages-main-container-worksheet .worksheet-search {
+    display: block;
+    overflow: hidden;
+    margin: 0
+}
+
+.inner-pages-main-container-worksheet .right-col-3 {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    text-align: center
+}
+
+.worksheet-search .wrapper-demo {
+    display: inline-block;
+    overflow: visible;
+    margin: 14px 20px;
+    zoom: 1
+}
+
+.worksheet-search .wrapper-dropdown-3 {
+    position: relative;
+    width: 185px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 27px;
+    background: #00a951;
+    border-radius: 4px;
+    border: 1px solid #00a951;
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 500;
+    webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31)
+}
+
+.worksheet-search .wrapper-dropdown-3#brand span, .worksheet-search .wrapper-dropdown-3#subject span, .worksheet-search .wrapper-dropdown-3#subject1 span, .worksheet-search .wrapper-dropdown-3#subjectfav span {
+    margin: 0;
+    background-repeat: no-repeat;
+    text-shadow: 0 1px 1px rgba(138, 27, 15, .41)
+}
+
+.worksheet-search .wrapper-dropdown-3 span {
+    margin: 0 10px 0 0
+}
+
+.worksheet-search .wrapper-dropdown-3#subject span {
+    background-size: 18px;
+    background-position: 95% 5px;
+    padding: 0 30px 0 0
+}
+
+.worksheet-search .wrapper-dropdown-3#brand span {
+    background-size: 18px;
+    background-position: 94% 5px;
+    padding: 0
+}
+
+.worksheet-search .wrapper-dropdown-3#brand li:first-child a, .worksheet-search .wrapper-dropdown-3#subject li:first-child a {
+    padding: 0 10px 0 45px;
+    background-position: 10px 9px;
+    background-image: url(../images/cat/books/all.svg);
+    background-size: 10%
+}
+
+.worksheet-search .wrapper-dropdown-3#subject1 span {
+    background-size: 18px !important;
+    background-position: 0 5px
+}
+
+.worksheet-search .wrapper-dropdown-3#subject1 li:first-child a {
+    padding: 0 10px 0 45px;
+    background-position: 10px 9px;
+    background-image: url(../images/cat/books/all.svg);
+    background-size: 10%
+}
+
+.worksheet-search .wrapper-dropdown-3#subject1 li:first-child a.no-images {
+    padding: 0 0 0 10px;
+    background-position: 10px 9px;
+    background-image: none;
+    background-size: 10%
+}
+
+.worksheet-search .wrapper-dropdown-3#subjectfav span {
+    background-size: 18px !important;
+    background-position: 0 5px;
+    padding: 0 0 0 30px
+}
+
+.worksheet-search .wrapper-dropdown-3#subjectfav li a {
+    padding: 0 10px 0 45px;
+    background-position: 10px 9px;
+    background-image: url(../images/cat/books/all.svg);
+    background-size: 10%
+}
+
+.worksheet-search .wrapper-dropdown-3 ul li.active a {
+    color: #00a951
+}
+
+.worksheet-search .wrapper-dropdown-3:after {
+    content: "";
+    position: absolute;
+    right: 84%;
+    top: 2%;
+    width: 27px;
+    height: 26px;
+    background: url(../images/book-index/list.svg) 6px 6px no-repeat;
+    background-size: 46%
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown {
+    position: absolute;
+    top: 146%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2), 0 2px 14px 0 rgba(0, 0, 0, .2);
+    font-weight: 400;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 99;
+    border-top: solid 3px #00a951;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 300px
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 7px;
+    border-width: 0 6px 10px;
+    border-style: solid;
+    border-color: #00a951 transparent
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px;
+    border-color: rgba(0, 0, 0, .1) transparent
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #898989;
+    border-bottom: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    box-shadow: inset 0 1px 0 #fff;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 10px;
+    margin-bottom: 2px;
+    background: 10px 10px no-repeat #f2f2f2;
+    background-size: 20px !important;
+    overflow: hidden;
+    text-align: right
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li.sub-0 a, .worksheet-search .wrapper-dropdown-3#subject li a {
+    padding: 0 45px 0 10px;
+    background-position: 92% 8px
+}
+
+.worksheet-search .wrapper-dropdown-3#subject li a {
+    background-image: url(../images/cat/books/all.svg);
+    background-size: 10%
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li.sub-1 a {
+    padding: 0 10px 0 55px;
+    background-position: 20px 10px
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li.main-dropdown a {
+    font-weight: 600
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li.sub-2 a {
+    padding: 0 10px 0 65px;
+    background-position: 30px 10px
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li.sub-3 a {
+    padding: 0 10px 0 75px;
+    background-position: 40px 10px
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li.sub-4 a {
+    padding: 0 10px 0 85px;
+    background-position: 50px 10px
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li.sub-5 a {
+    padding: 0 10px 0 95px;
+    background-position: 60px 10px
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li:last-child a {
+    margin-bottom: 0
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li i {
+    float: left;
+    color: inherit;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-style: normal
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border-radius: 0 0 7px 7px
+}
+
+.worksheet-search .wrapper-dropdown-3 .dropdown li a.active, .worksheet-search .wrapper-dropdown-3 .dropdown li:hover a {
+    color: #00a951
+}
+
+.worksheet-search .wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    margin: 0;
+    padding: 0;
+    max-height: 300px
+}
+
+.worksheet-search .no-opacity .wrapper-dropdown-3 .dropdown, .worksheet-search .no-pointerevents .wrapper-dropdown-3 .dropdown {
+    display: none;
+    opacity: 1;
+    pointer-events: auto
+}
+
+.worksheet-search .no-opacity .wrapper-dropdown-3.active .dropdown, .worksheet-search .no-pointerevents .wrapper-dropdown-3.active .dropdown {
+    display: block
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+.inner-pages-main-container-worksheet a:focus, .inner-pages-main-container-worksheet button:focus, .inner-pages-main-container-worksheet input:focus {
+    outline: #bdc3c7 solid 2px
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+    height: 30px;
+    margin: 14px 0 14px 15px
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+    display: inline-block;
+    overflow: hidden;
+    width: 243px;
+    height: 30px;
+    line-height: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #c2c2c2;
+    position: absolute;
+    right: 0;
+    padding: 0 0 0 15px;
+    font-weight: 500;
+    font-size: 14px;
+    background-image: -ms-linear-gradient(top, #d8d8d8 0, #eaeaea 100%);
+    background-image: -o-linear-gradient(top, #d8d8d8 0, #eaeaea 100%);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    background: #fff;
+    color: #00a951;
+    text-align: left
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text]::-webkit-input-placeholder {
+    color: #a4a4a4;
+    font-size: 14px
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text]:-moz-placeholder {
+    color: #a4a4a4;
+    font-size: 14px
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text]::-moz-placeholder {
+    color: #a4a4a4;
+    font-size: 14px
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text]:-ms-input-placeholder {
+    color: #a4a4a4;
+    font-size: 14px
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    height: 30px;
+    width: 40px;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #00a951;
+    background: url(../images/book-index/magnifier.svg) center no-repeat #00a951;
+    background-size: 50%;
+    cursor: pointer;
+    webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31)
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet {
+    display: block;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    padding: 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+    display: inline-block;
+    overflow: visible;
+    width: 275px;
+    margin: 10px 11px;
+    position: relative
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .new-rebbon-container {
+    display: inline-block;
+    vertical-align: top;
+    background: #fd991c;
+    position: relative;
+    width: 60px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 2px 0 0;
+    margin: 0 0 0 2px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .new-rebbon-container.disabled {
+    opacity: 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .new-rebbon-container:after {
+    content: "";
+    width: 100%;
+    background: #fd991c;
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(30deg) translate(-50%, 0);
+    z-index: -1
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 271px;
+    border-radius: 5px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    border: 3px solid #fff;
+    background: #eee;
+    border: solid 1px #cacaca;
+    background: #eee;
+    webkit-box-shadow: 0 0 5px .2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 5px .2px rgba(0, 0, 0, .2);
+    box-shadow: 2px 2px 2px .01px rgba(0, 0, 0, .1)
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container.addquiz {
+    height: 236px;
+    background-color: #fff;
+    background-image: url(../images/file.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 55% 50%;
+    color: #00a951;
+    font-weight: 700;
+    padding: 20px 0 0 0;
+    font-size: 18px;
+    transition: all 0s
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container.addquiz:hover {
+    background-color: #fff;
+    background-image: url(../images/file-hover.svg);
+    color: #fd991c
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1n) {
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(2n) {
+    -webkit-transition: all 1.2s;
+    -moz-transition: all 1.2s;
+    -ms-transition: all 1.2s;
+    -o-transition: all 1.2s;
+    transition: all 1.2s
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(3n), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4n) {
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(16), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(20), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(24), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(28), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(8),.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(16), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(20) {
+    margin: 10px 13px 10px 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(17), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(5), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(9), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(13), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(21) {
+    margin: 10px 5px 10px 8px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+    display: block;
+    overflow: hidden;
+    width: 271px;
+    height: 161px;
+    background-image: url(../images/Aa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+    border-bottom: solid 1px #d0d0d0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container:hover .worksheet-thump {
+    background-position: 100% 100%
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .secound-container {
+    display: block;
+    overflow: hidden;
+    background: #fff
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    height: 23px;
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    width: 100%
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container .right {
+    margin: 0 2px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container .right span {
+    display: block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    margin: 0 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: right
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container .icon-bg {
+    display: block;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 38px;
+    border-radius: 4px;
+    background-size: contain
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container a.title {
+    display: block;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 400;
+    color: #303030;
+    padding: 0 10px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin: 0;
+    height: 25px;
+    line-height: 31px;
+    z-index: 0;
+    width: 100%;
+    direction: rtl
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container a.cat:hover, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container a.title:hover {
+    color: #00a951
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container a.cat {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 300;
+    color: #00a951;
+    padding: 0 0 0 15px;
+    margin: 5px 0 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 20px;
+    line-height: 20px;
+    max-width: 209px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    margin: 0 0 0 10px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    background-size: 20px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/add-heart.svg);
+    padding: 0 25px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i:hover {
+    background-image: url(../images/add-heart-h.svg)
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i.active {
+    background-image: url(../images/add-heart-red.svg);
+    background-color: #f9f9f9
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    background-color: #ededed;
+    margin-right: .5px;
+    color: #626161;
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 0 5px 0 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    background-size: 20px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/download-arrow.svg);
+    padding: 0 16px;
+    border-left: solid 1px #d0d0d0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    background-size: 20px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/download-arrow.svg);
+    padding: 0 16px;
+    border-left: solid 1px #d0d0d0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .quiz-view {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    background-color: #ededed;
+    color: #626161;
+    font-size: 12px;
+    border-radius: 0 0 0 5px;
+    margin: 0 0 0 3px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .quiz-view i {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 27px;
+    line-height: 27px;
+    background: #ededed url(../images/eye-close-up.svg) center 50% no-repeat;
+    background-size: 50%;
+    padding: 0 15px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .quiz-edit {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    background-color: #ededed;
+    color: #626161;
+    font-size: 12px;
+    margin: 0 0 0 3px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .quiz-edit i {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 27px;
+    line-height: 27px;
+    background: #ededed url(../images/quizedit.svg) center 50% no-repeat;
+    background-size: 50%;
+    padding: 0 15px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .quiz-delete {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    background-color: #ededed;
+    color: #626161;
+    font-size: 12px;
+    margin: 0 0 0 3px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .quiz-delete i {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 27px;
+    line-height: 27px;
+    background: #ededed url(../images/delete1.svg) center 50% no-repeat;
+    background-size: 50%;
+    padding: 0 15px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .quiz-result {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    background-color: #ededed;
+    color: #626161;
+    font-size: 12px;
+    margin: 0 0 0 3px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .quiz-result i {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 27px;
+    line-height: 27px;
+    background: #ededed url(../images/exam.svg) center 50% no-repeat;
+    background-size: 50%;
+    padding: 0 15px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i:hover {
+    background-image: url(../images/download-arrow-h.svg);
+    background-color: #e6e6e6
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i.active {
+    background-image: url(../images/add-heart-red.svg);
+    background-color: #e6e6e6
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .buy-btn {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    background-color: #e6e6e6
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .buy-btn i {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    background-size: 20px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/shopping-cart.svg);
+    padding: 0 20px;
+    border-left: solid 1px #d0d0d0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .buy-btn i:hover {
+    background-image: url(../images/shopping-cart-h.svg);
+    background-color: #e6e6e6
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .buy-btn i.active {
+    background-image: url(../images/add-heart-red.svg);
+    background-color: #e6e6e6
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 5px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container .number {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 5px 0 4px;
+    color: #9d9d9d;
+    font-size: 10px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container div.stars {
+    display: inline-block;
+    overflow: hidden
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container input.star {
+    display: none
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+    float: right;
+    padding: 0 2px;
+    font-size: 16px;
+    color: #fd991c;
+    transition: all .2s;
+    cursor: pointer
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #fd991c;
+    transition: all .25s
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container input.star-5:checked ~ label.star:before {
+    color: #fd9d1d
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container input.star-1:checked ~ label.star:before {
+    color: #fd991c
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star:hover {
+    transform: rotate(-15deg) scale(1.3)
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star:before {
+    content: '\f006';
+    font-family: FontAwesome
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .top-container {
+    height: 27px;
+    line-height: 27px;
+    background: #fff
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .price {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 30px;
+    line-height: 30px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .price span {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 3px 0 0;
+    color: #00a951;
+    font-size: 10px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 28px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .price label {
+    display: inline-block;
+    overflow: hidden;
+    color: #00a951;
+    font-size: 12px;
+    font-weight: 400
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container {
+    display: block;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    border-top: solid 1px #d0d0d0;
+    margin: 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download {
+    display: inline-block;
+    overflow: hidden;
+    border-right: solid 1px #d0d0d0;
+    margin: 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download label {
+    display: inline-block;
+    overflow: hidden;
+    width: 55px;
+    height: 30px;
+    background-size: 55px;
+    background-position: center center;
+    background-image: url(../images/afterdownload.svg);
+    background-repeat: no-repeat
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span {
+    display: inline-block;
+    overflow: hidden;
+    color: #929292;
+    font-weight: 500;
+    font-size: 13px;
+    width: 80px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view label {
+    display: inline-block;
+    overflow: hidden;
+    width: 55px;
+    height: 30px;
+    background-size: 20px 20px;
+    background-position: center center;
+    background-image: url(../images/eye-close-up.svg);
+    background-repeat: no-repeat;
+    padding: 0 10px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+    display: inline-block;
+    overflow: hidden;
+    color: #929292;
+    font-weight: 500;
+    font-size: 13px;
+    width: 80px
+}
+
+.books-search .wrapper-demo {
+    display: inline-block;
+    overflow: visible;
+    margin: 14px 0 14px 20px;
+    zoom: 1
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging {
+    display: block;
+    overflow: hidden;
+    margin: 11px 0 25px;
+    clear: both
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+    display: inline-block;
+    overflow: hidden;
+    min-width: 34px;
+    height: 30px;
+    line-height: 28px;
+    color: #8f8f8f;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 0 -1px;
+    border: 1px solid #c2c2c2;
+    background: #fff;
+    text-align: center;
+    float: right
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container.game.aa {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 162px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+    border-bottom: solid 1px #d0d0d0;
+    position: relative
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a.next, .inner-pages-main-container-worksheet .right-col-3 .paging .content > a.next:hover {
+    background: url(../images/book-index/arrow02.svg) center no-repeat #fff;
+    background-size: contain
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a.prev, .inner-pages-main-container-worksheet .right-col-3 .paging .content > a.prev:hover {
+    background: url(../images/book-index/arrow01.svg) center no-repeat #fff;
+    background-size: contain
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a.first {
+    background: url(../images/book-index/last-page.svg) center no-repeat #fff;
+    background-size: 50%;
+    border-radius: 0 5px 5px 0
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a.first:hover {
+    background: url(../images/book-index/last-page.svg) center no-repeat #fff;
+    background-size: 50%
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a.last {
+    background: url(../images/book-index/first-page.svg) center no-repeat #fff;
+    background-size: 50%;
+    border-radius: 5px 0 0 5px;
+    border-right: 0
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a.last:hover {
+    background: url(../images/book-index/first-page.svg) center no-repeat #fff;
+    background-size: 50%
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a.selected, .inner-pages-main-container-worksheet .right-col-3 .paging .content > a:hover {
+    background: #00a951;
+    color: #fff
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a.last, .inner-pages-main-container-worksheet .right-col-3 .paging .content > a.next {
+    margin: 0
+}
+
+.inner-pages-main-container-worksheet .right-col-3 .paging .content > a.first, .inner-pages-main-container-worksheet .right-col-3 .paging .content > a.prev {
+    margin: 0 0 0 -1px
+}
+
+@media (max-width: 1600px) and (min-width: 1400px) {
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .view-container .view-icon {
+        width: 28px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-position: 95% 5px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 240px !important;
+        margin: 10px 12px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(13), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(17), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(5), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(9) {
+        margin: 10px 12px 10px 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(11), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(15), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(16), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(19), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(20), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(23), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(24), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(27), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(28), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(3), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(7), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(8) {
+        margin: 10px 2px 10px 12px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 6px 0 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 19px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav {
+        margin: 0 0 0 4px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 20px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 62px
+    }
+}
+
+@media (max-width: 1399px) and (min-width: 1301px) {
+    .inner-pages-main-container-worksheet .right-col-3 .advansd-search-button {
+        height: 25px;
+        line-height: 24px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 240px !important;
+        margin: 10px 12px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(13), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(17), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(5), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(9) {
+        margin: 10px 12px 10px 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(11), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(15), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(16), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(19), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(20), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(23), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(24), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(27), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(28), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(3), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(7), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(8) {
+        margin: 10px 2px 10px 12px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 6px 0 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 16px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav {
+        margin: 0 0 0 10px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 20px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 62px
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .inner-pages-main-container-worksheet .right-col-3 .advansd-search-button {
+        height: 25px;
+        line-height: 24px
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+        height: 50px !important
+    }
+
+    .books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+        line-height: 49px !important;
+        font-size: 12px !important
+    }
+
+    .worksheet-search .wrapper-demo {
+        margin: 11px 20px 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3 {
+        height: 25px !important;
+        line-height: 23px !important;
+        font-size: 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-size: 15px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject li a {
+        background-size: 15px !important;
+        background-position: 10px 6px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+        height: 25px !important;
+        margin: 12px 0 12px 15px !important;
+        width: 250px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 225px !important;
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 229px !important;
+        margin: 10px 12px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(13), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(17), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(5), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(9) {
+        margin: 10px 12px 10px 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(11), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(15), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(16), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(19), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(20), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(23), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(24), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(27), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(28), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(3), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(7), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(8) {
+        margin: 10px 2px 10px 12px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 6px 0 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 19px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav {
+        margin: 0 0 0 4px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 20px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 56px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i {
+        padding: 0 19px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 12px !important
+    }
+}
+
+@media all and (max-width: 1199px) and (min-width: 1025px) {
+    .inner-pages-main-container-worksheet .right-col-3 .advansd-search-button {
+        height: 25px;
+        line-height: 24px;
+        margin: 11px 10px 0 20px
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+        height: 50px !important
+    }
+
+    .books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+        line-height: 49px !important;
+        font-size: 12px !important
+    }
+
+    .worksheet-search .wrapper-demo {
+        margin: 11px 20px 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3 {
+        height: 25px !important;
+        line-height: 23px !important;
+        font-size: 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-size: 15px !important;
+        background-position: 95% 5px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject li a {
+        background-size: 15px !important;
+        background-position: 10px 6px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+        height: 25px !important;
+        margin: 12px 0 12px 15px !important;
+        width: 250px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 225px !important;
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 229px !important;
+        margin: 10px 12px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(13), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(17), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(5), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(9) {
+        margin: 10px 12px 10px 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(11), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(15), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(16), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(19), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(20), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(23), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(24), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(27), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(28), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(3), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(7), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(8) {
+        margin: 10px 0 10px 12px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 0 0 6px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 19px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav {
+        margin: 0 0 0 4px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 20px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 56px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i {
+        padding: 0 19px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 12px !important
+    }
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px)and (orientation: landscape) {
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container a {
+        padding: 0 15px !important
+    }
+
+    .books-search .wrapper-dropdown-3#subject span, .books-search .wrapper-dropdown-3#subjectfav span {
+        background-size: 15px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .view-container .view-icon {
+        padding: 0 15px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .advansd-search-button {
+        height: 25px;
+        line-height: 24px;
+        margin: 11px 10px 0 20px
+    }
+
+    .inner-pages-main-container-view-item .related-content-container #slider .item .inset .media-item .media-thumb.audio, .inner-pages-main-container-view-item .related-content-container #slider .item .inset .media-item .media-thumb.video {
+        width: 210px;
+        height: 120px
+    }
+
+    .item.tsc_ribbon_wrap .right-edge.fork.video {
+        line-height: 40px;
+        height: 80px;
+        right: -4.5px;
+        top: 87.5px;
+        width: 99px;
+        z-index: 98;
+        background-size: contain
+    }
+
+    .tsc_ribbon_wrap .ribbon-wrap > span {
+        display: block;
+        height: 100%;
+        position: relative;
+        font-size: 12px;
+        transform: rotate(45deg);
+        margin: -6px 37px 0 0 !important
+    }
+
+    .inner-pages-main-container-worksheet .green-bird, .inner-pages-main-container-worksheet .sun, .inner-pages-main-container-worksheet .sun-content {
+        display: none !important
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+        height: 50px !important
+    }
+
+    .books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+        line-height: 49px !important;
+        font-size: 12px !important
+    }
+
+    .worksheet-search .wrapper-demo {
+        margin: 11px 20px 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3 {
+        height: 25px !important;
+        line-height: 23px !important;
+        font-size: 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-size: 15px !important;
+        background-position: 95% 5px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject li a {
+        background-size: 15px !important;
+        background-position: 10px 6px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+        height: 25px !important;
+        margin: 12px 0 12px 15px !important;
+        width: 250px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 225px !important;
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 229px !important;
+        margin: 10px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(13), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(17), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(5), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(9) {
+        margin: 10px 2px 10px 10px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(11), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(15), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(16), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(19), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(20), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(23), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(24), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(27), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(28), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(3), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(7), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(8) {
+        margin: 10px 10px 10px 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 0 0 6px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 19px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav {
+        margin: 0 0 0 4px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 20px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 56px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i {
+        padding: 0 19px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 12px !important
+    }
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container a {
+        padding: 0 15px !important
+    }
+
+    .books-search .wrapper-dropdown-3#subject span, .books-search .wrapper-dropdown-3#subjectfav span {
+        background-size: 15px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .view-container .view-icon {
+        padding: 0 15px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container:hover .hover-container {
+        height: auto !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .advansd-search-button {
+        height: 25px;
+        line-height: 24px;
+        margin: 11px 10px 0 20px
+    }
+
+    .inner-pages-main-container-view-item .related-content-container #slider .item .inset .media-item .media-thumb.audio, .inner-pages-main-container-view-item .related-content-container #slider .item .inset .media-item .media-thumb.video {
+        width: 159px;
+        height: 90px
+    }
+
+    .item.tsc_ribbon_wrap .right-edge.fork.video {
+        line-height: 40px;
+        height: 80px;
+        right: -17.5px;
+        top: 88.5px;
+        width: 99px;
+        z-index: 98;
+        background-size: contain
+    }
+
+    .tsc_ribbon_wrap .ribbon-wrap > span {
+        display: block;
+        height: 100%;
+        position: relative;
+        font-size: 12px;
+        transform: rotate(45deg);
+        margin: -6px 37px 0 0 !important
+    }
+
+    .inner-pages-main-container-worksheet .green-bird, .inner-pages-main-container-worksheet .sun, .inner-pages-main-container-worksheet .sun-content {
+        display: none !important
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+        height: 50px !important
+    }
+
+    .books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+        line-height: 49px !important;
+        font-size: 12px !important
+    }
+
+    .worksheet-search .wrapper-demo {
+        margin: 11px 10px 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3 {
+        height: 25px !important;
+        line-height: 23px !important;
+        font-size: 12px !important;
+        width: 155px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-size: 15px !important;
+        background-position: 95% 5px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject li a {
+        background-size: 15px !important;
+        background-position: 10px 6px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+        height: 25px !important;
+        margin: 12px 0 12px 15px !important;
+        width: 200px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 200px !important;
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 226px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(11), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(2), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(5), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(8) {
+        margin: 10px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(10), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(7) {
+        margin: 10px 2px 10px 10px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(3), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(6), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(9) {
+        margin: 10px 10px 10px 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 0 0 6px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 18px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav {
+        margin: 0 0 0 4px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 20px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 55px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i {
+        padding: 0 20.6px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 12px !important
+    }
+}
+
+@media all and (max-width: 767px) and (min-width: 740px) {
+    .item.tsc_ribbon_wrap .right-edge.fork.video {
+        line-height: 40px;
+        height: 80px;
+        right: -24.5px;
+        top: 84.5px;
+        width: 99px;
+        z-index: 98;
+        background-size: contain
+    }
+
+    .tsc_ribbon_wrap .ribbon-wrap > span {
+        display: block;
+        height: 100%;
+        position: relative;
+        font-size: 12px;
+        transform: rotate(45deg);
+        margin: -6px 37px 0 0 !important
+    }
+
+    .inner-pages-main-container-view-item .related-content-container #slider .item .inset .media-item .media-thumb.audio, .inner-pages-main-container-view-item .related-content-container #slider .item .inset .media-item .media-thumb.video {
+        width: 159px;
+        height: 90px
+    }
+
+    .inner-pages-main-container-worksheet .green-bird, .inner-pages-main-container-worksheet .sun, .inner-pages-main-container-worksheet .sun-content {
+        display: none !important
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+        height: 50px !important
+    }
+
+    .books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+        line-height: 49px !important;
+        font-size: 12px !important
+    }
+
+    .worksheet-search .wrapper-demo {
+        margin: 11px 10px 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3 {
+        height: 25px !important;
+        line-height: 23px !important;
+        font-size: 12px !important;
+        width: 160px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-size: 15px !important;
+        background-position: 95% 5px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject li a {
+        background-size: 15px !important;
+        background-position: 10px 6px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+        height: 25px !important;
+        margin: 11px 0 12px !important;
+        width: 160px !important;
+        float: right !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 160px !important;
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 214px !important;
+        margin: 10px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(10), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(13), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(16), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(19), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(22), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(7) {
+        margin: 10px 2px 10px 10px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(15), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(18), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(21), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(24), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(3), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(6), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(9) {
+        margin: 10px 10px 10px 2px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 0 0 6px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 19px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav {
+        margin: 0 0 0 4px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 17px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 49px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i {
+        padding: 0 15px;
+        background-size: 18px 18px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 12px !important
+    }
+}
+
+@media all and (max-width: 739px) and (min-width: 611px) {
+    .exit-full-screen {
+        width: 15px;
+        height: 15px;
+        padding: 8px;
+        top: 4px;
+        left: 7px
+    }
+
+    .inner-pages-main-container-worksheet .green-bird, .inner-pages-main-container-worksheet .sun, .inner-pages-main-container-worksheet .sun-content {
+        display: none !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        height: 131px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container a.title {
+        font-size: 11px;
+        height: 25px;
+        line-height: 25px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container {
+        height: 25px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .top-container {
+        height: 25px;
+        line-height: 25px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn {
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+        height: 137px !important
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col div {
+        float: none !important
+    }
+
+    .books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+        line-height: 49px !important;
+        font-size: 12px !important;
+        width: 100px
+    }
+
+    .worksheet-search .wrapper-demo {
+        margin: 11px 20px 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3 {
+        height: 25px !important;
+        line-height: 23px !important;
+        font-size: 12px !important;
+        width: 162px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-size: 15px !important;
+        background-position: 95% 5px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject li a {
+        background-size: 15px !important;
+        background-position: 10px 6px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+        height: 25px !important;
+        margin: 0 120px 12px 0 !important;
+        width: 163px !important;
+        float: right !important;
+        clear: both
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 163px !important;
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 182px !important;
+        margin: 10px 5px 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(1), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(10), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(13), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(16), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(19), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(22), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(4), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(7) {
+        margin: 10px 0 0 5px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(12), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(15), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(18), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(21), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(24), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(3), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(6), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(9) {
+        margin: 10px 5px 0 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(11), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(5), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(8) {
+        margin: 10px 5px 0
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 0 0 6px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 14px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav {
+        margin: 5px 0 0 2px;
+        height: 17px;
+        line-height: 17px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 10px;
+        background-size: 20px 20px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container .number {
+        padding: 0 0 0 3px;
+        height: 25px;
+        line-height: 25px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 33px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn i {
+        padding: 0 12px;
+        background-size: 18px 18px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 12px !important
+    }
+}
+
+@media all and (max-width: 610px) and (min-width: 560px) {
+    .exit-full-screen {
+        width: 15px;
+        height: 15px;
+        padding: 8px;
+        top: 4px;
+        left: 7px
+    }
+
+    .inner-pages-main-container-worksheet .green-bird, .inner-pages-main-container-worksheet .sun, .inner-pages-main-container-worksheet .sun-content {
+        display: none !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        height: 151px
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+        height: 137px !important
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col div {
+        float: none !important
+    }
+
+    .books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+        line-height: 49px !important;
+        font-size: 12px !important;
+        width: 90px
+    }
+
+    .worksheet-search .wrapper-demo {
+        margin: 11px 10px 12px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3 {
+        height: 25px !important;
+        line-height: 23px !important;
+        font-size: 12px !important;
+        width: 159px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-size: 15px !important;
+        background-position: 95% 5px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject li a {
+        background-size: 15px !important;
+        background-position: 10px 6px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+        height: 25px !important;
+        margin: 0 98px 12px 0 !important;
+        width: 159px !important;
+        float: right !important;
+        clear: both
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 159px !important;
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 240px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(odd) {
+        margin: 10px 7px 10px 13px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(even) {
+        margin: 10px 13px 10px 7px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 0 0 6px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 19px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 18px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 62px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 12px !important
+    }
+}
+
+@media all and (max-width: 559px) and (min-width: 460px) {
+    .exit-full-screen {
+        width: 15px;
+        height: 15px;
+        padding: 8px;
+        top: 4px;
+        left: 7px
+    }
+
+    .inner-pages-main-container-worksheet .green-bird, .inner-pages-main-container-worksheet .sun, .inner-pages-main-container-worksheet .sun-content {
+        display: none !important
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+        height: 137px !important
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col div {
+        float: none !important
+    }
+
+    .books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+        line-height: 44px !important;
+        font-size: 12px !important;
+        width: 90px;
+        margin-right: 22px;
+        margin-left: 22px
+    }
+
+    .worksheet-search .wrapper-demo {
+        margin: 11px 0 0 5px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3 {
+        height: 25px !important;
+        line-height: 23px !important;
+        font-size: 12px !important;
+        width: 155px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-size: 15px !important;
+        padding: 0 25px 0 0;
+        background-position: 95% 5px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject li a {
+        background-size: 15px !important;
+        background-position: 10px 6px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+        height: 25px !important;
+        margin: 11px 27px 12px 0 !important;
+        width: 160px !important;
+        float: none !important;
+        clear: both;
+        display: inline-block
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 160px !important;
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 271px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(even), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(odd) {
+        margin: 10px auto !important;
+        float: none !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 0 0 6px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 19px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 18px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 62px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 12px !important
+    }
+}
+
+@media all and (max-width: 459px) and (min-width: 320px) {
+    .exit-full-screen {
+        width: 15px;
+        height: 15px;
+        padding: 8px;
+        top: 4px;
+        left: 7px
+    }
+
+    .inner-pages-main-container-worksheet .green-bird, .inner-pages-main-container-worksheet .sun, .inner-pages-main-container-worksheet .sun-content {
+        display: none !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3:after {
+        right: 168px
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col {
+        height: 137px
+    }
+
+    .books-main-container-page .top-black-col, .favorites-main-container-page .top-black-col div {
+        float: none !important
+    }
+
+    .books-main-container-page .top-black-col .lbl-data-a, .books-main-container-page .top-black-col .lbl-data-b, .favorites-main-container-page .top-black-col .lbl-data-a, .favorites-main-container-page .top-black-col .lbl-data-b {
+        line-height: 49px !important;
+        font-size: 8px !important;
+        width: 60px
+    }
+
+    .worksheet-search .wrapper-demo {
+        margin: 11px 0 0 5px !important
+    }
+
+    .worksheet-search .wrapper-dropdown-3 {
+        height: 25px !important;
+        line-height: 23px !important;
+        font-size: 12px !important;
+        width: 193px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject span {
+        background-size: 15px !important;
+        padding: 0 30px;
+        background-position: 95% 5px
+    }
+
+    .worksheet-search .wrapper-dropdown-3#subject li a {
+        background-size: 15px !important;
+        background-position: 95% 10px !important;
+        padding: 0 35px 0 10px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container {
+        height: 25px !important;
+        margin: 10px 0 12px 30px !important;
+        width: 193px !important;
+        float: left !important;
+        clear: both
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=text] {
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 193px !important;
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .right-search-container input[type=submit] {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container {
+        width: 271px !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .worksheet-thump {
+        width: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(even), .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container:nth-child(odd) {
+        margin: 10px auto !important;
+        float: none !important
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .rating-container {
+        padding: 0 0 0 6px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container label.star {
+        font-size: 19px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .addtofav i {
+        padding: 0 18px
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view {
+        width: 50%;
+        height: 100%
+    }
+
+    .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .download span, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-view-container .view span {
+        width: 62px
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging {
+        height: 25px !important;
+        line-height: 25px !important
+    }
+
+    .inner-pages-main-container-worksheet .right-col-3 .paging .content > a {
+        height: 25px !important;
+        line-height: 22px !important;
+        font-size: 12px !important;
+        min-width: 20px
+    }
+
+    .worksheet-search .books-main-container-page .top-black-col {
+        height: auto;
+        background: 0 0;
+        border: 0;
+        margin: 0
+    }
+}
+
+.tsc_ribbon_wrap > div {
+    margin-bottom: 40px
+}
+
+.tsc_ribbon_wrap > div:last-of-type {
+    margin-bottom: 0
+}
+
+.tsc_ribbon_wrap .ribbon-wrap {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    z-index: 0
+}
+
+.tsc_ribbon_wrap .ribbon-wrap > span {
+    display: block;
+    height: 100%;
+    position: relative;
+    font-size: 12px;
+    transform: rotate(45deg);
+    margin: 3px 10px 0 0
+}
+
+.tsc_ribbon_wrap.edge {
+    position: relative
+}
+
+.tsc_ribbon_wrap .left-edge.point {
+    border-radius: 5px 0 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    height: 40px;
+    left: -5px;
+    line-height: 40px;
+    top: 20px;
+    width: 120px
+}
+
+.tsc_ribbon_wrap.ie8 .left-edge.point {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    left: 0
+}
+
+.tsc_ribbon_wrap .left-edge.point > span {
+    border-radius: 5px 0 0
+}
+
+.tsc_ribbon_wrap .left-edge.point:before {
+    border-color: transparent;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    bottom: -5px;
+    left: 0;
+    transform: rotate(-45deg)
+}
+
+.tsc_ribbon_wrap .left-edge.point:after {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    height: 28px;
+    margin-top: -14px;
+    right: -14px;
+    top: 50%;
+    transform: rotate(45deg);
+    transform-origin: center center 0;
+    width: 28px
+}
+
+.tsc_ribbon_wrap.ie8 .left-edge.point:after, .tsc_ribbon_wrap.ie8 .left-edge.point:before {
+    border-radius: 0;
+    display: none
+}
+
+.tsc_ribbon_wrap .right-edge.point {
+    border-radius: 0 5px 0 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    height: 40px;
+    line-height: 40px;
+    right: -5px;
+    top: 20px;
+    width: 120px
+}
+
+.tsc_ribbon_wrap.ie8 .right-edge.point {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    right: 0
+}
+
+.tsc_ribbon_wrap .right-edge.point > span {
+    border-radius: 0 5px 0 0
+}
+
+.tsc_ribbon_wrap .right-edge.point:before {
+    border-color: transparent;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 4px;
+    bottom: -5px;
+    right: 0;
+    transform: rotate(45deg)
+}
+
+.tsc_ribbon_wrap .right-edge.point:after {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    height: 28px;
+    left: -14px;
+    margin-top: -14px;
+    top: 50%;
+    transform: rotate(45deg);
+    transform-origin: center center 0;
+    width: 28px
+}
+
+.tsc_ribbon_wrap.ie8 .right-edge.point:after, .tsc_ribbon_wrap.ie8 .right-edge.point:before {
+    border-radius: 0;
+    display: none
+}
+
+.tsc_ribbon_wrap .left-edge.fork {
+    border-radius: 5px 0 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    height: 40px;
+    left: -5px;
+    line-height: 40px;
+    top: 20px;
+    width: 120px
+}
+
+.tsc_ribbon_wrap.ie8 .left-edge.fork {
+    border-radius: 0;
+    box-shadow: none !important;
+    left: 0
+}
+
+.tsc_ribbon_wrap .left-edge.fork > span {
+    border-radius: 5px 0 0
+}
+
+.tsc_ribbon_wrap .left-edge.fork > span:before {
+    border-color: transparent;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    bottom: -5px;
+    left: 0;
+    transform: rotate(-45deg)
+}
+
+.tsc_ribbon_wrap.ie8 .left-edge.fork > span:before {
+    display: none
+}
+
+.tsc_ribbon_wrap .left-edge.fork > span:after {
+    border-style: solid;
+    border-width: 20px;
+    right: -20px;
+    top: 0
+}
+
+.tsc_ribbon_wrap .left-edge.fork:before {
+    background: #666;
+    bottom: 5px;
+    box-shadow: 25px 8px 4px rgba(0, 0, 0, .5);
+    height: 20px;
+    right: 22px;
+    transform: rotate(-22deg) skew(18deg, 28deg);
+    width: 80px
+}
+
+.tsc_ribbon_wrap .left-edge.fork:after {
+    background: #666;
+    box-shadow: 20px -5px 4px rgba(0, 0, 0, .5);
+    height: 20px;
+    right: 22px;
+    top: 5px;
+    transform: rotate(32deg) skew(-18deg, -28deg);
+    width: 80px
+}
+
+.tsc_ribbon_wrap.ie8 .left-edge.fork:after, .tsc_ribbon_wrap.ie8 .left-edge.fork:before {
+    display: none
+}
+
+.tsc_ribbon_wrap .right-edge.fork.worksheet {
+    right: -7.5px;
+    top: -6.5px
+}
+
+.tsc_ribbon_wrap .right-edge.fork {
+    line-height: 40px;
+    height: 80px;
+    right: -4.5px;
+    top: -5.5px;
+    width: 99px;
+    z-index: 98;
+    background: url(../images/ribbon-red.png) no-repeat
+}
+
+.tsc_ribbon_wrap.ie8 .right-edge.fork {
+    border-radius: 0;
+    box-shadow: none !important;
+    right: 0
+}
+
+.tsc_ribbon_wrap .right-edge.fork > span {
+    border-radius: 0
+}
+
+.tsc_ribbon_wrap .right-edge.fork > span:before {
+    border-color: transparent;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    bottom: -5px;
+    right: 0;
+    transform: rotate(45deg)
+}
+
+.tsc_ribbon_wrap.ie8 .right-edge.fork > span:before {
+    display: none
+}
+
+.tsc_ribbon_wrap .right-edge.fork > span:after {
+    border-style: solid;
+    border-width: 15px;
+    left: -15px;
+    top: 0
+}
+
+.tsc_ribbon_hang {
+    margin-bottom: 60px
+}
+
+.tsc_ribbon_hang:last-child {
+    margin-bottom: 0
+}
+
+.tsc_ribbon_hang > div {
+    display: inline-block;
+    margin: 0 40px 40px 0
+}
+
+.tsc_ribbon_hang > div:last-of-type {
+    margin-right: 0
+}
+
+.tsc_ribbon_hang .ribbon-bookmark {
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+    color: #fff;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+    z-index: 0
+}
+
+.tsc_ribbon_hang .ie8 .ribbon-bookmark.small, .tsc_ribbon_hang.ie8 .ribbon-bookmark {
+    box-shadow: none
+}
+
+.tsc_ribbon_hang .ribbon-bookmark > span {
+    border-radius: 3px 3px 0 0;
+    display: block;
+    position: relative
+}
+
+.tsc_ribbon_hang .ribbon-bookmark.small > span {
+    height: 82px;
+    line-height: 82px;
+    width: 50px
+}
+
+.tsc_ribbon_hang .ribbon-bookmark.medium > span {
+    height: 124px;
+    line-height: 124px;
+    width: 80px
+}
+
+.tsc_ribbon_hang .ribbon-bookmark.large > span {
+    height: 166px;
+    line-height: 166px;
+    width: 120px
+}
+
+.tsc_ribbon_hang .ribbon-bookmark > span:before, .tsc_ribbon_hang.ie8 .ribbon-bookmark .fork {
+    border-style: solid;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 100%;
+    z-index: -1
+}
+
+.tsc_ribbon_hang .small > span:before, .tsc_ribbon_hang.ie8 .small .fork {
+    border-width: 25px;
+    margin-top: -25px
+}
+
+.tsc_ribbon_hang .medium > span:before, .tsc_ribbon_hang.ie8 .medium .fork {
+    border-width: 40px;
+    margin-top: -40px
+}
+
+.tsc_ribbon_hang .large > span:before, .tsc_ribbon_hang.ie8 .large .fork {
+    border-width: 60px;
+    margin-top: -60px
+}
+
+.tsc_ribbon_hang .lblue {
+    background: #42a5d4
+}
+
+.tsc_ribbon_hang .lblue > span {
+    background-color: #42a5d4;
+    background-image: -moz-linear-gradient(center top, #42a5d4, #24769d)
+}
+
+.tsc_ribbon_hang .lblue > span:before, .tsc_ribbon_hang.ie8 .lblue .fork {
+    border-color: #24769d #24769d transparent
+}
+
+.tsc_ribbon_hang .lred {
+    background: #f80000
+}
+
+.tsc_ribbon_hang .lred > span {
+    background-color: #f80000;
+    background-image: -moz-linear-gradient(center top, #f80000, #a30000)
+}
+
+.tsc_ribbon_hang .lred > span:before, .tsc_ribbon_hang.ie8 .lred .fork {
+    border-color: #a30000 #a30000 transparent
+}
+
+.tsc_ribbon_hang .lgreen {
+    background: #80b73d
+}
+
+.tsc_ribbon_hang .lgreen > span {
+    background-color: #80b73d;
+    background-image: -moz-linear-gradient(center top, #80b73d, #547728)
+}
+
+.tsc_ribbon_hang .lgreen > span:before, .tsc_ribbon_hang.ie8 .lgreen .fork {
+    border-color: #547728 #547728 transparent
+}
+
+.tsc_ribbon_hang .lyellow {
+    background: #ffc037
+}
+
+.tsc_ribbon_hang .lyellow > span {
+    background-color: #ffc037;
+    background-image: -moz-linear-gradient(center top, #ffc037, #e19a00)
+}
+
+.tsc_ribbon_hang .lyellow > span:before, .tsc_ribbon_hang.ie8 .lyellow .fork {
+    border-color: #e19a00 #e19a00 transparent
+}
+
+.tsc_ribbon_banner {
+    margin: 30px 0;
+    position: relative;
+    z-index: 0
+}
+
+.tsc_ribbon_banner > div {
+    margin-bottom: 40px
+}
+
+.tsc_ribbon_banner > div:last-of-type {
+    margin-bottom: 0
+}
+
+.tsc_ribbon_banner .ribbon-banner {
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 320px
+}
+
+.flag-France, .flag-english {
+    display: block;
+    color: #303030;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s
+}
+
+.tsc_ribbon_banner .ribbon-banner > span {
+    display: block;
+    height: 100%;
+    position: relative
+}
+
+.ie8 .ribbon-banner > span:after, .tsc_ribbon_banner .fold-straight > span:after, .tsc_ribbon_banner .fold-straight > span:before, .tsc_ribbon_banner.ie .curve.fold-up > span:before, .tsc_ribbon_banner.ie8 .ribbon-banner > span:before {
+    display: none
+}
+
+.tsc_ribbon_banner .ribbon-banner > span:after, .tsc_ribbon_banner .ribbon-banner > span:before {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 14px;
+    content: "";
+    position: absolute;
+    z-index: -1
+}
+
+.tsc_ribbon_banner .ribbon-banner:after, .tsc_ribbon_banner .ribbon-banner:before {
+    border-style: solid;
+    content: "";
+    z-index: -2;
+    position: absolute
+}
+
+.tsc_ribbon_banner .ribbon-banner > span:before {
+    left: -14px
+}
+
+.tsc_ribbon_banner .ribbon-banner > span:after {
+    right: -14px
+}
+
+.tsc_ribbon_banner .ribbon-banner:before {
+    border-width: 20px 25px 20px 20px;
+    left: -31px
+}
+
+.tsc_ribbon_banner .ribbon-banner:after {
+    border-width: 20px 20px 20px 25px;
+    right: -31px
+}
+
+.tsc_ribbon_banner .fold-down > span {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5)
+}
+
+.tsc_ribbon_banner .fold-down > span:after, .tsc_ribbon_banner .fold-down > span:before {
+    bottom: -14px
+}
+
+.tsc_ribbon_banner .fold-down:after, .tsc_ribbon_banner .fold-down:before {
+    top: 14px
+}
+
+.tsc_ribbon_banner .fold-straight > span {
+    box-shadow: 0 0 2px rgba(0, 0, 0, .5), -1px 0 1px rgba(0, 0, 0, .1), 1px 0 1px rgba(0, 0, 0, .1)
+}
+
+.tsc_ribbon_banner .fold-straight:before {
+    border-width: 18px 23px 18px 18px;
+    top: 2px
+}
+
+.tsc_ribbon_banner .fold-straight:after {
+    border-width: 18px 18px 18px 23px;
+    top: 2px
+}
+
+.tsc_ribbon_banner .curve.fold-up {
+    border-radius: 0 0 50% 50%
+}
+
+.tsc_ribbon_banner .curve > span {
+    box-shadow: none
+}
+
+.tsc_ribbon_banner .curve.fold-up > span:after {
+    border: 0;
+    border-radius: 0 0 50% 50%;
+    height: 100%;
+    left: 0;
+    top: -40px;
+    width: 100%
+}
+
+.tsc_ribbon_banner .curve.fold-up > span:before {
+    background-image: -moz-linear-gradient(left center, rgba(0, 0, 0, .35) 0, rgba(0, 0, 0, .35) 100%), -moz-linear-gradient(right center, rgba(0, 0, 0, .35) 0, rgba(0, 0, 0, .35) 100%);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 10px 40px, 10px 40px;
+    border: 0;
+    border-radius: 50%;
+    height: 100%;
+    left: 0;
+    top: -40px;
+    width: 100%
+}
+
+.tsc_ribbon_banner.ie .curve.fold-up > span .before {
+    border-left: 10px solid rgba(0, 0, 0, .35);
+    border-radius: 10px;
+    border-right: 10px solid rgba(0, 0, 0, .35);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -27px;
+    z-index: -1
+}
+
+.flag-Arabic, .flag-France, .flag-english {
+    font-size: 12px;
+    padding: 0 10px;
+    max-width: 200px;
+    margin: 0 0 0 5px;
+    height: 40px;
+    line-height: 40px
+}
+
+.tsc_ribbon_banner .curve.fold-up:before {
+    left: -34px;
+    top: -27px
+}
+
+.tsc_ribbon_banner.ie8 .curve.fold-up:before {
+    left: -31px;
+    top: -14px
+}
+
+.tsc_ribbon_banner .curve.fold-up:after {
+    right: -34px;
+    top: -27px
+}
+
+.tsc_ribbon_banner.ie8 .curve.fold-up:after {
+    right: -31px;
+    top: -14px
+}
+
+.tsc_ribbon_banner .lblue, .tsc_ribbon_banner.ie8 .lblue > span {
+    background-color: #42a5d4;
+    background-image: -moz-linear-gradient(center top, #42a5d4, #24769d)
+}
+
+.tsc_ribbon_banner .lblue > span:before {
+    border-right-color: #174c66
+}
+
+.tsc_ribbon_banner .lblue > span:after {
+    border-left-color: #174c66
+}
+
+.tsc_ribbon_banner .lblue:before {
+    border-color: #24769d #24769d #24769d transparent
+}
+
+.tsc_ribbon_banner .lblue:after {
+    border-color: #24769d transparent #24769d #24769d
+}
+
+.tsc_ribbon_banner .lblue.curve.fold-up > span:after {
+    box-shadow: 0 19px 0 #42a5d4
+}
+
+.tsc_ribbon_banner .lred, .tsc_ribbon_banner.ie8 .lred > span {
+    background-color: #f80000;
+    background-image: -moz-linear-gradient(center top, #f80000, #a30000)
+}
+
+.tsc_ribbon_banner .lred > span:before {
+    border-right-color: #5f0000
+}
+
+.tsc_ribbon_banner .lred > span:after {
+    border-left-color: #5f0000
+}
+
+.tsc_ribbon_banner .lred:before {
+    border-color: #a30000 #a30000 #a30000 transparent
+}
+
+.tsc_ribbon_banner .lred:after {
+    border-color: #a30000 transparent #a30000 #a30000
+}
+
+.tsc_ribbon_banner .lred.curve.fold-up > span:after {
+    box-shadow: 0 19px 0 #f80000
+}
+
+.tsc_ribbon_banner .lgreen, .tsc_ribbon_banner.ie8 .lgreen > span {
+    background-color: #80b73d;
+    background-image: -moz-linear-gradient(center top, #80b73d, #547728)
+}
+
+.tsc_ribbon_banner .lgreen > span:before {
+    border-right-color: #304417
+}
+
+.tsc_ribbon_banner .lgreen > span:after {
+    border-left-color: #304417
+}
+
+.tsc_ribbon_banner .lgreen:before {
+    border-color: #547728 #547728 #547728 transparent
+}
+
+.tsc_ribbon_banner .lgreen:after {
+    border-color: #547728 transparent #547728 #547728
+}
+
+.tsc_ribbon_banner .lgreen.curve.fold-up > span:after {
+    box-shadow: 0 19px 0 #80b73d
+}
+
+.tsc_ribbon_banner .lyellow, .tsc_ribbon_banner.ie8 .lyellow > span {
+    background-color: #ffc037;
+    background-image: -moz-linear-gradient(center top, #ffc037, #e19a00)
+}
+
+.tsc_ribbon_banner .lyellow > span:before {
+    border-right-color: #9d6c00
+}
+
+.tsc_ribbon_banner .lyellow > span:after {
+    border-left-color: #9d6c00
+}
+
+.tsc_ribbon_banner .lyellow:before {
+    border-color: #e19a00 #e19a00 #e19a00 transparent
+}
+
+.tsc_ribbon_banner .lyellow:after {
+    border-color: #e19a00 transparent #e19a00 #e19a00
+}
+
+.tsc_ribbon_banner .lyellow.curve.fold-up > span:after {
+    box-shadow: 0 19px 0 #ffc037
+}
+
+.flag-english {
+    background: url(../images/united-kingdom.svg) center no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    font-weight: 400;
+    -o-transition: all .5s;
+    transition: all .5s;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 0
+}
+
+.flag-France {
+    background: url(../images/france.svg) center no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    font-weight: 400;
+    -o-transition: all .5s;
+    transition: all .5s;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 0
+}
+
+.flag-Arabic, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container a.type {
+    font-weight: 400;
+    color: #303030;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 0;
+    display: block;
+    overflow: hidden
+}
+
+.flag-Arabic {
+    background: url(../images/saudi-arabia.svg) center no-repeat;
+    background-size: contain;
+    transition: all .5s
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .title-sub-container a.type {
+    font-size: 10px;
+    padding: 0 10px 0 4px;
+    transition: all .5s;
+    margin: 0;
+    height: 23px;
+    line-height: 28px;
+    cursor: default
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .download-btn:hover {
+    background-color: #00a951;
+    color: #fff;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s
+}
+
+.inner-pages-main-container-media .ui-panels-worksheet .item-container .inner-item-container .media-thump-container.video, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container.video {
+    background-image: url(../images/video.png)
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container.audio, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container.audio .inner-pages-main-container-games .ui-panels-media .item-container .inner-item-container .media-thump-container.game, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container.game .libro, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container.video {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 162px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+    border-bottom: solid 1px #d0d0d0;
+    position: relative
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.game .libro {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 162px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+    border-bottom: solid 1px #d0d0d0;
+    position: relative
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.game {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 162px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+    border-bottom: solid 1px #d0d0d0;
+    position: relative
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.audio .inner-pages-main-container-games .ui-panels-media .item-container .inner-item-container .media-thump-container.game:hover, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.audio:hover, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.game:hover, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.video:hover {
+    background-position: 0 100%
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.audio .inner-pages-main-container-games .ui-panels-media .item-container .inner-item-container .media-thump-container.game:hover, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.audio:hover, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.game .libro:hover, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container.books-class .inner-item-container .media-thump-container.video:hover {
+    background-position: 0 100%
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container .media-thump {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container .play-on-hover {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: RGBA(0, 0, 0, .2);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container .play-on-hover .icon-play {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container .play-on-hover .icon-play.sound div {
+    background-image: url(../images/play-music.svg)
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .media-thump-container .play-on-hover .icon-play div {
+    display: inline-block;
+    overflow: hidden;
+    width: 15%;
+    height: 25%;
+    background-image: url(../images/play-button.svg);
+    background-repeat: no-repeat;
+    background-size: 42%;
+    background-color: RGBA(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-position: 48% center;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%
+}
+
+.inner-pages-main-container-worksheet .sun-container {
+    display: block;
+    overflow: visible;
+    position: relative;
+    top: 200px;
+    left: 170px;
+    box-shadow: 0 0 10px 4px rgba(119, 119, 119, .75);
+    -moz-box-shadow: 0 0 10px 4px rgba(119, 119, 119, .75);
+    -webkit-box-shadow: 0 0 10px 4px rgba(119, 119, 119, .75)
+}
+
+.inner-pages-main-container-worksheet .sun {
+    position: absolute;
+    top: 62px;
+    left: 126px;
+    background: url(../images/game/fram-sun.svg) no-repeat;
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 10s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 10s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    z-index: -1
+}
+
+.inner-pages-main-container-worksheet .sun-content {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 71px;
+    left: 141px;
+    background-image: url(../images/game/sun.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100px;
+    height: 110px;
+    background-size: contain;
+    z-index: -1
+}
+
+.inner-pages-main-container-worksheet .bird1, .inner-pages-main-container-worksheet .bird2, .inner-pages-main-container-worksheet .bird3, .inner-pages-main-container-worksheet .cloude1, .inner-pages-main-container-worksheet .cloude10, .inner-pages-main-container-worksheet .cloude11, .inner-pages-main-container-worksheet .cloude12, .inner-pages-main-container-worksheet .cloude13, .inner-pages-main-container-worksheet .cloude2, .inner-pages-main-container-worksheet .cloude3, .inner-pages-main-container-worksheet .cloude4, .inner-pages-main-container-worksheet .cloude5, .inner-pages-main-container-worksheet .cloude6, .inner-pages-main-container-worksheet .cloude7, .inner-pages-main-container-worksheet .cloude8, .inner-pages-main-container-worksheet .cloude9, .inner-pages-main-container-worksheet .green-bird {
+    display: inline-block;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0)
+    }
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.inner-pages-main-container-worksheet .cloude1 {
+    top: 32%;
+    left: 4%;
+    width: 100px;
+    height: 35px;
+    opacity: .6
+}
+
+.inner-pages-main-container-worksheet .cloude2 {
+    top: 9%;
+    left: 30%;
+    width: 160px;
+    height: 90px;
+    opacity: .6
+}
+
+.inner-pages-main-container-worksheet .cloude3 {
+    top: 12%;
+    left: 70%;
+    width: 100px;
+    height: 35px;
+    opacity: .6
+}
+
+.inner-pages-main-container-worksheet .cloude4 {
+    top: 20%;
+    left: 8%;
+    width: 120px;
+    height: 55px;
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-delay: 2s
+}
+
+.inner-pages-main-container-worksheet .cloude5, .inner-pages-main-container-worksheet .cloude6 {
+    width: 160px;
+    height: 90px
+}
+
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-500px, 0, 0);
+        transform: translate3d(-500px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(1000px, 0, 0);
+        transform: translate3d(1000px, 0, 0)
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-500px, 0, 0);
+        transform: translate3d(-500px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(1000px, 0, 0);
+        transform: translate3d(1000px, 0, 0)
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
+}
+
+.inner-pages-main-container-worksheet .cloude5 {
+    top: 35%;
+    left: 8%;
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-delay: 3s
+}
+
+.inner-pages-main-container-worksheet .cloude6 {
+    top: 55%;
+    left: 10%
+}
+
+.inner-pages-main-container-worksheet .cloude7, .inner-pages-main-container-worksheet .cloude8 {
+    height: 30px;
+    width: 100px
+}
+
+.inner-pages-main-container-worksheet .cloude7 {
+    top: 70%;
+    left: 14%
+}
+
+.inner-pages-main-container-worksheet .cloude8 {
+    top: 67%;
+    left: -3%
+}
+
+.inner-pages-main-container-worksheet .cloude9 {
+    top: 15%;
+    left: 85%;
+    width: 100px;
+    height: 35px
+}
+
+.inner-pages-main-container-worksheet .cloude10 {
+    top: 30%;
+    left: 83%;
+    width: 120px;
+    height: 55px;
+    -webkit-animation-name: fadeInRight;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-delay: 2s
+}
+
+.inner-pages-main-container-worksheet .bird1, .inner-pages-main-container-worksheet .cloude12 {
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1
+}
+
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
+
+.inner-pages-main-container-worksheet .cloude11 {
+    top: 45%;
+    left: 88%;
+    width: 100px;
+    height: 50px
+}
+
+.inner-pages-main-container-worksheet .cloude12 {
+    top: 60%;
+    left: 83%;
+    width: 120px;
+    height: 55px;
+    -webkit-animation-name: fadeInRight;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 3s
+}
+
+.inner-pages-main-container-worksheet .cloude13 {
+    top: 75%;
+    left: 98%;
+    width: 100px;
+    height: 30px
+}
+
+.inner-pages-main-container-worksheet .bird1 {
+    top: 31%;
+    left: 6%;
+    width: 100px;
+    height: 30px;
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-delay: 5s
+}
+
+.inner-pages-main-container-worksheet .bird2, .inner-pages-main-container-worksheet .bird3 {
+    width: 26px;
+    height: 30px;
+    left: 89%
+}
+
+.inner-pages-main-container-worksheet .bird2 {
+    top: 12%
+}
+
+.inner-pages-main-container-worksheet .bird3 {
+    top: 39%
+}
+
+.inner-pages-main-container-worksheet .green-bird {
+    top: 5%;
+    left: 89%;
+    width: 70px;
+    height: 70px;
+    -webkit-animation-name: spaceInRight;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-delay: 5s
+}
+
+@-webkit-keyframes spaceInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform-origin: 100% 50%;
+        -webkit-transform: scale(.2) translate(200%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform-origin: 100% 50%;
+        -webkit-transform: scale(1) translate(0, 0)
+    }
+}
+
+@keyframes spaceInRight {
+    0% {
+        opacity: 0;
+        transform-origin: 100% 50%;
+        transform: scale(.2) translate(200%, 0)
+    }
+    100% {
+        opacity: 1;
+        transform-origin: 100% 50%;
+        transform: scale(1) translate(0, 0)
+    }
+}
+
+.spaceInRight {
+    -webkit-animation-name: spaceInRight;
+    animation-name: spaceInRight
+}
+
+.inner-pages-main-container-view-item .related-content-container #slider .item .inset .inner-items .tsc_ribbon_wrap .right-edge.fork.sound {
+    line-height: 40px;
+    height: 80px;
+    right: 5.5px !important;
+    top: 86.5px !important;
+    width: 99px;
+    z-index: 98
+}
+
+.ui-panels-worksheet a.add {
+    display: block;
+    overflow: hidden;
+    background: #00a951;
+    height: 35px;
+    line-height: 31px;
+    padding: 0 25px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    margin: 0 0 7px 0;
+    color: #fefefe;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+    cursor: pointer;
+    clear: both
+}
+
+.ui-panels-worksheet a.add:hover {
+    background-color: transparent;
+    border: 2px solid #00a951;
+    color: #00a951
+}
+
+.popup-main-container-a {
+    display: none;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .7)
+}
+
+.popup-tabel-a {
+    display: table;
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.popup-row-a {
+    display: table-row;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%
+}
+
+.popup-cell-a {
+    display: table-cell;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%
+}
+
+.popup-inner-container-a {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    height: 100%
+}
+
+.popup-container-a {
+    background: #fff;
+    box-shadow: 0 0 40px 0 #000;
+    border-top: 2px solid #303030;
+    max-width: 600px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    min-width: 450px
+}
+
+.PopupAdvansedSearch {
+    width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+    padding: 0;
+    max-height: 100vh
+}
+
+.PopupAdvansedSearch .padding-container {
+    display: block;
+    overflow: auto
+}
+
+.PopupAdvansedSearch .close-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    background: #00a951;
+    height: 40px;
+    line-height: 40px
+}
+
+.PopupAdvansedSearch .close-container a {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 0 0 20px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    padding: 0
+}
+
+.PopupAdvansedSearch .close-container a:hover {
+    transform: rotate(-180deg)
+}
+
+.PopupAdvansedSearch .close-container a i {
+    display: inline-block;
+    overflow: hidden;
+    background: url(../images/sign/close-white.svg) center center no-repeat;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    line-height: 30px
+}
+
+.PopupAdvansedSearch .box-container-all {
+    display: block;
+    overflow-x: hidden;
+    margin: 0 20px 10px;
+    overflow-y: auto;
+    width: 92%
+}
+
+.PopupAdvansedSearch .top-container {
+    display: block;
+    overflow: hidden;
+    width: 100%
+}
+
+.PopupAdvansedSearch .top-container .box-container-top {
+    display: inherit;
+    overflow: hidden;
+    width: 91%;
+    height: 60px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: linear-gradient(to top, #f2f2f2, #fff 8%);
+    clear: both;
+    margin: 20px 20px 0;
+    border-radius: 4px
+}
+
+.PopupAdvansedSearch .top-container .box-container-top .search-container {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 92%;
+    height: 30px;
+    margin: 16px 20px 20px 0
+}
+
+.PopupAdvansedSearch .top-container .box-container-top .search-container input[type=text] {
+    display: inline-block;
+    overflow: hidden;
+    width: 98%;
+    height: 30px;
+    line-height: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #c2c2c2;
+    position: absolute;
+    right: 0;
+    padding: 0 0 0 15px;
+    font-weight: 500;
+    font-size: 14px;
+    background-image: -ms-linear-gradient(top, #d8d8d8 0, #eaeaea 100%);
+    background-image: -o-linear-gradient(top, #d8d8d8 0, #eaeaea 100%);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    background: #fff;
+    color: #00a951;
+    text-align: right
+}
+
+.PopupAdvansedSearch .top-container .box-container-top .search-container input[type=text]::-webkit-input-placeholder {
+    color: #a4a4a4;
+    font-size: 14px
+}
+
+.PopupAdvansedSearch .top-container .box-container-top .search-container input[type=text]:-moz-placeholder {
+    color: #a4a4a4;
+    font-size: 14px
+}
+
+.PopupAdvansedSearch .top-container .box-container-top .search-container input[type=text]::-moz-placeholder {
+    color: #a4a4a4;
+    font-size: 14px
+}
+
+.PopupAdvansedSearch .top-container .box-container-top .search-container input[type=text]:-ms-input-placeholder {
+    color: #a4a4a4;
+    font-size: 14px
+}
+
+.PopupAdvansedSearch .top-container .box-container-top .search-container input[type=submit] {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    height: 29px;
+    width: 40px;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    border: 1px solid #00a951;
+    background: url(../images/book-index/magnifier.svg) center no-repeat #00a951;
+    background-size: 50%;
+    cursor: pointer
+}
+
+.PopupAdvansedSearch .box-container-all .title-tag {
+    display: block;
+    overflow: hidden;
+    color: #626161;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+    margin: 10px 0;
+    padding: 0 40px 0 0;
+    width: 100%
+}
+
+.PopupAdvansedSearch .box-container-all .title-tag.category {
+    background-image: url(../images/filter/selected-menu.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right
+}
+
+.PopupAdvansedSearch .box-container-all .title-tag.language {
+    background-image: url(../images/filter/icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right
+}
+
+.PopupAdvansedSearch .box-container-all .title-tag.type {
+    background-image: url(../images/filter/boy-reading.svg);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.PopupAdvansedSearch .box-container-all .title-tag.option {
+    background-image: url(../images/filter/book-with-mouse.svg);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.PopupAdvansedSearch .box-container {
+    display: block;
+    overflow: visible;
+    width: 100%;
+    height: 140px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: linear-gradient(to top, #f2f2f2, #fff 8%);
+    clear: both;
+    border-radius: 4px
+}
+
+.PopupAdvansedSearch .box-container .line-row {
+    display: block;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40px
+}
+
+.PopupAdvansedSearch .box-container .lbl-data-a, .PopupAdvansedSearch .box-container .lbl-data-b {
+    padding: 0 0 0 15px;
+    color: #626161;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 12px;
+    overflow: hidden;
+    text-align: left
+}
+
+.PopupAdvansedSearch .box-container .lbl-data-a {
+    line-height: 48px;
+    height: 38px;
+    width: 140px;
+    margin: 5px 0 0
+}
+
+.PopupAdvansedSearch .box-container .lbl-data-b {
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    margin: 20px 0
+}
+
+.PopupAdvansedSearch .box-container .lbl-data-c {
+    display: inline-block;
+    overflow: hidden;
+    color: #626161;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    margin: 20px 0 0;
+    padding: 0 10px 0 0
+}
+
+.PopupAdvansedSearch .box-container .line-row input[type=number] {
+    display: inline-block;
+    overflow: hidden;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dcdcdc), color-stop(1, #eaeaea));
+    background-image: -o-linear-gradient(bottom, #dcdcdc 0, #eaeaea 100%);
+    background-image: -moz-linear-gradient(bottom, #dcdcdc 0, #eaeaea 100%);
+    background-image: -webkit-linear-gradient(bottom, #dcdcdc 0, #eaeaea 100%);
+    background-image: -ms-linear-gradient(bottom, #dcdcdc 0, #eaeaea 100%);
+    background-image: linear-gradient(to bottom, #dcdcdc 0, #eaeaea 100%);
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    margin: 20px 0 0;
+    color: #00a951
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown, .books-search .wrapper-dropdown-3 .dropdown {
+    right: 0;
+    -webkit-transition: all .1s ease-in;
+    list-style: none;
+    pointer-events: none;
+    z-index: 9;
+    overflow-y: auto;
+    max-height: 300px
+}
+
+.PopupAdvansedSearch .box-container .wrapper-demo {
+    display: inline-block;
+    margin: 13px auto 0
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 {
+    position: relative;
+    width: 255px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 27px;
+    background: #00a951;
+    border-radius: 4px;
+    border: 1px solid #00a951;
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 500;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .43), inset 0 1px rgba(255, 255, 255, .31)
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 span {
+    margin: 0 10px 0 0
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3#subject span {
+    margin: 0 0 0 10px;
+    background-size: 18px !important;
+    background-position: 0 5px;
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    text-shadow: 0 1px 1px rgba(138, 27, 15, .41)
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3#subject li:first-child a {
+    padding: 0 10px 0 45px;
+    background-position: 10px 9px;
+    background-image: url(../images/cat/books/all.svg);
+    background-size: 10%
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3#subject1 span {
+    margin: 0 0 0 10px;
+    background-size: 18px;
+    background-position: 95% 5px;
+    background-repeat: no-repeat;
+    padding: 0 30px 0 30px;
+    text-shadow: 0 1px 1px rgba(138, 27, 15, .41)
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3#subject1 li:first-child a {
+    padding: 0 10px 0 45px;
+    background-position: 10px 9px;
+    background-image: url(../images/cat/books/all.svg);
+    background-size: 10%
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 ul li.active a {
+    color: #00a951
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2%;
+    width: 27px;
+    height: 26px;
+    background: url(../images/book-index/list.svg) 6px 6px no-repeat;
+    background-size: 46%
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown {
+    position: absolute;
+    top: 146%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2), 0 2px 14px 0 rgba(0, 0, 0, .2);
+    font-weight: 400;
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    opacity: 0;
+    border-top: solid 3px #00a951;
+    margin: 0;
+    padding: 0
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 7px;
+    border-width: 0 6px 10px;
+    border-style: solid;
+    border-color: #00a951 transparent
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px;
+    border-color: rgba(0, 0, 0, .1) transparent
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #898989;
+    border-bottom: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    box-shadow: inset 0 1px 0 #fff;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 10px;
+    margin-bottom: 2px;
+    background: 10px 10px no-repeat #f2f2f2;
+    background-size: 20px !important;
+    overflow: hidden
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li.sub-1 a {
+    padding: 0 10px 0 55px;
+    background-position: 20px 10px
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li.main-dropdown a {
+    font-weight: 600
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li.sub-2 a {
+    padding: 0 10px 0 65px;
+    background-position: 30px 10px
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li.sub-3 a {
+    padding: 0 10px 0 75px;
+    background-position: 40px 10px
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li.sub-4 a {
+    padding: 0 10px 0 85px;
+    background-position: 50px 10px
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li.sub-5 a {
+    padding: 0 10px 0 95px;
+    background-position: 60px 10px
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li:last-child a {
+    margin-bottom: 0
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li i {
+    float: left;
+    color: inherit;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-style: normal
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li.sub-0 a {
+    padding: 0 10px 0 45px;
+    background-position: 10px 9px
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border-radius: 0 0 7px 7px
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li a.active, .PopupAdvansedSearch .box-container .wrapper-dropdown-3 .dropdown li:hover a {
+    color: #00a951
+}
+
+.PopupAdvansedSearch .box-container .wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    margin: 0;
+    padding: 0
+}
+
+.PopupAdvansedSearch .box-container .no-opacity .wrapper-dropdown-3 .dropdown, .PopupAdvansedSearch .box-container .no-pointerevents .wrapper-dropdown-3 .dropdown {
+    display: none;
+    opacity: 1;
+    pointer-events: auto
+}
+
+.PopupAdvansedSearch .box-container .no-opacity .wrapper-dropdown-3.active .dropdown, .PopupAdvansedSearch .box-container .no-pointerevents .wrapper-dropdown-3.active .dropdown {
+    display: block
+}
+
+.PopupAdvansedSearch .box-container .line-row .txt-a {
+    width: 219px;
+    height: 30px;
+    line-height: 27px;
+    margin: 13px 0 15px;
+    padding: 0 10px;
+    border: 1px solid #dbe0e3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dcdcdc), color-stop(1, #eaeaea));
+    background-image: -o-linear-gradient(bottom, #dcdcdc 0, #eaeaea 100%);
+    background-image: -moz-linear-gradient(bottom, #dcdcdc 0, #eaeaea 100%);
+    background-image: -webkit-linear-gradient(bottom, #dcdcdc 0, #eaeaea 100%);
+    background-image: -ms-linear-gradient(bottom, #dcdcdc 0, #eaeaea 100%);
+    background-image: linear-gradient(to bottom, #dcdcdc 0, #eaeaea 100%);
+    color: #00a951
+}
+
+.PopupAdvansedSearch .box-container .line-row .txt-a::-webkit-input-placeholder {
+    color: #5b5b5b
+}
+
+.PopupAdvansedSearch .box-container .line-row .txt-a:-moz-placeholder {
+    color: #5b5b5b
+}
+
+.PopupAdvansedSearch .box-container .line-row .txt-a::-moz-placeholder {
+    color: #5b5b5b
+}
+
+.PopupAdvansedSearch .box-container .line-row .txt-a:-ms-input-placeholder {
+    color: #5b5b5b
+}
+
+.PopupAdvansedSearch .box-container .section-check {
+    display: inline-block;
+    overflow: hidden;
+    margin: 8px 0
+}
+
+.PopupAdvansedSearch .box-container .section-check .text {
+    color: #898989;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 37px;
+    text-align: left;
+    cursor: pointer
+}
+
+.PopupAdvansedSearch .box-container .section-check ul {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+.PopupAdvansedSearch .box-container .section-check ul li {
+    display: inline-block;
+    overflow: hidden;
+    margin: 3px 15px 0 0
+}
+
+.PopupAdvansedSearch .box-container .section-check .content-list {
+    display: block;
+    overflow: hidden;
+    background-color: #daf3e9;
+    margin: 2px 0;
+    color: #3b4719;
+    height: auto;
+    line-height: 40px;
+    min-width: 100px;
+    width: 100%;
+    cursor: pointer
+}
+
+.PopupAdvansedSearch .box-container .section-check .content-list:hover {
+    background-color: #ecf1ef
+}
+
+.PopupAdvansedSearch .box-container .section-check .input-control.checkbox {
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 3px 0 0 9px;
+    cursor: pointer
+}
+
+.PopupAdvansedSearch .box-container .section-check .input-control.checkbox input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    width: .0625rem;
+    height: .0625rem
+}
+
+.PopupAdvansedSearch .box-container .section-check .input-control.checkbox .check {
+    width: 15px;
+    height: 15px;
+    background-color: #fffcfc;
+    border: 1px solid #00a951;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -moz-box-shadow: inset 0 0 5px #bfbfbf;
+    -webkit-box-shadow: inset 0 0 5px #bfbfbf;
+    box-shadow: inset 0 0 5px #bfbfbf
+}
+
+.PopupAdvansedSearch .box-container .section-check .input-control.checkbox .check:focus {
+    border-color: #bcd9e2
+}
+
+.PopupAdvansedSearch .box-container .section-check .input-control.checkbox .check:before {
+    position: absolute;
+    vertical-align: middle;
+    color: transparent;
+    font-size: 0;
+    content: "";
+    height: .3125rem;
+    width: .565rem;
+    background-color: transparent;
+    left: 33%;
+    top: 20%;
+    margin-left: -.325rem;
+    margin-top: -.365rem;
+    display: block;
+    transition: all .2s ease-out
+}
+
+.PopupAdvansedSearch .box-container .section-check .input-control.checkbox input[type=checkbox]:checked ~ .check:before {
+    background: url(../images/check.svg) 0 no-repeat;
+    width: 29px;
+    height: 18px;
+    transition: all .2s ease-out;
+    background-size: 81%
+}
+
+.PopupAdvansedSearch .box-container .section-check .input-control.checkbox input[type=checkbox]:disabled ~ .check {
+    border-color: #cacaca;
+    cursor: default
+}
+
+.PopupAdvansedSearch .box-container .section-check .input-control.checkbox input[type=checkbox]:disabled:checked ~ .check:before {
+    border-color: #cacaca
+}
+
+.PopupAdvansedSearch .box-container .section-check .input-control.radio .check {
+    border: 1px solid #999;
+    border-radius: 50%
+}
+
+.PopupAdvansedSearch .box-container .section-check ul .content-list .text {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 40px 0 5px;
+    height: 40px;
+    line-height: 38px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.PopupAdvansedSearch .left-container-filter {
+    display: block;
+    overflow: hidden;
+    width: 100%
+}
+
+.PopupAdvansedSearch .box-container.years {
+    height: 56px
+}
+
+.PopupAdvansedSearch .buttons-footer-container a.check:hover, .PopupAdvansedSearch .buttons-footer-container a.clear:hover {
+    background-color: transparent;
+    border: 2px solid #00a951;
+    color: #00a951
+}
+
+.PopupAdvansedSearch .buttons-footer-container a.check, .PopupAdvansedSearch .buttons-footer-container a.clear {
+    display: inline-block;
+    overflow: hidden;
+    background: #00a951;
+    height: 35px;
+    line-height: 31px;
+    padding: 0 25px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    margin: 0 0 20px 20px;
+    color: #fefefe;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+    cursor: pointer
+}
+
+.exit-full-screen {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    background: #fff url(../images/icon-exit.svg) no-repeat;
+    background-size: 70%;
+    background-position: center;
+    padding: 18px;
+    top: 0;
+    z-index: 9999999999;
+    cursor: pointer
+}
+
+#Game-play-iframe:-webkit-full-screen {
+    display: block
+}
+
+#Game-play-iframe:-moz-full-screen {
+    display: block
+}
+
+#Game-play-iframe:-ms-fullscreen {
+    display: block
+}
+
+#Game-play-iframe:fullscreen {
+    display: block
+}
+
+#Game-play-iframe {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: #fff
+}
+
+#Game-play-iframe.active {
+    display: block !important;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999999999999999999;
+    background: #191919
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container {
+    display: inline-block;
+    overflow: hidden;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    display: inline-block;
+    overflow: hidden;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    height: 27px;
+    line-height: 27px;
+    margin: -3px 0 0 3px
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container:hover .hover-container {
+    display: block;
+    overflow: hidden;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    opacity: 1
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container h1 {
+    display: block;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container label {
+    display: block;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 30px 0 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .view-container {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    margin: 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .view-container .view-icon {
+    display: inline-block;
+    overflow: hidden;
+    height: 27px;
+    background: #ededed url(../images/eye-close-up.svg) center 68% no-repeat;
+    background-size: 50%;
+    padding: 0 15px;
+    margin: 0 3px 0 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .view-container .view-number {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 0 0 15px;
+    padding-right: 23px;
+    height: 40px;
+    line-height: 40px;
+    color: #929292;
+    font-weight: 500;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container a {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: 27px;
+    line-height: 27px;
+    background-size: 50%;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container a.buy {
+    background: #ededed url(../images/shopping-cart.svg) no-repeat;
+    padding: 0 15px;
+    background-size: 50%;
+    background-position: center 68%;
+    border-radius: 6px 0 0 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container a.buy:hover {
+    background: #ededed url(../images/shopping-cart.svg) no-repeat;
+    padding: 0 15px;
+    background-size: 50%;
+    background-position: center 68%;
+    border-radius: 6px 0 0 0
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container a.wash-list {
+    background-image: url(../images/add-heart.svg);
+    padding: 0 35px;
+    background-color: #f9f9f9
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container a.wash-list:hover {
+    background-image: url(../images/add-heart-h.svg);
+    background-color: #f9f9f9
+}
+
+.inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container a.active, .inner-pages-main-container-worksheet .ui-panels-worksheet .item-container .inner-item-container .hover-container .buttons-container a.active:hover {
+    background-image: url(../images/add-heart-red.svg);
+    background-color: #f9f9f9
+}

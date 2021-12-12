@@ -1,0 +1,49 @@
+#manhalpreOverlay {
+	background: url("../images/lodeer-bg.png") no-repeat center;
+	/*background-size: 70% 50%;*/
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+}
+#manhalpreSlide{
+	font-size:22px;
+	font-weight:bold;
+	color:#ccc;
+	text-align:center;
+	width:50%;
+	height:30%;
+}
+#manhalloader{
+	/*width:300px;*/
+	width: 480px;
+	/*height:25px;*/
+	height: 60px;
+	background: url("../images/loder-par-bg.svg") no-repeat center;
+	background-size: 100% 100%;
+	left: 0 !important;
+	right: 0;
+	margin: auto;
+}
+
+#manhalpreBar {
+	/*background:#0DA1D5 url(../images/bar.png);*/
+	height: 19px;
+	background:#2e8fd1;
+	border-radius:25px;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	position: absolute;
+	top: 19px;
+	left: 49px;
+}
+
+#manhalprePercentage {
+	color: #8e8e90;
+	font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:1px 1px 1px #333;
+	top:-100%;
+	line-height: 1.5em;
+	font-size: x-large;
+}

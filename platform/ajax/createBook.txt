@@ -1,0 +1,1 @@
+INSERT INTO `books`(`bookid`, `name`, `category`, `userid`, `width`, `height`, `cdate`, `status`, `note`) VALUES (null,'copy2','3','2','980','1300','2016/02/07 14:51:56','1', '') 

@@ -1,0 +1,559 @@
+.floating-left
+{
+    float: left;
+}
+.floating-right {
+    float: right;
+}
+body {
+
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A ;
+    text-align: center;
+}
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+
+a img
+{
+    border: 0;
+}
+
+.gameConainer{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    background: #9c6b31;
+    overflow: hidden;
+}
+
+canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.top-container
+{
+    display: block;
+    overflow: visible;
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.color-bg
+{
+    display: block;
+    overflow: hidden;
+    width: 22%;
+    height: 126%;
+    background: url("../../../images/colors-mix.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+.car-container
+{
+    display: block;
+    overflow: visible;
+    width: 10%;
+    height: 73%;
+    position: absolute;
+    top: 28%;
+    right: 23%;
+    z-index: 999;
+}
+.car
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: url("../../../images/car.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.sun
+{
+    display: block;
+    overflow: hidden;
+    width: 4%;
+    height: 77%;
+    background: url("../../../images/sun.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 12%;
+    left: 30%;
+}
+.small-clued
+{
+    display: block;
+    overflow: hidden;
+    width: 5%;
+    height: 30%;
+    background: url("../../../images/cloud_1_filling.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 60%;
+    left: 24%;
+}
+.larg-clued
+{
+    display: block;
+    overflow: hidden;
+    width: 9%;
+    height: 55%;
+    background: url("../../../images/cloud_1_filling.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10%;
+    left: 34%;
+}
+.cat
+{
+    display: block;
+    overflow: hidden;
+    width: 5%;
+    height: 68%;
+    background: url("../../../images/cat.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+.filling-main-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: calc(100% - 10%);
+}
+.tools-container
+{
+    display: block;
+    overflow: hidden;
+    width: 11%;
+    height: 100%;
+    position: relative;
+}
+.tools-bg
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 85%;
+    background: url("../../../images/wood-shelf.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.tools-bg a
+{
+    display: inherit;
+    overflow: hidden;
+    width: 70%;
+    height: calc(100% / 4);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: auto;
+}
+.Pail-colors
+{
+    background-image: url("../../../images/color-pucket.svg");
+}
+.Coloring-Brush
+{
+    /*transform: rotate(-118deg);*/
+    background-image: url("../../../images/paint-brush.svg");
+}
+.Magic-brush
+{
+    /*transform: rotate(-118deg);*/
+    background-image: url("../../../images/magic-tool.svg");
+}
+.eraser
+{
+    /*transform: rotate(-118deg);*/
+    background-image: url("../../../images/eraser.svg");
+}
+.home-back-icon
+{
+    display: block;
+    overflow: hidden;
+    width: 5%;
+    height: 9%;
+    background: url("../../../images/icon_blank.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1.5%;
+    cursor: pointer;
+}
+.home-back-icon.home
+{
+    left: 0.5%;
+}
+.home-back-icon.back
+{
+    left: 6%;
+}
+.home-back-icon i
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    height: 90%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home-back-icon.home i
+{
+    background-image: url("../../../images/home-icon.svg");
+}
+.home-back-icon.back i
+{
+    background-image: url("../../../images/right.svg");
+}
+.undo-redo-btn
+{
+    display: block;
+    overflow: hidden;
+    width: 40%;
+    height: 8%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 6%;
+    cursor: pointer;
+}
+.undo
+{
+    left: 5%;
+    background-image: url("../../../images/undo.svg");
+}
+.redo
+{
+    right: 5%;
+    background-image: url("../../../images/redo.svg");
+}
+.drawing-area
+{
+    display: block;
+    overflow: visible;
+    width: 69%;
+    height: 93%;
+    background: rgb(153, 102, 51);
+    background: -moz-linear-gradient(90deg, rgb(153, 102, 51) 30%, rgb(204, 153, 51) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(153, 102, 51) 30%, rgb(204, 153, 51) 70%);
+    background: -o-linear-gradient(90deg, rgb(153, 102, 51) 30%, rgb(204, 153, 51) 70%);
+    background: -ms-linear-gradient(90deg, rgb(153, 102, 51) 30%, rgb(204, 153, 51) 70%);
+    background: linear-gradient(180deg, rgb(153, 102, 51) 30%, rgb(204, 153, 51) 70%);
+    margin-right: 1%;
+    border: 5px solid #cc9933;
+    border-radius: 22px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(102, 51, 0, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(102, 51, 0, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(102, 51, 0, 0.75);
+    position: relative;
+}
+.canvasContainer
+{
+    display: block;
+    overflow: hidden;
+    width: 95%;
+    height: 90%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+    z-index: 99999999;
+}
+.screw
+{
+    display: block;
+    overflow: hidden;
+    width: 3%;
+    height: 3%;
+    background: url("../../../images/screw.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+
+}
+.screw-a
+{
+    display: block;
+    overflow: hidden;
+    width: 5%;
+    height: 5%;
+    background: url("../../../images/screw.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 99;
+}
+.screw-a.top-left
+{
+    top: 6%;
+    left: 5%;
+}
+.screw-a.bottom-left
+{
+    bottom: 6%;
+    left: 5%;
+}
+.top-left
+{
+    top: 1%;
+    left: 1%;
+}
+.top-right
+{
+    top: 1%;
+    right: 1%;
+}
+.bottom-left
+{
+    bottom: 1%;
+    left: 1%;
+}
+.bottom-right
+{
+    bottom: 1%;
+    right: 1%;
+}
+
+.color-btn
+{
+    display: block;
+    overflow: hidden;
+    width: 4%;
+    height: 6%;
+    background: url("../../../images/color-pallet-button.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+}
+
+
+.color-container
+{
+    display: block;
+    overflow: hidden;
+    width: 16.5%;
+    height: 94.5%;
+    background: url("../../../images/wood-shelf.png") no-repeat center;
+    background-size: 100% 100%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.color-item
+{
+    display: block;
+    overflow: hidden;
+    width: 48%;
+    height: 12%;
+    background: url("../../../images/color-container-b.svg") no-repeat center;
+    background-size: 100% 100%;
+    margin: 1% 0% 0% 1%;
+    /* border-radius: 50%; */
+    -webkit-mask: url(../../../images/color-container-a.svg) no-repeat 100% 100%;
+    mask: url(../../../images/color-container-a.svg) no-repeat 100% 100%;
+    -webkit-mask-size: 100% 100%;
+    background-size: 100% 100%;
+    /* position: relative; */
+    box-shadow: inset 0px 0px 0px 0px #000;
+}
+.color-item:last-child
+{
+    background: url("../../../images/color-picker-b.svg") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-mask: url(../../../images/color-picker-a.svg) no-repeat 100% 100%;
+    mask: url(../../../images/color-picker-a.svg) no-repeat 100% 100%;
+    -webkit-mask-size: 100% 100%;
+}
+/*.color-item:before*/
+/*{*/
+/*content: "";*/
+/*width: 80%;*/
+/*height: 80%;*/
+/*position: absolute;*/
+/*top: 0;*/
+/*bottom: 0;*/
+/*left: 0;*/
+/*right: 0;*/
+/*margin: auto;*/
+/*border-radius: 50%;*/
+/*}*/
+/*.color-item:first-child:before*/
+/*{*/
+/*background-color:#ff2217*/
+/*}*/
+/*===========start color plat======*/
+.main-color-container
+{
+    display: none;
+    overflow: visible;
+    width: 100%;
+    height: 55%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999999999;
+}
+.main
+{
+    display:block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+.sb-container {
+    position: relative;
+    width: 9.3%;
+    height: 62.9%;
+    margin: 96px auto 0 auto;
+}
+
+.sb-container div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    /*background: #fff;*/
+    background: url("../../../images/color-paper.svg") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-mask: url(../../../images/black-card.svg) no-repeat 100% 100%;
+    mask: url(../../../images/black-card.svg) no-repeat 100% 100%;
+    -webkit-mask-size: cover;
+    height: 100%;
+    /*border-radius: 5px;*/
+    box-shadow: -1px -1px 3px rgba(0,0,0,0.1);
+    cursor: pointer;
+    text-align: center;
+    -webkit-mask-size: cover;
+    -webkit-transform-origin: 25% 90%;
+    -moz-transform-origin: 25% 90%;
+    -o-transform-origin: 25% 90%;
+    -ms-transform-origin: 25% 90%;
+    transform-origin: 25% 90%;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.sb-container div:nth-child(1){
+    background-color: #ea2a29;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(2){
+    background-color: #f16729;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 2px 2px 1px rgba(0,0,0,0.1), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(3){
+    background-color: #f89322;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 3px 3px 2px rgba(0,0,0,0.2), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(4){
+    background-color: #ffcf14;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 4px 4px 4px rgba(0,0,0,0.2), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(5){
+    background-color: #ffea0d;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 5px 5px 6px rgba(0,0,0,0.3), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(6){
+    background-color: #87b11d;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 6px 6px 8px rgba(0,0,0,0.3), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(7){
+    background-color: #008253;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 7px 7px 10px rgba(0,0,0,0.4), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(8){
+    background-color: #3277b5;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 8px 8px 12px rgba(0,0,0,0.4), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(9){
+    background-color: #4c549f;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 9px 9px 14px rgba(0,0,0,0.4), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(10){
+    background-color: #764394;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 10px 10px 16px rgba(0,0,0,0.4), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(11){
+    background-color: #ca0d86;
+    /*box-shadow: -1px -1px 3px rgba(0,0,0,0.1), 11px 11px 18px rgba(0,0,0,0.4), inset 0 3px 0 rgba(255, 255, 255, 0.2);*/
+}
+
+.sb-container div:nth-child(12){
+    background: #000000 url("../../../images/cover-of-aruler-colors.svg") no-repeat center;
+    background-size: 100% 100%;
+    /*box-shadow: */
+    /*-1px -1px 3px rgba(0,0,0,0.2),*/
+    /*12px 12px 20px rgba(0,0,0,0.6),*/
+    /*inset 2px 2px 0 rgba(255, 255, 255, 0.1);*/
+}
+.sb-container div:last-child:after{
+    content: '';
+    position: absolute;
+    bottom: 4.5%;
+    left: 11%;
+    width: 15%;
+    height: 6%;
+    background: url("../../../images/button-color-palet.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+/*===========end color plat======*/
+

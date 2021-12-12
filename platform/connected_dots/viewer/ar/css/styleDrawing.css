@@ -1,0 +1,264 @@
+.content-container-tools
+{
+    display: block;
+    overflow: visible;
+    margin: 0;
+    height: 100%;
+    width: 94.192%;
+    background: url("../../all/images/center-footer.png") repeat center;
+}
+
+.trace-container .footer
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 53px;
+    background-image: -ms-linear-gradient(top, #0096d3 0%, #0096d3 100%);
+    background-image: -moz-linear-gradient(top, #0096d3 0%, #0096d3 100%);
+    background-image: -o-linear-gradient(top, #0096d3 0%, #0096d3 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0096d3), color-stop(100, #0096d3));
+    background-image: -webkit-linear-gradient(top, #0096d3 0%, #0096d3 100%);
+    background-image: linear-gradient(to bottom, #0096d3 0%, #0096d3 100%);
+}
+.DrawingTools
+{
+    display: block;
+    overflow: visible;
+    width: 1240px;
+    width: 126.19%;
+    height: 94px;
+    height: 12.756%;
+    text-align:center;
+    bottom: -144px;
+    bottom: -19.54%;
+    left: -129px;
+    left: -13.128%;
+}
+.DrawingTools .left,.DrawingTools .right
+{
+    display: block;
+    overflow: hidden;
+    width: 2.904%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.DrawingTools .left
+{
+    background-image: url(../../all/images/left-footer.png);
+}
+.DrawingTools .right
+{
+    background-image: url(../../all/images/right-footer.png);
+}
+.toolsPenCont
+{
+    display: block;
+    overflow: visible;
+    margin: 0.857% 0px 0px 0px;
+    height: 69.15%;
+    width: 107px;
+    width: 9.162%;
+}
+.toolsPenCont a
+{
+    display:inline-block;
+    overflow:hidden;
+    cursor: pointer;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 7.48% 0 0 0;
+    height: 57px;
+    height: 87.7%;
+}
+.toolsPenCont a.pen
+{
+    background-image: url("../../all/images/brush.svg");
+    width: 38px;
+    width: 35.52%;
+    margin-right: 20px;
+    margin-right: 18.7%;
+    margin-left: 5px;
+    margin-left: 4.68%;
+}
+.toolsPenCont a.erazer
+{
+    background-image: url("../../all/images/eraser_1.svg");
+    width: 40px;
+    width: 37.39%;
+}
+.toolsPenCont a.selected-icons
+{
+    height: 78px;
+    height: 120%;
+    margin-top: -13px;
+    margin-top: -12.15%;
+}
+.toolsPenCont a i
+{
+    display:inline-block;
+    overflow:hidden;
+    font-size: 35px;
+    color: #e0e0e0;
+    padding: 0px 2px 0px 0px;
+    text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s;
+}
+.ColorContainer
+{
+    display: inline-block;
+    overflow: visible;
+    margin: 0.857% 0px 0px 0px;
+    height: 69.15%;
+    width: 39%;
+    position: relative;
+}
+.ColorContainer .colorsClass
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 29px;
+    width: 6.37%;
+    height: 57px;
+    height: 87.7%;
+    margin: 1.758% 0 0 0.88%;
+    background-image: url("../../all/images/shap-pen.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.ColorContainer .colorsClass.selected-colors
+{
+    opacity: 1;
+}
+.ColorContainer .colorsClass i
+{
+    color: #fff;
+    opacity: 0.5;
+    transform: rotate(-138deg);
+    display: block;
+    overflow: hidden;
+    margin: 1px 0px 0px 4px;
+    font-size: 28px;
+}
+.sizeContainer
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0.857% 0px 0px 0px;
+    height: 65px;
+    height: 69.15%;
+    width: 290px;
+    width: 24.83%;
+}
+.sizeContainer .sizeClass
+{
+    border: 2px solid rgb(20, 150, 229);
+    border-radius: 6px;
+    background-color: rgb(9, 77, 119);
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.53);
+    width: 50px;
+    width: 17.245%;
+    height: 43px;
+    height: 66.16%;
+    margin: 3.8% 0 0 4.14%;
+    position: relative;
+    cursor: pointer;
+}
+.sizeContainer .sizeClass i
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.sizeContainer .sizeClass i.pen-size-1
+{
+    background-image: url("../../all/images/pen-size-1.svg");
+}
+.sizeContainer .sizeClass i.pen-size-2
+{
+    background-image: url("../../all/images/pen-size-2.svg");
+}
+.sizeContainer .sizeClass i.pen-size-3
+{
+    background-image: url("../../all/images/pen-size-3.svg");
+}
+.sizeContainer .sizeClass i.pen-size-4
+{
+    background-image: url("../../all/images/pen-size-4.svg");
+}
+.sizeContainer .sizeClass.selected-size
+{
+    border: solid 2px #ffa800;
+}
+.canavsContainer
+{
+    border: solid 1px transparent;
+}
+
+.part-container
+{
+    display: block;
+    overflow: hidden;
+    width: 16px;
+    width: 1.37%;
+    height: 65px;
+    height: 69.15%;
+    background: url("../../all/images/part.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 0.857% 0 0 0;
+}
+
+.pointer
+{
+    display: block;
+    overflow: hidden;
+    width: 25px;
+    width: 5.49%;
+    height: 25px;
+    height: 38.48%;
+    background: url("../../all/images/pointer.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -19%;
+}
+
+.clear-container
+{
+    display: block;
+    overflow: hidden;
+    width: 68px;
+    width: 5.823%;
+    height: 69.15%;
+    margin: 0.857% 0 0 0;
+}
+.clear-container a
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 46px;
+    width: 67.67%;
+    height: 53px;
+    height: 81.56%;
+    background: url("../../all/images/clear-icon.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 19.12% 0 0 0;
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="files/jquery.js"></script>
+    <script type="text/javascript" src="files/scratcher2.js"></script>
+    <script>
+        window.fontSize=#manhal_fontSize#;
+        $(document).ready(function () {
+            runScratchers();
+            function runScratchers(){
+                var scratcherLoadedCount = 0;
+                var scratchers = [];
+                var i;
+                // called each time a scratcher loads
+                function onScratcherLoaded(ev) {
+                    scratcherLoadedCount++;
+                };
+                $(".scratcher").each(function(){
+                    i++;
+                    scratchers[i] = new Scratcher($(this).attr("id"));
+                    scratchers[i].addEventListener('imagesloaded', onScratcherLoaded);
+                    scratchers[i].setImages($(this).attr("bg"),$(this).attr("fg"));
+                });
+            }
+        });
+    </script>
+</head>
+<body style="overflow: hidden">
+<div class="manhal_scratcher">
+#manhal_scratcher#
+</div>
+</body>
+</html>

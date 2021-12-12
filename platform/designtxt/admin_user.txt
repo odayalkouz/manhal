@@ -1,0 +1,23 @@
+<div id="useridd_#userid#" class="display-table-row #class#">
+    <div class="display-table-cell number" >#userid#</div>
+    <div class="display-table-cell user">#username#</div>
+    <div class="display-table-cell category">#password#</div>
+    <div class="display-table-cell book-title">#useremail#</div>
+    <div class="display-table-cell  Date">#userdate#</div>
+    <div class="display-table-cell width">#fullname#</div>
+    <div class="display-table-cell height">#Permession#</div>
+    <div class="display-table-cell created-at">#status#</div>
+    <div class="display-table-cell action">
+        <div class="butons-container">
+         <a id="active_books" href="activebooks.php?id=#userid#">
+                        <i class="flaticon-pencil43"></i>
+                    </a>
+            <a id="user_edit" href="edituser.php?id=#userid#">
+                <i class="flaticon-pencil43"></i>
+            </a>
+            <a id="userida_#userid#" href=javascript:deleteuser(#userid#)>
+                <i class="flaticon-delete96"></i>
+            </a>
+        </div>
+    </div>
+  </div>

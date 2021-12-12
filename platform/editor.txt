@@ -1,0 +1,1 @@
+INSERT INTO `pages`(`pageid`,`title`, `subtitle`, `height`, `width`,`bookid`,`html`,`page_sort`) VALUES ('','Title', 'Subtitle', , ,933,'<div class=\"page page_container jq_multi_file\" publish=\"\" editor=\"\" style=\"width:px;height:px;background: url(book.jpg) no-repeat;\"><div class=\"negative  negative-container\" style=\"background:url() no-repeat;\"></div></div>',1)

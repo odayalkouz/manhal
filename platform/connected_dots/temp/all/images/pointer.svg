@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="29.25px" height="23.25px" viewBox="0 0 29.25 23.25" enable-background="new 0 0 29.25 23.25"
+	 xml:space="preserve">
+<g id="XMLID_1_" opacity="0.3">
+	<path id="XMLID_9_" d="M2.283,20.858h24.758c0.619,0,1.121-0.502,1.121-1.121v-7.803c0-0.341-0.155-0.664-0.423-0.877L15.36,1.2
+		c-0.408-0.325-0.988-0.325-1.396,0L1.585,11.058c-0.267,0.213-0.423,0.536-0.423,0.877v7.803
+		C1.162,20.356,1.664,20.858,2.283,20.858z"/>
+	<g id="XMLID_2_">
+		<g id="XMLID_6_">
+			<polygon id="XMLID_8_" points="2.657,12.063 2.657,19.312 26.667,19.312 26.667,12.063 14.662,2.503 			"/>
+			<polygon id="XMLID_7_" points="14.662,2.503 2.657,12.063 2.657,19.312 14.662,19.312 			"/>
+		</g>
+	</g>
+</g>
+<g id="XMLID_143_">
+	<path id="XMLID_189_" fill="#FFFFFF" d="M2.283,22.405h24.758c0.619,0,1.121-0.502,1.121-1.121v-7.803
+		c0-0.341-0.155-0.664-0.423-0.877L15.36,2.747c-0.408-0.325-0.988-0.325-1.396,0L1.585,12.604
+		c-0.267,0.213-0.423,0.536-0.423,0.877v7.803C1.162,21.903,1.664,22.405,2.283,22.405z"/>
+	<g id="XMLID_218_">
+		<g id="XMLID_185_">
+			<polygon id="XMLID_183_" fill="#FFDD18" points="2.657,13.61 2.657,20.858 26.667,20.858 26.667,13.61 14.662,4.05 			"/>
+			<polygon id="XMLID_184_" fill="#FAA21E" points="14.662,4.05 2.657,13.61 2.657,20.858 14.662,20.858 			"/>
+		</g>
+		<g id="XMLID_186_">
+			
+				<line id="XMLID_188_" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="18.284" y1="10.108" x2="16.823" y2="9.038"/>
+			
+				<line id="XMLID_187_" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="24.877" y1="15.123" x2="20.072" y2="11.511"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,211 @@
+@font-face {
+    font-family: AmiriWebRegular;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amiri-regular.eot?') format('eot'),
+    url('../fonts/amiri-regular.woff2') format('woff2'),
+    url('../fonts/amiri-regular.woff') format('woff'),
+    url('../fonts/amiri-regular.ttf')  format('truetype');
+}
+a,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body  {
+    margin: 0;
+    padding: 0;
+}
+.floating-right
+{
+    float: right;
+}
+.floating-left
+{
+    float: left;
+}
+.pizzle-container
+{
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #653332;
+    position: absolute;
+}
+.main-container
+{
+    display: block;
+    overflow: visible;
+    width: 95%;
+    margin: auto;
+    height: 95%;
+    position: absolute;
+    background: url("../../../images/WOODENBG.svg") no-repeat center;
+    background-size: 100% 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.inner-container
+{
+    overflow: visible;
+}
+.screw
+{
+    display: block;
+    overflow: hidden;
+    width: 3%;
+    height: 3%;
+    background: url(../../../images/screw.svg) no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+}
+.top-left
+{
+    top: 5%;
+    left: 1%;
+}
+.top-right
+{
+    top: 5%;
+    right: 1%;
+}
+.bottom-left
+{
+    bottom: 5%;
+    left: 1%;
+}
+.bottom-right
+{
+    bottom: 5%;
+    right: 2%;
+}
+#sortable{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    width: 92%;
+    height: 79%;
+    position: absolute;
+    top: 4%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /*background-color: #fff;*/
+}
+
+#sortable li{
+    color: #fff;
+    margin: 0.5%;
+    cursor: move;
+    font-size: 20px;
+    /*border-radius: 40px;*/
+    width: calc(25% - 1%);
+    height: calc(50% - 1%);
+    padding: 0;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    box-shadow: -2px 0 8px #000;
+}
+.ui-sortable-placeholder{
+    border: 4px dashed #e6e6e6;
+    /*padding: 30px 20px;*/
+    width: calc(25% - 2px);
+    height: calc(50% - 2px);
+    overflow: hidden;
+}
+
+.btn-game
+{
+    display: block;
+    overflow: hidden;
+    width: 7%;
+    height: 8%;
+    background: url(../../../images/icon_blank.svg) no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 1%;
+    cursor: pointer;
+}
+.btn-game.relode-btn-game
+{
+    top: 4%;
+    left: 24%;
+}
+.btn-game.back-btn-game
+{
+    top: 4%;
+    left: 15%;
+}
+.btn-game.home-btn-game
+{
+    top: 4%;
+    left: 6%;
+}
+.btn-game i
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    height: 90%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn-game.relode-btn-game i
+{
+    background-image: url("../../../images/back.svg");
+}
+.btn-game.back-btn-game i
+{
+    background-image: url("../../../images/right.svg");
+}
+.btn-game.home-btn-game i
+{
+    background-image: url("../../../images/home-icon.svg");
+    margin-left: 6%;
+}
+
+.title-game
+{
+    display: block;
+    overflow: hidden;
+    width: 26%;
+    height: 11%;
+    background: url("../../../images/blank_wood_bord.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.title-game i
+{
+    display: block;
+    overflow: hidden;
+    width: 80%;
+    height: 65%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../../../images/sort-title.svg") no-repeat center;
+    background-size: 100% 100%;
+}

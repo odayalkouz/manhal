@@ -1,0 +1,69 @@
+body {
+  --hue: 0;
+  overflow: hidden;
+  height: 100vh;
+  /*background: Linear-Gradient(HSL(var(--hue), 50%, 85%), HSL(var(--hue), 100%, 65%));*/
+  animation: hue 37s linear infinite;
+}
+
+@keyframes hue {
+  to {
+    --hue: 360 ;
+  }
+}
+div {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.pyr {
+  --sf: var(--sf0);
+  --rf: var(--rf0);
+  --lim: calc(.5*var(--m));
+  position: absolute;
+  top: calc(var(--y)*1vh);
+  left: calc(var(--x)*1vw);
+  transform: perspective(25em) scale3d(var(--sf), var(--sf), var(--sf));
+  animation: a var(--t) ease-in-out var(--dt) infinite alternate;
+  animation-name: sf, rf;
+}
+
+.s3gon {
+  --abs-idx: Max(calc(var(--lim) - (var(--k) + var(--rf))), calc((var(--k) + var(--rf)) - var(--lim)));
+  margin: 0 -2em;
+  width: 4em;
+  height: calc(var(--hf)*4em);
+  transform-origin: 50% 0;
+  transform: rotate(calc((var(--k) + var(--rf))*1turn/var(--m))) translatey(calc(-4em*var(--rif))) rotatex(var(--ax));
+  background: HSL(var(--hue), 85%, calc(85% - .25%*var(--y)));
+  --poly: polygon(50% 100%, 100% 0, 0 0);
+  -webkit-clip-path: var(--poly);
+  clip-path: var(--poly);
+  filter: brightness(calc(.75 + .5*var(--abs-idx)/var(--lim)));
+}
+
+.shadow {
+  z-index: -1;
+  filter: blur(calc(3px/var(--sf)));
+}
+.shadow::before {
+  position: absolute;
+  margin: calc(var(--rcf)*-4em);
+  padding: calc(var(--rcf)*4em);
+  transform: translate(calc(2px/var(--sf)), calc(2px/var(--sf))) rotate(calc(var(--rf)*1turn/var(--m)));
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-clip-path: var(--poly);
+  clip-path: var(--poly);
+  content: "";
+}
+
+@keyframes sf {
+  to {
+    --sf: var(--sf1) ;
+  }
+}
+@keyframes rf {
+  to {
+    --rf: var(--rf1) ;
+  }
+}

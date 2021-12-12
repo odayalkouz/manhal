@@ -1,0 +1,89 @@
+{
+  "id": 842,
+  "status": 1,
+  "shipment_id": null,
+  "price": "",
+  "pricing_by": "",
+  "user_id": 1,
+  "city_id": 0,
+  "cash_type": 0,
+  "is_order": 1,
+  "ordertype_id": 3,
+  "is_excel": 0,
+  "is_confirm": 1,
+  "lat": "",
+  "lng": "",
+  "is_deleted": 0,
+  "delete_reason": "",
+  "delay_date": "2018-08-02 04:59:15",
+  "end_date": "0000-00-00",
+  "complete_date": null,
+  "created_at": "2018-08-02 07:57:59",
+  "updated_at": "2018-08-02 07:57:59",
+  "car_data": {
+    "car_model": {
+      "id": 6,
+      "name": "كامري"
+    },
+    "car_brand": {
+      "id": 1,
+      "name": "تويوتا"
+    },
+    "year": "2014",
+    "form_image": null,
+    "vehicle_number": null
+  },
+  "shipping_data": {
+    "address_model": {
+      "lat": "",
+      "lng": "",
+      "address": ""
+    },
+    "installation_price": false,
+    "other_city": false,
+    "city": {
+      "id": 1,
+      "name": "الرياض"
+    }
+  },
+  "sparpart_order": [
+    {
+      "sparepart_id": 629,
+      "id": 629,
+      "orderaccessories_id": 579,
+      "name": "3333",
+      "amount": 1,
+      "piece_type": [
+        0,
+        "أصلي"
+      ],
+      "image_piece": null,
+      "created_at": "2018-08-02 07:58:02",
+      "updated_at": "2018-08-02 07:58:02",
+      "bestPrice": 0
+    }
+  ],
+  "piecesprice": 0,
+  "shipping": 29,
+  "tax": "1.45",
+  "finalPrice": "30.45",
+  "user_data": {
+    "username": "Saned Test",
+    "email": "admin@admin.com",
+    "phone": "0502233669"
+  },
+  "prices_count": 53,
+  "translations": [
+    {
+      "id": 842,
+      "order_id": 842,
+      "locale": "ar",
+      "address": "",
+      "is_published": 0,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "address": ""
+}
+

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no">
+    <title>Games</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/size.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <!--<script src="js/ui.js"></script>-->
+    <script src="js/velocity.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+<div class="main-template-game">
+    <div id="main-container" class="main-container-game">
+        <div id="inner-container" class="inner-container-game">
+            <a class="btn-icon back-btn animated animated-1 fadeIn webkitForceHardwareAcceleration"><i></i></a>
+            <a class="btn-icon choose-story animated animated-1 fadeIn webkitForceHardwareAcceleration"><i></i></a>
+            <div class="main-title" id="main-title" style="z-index: 90;">
+                <div id="innertitle">
+                    <div class="game-title animated animated-2 fadeInTitle webkitForceHardwareAcceleration"></div>
+                    <div class="big-circle animated animated-1 zoomIn webkitForceHardwareAcceleration"></div>
+                    <div class="small-circle animated animated-haf fadeIn webkitForceHardwareAcceleration"></div>
+                    <div class="smallest-circle animated animated-haf fadeIn webkitForceHardwareAcceleration"></div>
+                    <div class="smallest-a-circle animated animated-haf fadeIn webkitForceHardwareAcceleration"></div>
+                    <div class="game-character animated animated-1 fadeIn webkitForceHardwareAcceleration"></div>
+                    <a class="game-btn color-book animated animated-1 zoomIn fadeInUpBig webkitForceHardwareAcceleration"></a>
+                    <a class="game-btn Photomontage animated animated-1 fadeInRightBig webkitForceHardwareAcceleration"></a>
+                    <a class="game-btn Order-story animated animated-1 fadeInLeftBig webkitForceHardwareAcceleration"></a>
+                    <div class="game-character-rnosh rnosh animated animated-1 fadeInDown webkitForceHardwareAcceleration"></div>
+                    <div class="game-character-rnosh dabdoob animated animated-1 fadeInDown webkitForceHardwareAcceleration"></div>
+
+                </div>
+
+            </div>
+            <div class="popup-container animated slideInDown" style="display:none">
+                <div id="popup-inner-container-game" class="popup-inner-container-game">
+                    <div class="title-popup"><i></i></div>
+                    <div id="popup-library" class="popup-library">
+                        <div class="popup-bg">
+                            <a class="close-popup-library"><i></i></a>
+                            <div class="inner-library-container" style="width: 86%;height: 77%;top: 6%">
+                                <div class="shelf-container" style="width: 95%;">
+                                    <div class="thumb-container">
+                                        <a attrindex="1" charge="free" downloading="NO" typeCleaver="الذّكاء الجسدي"
+                                           attrName="موسم الحصاد:" class="thumb floating-right"
+                                           style="background-image: url('images/BOOK01.jpg')">
+                                            <div id="lockSt1" class="canvasContainer">
+                                                <div class="lock-container"></div>
+
+                                            </div>
+                                        </a>
+                                        <a attrindex="2" charge="free" downloading="NO" typeCleaver="الذّكاء المكاني"
+                                           attrName="منزل قوس قزح :" class="thumb floating-right"
+                                           style="background-image: url('images/BOOK02.jpg')">
+                                            <div id="lockSt2" class="canvasContainer">
+                                                <div class="lock-container"></div>
+
+                                            </div>
+                                        </a>
+                                        <a attrindex="3" charge="lock" downloading="NO" typeCleaver="الذّكاء العاطفي"
+                                           attrName="المنزل العجيب:" class="thumb floating-right"
+                                           style="background-image: url('images/BOOK03.jpg')">
+                                            <div id="lockSt3" class="canvasContainer">
+                                                <div class="lock-container"></div>
+
+                                            </div>
+                                        </a>
+                                        <a attrindex="4" charge="lock" downloading="NO" typeCleaver="الذّكاء اللّغوي"
+                                           attrName="المفاجأة السّعيدة:" class="thumb floating-right"
+                                           style="background-image: url('images/BOOK04.jpg')">
+                                            <div id="lockSt4" class="canvasContainer">
+                                                <div class="lock-container"></div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="shelf"></div>
+                                </div>
+                                <div class="shelf-container">
+                                    <div class="thumb-container">
+                                        <a attrindex="5" charge="lock" downloading="NO" typeCleaver="الذّكاء الطبيعي"
+                                           attrName="مغامرة في النّهر:" class="thumb floating-right"
+                                           style="background-image: url('images/BOOK05.jpg')">
+                                            <div id="lockSt5" class="canvasContainer">
+                                                <div class="lock-container"></div>
+
+                                            </div>
+                                        </a>
+                                        <a attrindex="6" charge="lock" downloading="NO" typeCleaver="الذّكاء الذّاتي"
+                                           attrName="المرآة السّحريّة:" class="thumb floating-right"
+                                           style="background-image: url('images/BOOK06.jpg')">
+                                            <div id="lockSt6" class="canvasContainer">
+                                                <div class="lock-container"></div>
+
+                                            </div>
+                                        </a>
+                                        <a attrindex="7" charge="lock" downloading="NO" typeCleaver="الذّكاء الرّياضي"
+                                           attrName="الطّعام اللّذيذ: " class="thumb floating-right"
+                                           style="background-image: url('images/BOOK07.jpg')">
+                                            <div id="lockSt7" class="canvasContainer">
+                                                <div class="lock-container"></div>
+
+                                            </div>
+                                        </a>
+                                        <a attrindex="8" charge="lock" downloading="NO" typeCleaver="الذّكاء الموسيقي"
+                                           attrName="أحلام رنّوش:" class="thumb floating-right"
+                                           style="background-image: url('images/BOOK08.jpg')">
+                                            <div id="lockSt8" class="canvasContainer">
+                                                <div class="lock-container"></div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="shelf"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function soundEffect(src) {
+
+        if ($('.SoundEffect').length)
+            $('.SoundEffect').remove();
+        // stopAll()
+
+        $("<audio class='SoundEffect'></audio>").attr({
+            'src': src,
+
+
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+
+        $(".SoundEffect").prop("loop", false);
+        $(".SoundEffect").prop("volume", localStorage['musicSound']);
+
+
+    }
+    $(window).on("resize", function () {
+        resizePopup();
+        resizeGame()
+    })
+    $(document).ready(function () {
+
+        $(".color-book").click(function () {
+            soundEffect("sound/click.mp3");
+            parent.fillingColor()
+
+        });
+        $(".Photomontage").click(function () {
+            soundEffect("sound/click.mp3");
+            parent.puzzleGame()
+
+        });
+        $(".Order-story").click(function () {
+            soundEffect("sound/click.mp3");
+            parent.sorting()
+
+        });
+        $(".back-btn").click(function () {
+            soundEffect("sound/click.mp3");
+            parent.showContainer()
+
+            parent.closeIframe()
+
+
+        });
+
+
+        parent.onLoadIframeShow()
+        resizePopup();
+        resizeGame()
+
+
+        $(".close-popup-library").click(function () {
+
+            $(".popup-container").hide();
+        })
+        $(".choose-story").click(function () {
+            $(".popup-container").show();
+        })
+    });
+
+    function resizeGame() {
+        var gameArea = document.getElementById('main-title');
+        var widthToHeight = 4 / 3;
+        var newWidth = window.innerWidth;
+        var newHeight = window.innerHeight;
+        var newWidthToHeight = newWidth / newHeight;
+
+        if (newWidthToHeight > widthToHeight) {
+            newWidth = newHeight * widthToHeight;
+            gameArea.style.height = newHeight + 'px';
+            gameArea.style.width = newWidth + 'px';
+        } else {
+            newHeight = newWidth / widthToHeight;
+            gameArea.style.width = newWidth + 'px';
+            gameArea.style.height = newHeight + 'px';
+        }
+
+        //gameArea.style.marginTop = (-newHeight / 2) + 'px';
+        //gameArea.style.marginLeft = (-newWidth / 2) + 'px';
+
+        var gameCanvas = document.getElementById('innertitle');
+        gameCanvas.style.width = newWidth + 'px';
+        gameCanvas.style.height = newHeight + 'px';
+    }
+    function resizePopup() {
+        var gameArea = document.getElementById('popup-inner-container-game');
+        var widthToHeight = 4 / 3;
+        var newWidth = window.innerWidth;
+        var newHeight = window.innerHeight;
+        var newWidthToHeight = newWidth / newHeight;
+
+        if (newWidthToHeight > widthToHeight) {
+            newWidth = newHeight * widthToHeight;
+            gameArea.style.height = newHeight + 'px';
+            gameArea.style.width = newWidth + 'px';
+        } else {
+            newHeight = newWidth / widthToHeight;
+            gameArea.style.width = newWidth + 'px';
+            gameArea.style.height = newHeight + 'px';
+        }
+
+        //gameArea.style.marginTop = (-newHeight / 2) + 'px';
+        //gameArea.style.marginLeft = (-newWidth / 2) + 'px';
+
+        var gameCanvas = document.getElementById('popup-library');
+        gameCanvas.style.width = newWidth + 'px';
+        gameCanvas.style.height = newHeight + 'px';
+    }
+
+
+    for (i = 0; i < parent.arrayStoryDesc.length; i++) {
+
+
+        if (parent.arrayStoryDesc[i].lock) {
+
+
+            $('#lockSt' + eval(i + 1)).css({
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                'background-color': 'rgba(41, 38, 38, 0.62)',
+                'z-index': 9999,
+                width: '100%',
+                height: '100%',
+            })
+
+        }
+        else {
+
+
+        }
+
+    }
+
+    $(".thumb-container a").click(function (event) {
+
+        event.stopPropagation()
+
+
+        if ($(this).attr("downloading") == "YES") {
+            alert("downloading Now , do  you want to stop downloading ?")
+
+        } else {
+
+            indexData = $(this).attr('attrindex')
+            typeData = $(this).attr('typeCleaver')
+            parent.storyArray[0].index = indexData
+
+
+            parent.storyArrayTmp[0] = {
+                folderName: "st" + eval(Number($(this).attr('attrindex'))),
+                storyName: $(this).attr('attrName'),
+                desc: parent.arrayStoryDesc[$(this).attr('attrindex') - 1],
+                index: eval(Number($(this).attr('attrindex'))),
+                charge: $(this).attr('charge')
+            }
+            localStorage['storyStatus'] = $(this).attr('charge')
+
+        }
+
+
+        if (parent.storyArrayTmp[0].charge == "free") {
+
+            parent.applicationPath = "story/"
+            parent.storyArray.length = 0;
+            console.log(parent.storyArrayTmp[0])
+
+            parent.storyArray = parent.storyArrayTmp.slice();
+            localStorage['selectStory'] = parent.storyArray[0].index
+            localStorage['applicationPath'] = parent.applicationPath
+            localStorage['folderName'] = parent.storyArray[0].desc.folderName
+            localStorage['pageRangeFirst'] = parent.storyArray[0].desc.pageRange.first
+            localStorage['pageRangeEnd'] = parent.storyArray[0].desc.pageRange.end
+            parent.StoryPages.length = 0;
+            //  goToHomePage()
+
+            $(".close-popup-library").click()
+            soundEffect('sound/slidemenu.mp3')
+        }
+
+
+        else if (!parent.checkIFPc()) {
+            parent.applicationPath = parent.cordova.file.applicationStorageDirectory + 'story/'
+
+            var fileSource = parent.applicationPathRoot + "story/" + parent.storyArrayTmp[0].folderName + "/js/data.js"
+            parent.window.resolveLocalFileSystemURL(fileSource, fileExists, fileDoesNotExist);
+            function fileExists(fileEntry) {
+                //  alert('الملف موجود جاري القراءه')
+
+                parent.storyArray.length = 0;
+
+
+                parent.storyArray = parent.storyArrayTmp.slice();
+                localStorage['selectStory'] = parent.storyArray[0].index
+                localStorage['applicationPath'] = parent.applicationPath
+                localStorage['folderName'] = parent.storyArray[0].desc.folderName
+                localStorage['pageRangeFirst'] = parent.storyArray[0].desc.pageRange.first
+                localStorage['pageRangeEnd'] = parent.storyArray[0].desc.pageRange.end
+                parent.StoryPages.length = 0;
+
+
+                $(".close-popup-library").click()
+                soundEffect('sound/slidemenu.mp3')
+
+            }
+
+            function fileDoesNotExist() {
+                //     alert('الملف غير موجود جاري التحميل')
+
+                //   requestItemsToBuy(urlTst + storyArrayTmp[0].folderName + ".zip", 'story', storyArrayTmp[0].index)
+
+            }
+
+
+        }
+
+
+    });
+
+</script>
+</body>
+</html>

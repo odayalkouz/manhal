@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Quiz Time</title>
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/manhal-ui.js" type="text/javascript"></script>
+    <script src="js/manhalLoader.js" type="text/javascript"></script>
+    <script src="js/timerN.js" type="text/javascript"></script>
+    <script src="js/quiz.js" type="text/javascript"></script>
+    <link rel="icon" data-type="favicon" sizes="24" href="thems/Ar/images/favicon(1).ico" type="image/x-icon">
+
+    <link href="thems/Ar/css/style.css" rel="Stylesheet" type="text/css"/>
+    <link href="thems/Ar/css/manhalloader.css" rel="Stylesheet" type="text/css"/>
+    <link href="thems/Ar/css/animate.css" rel="Stylesheet" type="text/css"/>
+    <link href="thems/Ar/css/size.css" rel="Stylesheet" type="text/css"/>
+    <link href="thems/Ar/css/swiper.min.css" rel="Stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <main class="site-container">
+        <section class="quiz-container">
+            <div class="popup-delete-container noclose" style="display: none;">
+                <div class="delete-container" style="display: none;">
+                    <h1>تأكيد</h1>
+                    <p>هل تريد تصحيح الاختبار؟</p>
+                    <div class="row">
+                        <a id="delete_question" class="yes floating-right">نعم</a>
+                        <a class="no floating-right">لا</a>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-login-container noclose" style="display: none;">
+                <div class="login-container" style="display: none;">
+                    <div class="display-block">
+                        <h1>تسجيل الدخول</h1>
+                        <div class="close floating-right" ></div>
+                    </div>
+                    <label>اسم المستخدم</label>
+                    <input type="text" value="اسم المستخدم" class="floating-right" placeholder="اسم المستخدم">
+                </div>
+            </div>
+            <section class="silver-container">
+                <div class="content-container">
+                    <div class="top-content">
+                        <article>
+                            <div class="shine"></div>
+                        </article>
+                    </div>
+                    <div class="square-quiz-container">
+                        <div class="boxes"></div>
+                        <div class="box-a"></div>
+                        <div class="box-b"></div>
+                        <div class="box-c"></div>
+                        <div class="box-d"></div>
+                        <div class="box-e"></div>
+                    </div>
+                    <div class="btn-start-container">
+                        <a><label class="floating-left" id="starts"></label><span class="floating-left"></span><i class="floating-right"></i></a>
+                    </div>
+                    <div class="copywrite"><label class="floating-right"><i class="copyrights"></i> <i class="year"></i></label><span class="floating-left"></span></div>
+                </div>
+            </section>
+            <section class="result-page-container">
+                <div class="content-container">
+                    <div class="header">
+                        <div class="logo-header floating-left"></div>
+                        <div id="username" class="user floating-right">
+                            <div class="image floating-left"></div>
+                            <div class="username floating-left">Oday alkouz</div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-content">
+                            <div class="title floating-left">
+                                <label  class="floating-left titlelang">Title :</label>
+                                <span id="QuizTitle" class="floating-left"></span>
+                            </div>
+                            <div class="num-of-question floating-right">
+                                <div class="image floating-left"></div>
+                                <div class="num floating-left"><b id="qustionnum">10</b> <b id="qustiontext"></b></div>
+                            </div>
+                        </div>
+                        <div class="bottom-content">
+                            <aside class="left-container floating-left">
+                                <div class="line-row">
+                                    <div class="left floating-left">
+                                        <div class="point floating-left"></div>
+                                        <div id="fullscore" class="text floating-left">العلامة الكاملة</div>
+                                    </div>
+                                    <div id="fullscorenum" class="right floating-right"></div>
+                                </div>
+                                <div class="line-row">
+                                    <div class="left floating-left">
+                                        <div class="point floating-left"></div>
+                                        <div id="passingrate" class="text floating-left">معدل النجاح</div>
+                                    </div>
+                                    <div id="passingRatenum" class="right floating-right">100%</div>
+                                </div>
+                                <div class="line-row">
+                                    <div class="left floating-left">
+                                        <div class="point floating-left"></div>
+                                        <div id="passingscore" class="text floating-left">علامة النجاح</div>
+                                    </div>
+                                    <div id="PassingScorenum" class="right floating-right">50</div>
+                                </div>
+                            </aside>
+                            <aside id="resultmsg" class="right-container floating-right">
+                                <div  class="box-white">
+                                    <div class="top">
+                                        <i class="floating-left first"></i>
+                                        <label id="elapsed" class="floating-left">Elapsed</label>
+                                    </div>
+                                    <div id="elapsedTim" class="bottom opacity">00:00:00</div>
+                                </div>
+                                <div class="box-white">
+                                    <div class="top">
+                                        <i class="floating-left last"></i>
+                                        <label id="yourscore" class="floating-left">Your Score</label>
+                                    </div>
+                                    <div id="yourscorenum" class="bottom opacity"></div>
+                                </div>
+                            </aside>
+                            <div class="btn-start-container" style="display: none">
+                                <a><label class="floating-left" id="Takethequiz">رجوع</label><span class="floating-left"></span><i class="floating-right"></i></a>
+                            </div>
+                            <div class="btn-again-container" style="display: none">
+                                <a><label class="floating-left" id="Takethequizagain">أعد الاختبار</label><span class="floating-left"></span><i class="floating-right"></i></a>
+                            </div>
+                            <div id="viewquiz" class="btn-again-container2 btn-takequiz-container" style="display: none">
+                                <a><label class="floating-left" id="Takethequizview">استعرض الاختبار</label><span class="floating-left"></span><i class="floating-right"></i></a>
+                            </div>
+                            <div class="copywrite"><label class="floating-right"><i class="copyrights"></i> <i class="year"></i></label><span class="floating-left"></span></div>                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="questions-main-container">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="content-container">
+                    <div class="top-content">
+                        <div class="correction-btn floating-right" onclick="correction();"></div>
+                        <div class="information floating-right"></div>
+                        <div class="question-title floating-left">
+                            <label class="floating-left titlelang"></label>
+                            <span class="floating-left">The Five Senses</span>
+                        </div>
+                        <div class="goto-container floating-right">
+                            <div class="swiper-pagination1"></div>
+                        </div>
+                        <div class="time-of-question floating-right">
+                            <div class="image floating-left"></div>
+                            <div class="num floating-left timer-container"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="slider-main-container">
+                        <div class="swiper-container" dir="rtl">
+                            <div class="swiper-wrapper">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copywrite"><label class="floating-right"><i class="copyrights"></i> <i class="year"></i></label><span class="floating-left"></span></div>                </div>
+            </section>
+        </section>
+    </main>
+    <script src="js/swiper.min.js" type="text/javascript"></script>
+</body>
+</html>

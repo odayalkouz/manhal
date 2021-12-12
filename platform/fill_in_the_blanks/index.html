@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>Title</title>
+    <!--<link href="css/manhalloader.css" rel="stylesheet" type="text/css">-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+<div id="gameContainer" class="gameContainer noselect">
+    <div class="button-container">
+        <span class="title-editor floating-left"></span>
+        <div class="top-tools-container floating-right">
+            <div class="button-tools floating-left"><a class="setting" title="Proprties"></a></div>
+            <div class="separator floating-left"></div>
+            <div class="button-tools floating-left"><a class="save" title="Save"></a></div>
+            <div class="separator floating-left"></div>
+            <div class="button-tools floating-left"><a class="preview" title="Preview"></a></div>
+        </div>
+    </div>
+    <div class="work-place">
+        <div class="right-container floating-right">
+            <div class="gameContent" id="gameContent">
+                <div class="question-row floating-right">
+                    <i class="add-question floating-right"></i>
+                    <span class="qustion-number floating-right">-1</span>
+                    <div class="qustion-text floating-right">
+                        <span class="floating-right">أَدْخُلُ</span>
+                        <span class="floating-right">وَأغُْلِقُ</span>
+                        <span class="floating-right">الْبابَ</span>
+                        <span class="floating-right">خَلْفَكَ</span>
+                    </div>
+                    <i class="delete-question floating-right"></i>
+                    <i class="sound-question floating-right"></i>
+                    <div class="selected-word-container">
+                        <span class="floating-right">أَدْخُلُ</span>
+                        <span class="floating-right">وَأغُْلِقُ</span>
+                        <span class="floating-right">خَلْفَكَ</span>
+                        <span class="floating-right">الْبابَ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-container floating-left">
+            <div class="tools-header">
+                <span>Tools</span>
+            </div>
+            <div class="dash-top"></div>
+            <div class="button-tools-container"><a class="btn add-title" title="Add Title"></a></div>
+        </div>
+    </div>
+</div>
+<div class="proprties addTitle" style="display: none">
+    <div class="proprtiesContainer" style="height: 435px;">
+        <div class="headProprties">
+            <label>Add Title</label>
+            <a class="closePng"><i></i></a>
+        </div>
+        <div class="bodyProprties">
+            <section class="section settingSection text">
+                <textarea class="titleText" placeholder="Enter title text" type="text" value="" id=""></textarea>
+            </section>
+            <section class="section settingSection icon">
+                <div class="title-icon floating-left"></div>
+                <div class="title-container floating-left">
+                    <span class="main-title">Icon</span>
+                    <span class="sub-title">Add icon for the title </span>
+                </div>
+                <div class="soundUpload-container">
+                    <input class="text-fild-upload floating-left" readonly="" type="text" value="images/titleIcon.png"  id="ObjectSound">
+                    <a style="margin: 9px 0 0 33px" class="soundUpload floating-left" onclick="soundEditBackground()" id="sound"><i></i></a>
+                    <div id="wrapper" class="audio-container"><audio id="audioPreview" controls=""><source src=""></audio></div>
+                </div>
+            </section>
+        </div>
+        <div class="footerProprties">
+            <a class="ok-btn floating-right" id="bgEditt"><i></i></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

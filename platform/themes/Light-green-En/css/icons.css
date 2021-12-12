@@ -1,0 +1,77 @@
+@font-face
+{
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after
+{
+	font-family: Flaticon;
+	font-style: normal;
+}
+.flaticon-add64:before { content: "\f100"; }
+.flaticon-arrow73:before { content: "\f101"; }
+.flaticon-arrowheads3:before { content: "\f102"; }
+.flaticon-art:before { content: "\f103"; }
+.flaticon-back57:before { content: "\f104"; }
+.flaticon-bars7:before { content: "\f105"; }
+.flaticon-books67:before { content: "\f106"; }
+.flaticon-camera142:before { content: "\f107"; }
+.flaticon-check7:before { content: "\f108"; }
+.flaticon-cloud148:before { content: "\f109"; }
+.flaticon-contract11:before { content: "\f10a"; }
+.flaticon-copy20:before { content: "\f10b"; }
+.flaticon-cross97:before { content: "\f10c"; }
+.flaticon-delete30:before { content: "\f10d"; }
+.flaticon-delete96:before { content: "\f10e"; }
+.flaticon-direction237:before { content: "\f10f"; }
+.flaticon-document26:before { content: "\f110"; }
+.flaticon-download195:before { content: "\f111"; }
+.flaticon-drop25:before { content: "\f112"; }
+.flaticon-eye106:before { content: "\f113"; }
+.flaticon-fon:before { content: "\f114"; }
+.flaticon-gear39:before { content: "\f115"; }
+.flaticon-icon-14485:before { content: "\f116"; }
+.flaticon-icon-581:before { content: "\f117"; }
+.flaticon-icon-74926:before { content: "\f118"; }
+.flaticon-icon-78938:before { content: "\f119"; }
+.flaticon-info27:before { content: "\f11a"; }
+.flaticon-interface:before { content: "\f11b"; }
+.flaticon-interface-1:before { content: "\f11c"; }
+.flaticon-last-track:before { content: "\f11d"; }
+.flaticon-left3:before { content: "\f11e"; }
+.flaticon-left36:before { content: "\f11f"; }
+.flaticon-links12:before { content: "\f120"; }
+.flaticon-list6:before { content: "\f121"; }
+.flaticon-more9:before { content: "\f122"; }
+.flaticon-note5:before { content: "\f123"; }
+.flaticon-pages:before { content: "\f124"; }
+.flaticon-paint81:before { content: "\f125"; }
+.flaticon-pencil43:before { content: "\f126"; }
+.flaticon-picture62:before { content: "\f127"; }
+.flaticon-plus11:before { content: "\f128"; }
+.flaticon-question58:before { content: "\f129"; }
+.flaticon-refresh62:before { content: "\f12a"; }
+.flaticon-right-arrow26:before { content: "\f12b"; }
+.flaticon-right133:before { content: "\f12c"; }
+.flaticon-right39:before { content: "\f12d"; }
+.flaticon-save31:before { content: "\f12e"; }
+.flaticon-school:before { content: "\f12f"; }
+.flaticon-scissors70:before { content: "\f130"; }
+.flaticon-sound:before { content: "\f131"; }
+.flaticon-start4:before { content: "\f132"; }
+.flaticon-stationery1:before { content: "\f133"; }
+.flaticon-stop48:before { content: "\f134"; }
+.flaticon-textformat37:before { content: "\f135"; }
+.flaticon-tool7:before { content: "\f136"; }
+.flaticon-update17:before { content: "\f137"; }
+.flaticon-upload96:before { content: "\f138"; }
+.flaticon-verified9:before { content: "\f139"; }
+.flaticon-x:before { content: "\f13a"; }
+.flaticon-youtube1:before { content: "\f13b"; }

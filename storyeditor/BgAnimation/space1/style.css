@@ -1,0 +1,133 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+.back{
+  height:100vh;
+  width:100%;
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(http://wallpapercave.com/wp/xTkHBfj.jpg);
+  background-size:cover;
+}
+
+.one{
+  height:400vh;
+  width:100%;
+  background:url(img/1_vzz3ln.png) center;
+  background-size:cover;
+  position:fixed;
+  top:0px;
+  opacity:0.6;
+}
+
+.oneani{
+  animation:one 35s linear infinite;
+}
+
+@keyframes one{
+  0%{
+    top:0px;
+  }
+  100%{
+    top:-300vh;
+  }
+}
+
+.two{
+  height:400vh;
+  width:100%;
+  background:url(img/2_htb01i.png) center;
+  background-size:cover;
+  position:fixed;
+  top:0px;
+  opacity:0.4;
+  transform:scale(1);
+}
+
+.twoani{
+  animation:one 70s linear infinite;
+}
+
+.button{
+  height:70px;
+  width:300px;
+  background:#ecf0f1;
+  margin:auto auto;
+  position:relative;
+  top:50%;
+  transform:translate(0%,-50%);
+  color:#333;
+  text-align:center;
+  line-height:70px;
+  font-size:30px;
+  font-family: 'Lato', sans-serif;
+  cursor:pointer;
+  transition:all .3s ease-in 1.2s;
+}
+
+.button:hover{
+  background:transparent;
+  color:#fff;
+  transition:all .3s ease-in;
+}
+
+.bot-bar{
+  position:absolute;
+  bottom:0px;
+  height:2px; 
+  width:0%;
+  left:0px;
+  background:#fff;
+  transition:all .4s ease .8s;
+}
+
+.top-bar{
+  height:2px;
+  width:0%;
+  position:absolute;
+  top:0px;
+  right:0px;
+  background:#fff;
+  transition: all .4s ease .2s;
+}
+
+.left-bar{
+  height:0%;
+  width:2px;
+  background:#fff;
+  position:absolute;
+  left:0px;
+  top:0px;
+  transition:all .2s ease;
+}
+
+.right-bar{
+  height:0%;
+  width:2px;
+  background:#fff;
+  position:absolute;
+  right:0px;
+  bottom:0px;
+  transition:all .2s ease .6s;
+}
+
+.button:hover .bot-bar{
+  width:100%;
+  transition: all .4s ease-in-out;
+}
+
+.button:hover .top-bar{
+  width:100%;
+  transition: all .4s ease-in-out .6s;
+}
+
+.button:hover .right-bar{
+  height:100%;
+  transition:all .2s ease-in-out .4s;
+}
+
+.button:hover .left-bar{
+  height:100%;
+  transition:all .2s ease-in-out 1s;
+}
+

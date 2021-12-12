@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/messag.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/timer.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/size.css" />
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <script type="text/javascript" src="../../js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../js/velocity.js"></script>
+    <script type="text/javascript" src="../../js/msg.js"></script>
+    <script type="text/javascript" src="../../js/timerN.js"></script>
+</head>
+<body>
+<div class="puzzle-main-container">
+    <div id="inner-container" class="puzzle-inner-container">
+        <div class="obj9">
+            <div class="timer-clock flaticon-timer"></div>
+            <span id="timerCount"></span>
+            <div id="timer">
+                <div class="bar">
+                    <div id="bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="title-game"><i></i></div>
+        <div class="cloud-game small"></div>
+        <div class="cloud-game medium"></div>
+        <div class="cloud-game large "></div>
+        <div class="plane top"></div>
+        <div class="plane center"></div>
+        <div class="plane bottom"></div>
+        <div class="Airship"></div>
+        <div class="anchor"></div>
+        <div class="Ship"></div>
+        <div class="pizzle-container">
+            <div id="puzzle-containment" >
+                <div class="pure-g" style="top:0;position: relative;left: 0;">
+                    <div class="pure-u-1 pure-u-md-1-2"><div>
+                        <img id="source_image" class="pure-img" src="">
+                    </div></div>
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <div id="pile">
+                            <div id="puzzle_solved" style="display:none;text-align:center;position:relative;top:25%">
+                                <h2 style="margin:0 0 20px">Well done!</h2>
+                                <a class="pure-button button-lg restart-puzzle" data-grid="3">Restart Puzzle</a>
+                                <br><br>
+                                <a href="#" class="restart-puzzle" data-grid="5">5x5</a>
+                                &nbsp; <a href="#" class="restart-puzzle" data-grid="7">7x7</a>
+                                &nbsp; <a href="#" class="restart-puzzle" data-grid="10">10x10</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="../../js/touchpunch.js"></script>
+            <script src="js/jquery.snap-puzzle.js"></script>
+            <script>
+
+                function BackgroundSound(src) {
+
+                    if ($('.BackgroundSound').length)
+                        $('.BackgroundSound').remove();
+                    // stopAll()
+
+                    $("<audio class='BackgroundSound'></audio>").attr({
+                        'src': "../../"+ src,
+
+
+                        'autoplay': 'autoplay'
+                    }).appendTo("body");
+
+                    $(".BackgroundSound").prop("loop", false);
+                    $(".BackgroundSound").prop("volume", $("#musicSound").val());
+
+                    $('.BackgroundSound').on('ended', function () {
+
+                        $(this).trigger('play')
+                    })
+                }
+                function speachSound(src) {
+                    if ($('.titleSound').length)$('.titleSound').remove();
+                    if ($('.speachSound').length)
+                        $('.speachSound').remove();
+                    // stopAll()
+
+                    $("<audio class='speachSound'></audio>").attr({
+                        'src':"../../"+ src,
+
+
+                        'autoplay': 'autoplay'
+                    }).appendTo("body");
+
+                    $(".speachSound").prop("loop", false);
+
+
+                }
+
+                function soundEffect(src) {
+
+                    if ($('.SoundEffect').length)
+                        $('.SoundEffect').remove();
+                    // stopAll()
+
+                    $("<audio class='SoundEffect'></audio>").attr({
+                        'src':"../../"+ src,
+
+
+                        'autoplay': 'autoplay'
+                    }).appendTo("body");
+
+                    $(".SoundEffect").prop("loop", false);
+                    //  $(".SoundEffect").prop("volume", $("#musicSound").val());
+                }
+
+
+                    var canvas;
+                var ctx;
+                numberPeace=3
+                $(document).ready(function() {
+                    parent.onLoadIframeShow()
+                    resize()
+            BackgroundSound('sound/backgroundpuzzle.mp3');
+           speachSound("sound/puzzle.mp3")
+                    $(document.body).msgBox({
+                        msgText1: lbl_data7,
+                        msgText2: lbl_data8,
+                        imgSrc: "../../images/puzzle.svg",
+                        confirmFn: function () {
+                            //$('#source_image').snapPuzzle('destroy');
+                            //resize()
+                            $(".message-container").removeClass("tada");
+                            $(".message-container").removeClass("animated-1");
+                            $(".message-container").addClass("zoomOutDown");
+                            $(".message-container").addClass("animated-haf");
+                            setTimeout(function () {
+                                $("#messageContainer").css("display","none")
+                            }, 500);
+                            timerStart({min:1,sec:30},false)
+                        },
+                        cancelFn: function () {
+                            $(".message-container").removeClass("tada");
+                            $(".message-container").removeClass("animated-1");
+                            $(".message-container").addClass("zoomOutDown");
+                            $(".message-container").addClass("animated-haf");
+                            setTimeout(function () {
+                                $("#messageContainer").css("display","none")
+                            }, 500);
+                            $('.back-btn-game').click()
+                        },
+                    })
+
+                    $('.relode-btn-game').click(function(){
+                        soundEffect("sound/CardsShuffle.mp3")
+                        $('.bt-overlay').click()
+                        setTimeout(function(){
+                            $('#source_image').snapPuzzle('destroy');
+                            resize();
+                        },1000)
+
+                        timerStart({min:1,sec:30},false)
+                    })
+
+                    $('.back-btn-game').click(function(){
+                        parent.gamesHome();parent.showContainer()
+                    })
+
+                    $(".cloud-game.small").velocity(
+                            {translateX: "200%",translateZ: 0},
+                            {delay: 500, duration: 10000 ,loop: true}
+                    )
+                    $(".cloud-game.large").velocity(
+                            {translateX: "-200%",translateZ: 0},
+                            {delay: 500, duration: 10000 ,loop: true}
+                    )
+                    $(".cloud-game.medium").velocity(
+                            {translateX: "200%",translateZ: 0},
+                            {delay: 500, duration: 10000,loop: true }
+                    )
+                })
+                function checkIFPc() {
+
+
+                    if (navigator.userAgent.match(/Android/i) ||
+                            navigator.userAgent.match(/webOS/i) ||
+                            navigator.userAgent.match(/iPhone/i) ||
+                            navigator.userAgent.match(/iPad/i) ||
+                            navigator.userAgent.match(/iPod/i) ||
+                            navigator.userAgent.match(/BlackBerry/) ||
+                            navigator.userAgent.match(/Windows Phone/i) ||
+                            navigator.userAgent.match(/ZuneWP7/i)
+                    ) {
+                        return false
+
+                    } else {
+                        return true
+
+                    }
+                }
+                function resize() {
+                    canvas = document.createElement('canvas');
+                    canvas.id = "imgcanvas";
+                    var canvasRatio = canvas.height / canvas.width;
+                    var windowRatio = $(".pizzle-container").width() / $(".pizzle-container").height();
+                    var width = $(".pizzle-container").width();
+                    var height =  $(".pizzle-container").height();
+                    canvas.width = width;
+                    canvas.height = height;
+                    source_image = document.getElementById('source_image');
+                    if(checkIFPc() ||  localStorage['storyStatus']=="free" ){
+                        Path="../../"+(localStorage['applicationPath']+localStorage['folderName']+"/")
+
+                    }
+                    else{
+                        Path=(localStorage['applicationPath']+localStorage['folderName']+"/")
+
+                    }
+//            source_image.src=Path+"images/page0"+getRandomInt(parent.storyArray[0].desc.pageRange.first ,parent.storyArray[0].desc.pageRange.end)+".jpg"
+            source_image.src=Path+"images/page0"+getRandomInt(Number(localStorage['pageRangeFirst']) ,Number(localStorage['pageRangeEnd']))+".jpg"
+
+//                    source_image.src="../../story/st1/images/page04.jpg";
+                    source_image.onload = function () {
+                        ctx = canvas.getContext('2d');
+                        ctx.drawImage(source_image, 0, 0, width, height);
+                        src = canvas.toDataURL();
+                        source_image.src = src;
+                        source_image.onload = function () {
+//                    window.open(this.src);
+                            $('#pile').height(height);
+                            start_puzzle(numberPeace);
+                            $('.restart-puzzle').click(function () {
+                                $('#source_image').snapPuzzle('destroy');
+                                start_puzzle($(this).data('grid'));
+                            });
+                        }
+                    }
+                };
+                function getRandomInt(min, max) {
+                    return Math.floor(Math.random() * (max - min + 1)) + min;
+                }
+                function start_puzzle(x) {
+                    $('#puzzle_solved').hide();
+                    $('#source_image').snapPuzzle({
+                        rows: x, columns: x,
+                        pile: '#pile',
+                        containment: '#puzzle-containment',
+                        onComplete: function () {
+                            $('#source_image').fadeOut(150).fadeIn();
+                            puaseTimer()
+                            soundEffect("sound/win.mp3")
+                            $(document.body).msgBox({
+                                msgText1: lbl_data1,
+                                msgText2: lbl_data2,
+                                imgSrc: "../../images/good.svg",
+                                confirmFn: function () {
+                                    $(document.body).msgBox({
+                                        type:"multi",
+                                        msgText1: lbl_data7,
+                                        msgText2: lbl_data8,
+                                        imgSrc: "../../sort/images/end-message.gif",
+                                    })
+                                },
+                                cancelFn: function () {
+                                    $(".message-container").removeClass("tada");
+                                    $(".message-container").removeClass("animated-1");
+                                    $(".message-container").addClass("zoomOutDown");
+                                    $(".message-container").addClass("animated-haf");
+                                    setTimeout(function () {
+                                        $("#messageContainer").css("display","none")
+                                    }, 500);
+                                    $('.back-btn-game').click()
+                                },
+
+                            })
+
+                            $('#messageContainer img').css({"top":"-2%","height":"51%","width": "43%","right":"0"});
+
+                            $('#messageData').css("width","59%");
+
+                        }
+                    });
+                }
+
+                document.body.ontouchmove = function (e) {
+                    e.preventDefault()
+                };
+
+                function callFunction(){
+
+                    $('#source_image').snapPuzzle('destroy');
+//    start_puzzle(numberPeace);
+                    resize()
+                }
+            </script>
+        </div>
+        <a class="btn-game relode-btn-game"><i></i></a>
+        <a onclick="parent.gamesHome();" class="btn-game back-btn-game"><i></i></a>
+        <a onclick="parent.showContainer();parent.closeIframe();" class="btn-game home-btn-game"><i></i></a>
+    </div>
+
+</div>
+
+
+
+
+    <script>
+
+
+
+
+</script>
+
+</body>
+</html>

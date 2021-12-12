@@ -1,0 +1,551 @@
+.inner-pages-main-container-application {
+    display: block;
+    overflow: hidden
+}
+
+.inner-pages-main-container-application .image-header-container {
+    display: block;
+    overflow: hidden;
+    background: url(../images/appslider/InnerApp/appspanner.png) -8px -4px no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 167px;
+    position: relative;
+    margin: 0
+}
+
+.inner-pages-main-container-application .image-header-container h1 {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    line-height: 59px;
+    color: #626161;
+    font-size: 25px;
+    font-weight: 600;
+    width: 318px
+}
+
+.inner-pages-main-container-application .application-content {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 20px;
+    min-height: 500px
+}
+
+.inner-pages-main-container-application .application-content .inner-container {
+    display: block;
+    overflow: hidden
+}
+
+.inner-pages-main-container-application .application-content .inner-container .image-paragraph-container {
+    display: block;
+    overflow: hidden;
+    margin: 15px 0 0
+}
+
+.inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .title {
+    display: block;
+    overflow: hidden;
+    color: #478431;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px
+}
+
+.inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container {
+    display: block;
+    overflow: hidden;
+    width: 67%
+}
+
+.inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+    display: block;
+    overflow: visible;
+    line-height: 30px;
+    text-align: justify;
+    color: #4b4b4b;
+    font-weight: 400;
+    font-size: 16px
+}
+
+.inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+    display: block;
+    overflow: hidden;
+    width: 33%;
+    background-image: url(../images/appslider/InnerApp/image.png);
+    background-size: 360px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    margin: 0 0 20px
+}
+
+.inner-pages-main-container-application .application-content .our-application-container {
+    display: block;
+    overflow: hidden;
+    color: #626161;
+    font-size: 20px;
+    margin: 20px 0
+}
+
+.inner-pages-main-container-application .application-content .our-application-container .title-container {
+    display: block;
+    overflow: hidden;
+    background: url(../images/sectionBg/books-bg-sub.png);
+    width: 100%
+}
+
+.inner-pages-main-container-application .application-content .our-application-container .title-container h2 {
+    display: block;
+    overflow: hidden;
+    line-height: 30px;
+    color: #4b4b4b;
+    font-weight: 500;
+    font-size: 20px
+}
+
+.inner-pages-main-container-application .application-content .our-application-container .items-container {
+    display: block;
+    overflow: hidden;
+    margin: 30px 0 0
+}
+
+.inner-pages-main-container-application .application-content .our-application-container .item-container {
+    display: block;
+    overflow: hidden
+}
+
+.inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(2) {
+    display: block;
+    overflow: hidden;
+    margin: 0 85px
+}
+.inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(5) {
+    display: block;
+    overflow: hidden;
+    margin: 0 85px
+}
+.inner-pages-main-container-application .application-content .our-application-container .item-container .image-a {
+    display: block;
+    overflow: hidden;
+    width: 333px;
+    height: 240px;
+    background: url(../images/appslider/InnerApp/3.png) no-repeat;
+    border-radius: 15px;
+    background-size: contain
+}
+.inner-pages-main-container-application .application-content .our-application-container .item-container .image-b {
+    display: block;
+    overflow: hidden;
+    width: 333px;
+    height: 240px;
+    background: url(../images/appslider/InnerApp/2.png) no-repeat;
+    border-radius: 15px;
+    background-size: contain
+}
+
+.inner-pages-main-container-application .application-content .our-application-container .item-container .image-c {
+    display: block;
+    overflow: hidden;
+    width: 333px;
+    height: 240px;
+    background: url(../images/appslider/InnerApp/1.png) no-repeat;
+    border-radius: 15px;
+    background-size: contain
+}
+.inner-pages-main-container-application .application-content .our-application-container .item-container .image-d {
+    display: block;
+    overflow: hidden;
+    width: 333px;
+    height: 240px;
+    background: url(../images/appslider/InnerApp/4.png) no-repeat;
+    border-radius: 15px;
+    background-size: contain
+}
+.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+    display: block;
+    overflow: hidden;
+    width: 333px;
+    height: 240px;
+    background: url(../images/appslider/InnerApp/5.png) no-repeat;
+    border-radius: 15px;
+    background-size: contain
+}
+
+.inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+    display: block;
+    overflow: hidden;
+    line-height: 30px;
+    color: #4b4b4b;
+    font-weight: 400;
+    font-size: 16px
+}
+
+@media all and (max-width: 1600px) and (min-width: 1400px) {
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 284px !important
+    }
+}
+
+@media all and (max-width: 1399px) and (min-width: 1301px) {
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 284px !important
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 270px;
+        height: 200px
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .title {
+        font-size: 16px
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+        font-size: 12px
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+        background-size: 310px;
+        height: 360px
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+        font-size: 14px
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .title-container h2 {
+        font-size: 16px
+    }
+}
+
+@media all and (max-width: 1199px) and (min-width: 1025px) {
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 270px !important;
+        height: 200px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .title {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+        background-size: 310px !important;
+        height: 360px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+        font-size: 14px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .title-container h2 {
+        font-size: 16px !important
+    }
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px)and (orientation: landscape) {
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 270px !important;
+        height: 200px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .title {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+        background-size: 310px !important;
+        height: 360px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+        font-size: 14px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .title-container h2 {
+        font-size: 16px !important
+    }
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .title {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+        background-size: 270px !important;
+        height: 360px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+        font-size: 14px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .title-container h2 {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 237px !important;
+        height: 200px !important;
+        float: none !important;
+        clear: right !important;
+        display: inline-block !important;
+        background-position: center !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(3) {
+        clear: both !important;
+        display: inline-block !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container, .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(2) {
+        display: inline-block !important;
+        float: none !important;
+        margin: 0 auto !important
+    }
+}
+
+@media all and (max-width: 767px) and (min-width: 740px) {
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 228px !important;
+        height: 170px !important;
+        float: none !important;
+        clear: right !important;
+        display: inline-block !important;
+        background-position: center !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .title {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+        background-size: 255px !important;
+        height: 470px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+        font-size: 14px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .title-container h2 {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(3) {
+        clear: both !important;
+        display: inline-block !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container, .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(2) {
+        display: inline-block !important;
+        float: none !important;
+        margin: 0 auto !important
+    }
+}
+
+@media all and (max-width: 739px) and (min-width: 611px) {
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 290px !important;
+        height: 170px !important;
+        float: none !important;
+        clear: right !important;
+        display: inline-block !important;
+        background-position: center !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .title {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+        background-size: 220px !important;
+        height: 470px !important;
+        width: 37% !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+        font-size: 14px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .title-container h2 {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(3) {
+        clear: both !important;
+        display: inline-block !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container, .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(2) {
+        display: inline-block !important;
+        float: none !important;
+        margin: 0 auto !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container {
+        width: 63% !important
+    }
+}
+
+@media all and (max-width: 610px) and (min-width: 560px) {
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+        background-size: 220px !important;
+        height: 470px !important;
+        width: 37% !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container {
+        width: 63% !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container, .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(2) {
+        display: inline-block !important;
+        float: none !important;
+        margin: 0 auto !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 290px !important;
+        height: 170px !important;
+        float: none !important;
+        clear: right !important;
+        display: inline-block !important;
+        background-position: center !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+        font-size: 14px !important
+    }
+}
+
+@media all and (max-width: 559px) and (min-width: 460px) {
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        width: 290px !important;
+        height: 170px !important;
+        float: none !important;
+        clear: right !important;
+        display: inline-block !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .title {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+        background-size: 70% !important;
+        height: 265px !important;
+        width: 100% !important;
+        background-position: center center
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+        font-size: 14px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .title-container h2 {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(3) {
+        clear: both !important;
+        display: inline-block !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container, .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(2) {
+        display: inline-block !important;
+        float: none !important;
+        margin: 0 auto !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e {
+        background-position: center !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container {
+        width: 100% !important
+    }
+}
+
+@media all and (max-width: 459px) and (min-width: 320px) {
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c, .inner-pages-main-container-application .application-content .our-application-container .item-container .image-d,.inner-pages-main-container-application .application-content .our-application-container .item-container .image-e{
+        width: 250px !important;
+        height: 130px !important;
+        float: none !important;
+        clear: right !important;
+        display: inline-block !important;
+        background-position: center !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .title {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container p {
+        font-size: 12px !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .right-container {
+        background-size: 80% !important;
+        height: 250px !important;
+        width: 100% !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .title-app {
+        font-size: 14px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .title-container h2 {
+        font-size: 16px !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(3) {
+        clear: both !important;
+        display: inline-block !important
+    }
+
+    .inner-pages-main-container-application .application-content .our-application-container .item-container, .inner-pages-main-container-application .application-content .our-application-container .item-container:nth-child(2) {
+        display: inline-block !important;
+        float: none !important;
+        margin: 0 auto !important
+    }
+
+    .inner-pages-main-container-application .application-content .inner-container .image-paragraph-container .left-container {
+        width: 100% !important
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css?#manhal#cache#" rel="stylesheet" type="text/css">
+    <link href="css/manhalloader.css" rel="stylesheet" type="text/css">
+    <script src="https://www.manhal.com/js/scorm.js"></script>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/data.js?#manhal#cache#"></script>
+    <script src="js/js.js?#manhal#cache#"></script>
+    <script src="js/manhalLoader.js"></script>
+    <script type="text/javascript" src="js/TouchPunch.js"></script>
+</head>
+<script>
+    window.addEventListener("touchmove", function(event) {event.preventDefault();}, {passive: false} );
+</script>
+<style>
+    /*#Manhal#help#style#*/
+</style>
+<body onunload="disconnetLMS();">
+<div class="main-container" id="gameConainer">
+    <div id="inner-gameContainer" class="inner-gameContainer">
+        <div class="header-container">
+            <div class="inner-header"></div>
+            <a class="title-icon"></a>
+            <div class="title">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="main-drag-container">
+            <div class="text-container"></div>
+            <div class="img-container">
+                <img src="images/image.svg">
+            </div>
+        </div>
+        <div class="stag-container">
+            <div class="qus-main">
+                <i class="qus-icon"></i>
+                <div class="qus-text"><span></span></div>
+            </div>
+            <div class="sup-qus">
+                <div class="qus-item"></div>
+            </div>
+            <div class="ans-container">
+
+            </div>
+        </div>
+        <!--<div class="clones"><span>إيجابيَّةً</span></div>-->
+        <div class="footer"></div>
+        <div class="true-false-container"></div>
+        <div class="help-main-popup">
+            <a class="close"></a>
+            <div class="inner-help-popup">
+                <iframe id="helpIframe" src="help.html"></iframe>
+            </div>
+        </div>
+        <!--<a class="poweredBy" href="https://www.manhal.com/"></a>-->
+        <div class="main-message-container">
+            <div class="inner-message-container">
+                <span id="message-icone" class=""></span>
+                <span id="feedback" class=""></span>
+                <span class="result-text"></span>
+                <div class="result-container">
+                    <span></span>
+                </div>
+                <a class="reload"></a>
+            </div>
+        </div>
+        <div class="main-message-container_nextMessage">
+            <div class="inner-message-container">
+                <span id="feedback1" class="wellDonw"></span>
+                <a class="next-scene" onclick="nextSceneClick()"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,481 @@
+@media all and (max-width: 1920px) and (min-width: 989px)
+{
+    .mount-bird-container{width: 8%}
+    .popup-btn.close {
+        top: 13.8%;
+        left: 2%;
+    }
+    .popup-btn.play {
+        bottom: 6%;
+        right: 32.5%;
+    }
+    .popup-btn.download {
+        bottom: 6%;
+        left: 37.5%;
+    }
+    .seres-title
+    {
+        font-size: 2.3vw;
+    }
+    .copyRight
+    {
+        height: 8%;
+        font-size: 1.7vw;
+    }
+    .story-number-lbl
+    {
+        height: 15%;
+    }
+    .back-btn-about-us span
+    {
+        font-size: 3.5vw;
+        line-height: 1.3em;
+    }
+    .TypeForUs
+    {
+        font-size: 3.2vw;
+    }
+    .back-btn,.choose-story
+    {
+        width: 6%;
+    }
+    .home-btn-story,.btn-icon-setting,.btn-main,.game-icon,.library-icon,.btn-icon,.reload-icon
+    {
+        width: 6%;
+        height: 10%;
+    }
+    .bottom-btn-container
+    {
+        width: 21%;
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next
+    {
+        height: 10%;
+        width: 6%;
+    }
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev
+    {
+        height: 10%;
+        width: 6%;
+    }
+    /*.checkbox-container*/
+    /*{*/
+        /*left: 13%;*/
+        /*width: 13%;*/
+        /*height: 12%;*/
+    /*}*/
+    .toggle-bg
+    {
+        width: 97%;
+        height: 95%;
+    }
+    #colorPicker
+    {
+        width: 65%;
+        height: 90%;
+    }
+}
+@media all and (max-width: 1680px) and (min-width: 989px){
+    .bird
+    {
+        top: 13%;
+    }
+    .copyRight
+    {
+        font-size: 2vw;
+    }
+    .back-btn-about-us span
+    {
+        line-height: 1.7em;
+    }
+    .back-btn, .choose-story
+    {
+        width: 7%;
+    }
+    #colorPicker
+    {
+        width: 64%;
+        height: 77%;
+    }
+}
+@media all and (max-width: 1500px) and (min-width: 989px){
+
+    .mount-bird-container{width: 8%}
+    .lbl-data-message span, .lbl-data-sort-msg
+    {
+        line-height: 2em;
+    }
+    #colorPicker
+    {
+        width: 66%;
+        height: 77%;
+    }
+}
+@media all and (max-width: 1420px) and (min-width: 989px) {
+    .mount-bird-container{
+        width: 10%;
+        height: 42%;
+    }
+    .back-btn-about-us span {
+        font-size: 4vw;
+    }
+    .home-btn-story, .btn-icon-setting, .btn-main, .game-icon, .library-icon, .btn-icon {
+        width: 7%;
+        height: 10%;
+    }
+    #colorPicker
+    {
+        width: 72%;
+        height: 77%;
+    }
+}
+@media all and (max-device-width: 1280px) and (min-device-width: 800px)and (orientation : landscape) {
+    .aboutUs-text .paragraph
+    {
+        font-size: 1.5vw;
+    }
+    .mount-bird-container
+    {
+        height: 42%;
+        width: 11%;
+    }
+    .popup-btn.close
+    {
+        top: 13.5%;
+    }
+    .colse-btn, .ok-btn
+    {
+        width: 10%;
+        height: 18%;
+        bottom: 3%;
+    }
+    .ok-btn
+    {
+        right: 36.5%;
+    }
+    .colse-btn
+    {
+        left: 38%;
+    }
+    .story-number-lbl{
+        height: 13%;
+    }
+    .lbl-data-message span, .lbl-data-sort-msg
+    {
+        line-height: 2.5em;
+    }
+    .message-main-content
+    {
+        width: 80%;
+    }
+    .home-btn-story,.btn-icon-setting,.btn-main,.game-icon,.library-icon,.btn-icon,.reload-icon
+    {
+        width: 7%;
+        height: 11%;
+    }
+    .btn-main
+    {
+        line-height: 1.5em;
+    }
+    /*.color-item*/
+    /*{*/
+        /*width: 36%;*/
+        /*height: 9.8%;*/
+        /*margin: 8% 6% 8% 6%;*/
+    /*}*/
+    /*.checkbox-container*/
+    /*{*/
+        /*left: 12%;*/
+        /*width: 16%;*/
+        /*height: 13%;*/
+    /*}*/
+    #colorPicker
+    {
+        width: 66%;
+        height: 75%;
+    }
+}
+@media all and (max-width: 1030px) and (min-width: 989px) {
+    /*.gallery-thumbs-container {*/
+        /*width: 79%;*/
+        /*height: 17%;*/
+    /*}*/
+    .home-btn-story, .btn-icon-setting, .btn-main, .game-icon, .library-icon, .btn-icon {
+        width: 9%;
+        height: 9%;
+    }
+}
+@media all and (max-device-width: 1024px) and (min-device-width: 768px)and (orientation : landscape){
+    .mount-bird-container{width: 11%}
+    .popup-btn.close {
+        top: 13.3%;
+        left: 1%;
+    }
+    .popup-btn.play {
+        bottom: 5%;
+        right: 33%;
+    }
+    .popup-btn.download {
+        bottom: 5%;
+        left: 36.5%;
+    }
+    .story-number-lbl {
+        height: 13%;
+    }
+    .main-color-container
+    {
+        height: 45%;
+        bottom: 5%;
+    }
+    .color-bg
+    {
+        width: 26%;
+    }
+    .color-btn
+    {
+        width: 7%;
+        height: 7%;
+    }
+    .copyRight
+    {
+        font-size: 2.4vw;
+        height: 8%;
+    }
+    .message-main-content
+    {
+        width: 80%;
+    }
+    .back-btn-about-us span
+    {
+        font-size: 5vw;
+    }
+    .back-btn-color-boock span
+    {
+        font-size: 4.5vw;
+    }
+
+}
+@media all and (max-device-width: 739px) and (min-device-width: 611px)and (orientation : landscape){
+    .mount-bird-container{width: 12%;height: 51%;}
+    .copyRight
+    {
+        height: 8%;
+        font-size: 1.9vw;
+    }
+    .lbl-data-message span, .lbl-data-sort-msg
+    {
+        line-height: 3.5em;
+    }
+}
+@media all and (max-device-width: 640px) and (min-device-width: 360px)and (orientation : landscape){
+    .masa-container
+    {
+        width: 95%;
+        height: 95%;
+    }
+    .mount-bird-container{
+        width: 13%;
+        height: 55%;
+    }
+    .TypeForUs
+    {
+        line-height: 1em;
+    }
+    .copyRight
+    {
+        line-height: 1em;
+        height: 6%;
+        font-size: 1.7vw;
+    }
+    .shelf-container .thumb
+    {
+        width: calc(100% / 4);
+        margin: 0 0;
+    }
+
+    .popup-btn.close
+    {
+        top: 13.3%;
+        left: 2%;
+    }
+    .popup-btn.play {
+        bottom: 5%;
+        right: 33%;
+    }
+    .popup-btn.download {
+        bottom: 5%;
+        left: 36.5%;
+    }
+    .card-info-text {
+        width: 61%;
+        margin-right: 7%;
+    }
+    .main-title-card {
+        margin-top: 7%
+    }
+    .story-number-lbl {
+        height: 18%;
+        background-size: 3% 100%;
+    }
+    .btn-icon.setting i
+    {
+        margin-top: 2%;
+    }
+    .rocket__windows span {
+        height: 6%;
+        width: 36%;
+        border: 3px solid #d2d2d2;
+        margin: 74% 0;
+    }
+    .rocket__windows span:first-child {
+        -webkit-transform: scale(1.2) translateY(-10px);
+        transform: scale(1.2) translateY(-10px);
+    }
+    .text-containerSlide
+    {
+        min-height: 21%;
+        width: 93%;
+    }
+    .main-color-container
+    {
+        bottom: 9%;
+    }
+    .color-btn
+    {
+        height: 7%;
+    }
+    .lbl-data-message span, .lbl-data-sort-msg
+    {
+        line-height: 3.5em;
+    }
+    .home-btn-story,.btn-icon-setting,.btn-main,.game-icon,.library-icon,.btn-icon,.reload-icon
+    {
+        width: 9%;
+        height: 14%;
+    }
+    .gallery-thumbs-container {
+        height: 38%;
+        width: 81%;
+    }
+    .bottom-btn-container
+    {
+        height: 15%;
+    }
+    .back-btn-about-us span
+    {
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    }
+    .bee-container
+    {
+        bottom: 40%;
+    }
+    /*.color-item*/
+    /*{*/
+        /*width: 30%;*/
+        /*height: 9.6%;*/
+        /*margin: 7% 9% 7% 9%;*/
+    /*}*/
+    /*.checkbox-container*/
+    /*{*/
+        /*left: 8%;*/
+        /*width: 21%;*/
+        /*height: 18%;*/
+        /*bottom: 15%;*/
+    /*}*/
+
+    #colorPicker
+    {
+        width: 66%;
+        height: 84%;
+    }
+}
+@media all and (max-device-width: 503px) and (min-device-width: 227px)and (orientation : landscape){
+    .main-color-container
+    {
+        bottom: 13%;
+    }
+    .color-btn
+    {
+        height: 8%;
+        width: 5%;
+    }
+    .story-number-lbl {
+        height: 20%;
+    }
+    /*.btn-icon-setting {*/
+        /*left: 9%;*/
+    /*}*/
+    .back-btn-about-us span,.back-btn-color-boock span
+    {
+        font-size: 3.5vw;
+    }
+    .back-btn-color-boock span
+    {
+        line-height: 1.3em;
+    }
+
+    .lbl-data-message span, .lbl-data-sort-msg
+    {
+        line-height: 3.5em;
+    }
+    .btn-icon
+    {
+        width: 7%;
+    }
+
+    .bottom-btn-container
+    {
+        height: 15%;
+        width: 28%;
+    }
+    .sound-btn-story,.textSetting,.thumb-btn-story
+    {
+        width: 31%;
+    }
+    .gallery-thumbs-container
+    {
+        height: 38%;
+        width: 81%;
+    }
+    /*.color-item*/
+    /*{*/
+        /*width: 33%;*/
+        /*height: 11%;*/
+        /*margin: 4.5% 8% 4.5% 8%;*/
+    /*}*/
+    /*.checkbox-container*/
+    /*{*/
+        /*left: 6%;*/
+        /*width: 25%;*/
+        /*height: 18%;*/
+    /*}*/
+    #colorPicker {
+        width: 66%;
+        height: 92%;
+    }
+}
+@media all and (max-device-width: 500px) and (min-device-width: 320px)and (orientation : landscape){
+    .mount-bird-container{width: 10%}
+    .text-containerSlide
+    {
+        min-height: 24%;
+        width: 93%;
+    }
+    .main-color-container {
+        bottom: 5%;
+    }
+    .story-number-lbl {
+        height: 15%;
+    }
+    .copyRight
+    {
+        height: 8%;
+        font-size: 1.9vw;
+    }
+}
+@media all and (max-device-width: 480px) and (min-device-width: 360px)and (orientation : landscape){
+    .mount-bird-container{
+        width: 17%;
+        height: 55%;
+    }
+}

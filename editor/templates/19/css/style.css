@@ -1,0 +1,502 @@
+
+:root {
+    --bghader3: #79b7ea;
+}
+@font-face {
+    font-family: open_sans;
+    src: url(fonts/opensans-light-webfont.eot);
+    src: url(fonts/opensans-light-webfont.eot?#iefix) format('embedded-opentype'), url(fonts/opensans-light-webfont.woff) format('woff'), url(fonts/opensans-light-webfont.ttf) format('truetype'), url(fonts/opensans-light-webfont.svg#open_sanslight) format('svg');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: open_sans;
+    src: url(fonts/opensans-regular-webfont.eot);
+    src: url(fonts/opensans-regular-webfont.eot?#iefix) format('embedded-opentype'), url(fonts/opensans-regular-webfont.woff) format('woff'), url(fonts/opensans-regular-webfont.ttf) format('truetype'), url(fonts/opensans-regular-webfont.svg#open_sansregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: open_sans;
+    src: url(fonts/opensans-semibold-webfont.eot);
+    src: url(fonts/opensans-semibold-webfont.eot?#iefix) format('embedded-opentype'), url(fonts/opensans-semibold-webfont.woff) format('woff'), url(fonts/opensans-semibold-webfont.ttf) format('truetype'), url(fonts/opensans-semibold-webfont.svg#open_sanssemibold) format('svg');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: open_sans;
+    src: url(fonts/opensans-bold-webfont.eot);
+    src: url(fonts/opensans-bold-webfont.eot?#iefix) format('embedded-opentype'), url(fonts/opensans-bold-webfont.woff) format('woff'), url(fonts/opensans-bold-webfont.ttf) format('truetype'), url(fonts/opensans-bold-webfont.svg#open_sansbold) format('svg');
+    font-weight: 600;
+    font-style: normal
+}
+.floating-right
+{
+    float: right;
+}
+.floating-left
+{
+    float: left;
+}
+.text-right
+{
+    text-align: right;
+}
+.text-left
+{
+    text-align: left;
+}
+.text-center
+{
+    text-align: center;
+}
+.display-block
+{
+    display: block;
+    overflow: hidden;
+}
+.display-inline-block
+{
+    display: inline-block;
+    overflow: hidden;
+}
+.clear
+{
+    clear: both;
+}
+a
+{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+*,a,
+a:focus {
+    outline: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    text-align: center;
+    font-family: open_sans;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: var(--bghader3) url("../images/bk.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.inner-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.title-container
+{
+    display: block;
+    overflow: hidden;
+    width: 37.989%;
+    height: 7.683%;
+    position: absolute;
+    top: 1.823%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 12px;
+}
+.title
+{
+    display: block;
+    overflow: hidden;
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.title span
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 4.2vmin;
+    color: var(--bghader3);
+}
+.card-main-container
+{
+    display: block;
+    overflow: hidden;
+    width: 97.168%;
+    height: 87.761%;
+    position: absolute;
+    top: 11.068%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../images/stage.svg) no-repeat center;
+    background-size: 100% 100%;
+}
+.sup-title
+{
+    display: block;
+    overflow: visible;
+    width: 95%;
+    height: 5.935%;
+    position: absolute;
+    top: 3.561%;
+    left: 1.81%;
+}
+.dot
+{
+    display: block;
+    overflow: hidden;
+    width: 1.693%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #ffa200;
+    border-radius: 50%;
+}
+.inner-sup-title
+{
+    display: table;
+    overflow: visible;
+    width: 98%;
+    height: 100%;
+    margin-left: 3.068%;
+    float: left;
+}
+.inner-sup-title span
+{
+    display: table-cell;
+    overflow: visible;
+    vertical-align: middle;
+    line-height: 1.2em;
+    text-align: left;
+    color: #4e4e4e;
+    font-size: 3.4vmin;
+    direction: ltr;
+}
+.inner-card-container
+{
+    display: block;
+    overflow: hidden;
+    width: 88.644%;
+    height: 77.745%;
+    position: absolute;
+    top: 15.431%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.col
+{
+    display: block;
+    overflow: visible;
+    width: 43.878%;
+    height: 100%;
+    position: absolute;
+}
+.col1
+{
+    left: 0;
+}
+.col2
+{
+    right: 0;
+}
+.card
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 18.703%;
+    float: left;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 2px solid var(--bghader3);
+    position: relative;
+    margin-bottom: 10.8%;
+    cursor: pointer;
+}
+.card:last-child
+{
+    margin-bottom: 0;
+}
+.card.selected
+{
+    box-shadow: 0px 7px 0px rgba(0,0,0,0.10);
+}
+.card span
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    font-size: 3.4vmin;
+    text-align: center;
+    color: #4e4e4e;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    direction: ltr;
+}
+.poweredBy
+{
+    display: block;
+    overflow: hidden;
+    width: 8.258%;
+    height: 2.337%;
+    position: absolute;
+    bottom: 1.965%;
+    left: 2.842%;
+    background: url("../images/poweredBy.svg") no-repeat center;
+    background-size: 100% 100%;
+    z-index: 999999999;
+}
+
+.main-message-container,
+.main-message-container_nextMessage
+{
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99999999;
+}
+.inner-message-container
+{
+    display: block;
+    overflow: visible;
+    width: 48.829%;
+    height: 34.073%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*box-shadow: 0 0 169px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
+    -webkit-box-shadow: 0px 0px 113px 0px rgba(193, 193, 193, 0.5);
+    -moz-box-shadow:    0px 0px 113px 0px rgba(193, 193, 193, 0.5);
+    box-shadow:         0px 0px 113px 0px rgba(193, 193, 193, 0.5);
+    border-radius: 30px;
+    /* border: 3px solid #e2e2e2; */
+    /*background: rgb(219,219,219);*/
+    /*background: linear-gradient(0deg, rgba(219,219,219,1) 0%, rgba(255,255,255,1) 52%);*/
+    background: url("../images/messagebk.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.main-message-container_nextMessage .inner-message-container
+{
+    display: block;
+    overflow: visible;
+    width: 23%;
+    height: 23%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 0 169px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 30px;
+    border: 3px solid #e2e2e2;
+    background: rgb(219,219,219);
+    background: linear-gradient(0deg, rgba(219,219,219,1) 0%, rgba(255,255,255,1) 52%);
+}
+#feedback,
+#feedback1
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 20.07%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.wellDonw
+{
+    width: 21.83%;
+    height: 13%;
+    top: 26.143%;
+    background-image: url("../images/wellDonw.svg");
+}
+.good
+{
+    width: 21.83%;
+    height: 13%;
+    top: 26.143%;
+    background-image: url("../images/good.svg");
+}
+.tryAgain
+{
+    width: 31.83%;
+    height: 13%;
+    top: 26.143%;
+    right: 17% !important;
+    background-image: url("../images/tryAgain.svg");
+}
+.main-message-container_nextMessage .wellDonw
+{
+    width: 48%;
+    height: 36%;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/wellDonw.svg");
+}
+
+#message-icone
+{
+    display: block;
+    overflow: hidden;
+    width: 27.697%;
+    height: 45.86%;
+    position: absolute;
+    top: 23.43%;
+    left: 8.328%;
+    /* right: 0; */
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.wellDonw-icon
+{
+    background-image: url("../images/message-icon-wellDonw.svg");
+}
+.good-icon
+{
+    background-image: url("../images/message-icon-good.svg");
+}
+.tryAgain-icon
+{
+    background-image: url("../images/message-icon-tryAgain.svg");
+}
+.result-text
+{
+    display: block;
+    overflow: hidden;
+    width: 11.442%;
+    height: 6.43%;
+    position: absolute;
+    top: 57.715%;
+    /* left: 0; */
+    right: 14.285%;
+    margin: auto;
+    background: url("../images/result-text.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.result-container
+{
+    display: block;
+    overflow: visible;
+    width: 16.395%;
+    height: 14.29%;
+    position: absolute;
+    top: 54.143%;
+    /* left: 0; */
+    right: 29.44%;
+    margin: auto;
+    background: url("../images/result.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.result-container span
+{
+    display: block;
+    overflow: visible;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 3.6vmin;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.reload
+{
+    display: block;
+    overflow: hidden;
+    width: 9.73%;
+    height: 19.89%;
+    position: absolute;
+    bottom: -2.8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/reload.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.next-scene
+{
+    display: block;
+    overflow: hidden;
+    width: 23.97%;
+    height: 32.24%;
+    position: absolute;
+    bottom: -13.5%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    /*background: url("../images/next2.svg") no-repeat center;*/
+    /*background-size: 100% 100%;*/
+    cursor: pointer;
+    z-index: 9999;
+}

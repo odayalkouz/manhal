@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'B Arabic Style';
+    src: url('font/BArabicStyle.eot');
+    src: url('font/BArabicStyle.eot?#iefix') format('embedded-opentype'),
+    url('font/BArabicStyle.woff2') format('woff2'),
+    url('font/BArabicStyle.woff') format('woff'),
+    url('font/BArabicStyle.ttf') format('truetype'),
+    url('font/BArabicStyle.svg#BArabicStyle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,33 @@
+@media only screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)
+{
+    .events-content .things-container {
+        display: inline-block !important;
+    }
+    .inner-pages-main-container-innernews-event .innernews-event-content {
+        width: 100% !important;
+    }
+    .inner-pages-main-container-innernews-event .innernews-event-content .write-comment-container .comment
+    {
+        display: inline-block;
+        overflow: hidden;
+        background: #00a951;
+        height: 35px;
+        line-height: 32px;
+        padding: 0 25px;
+        font-weight: 500;
+        margin: 10px 0;
+        border: 2px solid transparent;
+        color: #fefefe;
+        font-size: 15px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-transition: all 1.5s;
+        -moz-transition: all 1.5s;
+        -ms-transition: all 1.5s;
+        -o-transition: all 1.5s;
+        transition: all 1.5s;
+        cursor: pointer;
+    }
+
+}

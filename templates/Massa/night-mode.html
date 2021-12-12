@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #playlist,audio{background:#666;width:400px;display: block;}
+        .active a{color:#5DB0E6;text-decoration:none;}
+        li a{color:#eeeedd;background:#333;padding:5px;display:block;}
+        li a:hover{text-decoration:none;}
+
+        .audioClass{
+            position: absolute;
+            display: none;
+            top: 0;
+            left: 0;
+            z-index: 9999999;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no">
+    <title>Night Mode</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/size.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <!--<script src="js/ui.js"></script>-->
+    <script src="js/velocity.js"></script>
+</head>
+<body>
+
+<!--<div class="darkness animated animated-1 fadeOut"></div>-->
+<div class="main-template-NightMode">
+    <div class="audioClass">
+        <audio id="audio" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+
+            Sorry, your browser does not support HTML5 audio.
+        </audio>
+        <ul id="playlist">
+
+        </ul>
+    </div>
+    <div id="main-container" class="main-container-NightMode">
+        <div id="inner-container" class="inner-container-NightMode">
+            <div class="mount-bird-container">
+                <div class="mount"></div>
+            </div>
+            <div class="large-cloud cloud super-slow largCloudAnimation webkitForceHardwareAcceleration"></div>
+            <div class="small-cloud super-slow cloud smallCloudAnimation webkitForceHardwareAcceleration"></div>
+            <div class="flower flower_1 animated animated-haf swashIn webkitForceHardwareAcceleration"></div>
+            <div class="flower flower_2 animated animated-haf swashIn webkitForceHardwareAcceleration"></div>
+            <div class="mashroom mashroom_1 "><i class="animated animated-haf webkitForceHardwareAcceleration"></i></div>
+            <div class="mashroom mashroom_2 "><i class="animated animated-haf webkitForceHardwareAcceleration"></i></div>
+            <div class="bee-container animated animated-20 infinite flyingBee webkitForceHardwareAcceleration">
+                <div class="bee webkitForceHardwareAcceleration"></div>
+            </div>
+            <div class="NightMode-title"></div>
+            <div class="play-stop-container">
+                <a class="night-btn home"></a>
+                <a class="night-btn play play-stop-sleep"></a>
+            </div>
+            <div class="main-title " id="main-title">
+                <div id="innertitle">
+
+                    <div class="moon-container floating">
+                        <div class="moon  close webkitForceHardwareAcceleration"></div>
+                        <div class="moon open fadeIn animated infinite animated-1-haf webkitForceHardwareAcceleration"></div>
+                        <div class="SleepingChild"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/oldJS/sleep.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".mashroom i").click(function () {
+            $(".mashroom i").removeClass("zoomInMashroom");
+            $(this).addClass("zoomInMashroom")
+            setTimeout(function () {
+                $(".mashroom i").removeClass("zoomInMashroom");
+            }, 1000)
+        })
+        $(".night-btn.home").click(function () {
+            soundEffect("sound/click.mp3");
+            parent.showContainer()
+            parent.$("#story-card-close").click()
+            parent.$(".btn-main").click()
+            parent.closeIframe()
+        });
+    })
+
+//    $(function () {
+//        FastClick.attach(document.body);
+//
+//    });
+
+
+
+    parent.avoidSleeep()
+
+    $('<source type="audio/mp3" src="' + parent.applicationPath + parent.storyArray[0].folderName + '/sound/' + '04.mp3">').appendTo("#audio")
+    function soundEffect(src) {
+
+        if ($('.SoundEffect').length)
+            $('.SoundEffect').remove();
+        // stopAll()
+
+        $("<audio class='SoundEffect'></audio>").attr({
+            'src': src,
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+
+        $(".SoundEffect").prop("loop", false);
+        $(".SoundEffect").prop("volume",localStorage['musicSound']);
+    }
+</script>
+</body>
+</html>

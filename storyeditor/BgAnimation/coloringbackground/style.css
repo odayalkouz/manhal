@@ -1,0 +1,55 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-linear-gradient(0deg,#0047ee,#dec4a1,#e13d63,#1daaf3,#5de3a1);
+  background: linear-gradient(90deg,#0047ee,#dec4a1,#e13d63,#1daaf3,#5de3a1);
+  background-size: 800% 800%;
+  -webkit-animation: bg 30s ease infinite;
+  animation: bg 30s ease infinite
+}
+
+@-webkit-keyframes bg {
+  0% {
+    background-position: 0% 2%;
+  }
+
+  50% {
+    background-position: 100% 99%;
+  }
+
+  100% {
+    background-position: 0% 2%;
+  }
+}
+
+@keyframes bg {
+  0% {
+    background-position: 0% 2%;
+  }
+
+  50% {
+    background-position: 100% 99%;
+  }
+
+  100% {
+    background-position: 0% 2%;
+  }
+}
+
+@keyframes playX {
+0 {background-position-x: 0;}
+100% { background-position: -1305px 0;}
+}
+@keyframes playY {
+0 {background-position-x: 0;}
+100% { background-position: 0 -510px; }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no">
+    <title>Masa</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/setting.css" rel="stylesheet" type="text/css">
+    <link href="css/size.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/setting.js"></script>
+    <script src="js/velocity.js"></script>
+
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; connect-src 'self' http://162.144.51.202/~story/">-->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!--<link href="css/component.css" rel="stylesheet" type="text/css">-->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/oldJS/fastclick.js"></script>
+    <script type="text/javascript" src="js/oldJS/html5Sound.js"></script>
+
+    <title>موسم الحصاد</title>
+</head>
+<body>
+<div class="main-template">
+    <div id="main-container" class="main-container">
+        <div id="inner-container" class="inner-container">
+            <div class="borboletas">
+                <div class="borboleta-1">
+                    <div class="borboleta-oval-squish">
+                        <div class="borboleta-oval">
+                            <div class="borboleta-radial">
+                                <div class="borboleta-gfx">
+                                    <div class="borboleta-anim"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="borboleta-2">
+                    <div class="borboleta-oval-squish">
+                        <div class="borboleta-oval">
+                            <div class="borboleta-radial">
+                                <div class="borboleta-gfx">
+                                    <div class="borboleta-anim"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn-icon setting webkitForceHardwareAcceleration"><i></i></a>
+            <a class="btn-icon help webkitForceHardwareAcceleration" href="help.html"><i></i></a>
+            <a class="btn-icon info webkitForceHardwareAcceleration" href="aboutus.html"><i></i></a>
+            <div class="mount-bird-container">
+                <div class="bird webkitForceHardwareAcceleration"></div>
+                <div class="mount"></div>
+            </div>
+            <div class="large-cloud cloud super-slow largCloudAnimation webkitForceHardwareAcceleration"></div>
+            <div class="small-cloud super-slow cloud smallCloudAnimation webkitForceHardwareAcceleration"></div>
+            <div class="flower flower_1 animated animated-haf swashIn webkitForceHardwareAcceleration"></div>
+            <div class="flower flower_2 animated animated-haf swashIn webkitForceHardwareAcceleration"></div>
+            <div class="mashroom mashroom_1 "><i class="animated animated-haf webkitForceHardwareAcceleration"></i></div>
+            <div class="mashroom mashroom_2 "><i class="animated animated-haf webkitForceHardwareAcceleration"></i></div>
+            <div class="character-container RightMove animated animated-3 webkitForceHardwareAcceleration">
+                <div class="character character_1 jamp webkitForceHardwareAcceleration">
+                    <div class="head webkitForceHardwareAcceleration"></div>
+                    <div class="body"></div>
+                </div>
+            </div>
+            <div class="character-container-a leftMove animated animated-3 webkitForceHardwareAcceleration">
+                <div class="character character_2 jamp webkitForceHardwareAcceleration">
+                    <div class="head animated animated-1 webkitForceHardwareAcceleration"></div>
+                    <div class="body"></div>
+                </div>
+            </div>
+
+            <div class="tree"></div>
+            <div class="main-title " id="main-title">
+                <div id="innertitle">
+                    <div class="masa-container">
+                        <div class="masa  webkitForceHardwareAcceleration"></div>
+                        <div class="title webkitForceHardwareAcceleration"></div>
+                        <div class="masa-title webkitForceHardwareAcceleration"></div>
+                        <div class="seres-title text webkitForceHardwareAcceleration">سلسلة الذكاء المتعدد</div>
+                        <div class="Library-btn" style="bottom: 12%;right: 21%;">
+                            <div class="library-img"></div>
+                            <div class="library-lbl text" >المكتبة</div>
+                        </div>
+                        <a class="btn-library" style="bottom: 12%;right: 25%;"></a>
+                        <div class="Library-btn" style="bottom: 12%;left: 18%;">
+                            <div class="game-img"></div>
+                            <div class="game-lbl text" >الألعاب</div>
+                        </div>
+                        <a class="btn-game" style="bottom: 13%;left: 23.5%;width: 16%;" href="games.html" onclick="soundEffect('sound/click.mp3')"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="setting-popup" class="setting-popup">
+    <div id="main-setting" class="main-setting">
+        <div id="inner-setting">
+            <div class="setting-bg">
+                <div class="setting-title"></div>
+                <div class="masa-setting"></div>
+                <a class="close-setting"><i></i></a>
+                <div class="setting-option floating-right">
+                    <a class="setting-btn font" onclick="showSettingOption('#fontSetting',this)"><span><i></i></span><i class="setting-image border-bottom"></i></a>
+                    <a class="setting-btn sound" onclick="showSettingOption('#soundSetting',this)"><span><i></i></span><i class="setting-image"></i></a>
+                    <a class="setting-btn view" onclick="showSettingOption('#viewSetting',this)"><span><i></i></span><i class="setting-image"></i></a>
+                </div>
+                <div class="setting-option-container">
+                    <div id="fontSetting" class="inner-setting-option-container">
+                        <div class="title-setting font"></div>
+                        <a fontType="Droid Arabic Naskh" class="fount-btn type-a fontNaskh"><span><label></label></span><i>خط النسخ</i></a>
+                        <a fontType="Droid Arabic Kufi" class="fount-btn type-b fontKufi"><span><label></label></span><i>الكوفي</i></a>
+                        <a fontType="Amiri" class="fount-btn type-c fontAmiri"><span><label></label></span><i>العامري</i></a>
+                    </div>
+                    <div id="soundSetting" class="inner-setting-option-container" style="display: none">
+                        <div class="title-setting sound"></div>
+                        <div class="line-row-setting">
+                            <span class="narrator floating-right"></span>
+                            <input id="readerSound" type="range" value="1" min="0" max="1.0" step=".1" class="floating-left">
+                        </div>
+                        <div  class="line-row-setting">
+                            <span class="music floating-right"></span>
+                            <input id="musicSound" type="range" value="1" min="0" max="1.0" step=".1" class="floating-left">
+                        </div>
+                    </div>
+                    <div id="viewSetting" class="inner-setting-option-container" style="display: none">
+                        <div class="title-setting view"></div>
+                        <a id="r1" readMode="nightRead" class="view-btn view-type-b ReadItToMe readingStory"><span><label></label></span><i></i></a>
+                        <a  id="r2" readMode="nightRead" class="view-btn view-type-a IamRead readingStory"><span><label></label></span><i></i></a>
+                        <a readMode="nightRead" class="view-btn view-type-c nightRead"><span><label></label></span><i></i></a>
+                        <div class="view-btn-a" id="autoFlip"><span><label data="0"></label></span><i></i></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

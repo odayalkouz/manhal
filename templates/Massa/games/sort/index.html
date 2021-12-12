@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/style.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/style-games.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/messag.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/timer.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/size.css"/>
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <script type="text/javascript" src="../../js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../js/msg.js"></script>
+    <script type="text/javascript" src="../../js/timerN.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="pizzle-container">
+    <div id="main-container" class="main-container">
+        <div id="inner-container" class="inner-container">
+            <div class="obj9">
+                <div class="timer-clock flaticon-timer"></div>
+                    <span id="timerCount"></span>
+                    <div id="timer">
+                        <div class="bar">
+                            <div id="bar"></div>
+                        </div>
+                 </div>
+            </div>
+            <span class="screw top-left"></span>
+            <span class="screw top-right"></span>
+            <span class="screw bottom-left"></span>
+            <span class="screw bottom-right"></span>
+            <div class="title-game"><i></i></div>
+            <a onclick="callFunction()" class="btn-game relode-btn-game"><i></i></a>
+            <a onclick="parent.gamesHome();" class="btn-game back-btn-game"><i></i></a>
+            <a onclick="parent.showContainer();parent.closeIframe();" class="btn-game home-btn-game"><i></i></a>
+            <ul id="sortable" class="ui-sortable"></ul>
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script>
+    function soundEffect(src) {
+
+        if ($('.SoundEffect').length)
+            $('.SoundEffect').remove();
+        // stopAll()
+
+        $("<audio class='SoundEffect'></audio>").attr({
+            'src': src,
+
+
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+
+        $(".SoundEffect").prop("loop", false);
+        $(".SoundEffect").prop("volume",localStorage['musicSound']);
+
+
+    }
+    function BackgroundSound(src) {
+
+        if ($('.BackgroundSound').length)
+            $('.BackgroundSound').remove();
+        // stopAll()
+
+        $("<audio class='BackgroundSound'></audio>").attr({
+            'src': "../../"+ src,
+
+
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+
+        $(".BackgroundSound").prop("loop", false);
+        $(".BackgroundSound").prop("volume", $("#musicSound").val());
+
+        $('.BackgroundSound').on('ended', function () {
+
+            $(this).trigger('play')
+        })
+    }
+    function speachSound(src) {
+        if ($('.titleSound').length)$('.titleSound').remove();
+        if ($('.speachSound').length)
+            $('.speachSound').remove();
+        // stopAll()
+
+        $("<audio class='speachSound'></audio>").attr({
+            'src':"../../"+ src,
+
+
+            'autoplay': 'autoplay'
+        }).appendTo("body");
+
+        $(".speachSound").prop("loop", false);
+
+
+    }
+
+
+
+
+</script>
+</html>

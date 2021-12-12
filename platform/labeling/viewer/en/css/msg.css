@@ -1,0 +1,200 @@
+.message-main-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10000000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.message-container
+{
+    display: block;
+    overflow: visible;
+    width: 43%;
+    height: 50%;
+    width: 33%;
+    height: 37%;
+    background: url("../../all/images/messg-box.svg") no-repeat center;
+    background-size: 100% 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+.line-row-message
+{
+    display: block;
+    overflow: visible;
+    /* margin: 20px 10px 0 0; */
+    /* margin-top: 1%; */
+}
+.lbl-data-message
+{
+    display: block;
+    overflow: visible;
+    width: 57%;
+}
+.lbl-data-message span,
+.lbl-data-sort-msg
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 16%;
+    height: 9%;
+    line-height: 64px;
+    font-family: 'Droid Arabic Kufi';
+    font-size: 4vmin;
+    text-align: justify;
+    color: #32100c;
+    direction: rtl;
+    padding: 0 5px 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    margin: auto;
+}
+.ok-btn
+{
+    display: block;
+    overflow: hidden;
+    width: 80px;
+    width: 14.698%;
+    height: 80px;
+    height: 16.854%;
+    cursor: pointer;
+    position: absolute;
+    bottom: -4%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url("../../all/images/PLAY.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ok-btn:hover
+{
+    -webkit-animation-name: jello;
+    animation-name: jello;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+}
+.ok-btn i
+{
+    display: block;
+    overflow: hidden;
+    width: 44%;
+    height: 70%;
+    position: absolute;
+    top: 11%;
+    left: 27%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.message-img
+{
+    display: block;
+    overflow: hidden;
+    width: 35%;
+    height: 40%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 18%;
+    top: 13%;
+}
+
+.sort-btn
+{
+    overflow: hidden;
+    font-size: inherit;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #f67c50;
+    color: #fff;
+    box-shadow: 0 6px #e7663e;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    margin: 0 20px 0 0;
+    border-radius: 6px;
+    font-family: 'Droid Arabic Kufi';
+    width: 130px;
+    height: 50px;
+    font-size: 2vmin;
+    line-height: 50px;
+    text-align: center;
+}
+.sort-btn:hover
+{
+    box-shadow: 0 0 #e7663e;
+    top: 6px;
+}
+
+.showSweetAlert {
+    -webkit-animation: showSweetAlert 0.3s;
+    animation: showSweetAlert 0.3s; }
+
+.hideSweetAlert {
+    -webkit-animation: hideSweetAlert 0.2s;
+    animation: hideSweetAlert 0.2s; }
+@-webkit-keyframes showSweetAlert {
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0;
+    }
+}
+
+@keyframes showSweetAlert {
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0;
+    }
+}
+
+@-webkit-keyframes hideSweetAlert {
+    from{
+        left: 0;
+    }
+    to{
+        left: -100%;
+    }
+}
+
+@keyframes hideSweetAlert {
+    from{
+        left: 0;
+    }
+    to{
+        left: -100%;
+    }
+}

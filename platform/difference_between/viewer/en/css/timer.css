@@ -1,0 +1,81 @@
+.obj9
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1000;
+    text-align: center;
+}
+.timer-clock-container
+{
+    display: block;
+    overflow: hidden;
+    width: 84.252%;
+    height: 83.83%;
+    background: #8aa350;
+    border-radius: 7px;
+    position: absolute;
+    top: 3%;
+    left: 0;
+    border: 3px solid rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 0px rgba(138,163,80,0.2);
+}
+#timerCount
+{
+    display: block;
+    overflow: hidden;
+    width: 68%;
+    position: absolute;
+    top: 49%;
+    left: 12.62%;
+    font-size: 4vmin;
+    color: #5c7f22;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+.bar
+{
+    width: 136px;
+    height: 11px;
+    z-index: 1;
+    position: relative;
+    position: absolute;
+    right: 12px;
+    top: 19px;
+    overflow: hidden;
+}
+#bar
+{
+    display: none;
+    z-index: 2;
+    height: 100%;
+    width: 131px;
+    background: rgb(255, 255, 0);
+    background: -moz-linear-gradient(0deg, rgb(255, 255, 0) 30%, rgb(254, 80, 0) 70%);
+    background: -webkit-linear-gradient(0deg, rgb(255, 255, 0) 30%, rgb(254, 80, 0) 70%);
+    background: -o-linear-gradient(0deg, rgb(255, 255, 0) 30%, rgb(254, 80, 0) 70%);
+    background: -ms-linear-gradient(0deg, rgb(255, 255, 0) 30%, rgb(254, 80, 0) 70%);
+    background: linear-gradient(90deg, rgb(255, 255, 0) 30%, rgb(254, 80, 0) 70%);
+}
+.timer-clock
+{
+    display: block;
+    overflow: hidden;
+    width: 31.5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../img/clock.svg") no-repeat center;
+    background-size: 100% 100%;
+    z-index: 9;
+}

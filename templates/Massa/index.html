@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no">
+    <title>Masa</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/animNew.css" rel="stylesheet" type="text/css">
+    <link href="css/messag.css" rel="stylesheet" type="text/css">
+    <link href="css/libraryCss.css" rel="stylesheet" type="text/css">
+    <link href="css/setting.css" rel="stylesheet" type="text/css">
+    <link href="css/size.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/msg.js"></script>
+    <script src="js/setting.js"></script>
+    <script src="js/velocity.js"></script>
+    <!-- ///////////////////-->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; connect-src 'self' http://162.144.51.202/~story/">-->
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!--<link href="css/component.css" rel="stylesheet" type="text/css">-->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/oldJS/data.js"></script>
+    <script type="text/javascript" src="js/oldJS/StoryControl.js"></script>
+    <script type="text/javascript" src="js/oldJS/index.js"></script>
+    <script type="text/javascript" src="js/oldJS/sound.js"></script>
+
+    <script type="text/javascript" src="js/oldJS/fastclick.js"></script>
+    <script type="text/javascript" src="js/oldJS/html5Sound.js"></script>
+    <script type="text/javascript" src="js/oldJS/storyUI.js"></script>
+    <script type="text/javascript" src="js/oldJS/fillling.js"></script>
+    <script type="text/javascript" src="js/oldJS/donwloadFiles.js"></script>
+    <script type="text/javascript" src="js/oldJS/register.js"></script>
+    <script type="text/javascript" src="js/oldJS/fastclick.js"></script>
+    <script type="text/javascript" src="js/oldJS/buyJS.js"></script>
+    <script type="text/javascript" src="js/oldJS/percircle.js"></script>
+    <script type="text/javascript" src="js/swiper.js"></script>
+    <script type="text/javascript" src="js/deviceinformation.js"></script>
+    <script type="text/javascript" src="js/DeviceAccounts.js"></script>
+
+
+    <title>موسم الحصاد</title>
+
+    <style>
+        @media all and (max-device-width: 640px) and (min-device-width: 360px)and (orientation : landscape){
+            .swiper-button-prev, .swiper-container-rtl .swiper-button-next
+            {
+                width: 7%;
+                height: 12%;
+            }
+            .swiper-button-next, .swiper-container-rtl .swiper-button-prev
+            {
+                width: 7%;
+                height: 12%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+
+<div class="main-containerPage HardwareAccelerated">
+    <div class='home-btn-story controlPage'><i></i></div>
+    <div class='library-icon controlPage'><i></i></div>
+    <a class="btn-icon-setting controlPage" style="bottom: 1%;right: .9%;top: auto"><i></i></a>
+    <a class="game-icon controlPage"><i></i></a>
+    <a class="reload-icon " onclick="goToSlideFirat()"><i></i></a>
+    <div class="bottom-btn-container floating-left">
+        <div class='textSetting controlPage floating-right'><i class="text-icon"></i></div>
+        <div class='thumb-btn-story controlPage floating-right'><i class="open-book"></i></div>
+        <div class='sound-btn-story controlPage floating-right'><i class="speakers"></i></div>
+    </div>
+
+</div>
+<div class="main-template">
+    <div id="main-container" class="main-container">
+        <div id="inner-container" class="inner-container">
+            <div class="home-container">
+                <div  style="pointer-events: none" class="borboletas">
+                    <div class="borboleta-1">
+                        <div class="borboleta-oval-squish">
+                            <div class="borboleta-oval">
+                                <div class="borboleta-radial">
+                                    <div class="borboleta-gfx">
+                                        <div class="borboleta-anim"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="borboleta-2">
+                        <div class="borboleta-oval-squish">
+                            <div class="borboleta-oval">
+                                <div class="borboleta-radial">
+                                    <div class="borboleta-gfx">
+                                        <div class="borboleta-anim"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn-icon setting webkitForceHardwareAcceleration"><i></i></a>
+                <a class="btn-icon help webkitForceHardwareAcceleration"><i></i></a>
+                <a class="btn-icon info webkitForceHardwareAcceleration" ><i></i></a>
+                <div class="mount-bird-container">
+                    <div class="bird webkitForceHardwareAcceleration"></div>
+                    <div class="mount"></div>
+                </div>
+                <div class="large-cloud cloud super-slow largCloudAnimation webkitForceHardwareAcceleration"></div>
+                <div class="small-cloud super-slow cloud smallCloudAnimation webkitForceHardwareAcceleration"></div>
+                <div class="flower flower_1 animated animated-haf swashIn webkitForceHardwareAcceleration"></div>
+                <div class="flower flower_2 animated animated-haf swashIn webkitForceHardwareAcceleration"></div>
+                <div class="mashroom mashroom_1 "><i class="animated animated-haf webkitForceHardwareAcceleration"></i></div>
+                <div class="mashroom mashroom_2 "><i class="animated animated-haf webkitForceHardwareAcceleration"></i></div>
+                <div class="character-container RightMove animated animated-3 webkitForceHardwareAcceleration">
+                    <div class="character character_1 jamp webkitForceHardwareAcceleration">
+                        <div class="headRanoosh head webkitForceHardwareAcceleration"></div>
+                        <div class="body"></div>
+                    </div>
+                </div>
+                <div class="character-container-a leftMove animated animated-3 webkitForceHardwareAcceleration">
+                    <div class="character character_2  webkitForceHardwareAcceleration">
+                        <div class="headdabdooob head  animated animated-1 webkitForceHardwareAcceleration"></div>
+                        <div class="headdabdooob head  animated animated-1 webkitForceHardwareAcceleration"></div>
+                        <div class="body"></div>
+                    </div>
+                </div>
+                <div class="tree"></div>
+                <div class="main-title " id="main-title">
+                    <div id="innertitle">
+                        <div style="display:none" class="masa-container  webkitForceHardwareAcceleration">
+                            <div class="masa  webkitForceHardwareAcceleration"></div>
+                            <div class="title webkitForceHardwareAcceleration"></div>
+                            <div class="masa-title webkitForceHardwareAcceleration"></div>
+                            <div class="seres-title text webkitForceHardwareAcceleration">سلسلة الذكاء المتعدد</div>
+                            <div class="Library-btn" style="bottom: 12%;right: 21%;">
+                                <div class="library-img"></div>
+                                <div class="library-lbl"><i></i></div>
+                            </div>
+                            <a class="btn-library" style="bottom: 12%;right: 25%;"></a>
+                            <div class="Library-btn" style="bottom: 12%;left: 18%;">
+                                <div class="game-img"></div>
+                                <div class="game-lbl"><i></i></div>
+                            </div>
+                            <a class="btn-game" style="bottom: 13%;left: 23.5%;width: 16%;"  ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="library-main-container" style="display: none;">
+                <div class="mount-bird-container">
+                    <div class="mount"></div>
+                </div>
+                <a class="btn-icon-setting"><i style="height: 90%;"></i></a>
+                <a class="btn-main" onclick="soundEffect('sound/click.mp3')"><i></i></a>
+                <div class="flower_1 animated animated-haf webkitForceHardwareAcceleration"></div>
+                <div class="flower_2 animated animated-haf webkitForceHardwareAcceleration"></div>
+                <div class="mashroom mashroom_2"><i class="animated animated-haf webkitForceHardwareAcceleration"></i></div>
+                <div class="main-title " id="main-title-b" style="z-index: 105">
+                    <div id="innertitle-b">
+                        <div class="library-container animated animated-1 fadeInDown webkitForceHardwareAcceleration">
+                            <div class="library-title"></div>
+                            <div class="inner-library-container">
+                                <div class="shelf-container">
+                                    <div class="thumb-container">
+                                        <a attrindex="1" charge="free" downloading="NO"  typeCleaver="الذّكاء الجسدي"  attrName="موسم الحصاد:"  class="thumb floating-right" style="background-image: url('images/BOOK01.jpg')">
+                                            <div id="lockSt1" class="canvasContainer">
+                                                <div class="lock-container"></div>
+                                                <div class="canvasContainerLoader" >
+                                                    <canvas  class="loaderCanvas" indexattr="1" id="loaderCanvas1"></canvas>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a attrindex="2" charge="free"  downloading="NO" typeCleaver="الذّكاء المكاني"  attrName="منزل قوس قزح :" class="thumb floating-right" style="background-image: url('images/BOOK02.jpg')">
+                                            <div id="lockSt2" class="canvasContainer">
+                                                <div class="lock-container"></div>
+                                                <div class="canvasContainerLoader" >
+                                                    <canvas  class="loaderCanvas" indexattr="2" id="loaderCanvas2"></canvas>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a attrindex="3" charge="lock"    downloading="NO" typeCleaver="الذّكاء العاطفي"       attrName="المنزل العجيب:" class="thumb floating-right" style="background-image: url('images/BOOK03.jpg')">
+                                            <div id="lockSt3" class="canvasContainer">
+                                                <div class="lock-container"></div>
+                                                <div class="canvasContainerLoader" >
+                                                    <canvas  class="loaderCanvas" indexattr="3" id="loaderCanvas3"></canvas>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a attrindex="4" charge="lock"  downloading="NO" typeCleaver="الذّكاء اللّغوي" attrName="المفاجأة السّعيدة:" class="thumb floating-right" style="background-image: url('images/BOOK04.jpg')">
+                                            <div id="lockSt4" class="canvasContainer">
+                                                <div class="lock-container"></div>
+                                                <div class="canvasContainerLoader" >
+                                                    <canvas  class="loaderCanvas" indexattr="4" id="loaderCanvas4"></canvas>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="shelf"></div>
+                                </div>
+                                <div class="shelf-container">
+                                    <div class="thumb-container">
+                                        <a attrindex="5" charge="lock" downloading="NO" typeCleaver="الذّكاء الطبيعي" attrName="مغامرة في النّهر:"  class="thumb floating-right" style="background-image: url('images/BOOK05.jpg')">
+                                            <div id="lockSt5" class="canvasContainer">
+                                                <div class="lock-container"></div>
+                                                <div class="canvasContainerLoader" >
+                                                    <canvas  class="loaderCanvas" indexattr="5" id="loaderCanvas5"></canvas>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a attrindex="6" charge="lock" downloading="NO" typeCleaver="الذّكاء الذّاتي" attrName="المرآة السّحريّة:" class="thumb floating-right" style="background-image: url('images/BOOK06.jpg')">
+                                            <div id="lockSt6" class="canvasContainer">
+                                                <div class="lock-container"></div>
+                                                <div class="canvasContainerLoader" >
+                                                    <canvas  class="loaderCanvas" indexattr="6" id="loaderCanvas6"></canvas>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a attrindex="7" charge="lock" downloading="NO" typeCleaver="الذّكاء الرّياضي" attrName="الطّعام اللّذيذ: " class="thumb floating-right" style="background-image: url('images/BOOK07.jpg')">
+                                            <div id="lockSt7" class="canvasContainer">
+                                                <div class="lock-container"></div>
+                                                <div class="canvasContainerLoader" >
+                                                    <canvas  class="loaderCanvas" indexattr="7" id="loaderCanvas7"></canvas>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a attrindex="8" charge="lock" downloading="NO" typeCleaver="الذّكاء الموسيقي" attrName="أحلام رنّوش:"  class="thumb floating-right" style="background-image: url('images/BOOK08.jpg')">
+                                            <div id="lockSt8" class="canvasContainer">
+                                                <div class="lock-container"></div>
+                                                <div class="canvasContainerLoader" >
+                                                    <canvas  class="loaderCanvas" indexattr="8" id="loaderCanvas8"></canvas>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="shelf"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="card" class="popup-inner-container animated animated-1 webkitForceHardwareAcceleration" style="display: none">
+                            <div class="story-card">
+                                <a id="story-card-close" class="popup-btn close"><i></i></a>
+                                <div class="popup-title text">الذكاء العاطفي</div>
+                                <div class="card-info">
+                                    <div class="thumb-story floating-left">
+                                        <div style="position:absolute;background: url(images/blocked-file.svg);width: 100%;height: 100%;background-size: 50% 50%;background-repeat: no-repeat;background-position: 50% 50%;background-color: rgba(0,0,0,.5)" class="statusLock"></div>
+                                    </div>
+                                    <div class="checkbox-container">
+                                        <div class="border-night-button"></div>
+                                        <div class="toggle">
+                                            <input class="toggle-input nightToggleInput" type="checkbox" />
+                                            <div class="toggle-bg"></div>
+                                            <div class="toggle-switch">
+                                                <div class="toggle-switch-figure"></div>
+                                                <div class="toggle-switch-figureAlt"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-info-text floating-right">
+                                        <span class="main-title-card text">المنزل العجيب</span>
+                                        <div class="story-number-lbl">
+                                            <span class="floating-right">القصة رقم:</span>
+                                            <span class="story-number floating-right">1</span>
+                                        </div>
+                                        <p class="story-information">
+                                            الذّكاء العاطفيّ يعني القدرة على التّفاعل والتّعاطف مع الآخرين؛ لذا عندما اشتدّ المطر في الخارج وتعرّضت عائلة رنّوش لمواقف مفاجئة، قاموا....                                    </p>
+                                    </div>
+                                </div>
+
+
+                                <a id="readBtn" class="popup-btn play"><i></i></a>
+                                <a id="share" class="popup-btn share"><i></i></a>
+                                <a class="popup-btn parents"><i></i></a>
+                                <a class="popup-btn child"><i></i></a>
+                            </div>
+                        </div>
+                        <div id="adv" class="popup-inner-container animated animated-1 webkitForceHardwareAcceleration" style="display: none">
+                            <div class="story-card-adv">
+                                <a id="advClose" class="popup-btn close adv"><i></i></a>
+                                <div class="popup-title text">الذكاء العاطفي</div>
+                                <div id="inner-adv" class="card-info"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="setting-popup" class="setting-popup">
+    <div id="main-setting" class="main-setting">
+        <div id="inner-setting">
+            <div class="setting-bg">
+                <div class="setting-title"></div>
+                <div class="masa-setting"></div>
+                <a class="close-setting"><i></i></a>
+                <div class="setting-option floating-right">
+                    <a class="setting-btn font" onclick="showSettingOption('#fontSetting',this)"><span><i></i></span><i class="setting-image border-bottom"></i></a>
+                    <a class="setting-btn sound" onclick="showSettingOption('#soundSetting',this)"><span><i></i></span><i class="setting-image"></i></a>
+                    <a class="setting-btn view" onclick="showSettingOption('#viewSetting',this)"><span><i></i></span><i class="setting-image"></i></a>
+                </div>
+                <div class="setting-option-container">
+                    <div id="fontSetting" class="inner-setting-option-container">
+                        <div class="title-setting font"></div>
+                        <a fontType="Droid Arabic Naskh" class="fount-btn type-a fontNaskh"><span><label></label></span><i>خط النسخ</i></a>
+                        <a fontType="Droid Arabic Kufi" class="fount-btn type-b fontKufi"><span><label></label></span><i>الكوفي</i></a>
+                        <a fontType="Amiri" class="fount-btn type-c fontAmiri"><span><label></label></span><i>العامري</i></a>
+                    </div>
+                    <div id="soundSetting" class="inner-setting-option-container" style="display: none">
+                        <div class="title-setting sound"></div>
+                        <div class="line-row-setting">
+                            <span class="narrator floating-right"></span>
+                            <input id="readerSound" type="range" value="1" min="0" max="1.0" step=".1" class="floating-left">
+                        </div>
+                        <div  class="line-row-setting">
+                            <span class="music floating-right"></span>
+                            <input id="musicSound" type="range" value="1" min="0" max="1.0" step=".1" class="floating-left">
+                        </div>
+                    </div>
+                    <div id="viewSetting" class="inner-setting-option-container" style="display: none">
+                        <div class="title-setting view"></div>
+                        <a id="r1" readMode="nightRead" class="view-btn view-type-b ReadItToMe readingStory"><span><label></label></span><i></i></a>
+                        <a  id="r2" readMode="nightRead" class="view-btn view-type-a IamRead readingStory"><span><label></label></span><i></i></a>
+                        <a readMode="nightRead" class="view-btn view-type-c nightRead"><span><label></label></span><i></i></a>
+                        <div class="view-btn-a" id="autoFlip"><span><label data="0"></label></span><i></i></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

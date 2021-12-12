@@ -1,0 +1,97 @@
+ 	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 27/06/2016 11:20
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+}
+
+.flaticon-add-new-page:before { content: "\f100"; }
+.flaticon-align-justify:before { content: "\f101"; }
+.flaticon-align-to-left:before { content: "\f102"; }
+.flaticon-align-to-right:before { content: "\f103"; }
+.flaticon-arrow:before { content: "\f104"; }
+.flaticon-arrows:before { content: "\f105"; }
+.flaticon-arrows-1:before { content: "\f106"; }
+.flaticon-arrows-2:before { content: "\f107"; }
+.flaticon-arrows-3:before { content: "\f108"; }
+.flaticon-arrows-4:before { content: "\f109"; }
+.flaticon-bold-text:before { content: "\f10a"; }
+.flaticon-checkbox:before { content: "\f10b"; }
+.flaticon-checkbox-1:before { content: "\f10c"; }
+.flaticon-cogwheel:before { content: "\f10d"; }
+.flaticon-cross-out:before { content: "\f10e"; }
+.flaticon-cursor:before { content: "\f10f"; }
+.flaticon-delete-file-symbol-of-paper-sheet-with-text:before { content: "\f110"; }
+.flaticon-delete-page-hand-drawn-symbol:before { content: "\f111"; }
+.flaticon-down-arrow:before { content: "\f112"; }
+.flaticon-duplicate-image:before { content: "\f113"; }
+.flaticon-empty-circle:before { content: "\f114"; }
+.flaticon-eye:before { content: "\f115"; }
+.flaticon-highlight:before { content: "\f116"; }
+.flaticon-indent-right:before { content: "\f117"; }
+.flaticon-info:before { content: "\f118"; }
+.flaticon-insert:before { content: "\f119"; }
+.flaticon-interface:before { content: "\f11a"; }
+.flaticon-interface-1:before { content: "\f11b"; }
+.flaticon-interface-2:before { content: "\f11c"; }
+.flaticon-italicize-text:before { content: "\f11d"; }
+.flaticon-left-indentation-option:before { content: "\f11e"; }
+.flaticon-line:before { content: "\f11f"; }
+.flaticon-link:before { content: "\f120"; }
+.flaticon-living-room-books-group:before { content: "\f121"; }
+.flaticon-microphone:before { content: "\f122"; }
+.flaticon-more:before { content: "\f123"; }
+.flaticon-move-right:before { content: "\f124"; }
+.flaticon-movie-player-play-button:before { content: "\f125"; }
+.flaticon-multimedia:before { content: "\f126"; }
+.flaticon-musical-note-symbol:before { content: "\f127"; }
+.flaticon-paint:before { content: "\f128"; }
+.flaticon-paint-drop:before { content: "\f129"; }
+.flaticon-panorama:before { content: "\f12a"; }
+.flaticon-pencil-on-a-notes-paper:before { content: "\f12b"; }
+.flaticon-photo-camera:before { content: "\f12c"; }
+.flaticon-picture:before { content: "\f12d"; }
+.flaticon-picture-gallery:before { content: "\f12e"; }
+.flaticon-plus:before { content: "\f12f"; }
+.flaticon-push-the-button:before { content: "\f130"; }
+.flaticon-radio-on-button:before { content: "\f131"; }
+.flaticon-right-arrow:before { content: "\f132"; }
+.flaticon-rubbish-bin:before { content: "\f133"; }
+.flaticon-save-disk:before { content: "\f134"; }
+.flaticon-signs:before { content: "\f135"; }
+.flaticon-signs-1:before { content: "\f136"; }
+.flaticon-signs-2:before { content: "\f137"; }
+.flaticon-signs-3:before { content: "\f138"; }
+.flaticon-square:before { content: "\f139"; }
+.flaticon-square-1:before { content: "\f13a"; }
+.flaticon-square-2:before { content: "\f13b"; }
+.flaticon-squares:before { content: "\f13c"; }
+.flaticon-stop:before { content: "\f13d"; }
+.flaticon-technology:before { content: "\f13e"; }
+.flaticon-tiles-view:before { content: "\f13f"; }
+.flaticon-underline:before { content: "\f140"; }
+.flaticon-write:before { content: "\f141"; }
+.flaticon-zoom-out:before { content: "\f142"; }

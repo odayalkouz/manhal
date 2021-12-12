@@ -1,0 +1,1 @@
+{"service_command":"TOKENIZATION","access_code":"1tzTa4679zfC5hWZiUzD","merchant_identifier":"MQPyMigf","merchant_reference":"subscribe59d0efbaad993","language":"en","return_url":"http:\/\/localhost\/Manhal\/en\/payment","token_name":"Pay852Tok22Man8574utyrt00TYFv247F54","signature":"138afbcd2a03ffaefdf4cf664ba476e71382d5e106ceecd3cf0be45ec3ff9118"}

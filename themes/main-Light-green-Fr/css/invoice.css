@@ -1,0 +1,3954 @@
+.shipping-main-container {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+    position: relative;
+    width: 100%;
+}
+.shipping-main-container .information-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 50%
+}
+.shipping-main-container .information-container .billing-adress {
+    display: block;
+    overflow: hidden;
+    width: 585px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: linear-gradient(to top, #f2f2f2, #fff 8%);
+    border: 1px solid #ebebeb
+}
+.shipping-main-container .information-container .billing-adress .inputs-container {
+    display: block;
+    overflow: hidden;
+    margin: 0 15px
+}
+.shipping-main-container .information-container .billing-adress h1 {
+    display: block;
+    overflow: hidden;
+    border-bottom: solid 1px #ebebeb;
+    margin: 0;
+    padding: 0 0 0 15px;
+    text-align: left;
+    color: #00a951;
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px;
+    line-height: 47px
+}
+.shipping-main-container .information-container .billing-adress span {
+    display: block;
+    overflow: hidden;
+    border-bottom: solid 1px #ebebeb;
+    margin: 0;
+    padding: 0 15px 0 30px;
+    text-align: left;
+    color: #626161;
+    font-weight: 500;
+    font-size: 15px;
+    height: 50px;
+    line-height: 47px;
+    background: url(../images/required.svg) 4% 47% no-repeat;
+    background-size: 7.3%
+}
+.shipping-main-container .information-container .billing-adress .address {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #626161;
+    font-weight: 400;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px
+}
+.shipping-main-container .information-container .billing-adress .line-row {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+    position: relative
+}
+.shipping-main-container .information-container .billing-adress .line-row input:last-of-type {
+    display: block;
+    overflow: hidden;
+    margin: 5px 0 0
+}
+.shipping-main-container .information-container .billing-adress .address-area-a, .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+    margin: 5px 17px 0 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DCDCDC), color-stop(1, #EAEAEA));
+    background-image: -o-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: -moz-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: -webkit-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: -ms-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%)
+}
+.shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+    display: inline-block;
+    overflow: hidden;
+    width: 268px;
+    height: 30px;
+    line-height: 27px;
+    padding: 0 10px;
+    border: 1px solid #dbe0e3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    background-image: linear-gradient(to bottom, #DCDCDC 0, #EAEAEA 100%);
+    color: #00a951
+}
+.shipping-main-container .information-container .billing-adress .address-area-a::-webkit-input-placeholder, .shipping-main-container .information-container .billing-adress .address-area-b::-webkit-input-placeholder, .shipping-main-container .information-container .billing-adress input::-webkit-input-placeholder {
+    color: #626161
+}
+.shipping-main-container .information-container .billing-adress .address-area-a:-moz-placeholder, .shipping-main-container .information-container .billing-adress .address-area-b:-moz-placeholder, .shipping-main-container .information-container .billing-adress input:-moz-placeholder {
+    color: #626161
+}
+.shipping-main-container .information-container .billing-adress .address-area-a::-moz-placeholder, .shipping-main-container .information-container .billing-adress .address-area-b::-moz-placeholder, .shipping-main-container .information-container .billing-adress input::-moz-placeholder {
+    color: #626161
+}
+.shipping-main-container .information-container .billing-adress .address-area-a:-ms-input-placeholder, .shipping-main-container .information-container .billing-adress .address-area-b:-ms-input-placeholder, .shipping-main-container .information-container .billing-adress input:-ms-input-placeholder {
+    color: #626161
+}
+.shipping-main-container .information-container .billing-adress .address-area-a, .shipping-main-container .information-container .billing-adress .address-area-b {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #dbe0e3;
+    background-color: #fff;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    resize: none;
+    color: #00a951;
+    overflow: hidden
+}
+.shipping-main-container .information-container .billing-adress .address-area-a {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    background-image: linear-gradient(to bottom, #DCDCDC 0, #EAEAEA 100%)
+}
+.shipping-main-container .information-container .billing-adress .address-area-b {
+    margin: 5px 17px 5px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DCDCDC), color-stop(1, #EAEAEA));
+    background-image: -o-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: -moz-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: -webkit-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: -ms-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: linear-gradient(to bottom, #DCDCDC 0, #EAEAEA 100%)
+}
+.shipping-main-container .ddl-container-a {
+    display: inline-block;
+    overflow: hidden;
+    width: 268px;
+    padding: 0 0 0 4px;
+    border: 1px solid #dbe0e3;
+    margin: 5px 0 0;
+    background: url(../images/ddl-b.svg) 88% center no-repeat #e5e5e5;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    font-size: 14px;
+    color: #626161;
+    background-size: 4%;
+    height: 30px;
+    line-height: 27px
+}
+.shipping-main-container .ddl-container-a label {
+    display: block;
+    overflow: hidden;
+    margin: 0 0 0 8px;
+    width: 254px;
+    color: #626161;
+    text-align: left;
+    height: 30px;
+    line-height: 27px;
+    font-size: 12px
+}
+.shipping-main-container .ddl-container-a select {
+    display: block;
+    overflow: hidden !important;
+    width: 268px;
+    height: 30px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color: #00a951
+}
+.shipping-main-container .ddl-container-a select option {
+    display: block;
+    overflow: hidden;
+    width: 268px
+}
+.shipping-main-container .ddl-container-b {
+    display: inline-block;
+    overflow: hidden;
+    width: 120px;
+    padding: 0 0 0 4px;
+    border: 1px solid #dbe0e3;
+    margin: 0;
+    background: url(../images/ddl-b.svg) 100px center no-repeat #e5e5e5;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    font-size: 14px;
+    color: #626161;
+    background-size: 9%;
+    height: 30px;
+    line-height: 27px
+}
+.shipping-main-container .ddl-container-b:nth-of-type(2) {
+    margin: 0 0 0 28px
+}
+.shipping-main-container .ddl-container-b label {
+    display: block;
+    overflow: hidden;
+    margin: 0 0 0 8px;
+    width: 254px;
+    color: #626161;
+    text-align: left;
+    height: 30px;
+    line-height: 27px;
+    font-size: 12px
+}
+.shipping-main-container .ddl-container-b select {
+    display: block;
+    overflow: hidden !important;
+    width: 118px;
+    height: 30px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color: #00a951
+}
+.shipping-main-container .ddl-container-b select option {
+    display: block;
+    overflow: hidden;
+    width: 268px
+}
+.shipping-main-container .information-container .payment-method {
+    display: block;
+    overflow: hidden;
+    width: 585px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: linear-gradient(to top, #f2f2f2, #fff 8%);
+    border: 1px solid #ebebeb;
+    margin: 0
+}
+.shipping-main-container .information-container .payment-method.borders {
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 61px 2px 5px rgba(0, 0, 0, .2);
+    margin: 10px 0 0;
+    overflow: visible
+}
+.shipping-main-container .information-container .payment-method .section-check-row, .shipping-main-container .information-container .shipping-method .ship-tow-car-container {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DCDCDC), color-stop(1, #EAEAEA));
+    background-image: -moz-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: -ms-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%)
+}
+.shipping-main-container .information-container .payment-method h1 {
+    display: block;
+    overflow: hidden;
+    border-bottom: solid 1px #ebebeb;
+    margin: 0;
+    padding: 0 0 0 15px;
+    text-align: left;
+    color: #00a951;
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px;
+    line-height: 47px
+}
+.shipping-main-container .information-container .payment-method .section-check-row {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    padding: 0 0 0 15px;
+    background-image: -o-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: linear-gradient(to bottom, #DCDCDC 0, #EAEAEA 100%)
+}
+.shipping-main-container .information-container .payment-method .section-check-row .text {
+    color: #626161;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    cursor: pointer;
+    margin: 0 0 0 5px
+}
+.shipping-main-container .information-container .payment-method .section-check-row .text span {
+    font-size: 14px;
+    margin: 0 0 0 10px
+}
+.shipping-main-container .information-container .payment-method .section-check-row .image-a {
+    display: inline-block;
+    overflow: hidden;
+    width: 75px;
+    height: 50px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url(../images/shipping/paypal.svg);
+    background-position: center 0;
+    margin: 0
+}
+.shipping-main-container .information-container .payment-method .section-check-row .image-b {
+    display: inline-block;
+    overflow: hidden;
+    width: 75px;
+    height: 50px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url(../images/shipping/coins1.svg);
+    background-position: center center;
+    margin: 0
+}
+.shipping-main-container .information-container .payment-method .section-check-row .image-c {
+    display: inline-block;
+    overflow: hidden;
+    width: 75px;
+    height: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url(../images/shipping/credit.svg);
+    background-position: center center;
+    margin: 0
+}
+.shipping-main-container .information-container .payment-method .section-check-row .image-d, .shipping-main-container .information-container .payment-method .section-check-row .image-e, .shipping-main-container .information-container .payment-method .section-check-row .image-f {
+    display: inline-block;
+    width: 75px;
+    height: 50px;
+    background-size: 70%;
+    background-position: center center;
+    margin: 0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    overflow: hidden
+}
+.shipping-main-container .information-container .payment-method .section-check-row .image-d {
+    background-image: url(../images/shipping/sadad.svg)
+}
+.shipping-main-container .information-container .payment-method .section-check-row .image-e {
+    background-image: url(../images/shipping/intallments.svg)
+}
+.shipping-main-container .information-container .payment-method .section-check-row .image-f {
+    background-image: url(../images/shipping/nabs.svg)
+}
+.shipping-main-container .information-container .payment-method .section-check-row ul {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.shipping-main-container .information-container .payment-method .section-check-row .content-list {
+    display: block;
+    overflow: hidden;
+    background-color: #DAF3E9;
+    margin: 2px 0;
+    color: #3b4719;
+    height: auto;
+    line-height: 40px;
+    min-width: 100px;
+    width: 100%;
+    cursor: pointer
+}
+.shipping-main-container .information-container .payment-method .section-check-row .content-list:hover {
+    background-color: #ECF1EF
+}
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox {
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 10px 9px 0 0;
+    cursor: pointer
+}
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=checkbox], .shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: .0625rem;
+    height: .0625rem
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox .check {
+    width: 15px;
+    height: 15px;
+    background-color: #fffcfc;
+    border: 1px solid #00a951;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -moz-box-shadow: inset 0 0 5px #bfbfbf;
+    -webkit-box-shadow: inset 0 0 5px #bfbfbf;
+    box-shadow: inset 0 0 5px #bfbfbf
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox .check.radius {
+    border-radius: 100%
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox .check:focus {
+    border-color: #bcd9e2
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox .check:before {
+    position: absolute;
+    vertical-align: middle;
+    color: transparent;
+    font-size: 0;
+    content: "";
+    height: .3125rem;
+    width: .565rem;
+    background-color: transparent;
+    left: 33%;
+    top: 20%;
+    margin-left: -.325rem;
+    margin-top: -.365rem;
+    display: block;
+    transition: all .2s ease-out
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=checkbox]:checked ~ .check:before, .shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=radio]:checked ~ .check:before {
+    background: url(../images/check.svg) 0 no-repeat;
+    width: 29px;
+    height: 18px;
+    transition: all .2s ease-out;
+    background-size: 81%
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=checkbox]:checked ~ .check.radius:before, .shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=radio]:checked ~ .check.radius:before {
+    width: 22px;
+    height: 18px
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=checkbox]:disabled ~ .check, .shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=radio]:disabled ~ .check {
+    border-color: #cacaca;
+    cursor: default
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=checkbox]:disabled:checked ~ .check:before, .shipping-main-container .information-container .payment-method .section-check-row .input-control.checkbox input[type=radio]:disabled:checked ~ .check:before {
+    border-color: #cacaca
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row .input-control.radio .check {
+    border: 1px solid #999;
+    border-radius: 50%
+}
+
+.shipping-main-container .information-container .payment-method .section-check-row ul .content-list .text {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 40px 0 5px;
+    height: 40px;
+    line-height: 38px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.shipping-main-container .information-container .payment-method .credit-card-inner {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    padding: 0 0 0 15px;
+}
+
+.shipping-main-container .information-container .payment-method .credit-card-inner .line-row {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 10px 0
+}
+
+.shipping-main-container .information-container .payment-method .credit-card-inner .line-row:first-of-type {
+    margin: 10px 0 0
+}
+
+.shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+    display: block;
+    overflow: hidden;
+    padding: 0 0 0 15px;
+    text-align: left;
+    color: #626161;
+    font-weight: 400;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 10px 10px 0;
+    width: 170px
+}
+
+.shipping-main-container .information-container .payment-method .credit-card-inner input[type=email], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=tel], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=text] {
+    display: inline-block;
+    overflow: hidden;
+    width: 268px;
+    height: 30px;
+    line-height: 27px;
+    padding: 0 10px;
+    border: 1px solid #dbe0e3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .2);
+    background-image: linear-gradient(to bottom, #DCDCDC 0, #EAEAEA 100%);
+    color: #00a951
+}
+
+.shipping-main-container .information-container .shipping-method {
+    display: block;
+    overflow: hidden;
+    width: 585px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: linear-gradient(to top, #f2f2f2, #fff 8%);
+    border: 1px solid #ebebeb;
+    margin: 25px 0
+}
+
+.shipping-main-container .information-container .shipping-method h1 {
+    display: block;
+    overflow: hidden;
+    border-bottom: solid 1px #ebebeb;
+    margin: 0;
+    padding: 0 0 0 15px;
+    text-align: left;
+    color: #00a951;
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px;
+    line-height: 47px
+}
+
+.shipping-main-container .information-container .shipping-method .ship-tow-car-container {
+    display: block;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #DCDCDC 0, #EAEAEA 100%)
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row {
+    display: inline-block;
+    overflow: hidden;
+    margin: 2px 0 0;
+    width: 50%;
+    padding: 0 0 0 15px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DCDCDC), color-stop(1, #EAEAEA));
+    background-image: -moz-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: -ms-linear-gradient(bottom, #DCDCDC 0, #EAEAEA 100%);
+    background-image: linear-gradient(to bottom, #DCDCDC 0, #EAEAEA 100%)
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .text {
+    color: #626161;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100px;
+    line-height: 100px;
+    text-align: left;
+    cursor: pointer;
+    margin: 0 0 0 5px
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+    display: inline-block;
+    overflow: hidden;
+    width: 145px;
+    height: 100px;
+    background-size: 310px 300px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url(../images/shipping/dhl.svg);
+    background-position: -150px -186px;
+    margin: 0 30px 0 20px
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+    display: inline-block;
+    overflow: hidden;
+    width: 145px;
+    height: 100px;
+    background-size: 310px 300px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url(../images/shipping/ar-shipping.svg);
+    background-position: -150px -186px;
+    margin: 0 10px 0 20px
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row ul {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .content-list {
+    display: block;
+    overflow: hidden;
+    background-color: #DAF3E9;
+    margin: 2px 0;
+    color: #3b4719;
+    height: auto;
+    line-height: 40px;
+    min-width: 100px;
+    width: 100%;
+    cursor: pointer
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .content-list:hover {
+    background-color: #ECF1EF
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox {
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 35px 9px 0 0;
+    cursor: pointer
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: .0625rem;
+    height: .0625rem
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox .check {
+    width: 15px;
+    height: 15px;
+    background-color: #fffcfc;
+    border: 1px solid #00a951;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -moz-box-shadow: inset 0 0 5px #bfbfbf;
+    -webkit-box-shadow: inset 0 0 5px #bfbfbf;
+    box-shadow: inset 0 0 5px #bfbfbf
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox .check.radius {
+    border-radius: 100%
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox .check:focus {
+    border-color: #bcd9e2
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox .check:before {
+    position: absolute;
+    vertical-align: middle;
+    color: transparent;
+    font-size: 0;
+    content: "";
+    height: .3125rem;
+    width: .565rem;
+    background-color: transparent;
+    left: 33%;
+    top: 20%;
+    margin-left: -.325rem;
+    margin-top: -.365rem;
+    display: block;
+    transition: all .2s ease-out
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox input[type=radio]:checked ~ .check:before {
+    background: url(../images/check.svg) 0 no-repeat;
+    width: 29px;
+    height: 18px;
+    transition: all .2s ease-out;
+    background-size: 81%
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox input[type=radio]:checked ~ .check.radius:before {
+    width: 22px;
+    height: 18px
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox input[type=radio]:disabled ~ .check {
+    border-color: #cacaca;
+    cursor: default
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.checkbox input[type=radio]:disabled:checked ~ .check:before {
+    border-color: #cacaca
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row .input-control.radio .check {
+    border: 1px solid #999;
+    border-radius: 50%
+}
+
+.shipping-main-container .information-container .shipping-method .section-check-row ul .content-list .text {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 40px 0 5px;
+    height: 40px;
+    line-height: 38px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.shipping-main-container .viewer-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 555px;
+    margin: 0 0 0 30px
+}
+
+.shipping-main-container .viewer-container .viewer-container-background {
+    display: block;
+    overflow: hidden;
+    width: 555px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: linear-gradient(to top, #f2f2f2, #fff 8%);
+    border: 1px solid #ebebeb
+}
+
+.shipping-main-container .viewer-container .ReviewYourOrder {
+    display: inline-block;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background: #00a951;
+    text-align: left;
+    padding: 0 0 0 20px
+}
+
+.shipping-main-container .viewer-container .table-container-scroll {
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 300px;
+    margin: -5px 0 0;
+    width: 100%
+}
+
+.shipping-main-container .viewer-container .table-container {
+    display: table;
+    overflow: hidden;
+    width: 100%
+}
+
+.shipping-main-container .viewer-container .row-container {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    vertical-align: middle;
+    border-top: solid 1px #ddd
+}
+
+.shipping-main-container .viewer-container .row-container .cell-container:first-child {
+    border-left: solid 1px transparent
+}
+
+.shipping-main-container .viewer-container .row-container .cell-container:last-child {
+    border-right: solid 1px transparent
+}
+
+.shipping-main-container .viewer-container .row-container:last-child {
+    border: 1px solid #ddd
+}
+
+.shipping-main-container .viewer-container .row-container:nth-child(odd) {
+    background: #e7e7e7
+}
+
+.shipping-main-container .viewer-container .row-container:nth-child(even) {
+    background: #dfdfdf
+}
+
+.shipping-main-container .viewer-container .cell-container {
+    display: block;
+    overflow: hidden;
+    vertical-align: middle;
+    border-right: solid 1px #f6f6f6;
+    border-left: solid 1px #b0b0b2;
+    height: 60px;
+    line-height: 60px
+}
+
+.shipping-main-container .viewer-container .cell-container.No {
+    width: 10%
+}
+
+.shipping-main-container .viewer-container .cell-container.Product {
+    width: 50%;
+    color: #626161;
+    font-size: 15px;
+    font-weight: 400
+}
+
+.shipping-main-container .viewer-container .cell-container.QTY {
+    width: 10%;
+    color: #00a951;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.shipping-main-container .viewer-container .cell-container.Type {
+    width: 40%;
+    color: #626161;
+    font-size: 14px;
+    font-weight: 400
+}
+
+.shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+    width: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 17px 10px 0;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.shipping-main-container .viewer-container .cell-container.Type label {
+    display: inline-block;
+    overflow: hidden;
+    height: 60px;
+    line-height: 60px
+}
+
+.shipping-main-container .viewer-container .cell-container.Type label .image-a {
+    height: 25px;
+    background-image: url(../images/cat/product/books.svg)
+}
+
+.shipping-main-container .viewer-container .cell-container.Type label .image-b {
+    height: 25px;
+    background-image: url(../images/cat/product/ebook.svg);
+    clear: both
+}
+
+.shipping-main-container .viewer-container .cell-container.Type label .image-c {
+    height: 25px;
+    background-image: url(../images/cat/product/interactivestories.svg)
+}
+
+.shipping-main-container .viewer-container .cell-container.Type label .text {
+    display: none;
+    overflow: hidden;
+    line-height: 33px;
+    min-width: 160px;
+    text-align: left
+}
+
+.shipping-main-container .viewer-container .cell-container.subTotal {
+    width: 30%;
+    color: #00a951;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.shipping-main-container .viewer-container .cell-container.subTotal label, .shipping-main-container .viewer-container .cell-container.subTotal label span {
+    display: inline-block;
+    overflow: hidden
+}
+
+.shipping-main-container .viewer-container .cell-container .number {
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    background: #00a951;
+    border-radius: 100%;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 19px;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 20px auto
+}
+
+.shipping-main-container .viewer-container .info-container-table {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0
+}
+
+.shipping-main-container .viewer-container .info-container-table .line-content {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid 1px #ebebeb;
+    background: #555
+}
+
+.shipping-main-container .viewer-container .info-container-table .line-content label, .shipping-main-container .viewer-container .info-container-table .line-content span {
+    color: #fff
+}
+
+.shipping-main-container .viewer-container .info-container-table .line-content label {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 0 0 15px
+}
+
+.shipping-main-container .viewer-container .info-container-table .line-content span {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 15px 0 0;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.shipping-main-container .viewer-container .bill-table-container {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fafafa;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 8%);
+    background-image: linear-gradient(to top, #f2f2f2, #fff 8%);
+    border: 1px solid #ebebeb;
+    margin: 0
+}
+
+.shipping-main-container .viewer-container .bill-table-container .bill-row {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: solid 1px #ebebeb;
+    min-height: 40px;
+    line-height: 40px;
+    max-height: 60px;
+}
+
+.shipping-main-container .viewer-container .bill-table-container .bill-row:first-of-type {
+    border-bottom: solid 2px #ebebeb
+}
+
+.shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 0 0 15px;
+    text-align: left;
+    color: #555;
+    font-weight: 500;
+    font-size: 18px;
+    height: 35px;
+    line-height: 35px;
+    background: url(../images/shipping/invoice.svg) 94% 3px no-repeat;
+    background-size: 7%
+}
+
+.shipping-main-container .viewer-container .bill-table-container .bill-row label {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 0 0 15px;
+    color: #00a951;
+}
+
+.shipping-main-container .viewer-container .bill-table-container .bill-row span {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 10px 0 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #626161;
+    width: 76%;
+}
+.shipping-main-container .viewer-container .bill-table-container .bill-row span.description
+{
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.shipping-main-container .viewer-container .bill-table-container .bill-row span div {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 5px
+}
+.shipping-main-container .viewer-container .bill-table-container .bill-row span.description div {
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    max-height: 60px;
+    line-height: 20px;
+    padding-right: 16px;
+}
+
+.shipping-main-container .viewer-container .bill-table-container .bill-row:last-child {
+    background: #555
+}
+
+.shipping-main-container .viewer-container .bill-table-container .bill-row:last-child label, .shipping-main-container .viewer-container .bill-table-container .bill-row:last-child span {
+    color: #fff
+}
+
+.shipping-main-container .viewer-container .safe-secure-container {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fafafa;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    border: 1px solid #ebebeb;
+    margin: 30px 0 0;
+    background-image: url(../images/shipping/LOCK.png);
+    background-repeat: no-repeat;
+    background-size: 22%;
+    background-position: 10px -10px
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .text-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 0 0 80px
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .text-container label {
+    display: block;
+    overflow: hidden;
+    color: #555;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 600;
+    font-size: 30px
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .text-container label div {
+    display: inline-block;
+    overflow: hidden;
+    color: #00a951;
+    height: 28px;
+    line-height: 33px
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .text-container p {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 25px;
+    font-size: 14px;
+    color: #626161;
+    font-weight: 400;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0 0
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .bottom-container {
+    display: block;
+    overflow: hidden;
+    height: 50px;
+    margin: 10px 0 0;
+    background-image: -ms-linear-gradient(right, #DEDEDE 0, #eaeaea 100%);
+    background-image: -moz-linear-gradient(right, #DEDEDE 0, #eaeaea 100%);
+    background-image: -o-linear-gradient(right, #DEDEDE 0, #eaeaea 100%);
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #DEDEDE), color-stop(100, #eaeaea));
+    background-image: -webkit-linear-gradient(right, #DEDEDE 0, #eaeaea 100%);
+    background-image: linear-gradient(to left, #DEDEDE 0, #eaeaea 100%);
+    width: 70%
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .bottom-container .images {
+    display: inline-block;
+    overflow: hidden;
+    width: 63px;
+    height: 50px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: center
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-a {
+    background-image: url(../images/shipping/nabs.svg);
+    background-position: center 0
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-b {
+    background-image: url(../images/shipping/intallments.svg);
+    background-position: center 0
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-c {
+    background-image: url(../images/shipping/sadad.svg);
+    background-position: center 0
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-d {
+    background-image: url(../images/shipping/visa.svg);
+    background-position: center 0
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-e {
+    background-image: url(../images/shipping/master.svg)
+}
+
+.shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-f {
+    background-image: url(../images/shipping/paypal.svg)
+}
+
+.shipping-main-container .button-buy-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%
+}
+
+.shipping-main-container .button-buy-container a {
+    display: inline-block;
+    overflow: hidden;
+    background: #00a951;
+    height: 35px;
+    line-height: 31px;
+    padding: 0 25px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    margin: 15px 0;
+    color: #fefefe;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+    cursor: pointer
+}
+
+.shipping-main-container .button-buy-container a:nth-child(2) {
+    margin-right: 20px
+}
+
+.shipping-main-container .button-buy-container a i {
+    display: none;
+    overflow: hidden;
+    background-image: url(../images/shipping/coinbtn.svg);
+    background-size: 244px;
+    background-repeat: no-repeat;
+    background-position: -86px -115px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 21px;
+    z-index: 999999999
+}
+
+.stepsbar a.active:last-child, .stepsbar a:last-child {
+    background-position: right;
+    background-repeat: no-repeat
+}
+
+.shipping-main-container .button-buy-container a:hover {
+    background-color: transparent;
+    border: 2px solid #00a951;
+    color: #00a951
+}
+
+.shipping-main-container .note-container {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 0 10px
+}
+
+.shipping-main-container .note-container .text {
+    display: inline-block;
+    overflow: hidden;
+    color: #626161;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    cursor: pointer;
+    margin: 3px 0 0 5px;
+    width: 90%;
+    font-size: 14px
+}
+
+.shipping-main-container #ShippingAdress {
+    display: none
+}
+
+.shipping-main-container .note-container .starnote {
+    border-color: #00a951 transparent transparent;
+    border-style: solid;
+    border-top-width: 7.69px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    height: 0;
+    margin-top: 20.69px;
+    margin-bottom: 4.95px;
+    position: relative;
+    width: 0
+}
+
+.shipping-main-container .note-container .starnote:after, .shipping-main-container .note-container .starnote:before {
+    border-color: #00a951 transparent transparent;
+    border-style: solid;
+    border-top-width: 7.69px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-bottom: 0;
+    content: '';
+    display: block;
+    height: 0;
+    left: -10px;
+    position: absolute;
+    top: -7.69px;
+    width: 0
+}
+
+.shipping-main-container .note-container .starnote:before {
+    transform: translate(15.5555555%, -15.5555555%) rotate(72deg) translateY(50%)
+}
+
+.shipping-main-container .note-container .starnote:after {
+    transform: translate(-15.5555555%, -15.5555555%) rotate(-72deg) translateY(50%)
+}
+.shipping-main-container .ddl-container-a label.icon {
+    padding: 0 0 0 25px;
+}
+
+
+.cart-main-container a.button {
+    display: inline-block;
+    overflow: hidden;
+    background: #00a951;
+    height: 35px;
+    line-height: 31px;
+    padding: 0 25px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    margin: 15px 0 15px 20px;
+    color: #fefefe;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    transition: all 1.5s;
+    cursor: pointer;
+}
+.cart-main-container a.button:hover {
+    background-color: transparent;
+    border: 2px solid #00a951;
+    color: #00a951;
+}
+
+
+.tooltip, .tooltip-a {
+    cursor: help;
+    outline: 0
+}
+
+.tooltip span, .tooltip-a .defualt-a {
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    margin-left: 0
+}
+
+.tooltip span:before, .tooltip-a defualt-a:before {
+    content: '';
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #d2d2d2;
+    position: absolute
+}
+
+.tooltip label, .tooltip-a label {
+    line-height: 20px;
+    color: #676767;
+    font-size: 13px
+}
+
+.stepsbar a, .tooltip, .tooltip-a {
+    text-decoration: none
+}
+
+.tooltip {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+    float: right
+}
+
+.tooltip span {
+    display: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 5px 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 5px 5px rgba(0, 0, 0, .1);
+    position: absolute;
+    left: 12%;
+    z-index: 99;
+    width: 400px;
+    padding: 11px;
+    height: 123px
+}
+
+.tooltip span:before {
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 12px
+}
+
+.tooltip .images-click {
+    width: 42px;
+    height: 31px;
+    background: url(../images/cvc1.svg);
+    background-size: contain;
+    margin: 0
+}
+
+.tooltip label {
+    display: inline-block;
+    overflow: hidden;
+    width: 60%;
+    height: 100%;
+    text-align: left
+}
+
+.tooltip .big-help-image {
+    display: inline-block;
+    overflow: hidden;
+    width: 39%;
+    height: 100px;
+    background: url(../images/cvc2.svg) no-repeat;
+    background-size: contain;
+    margin: 0
+}
+
+.tooltip-a {
+    position: absolute;
+    left: 26.2%;
+    z-index: 999999
+}
+
+.tooltip-a .defualt-a {
+    display: block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 5px 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 5px 5px rgba(0, 0, 0, .1);
+    position: absolute;
+    left: 0;
+    top: -60px;
+    z-index: 99;
+    width: 266px;
+    padding: 10px;
+    height: 65px
+}
+
+.tooltip-a defualt-a:before {
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 12px
+}
+
+.tooltip-a .images-click {
+    width: 22px;
+    height: 22px;
+    background: url(../images/help.svg) center no-repeat;
+    background-size: contain;
+    margin: 20px 0 0;
+    position: relative;
+    z-index: 1
+}
+
+.step4-main-conainer, .tooltip-a label {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    overflow: hidden
+}
+
+.tooltip-a label {
+    height: 100%
+}
+
+.help {
+    background: #eee;
+    border: 1px solid #b2b2b2
+}
+
+
+.InvoiceHasbeenDone-message {
+    display: inline-block;
+    color: #00a951;
+    font-size: 16px;
+    transition: all 1.5s;
+    line-height: 40px;
+    margin: 0px 0 10px 0;
+    font-weight: bold;
+    text-align: left;
+    border: dashed 1px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+@media all and (max-width: 1600px) and (min-width: 1400px) {
+
+    .shipping-main-container .information-container .billing-adress h1,
+    .shipping-main-container .information-container .payment-method h1,
+    .shipping-main-container .information-container .shipping-method h1,
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 16px !important
+    }
+
+
+    .shipping-main-container .information-container {
+        width: 45% !important
+    }
+
+    .shipping-main-container .viewer-container {
+        width: calc(55% - 20px) !important;
+        margin: 0 0 0 20px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 206px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 461px !important
+    }
+
+    .shipping-main-container .ddl-container-a {
+        width: 206px !important
+    }
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 135px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .text {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .note-container .text, .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px !important;
+        line-height: 20px !important;
+        width: 20px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 35px !important;
+        line-height: 35px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 50% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 38% !important
+    }
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 0 0 0 28px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        width: 160px
+    }
+}
+@media all and (max-width: 1399px) and (min-width: 1301px) {
+    .shipping-main-container .information-container .billing-adress h1,
+    .shipping-main-container .information-container .payment-method h1,
+    .shipping-main-container .information-container .shipping-method h1,
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 16px !important
+    }
+    .shipping-main-container .information-container {
+        width: 45% !important
+    }
+
+    .shipping-main-container .viewer-container {
+        width: calc(55% - 20px) !important;
+        margin: 0 0 0 20px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 206px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 100% !important
+    }
+
+    .shipping-main-container .ddl-container-a, .shipping-main-container .ddl-container-a select {
+        width: 206px !important
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 192px
+    }
+
+    .shipping-main-container .ddl-container-a {
+        background-position: 88% center
+    }
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 135px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .text {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .note-container .text, .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px !important;
+        line-height: 20px !important;
+        width: 20px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 35px !important;
+        line-height: 35px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 50% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 38% !important
+    }
+
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 0 0 0 28px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        width: 160px
+    }
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+
+
+    .shipping-main-container .information-container {
+        width: 47%
+    }
+
+    .shipping-main-container .viewer-container {
+        width: calc(53% - 20px);
+        margin: 0 0 0 20px
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 200px;
+        font-size: 12px
+    }
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 451px
+    }
+
+    .shipping-main-container .ddl-container-a {
+        width: 200px;
+        background-position: 85% center
+    }
+
+    .shipping-main-container .ddl-container-a:nth-child(2) {
+        width: 204px;
+        float: left;
+        margin: 5px 0 0 15px;
+        background-position: 188px center
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 192px
+    }
+
+    .shipping-main-container .ddl-container-a select {
+        width: 203px
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+        width: 20px;
+        height: 20px
+    }
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px
+    }
+
+    .shipping-main-container .information-container .billing-adress h1, .shipping-main-container .information-container .payment-method h1, .shipping-main-container .information-container .shipping-method h1 {
+        font-size: 14px;
+        height: 40px;
+        line-height: 37px
+    }
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 134px
+    }
+
+    .shipping-main-container .information-container .billing-adress .address {
+        font-size: 12px
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .text, .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 14px
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px
+    }
+
+    .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px;
+        line-height: 20px;
+        width: 20px
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .note-container .text {
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10%
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 50%;
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10%
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 36%;
+        font-size: 12px
+    }
+    .cart-main-container a.button, .shipping-main-container .button-buy-container a {
+        height: 30px;
+        line-height: 27px;
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .text {
+        min-width: 135px
+    }
+
+    .shipping-main-container .viewer-container .viewer-container-background {
+        width: 500px
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-b {
+        background-size: 38px
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-a, .shipping-main-container .information-container .payment-method .section-check-row .image-c, .shipping-main-container .information-container .payment-method .section-check-row .image-d, .shipping-main-container .information-container .payment-method .section-check-row .image-e, .shipping-main-container .information-container .payment-method .section-check-row .image-f {
+        background-size: 70%;
+        background-position: center center;
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a, .shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+        background-size: 270px 260px;
+        background-position: -130px -156px
+    }
+
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 0 0 0 28px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        width: 150px;
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row label, .shipping-main-container .viewer-container .bill-table-container .bill-row span {
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row {
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type label {
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type span {
+        font-size: 16px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container label {
+        font-size: 28px
+    }
+}
+@media all and (max-width: 1199px) and (min-width: 1025px) {
+
+    .shipping-main-container .information-container {
+        width: 47% !important
+    }
+
+    .shipping-main-container .viewer-container {
+        width: calc(53% - 20px) !important;
+        margin: 0 0 0 20px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 200px !important;
+        font-size: 12px !important
+    }
+
+    .cart-main-container .disply-table-caption .display-table-cell {
+        font-size: 15px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 451px !important
+    }
+
+    .shipping-main-container .ddl-container-a {
+        width: 200px !important;
+        background-position: 85% center !important
+    }
+
+    .shipping-main-container .ddl-container-a:nth-child(2) {
+        width: 204px !important;
+        float: left !important;
+        margin: 5px 0 0 15px !important;
+        background-position: 188px center !important
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 192px !important
+    }
+
+    .shipping-main-container .ddl-container-a select {
+        width: 203px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+        width: 20px !important;
+        height: 20px !important
+    }
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 40px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress h1, .shipping-main-container .information-container .payment-method h1, .shipping-main-container .information-container .shipping-method h1 {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important
+    }
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 134px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .text, .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px !important;
+        line-height: 20px !important;
+        width: 20px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 35px !important;
+        line-height: 35px !important
+    }
+
+    .shipping-main-container .note-container .text {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 50% !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 36% !important;
+        font-size: 12px !important
+    }
+    .cart-main-container a.button, .shipping-main-container .button-buy-container a {
+        height: 30px !important;
+        line-height: 27px !important;
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .text {
+        min-width: 135px !important
+    }
+
+    .shipping-main-container .viewer-container .viewer-container-background {
+        width: 500px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-b {
+        background-size: 38px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-a {
+        background-size: 70% !important;
+        background-position: center 2px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a, .shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+        background-size: 270px 260px !important;
+        background-position: -130px -156px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        padding: 0;
+        width: 150px;
+        font-size: 12px
+    }
+
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 0 0 0 28px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row label, .shipping-main-container .viewer-container .bill-table-container .bill-row span {
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row {
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type label {
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type span {
+        font-size: 16px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container label {
+        font-size: 26px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container p {
+        font-size: 12px
+    }
+}
+@media all and (max-device-width: 1024px) and (min-device-width: 768px)and (orientation: landscape) {
+    .shipping-main-container .information-container {
+        width: 47% !important
+    }
+
+    .shipping-main-container .viewer-container {
+        width: calc(53% - 20px) !important;
+        margin: 0 0 0 20px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 200px !important;
+        font-size: 12px !important
+    }
+
+    .cart-main-container .disply-table-caption .display-table-cell {
+        font-size: 15px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 451px !important
+    }
+
+    .shipping-main-container .ddl-container-a {
+        width: 200px !important;
+        background-position: 188px center !important
+    }
+
+    .shipping-main-container .ddl-container-a:nth-child(2) {
+        width: 204px !important;
+        float: left !important;
+        margin: 5px 0 0 15px !important;
+        background-position: 188px center !important
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 192px !important
+    }
+
+    .shipping-main-container .ddl-container-a select {
+        width: 203px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+        width: 20px !important;
+        height: 20px !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-a {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 40px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress h1, .shipping-main-container .information-container .payment-method h1, .shipping-main-container .information-container .shipping-method h1 {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card, .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-b {
+        height: 35px !important;
+        line-height: 35px !important;
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 134px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .text, .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px !important;
+        line-height: 20px !important;
+        width: 20px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 35px !important;
+        line-height: 35px !important
+    }
+
+    .shipping-main-container .note-container .text {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 8% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 28% !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 8% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 36% !important;
+        font-size: 12px !important
+    }
+    .cart-main-container a.button, .shipping-main-container .button-buy-container a {
+        height: 30px !important;
+        line-height: 27px !important;
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .text {
+        min-width: 124px !important
+    }
+
+    .shipping-main-container .viewer-container .viewer-container-background {
+        width: 500px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-b {
+        background-size: 38px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-a {
+        background-size: 70% !important;
+        background-position: center 2px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a, .shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+        background-size: 270px 260px !important;
+        background-position: -130px -156px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        padding: 0;
+        width: 150px;
+        font-size: 12px
+    }
+
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 0 0 0 28px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row label, .shipping-main-container .viewer-container .bill-table-container .bill-row span {
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row {
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type label {
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type span {
+        font-size: 16px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container label {
+        font-size: 26px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container p {
+        font-size: 12px
+    }
+}
+@media all and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+    .tooltip .images-click {
+        width: 32px;
+        height: 31px;
+        background: url(../images/cvc1.svg);
+        background-size: contain;
+        margin: 4px 0 0 0;
+        background-repeat: no-repeat;
+    }
+    .shipping-main-container .information-container {
+        width: 47% !important
+    }
+
+    .shipping-main-container .viewer-container {
+        width: calc(53% - 20px) !important;
+        margin: 0 0 0 20px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 152px !important;
+        font-size: 12px !important
+    }
+
+    .cart-main-container .disply-table-caption .display-table-cell {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 355px !important
+    }
+
+    .shipping-main-container .ddl-container-a {
+        width: 152px !important;
+        background-position: 80% center !important
+    }
+
+    .shipping-main-container .ddl-container-a:nth-child(2) {
+        width: 156px !important;
+        float: left !important;
+        margin: 5px 0 0 15px !important;
+        background-position: 138px center !important
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 142px !important
+    }
+
+    .shipping-main-container .ddl-container-a select {
+        width: 153px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+        width: 20px !important;
+        height: 20px !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-a {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 40px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress h1, .shipping-main-container .information-container .payment-method h1, .shipping-main-container .information-container .shipping-method h1 {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card, .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-b {
+        height: 30px !important;
+        line-height: 30px !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 110px !important;
+        margin: 0 10px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address, .shipping-main-container .information-container .payment-method .section-check-row .text, .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 14px !important;
+        width: 20%
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px !important;
+        line-height: 20px !important;
+        width: 20px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 30px !important;
+        line-height: 30px !important
+    }
+
+    .shipping-main-container .note-container .text {
+        font-size: 12px !important;
+        width: 92%
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 8% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 35% !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 8% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 36% !important;
+        font-size: 12px !important
+    }
+
+    .cart-main-container .disply-table-caption {
+        height: 40px !important;
+        line-height: 40px !important
+    }
+
+    .cart-main-container .quantity input {
+        height: 35px !important;
+        line-height: 35px !important
+    }
+
+    .cart-main-container .section-check .image-a i, .cart-main-container .section-check .image-b i, .cart-main-container .section-check .image-c i {
+        width: 20px !important;
+        height: 20px !important
+    }
+
+    .cart-main-container .section-check .text1 {
+        font-size: 10px !important
+    }
+
+    .cart-main-container a.button, .shipping-main-container .button-buy-container a {
+        height: 30px !important;
+        line-height: 27px !important;
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .text {
+        min-width: 124px !important
+    }
+
+    .shipping-main-container .viewer-container .viewer-container-background {
+        width: 500px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-b {
+        background-size: 38px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-a {
+        background-size: 70% !important;
+        background-position: center 0 !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+        background-size: 260px 250px !important;
+        background-position: -136px -146px !important;
+        width: 110px !important;
+        margin: 0 10px 0 15px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        background-size: 260px 263px !important;
+        background-position: -140px -156px !important
+    }
+
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 10px 0 0
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        padding: 0;
+        width: 120px;
+        font-size: 12px;
+        margin: 0 0 10px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row label, .shipping-main-container .viewer-container .bill-table-container .bill-row span {
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row {
+        height: 30px;
+        line-height: 30px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type label, .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type span {
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container label {
+        font-size: 26px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container p {
+        font-size: 12px
+    }
+
+    .stepsbar a:before {
+        left: 30px
+    }
+
+    .stepsbar a {
+        font-size: 13px;
+        padding: 0 0 0 60px
+    }
+
+    .stepsbar a:last-child {
+        padding: 0;
+        background-size: 22%
+    }
+
+    .shipping-main-container .ddl-container-a select option {
+        width: 153px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner input[type=email], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=tel], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=text] {
+        width: 194px
+    }
+
+    .stepsbar a:after {
+        top: 0;
+        right: -17px;
+        height: 36px
+    }
+
+    .shipping-main-container .ddl-container-b {
+        width: 194px;
+        background-size: 5%;
+        background-position: 172px center !important
+    }
+
+    .shipping-main-container .ddl-container-b label {
+        width: 176px
+    }
+
+    .shipping-main-container .ddl-container-b select, .shipping-main-container .ddl-container-b select option {
+        width: 191px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container {
+        margin: 10px 0 0
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container {
+        margin: 10px 0 0 80px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images {
+        width: 53px;
+        height: 45px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container {
+        height: 50px;
+        margin: 10px 0 0;
+        width: 90%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-a, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-b, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-c, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-d, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-e, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-f {
+        background-position: center 2px
+    }
+}
+@media all and (max-width: 767px) and (min-width: 740px) {
+    .tooltip .images-click {
+        width: 32px;
+        height: 31px;
+        background: url(../images/cvc1.svg);
+        background-size: contain;
+        margin: 4px 0 0 0;
+        background-repeat: no-repeat;
+    }
+    .shipping-main-container .information-container {
+        width: 47% !important
+    }
+
+    .shipping-main-container .viewer-container {
+        width: calc(53% - 20px) !important;
+        margin: 0 0 0 20px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 147px !important;
+        font-size: 12px !important
+    }
+
+    .cart-main-container .disply-table-caption .display-table-cell {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 343px !important
+    }
+
+    .shipping-main-container .ddl-container-a {
+        width: 152px !important;
+        background-position: 80% center !important
+    }
+
+    .shipping-main-container .ddl-container-a:nth-child(2) {
+        width: 144px !important;
+        float: left !important;
+        margin: 5px 0 0 15px !important;
+        background-position: 130px center !important
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 142px !important
+    }
+
+    .shipping-main-container .ddl-container-a select {
+        width: 153px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+        width: 20px !important;
+        height: 20px !important;
+        margin: 5px 5px 0 !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-a {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 40px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress h1, .shipping-main-container .information-container .payment-method h1, .shipping-main-container .information-container .shipping-method h1 {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card, .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-b {
+        height: 32px !important;
+        line-height: 32px !important;
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 100px !important;
+        margin: 0 10px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address, .shipping-main-container .information-container .payment-method .section-check-row .text, .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px !important;
+        line-height: 20px !important;
+        width: 20px !important
+    }
+
+    .cart-main-container .disply-table-caption, .cart-main-container .quantity input, .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 35px !important;
+        line-height: 35px !important
+    }
+
+    .shipping-main-container .note-container .text {
+        font-size: 12px !important;
+        width: 92% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 50% !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 36% !important;
+        font-size: 12px !important
+    }
+
+    .cart-main-container .section-check .image-a i, .cart-main-container .section-check .image-b i, .cart-main-container .section-check .image-c i {
+        width: 20px !important;
+        height: 20px !important
+    }
+
+    .cart-main-container .section-check .text1 {
+        font-size: 10px !important
+    }
+
+    .cart-main-container a.button, .shipping-main-container .button-buy-container a {
+        height: 30px !important;
+        line-height: 27px !important;
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .text {
+        min-width: 84px !important
+    }
+
+    .shipping-main-container .viewer-container .viewer-container-background {
+        width: 349px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-b {
+        background-size: 38px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-a {
+        background-size: 70% !important;
+        background-position: center 2px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+        background-size: 250px 245px !important;
+        background-position: -139px -141px !important;
+        width: 100px !important;
+        margin: 0 10px 0 15px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        background-size: 250px 253px !important;
+        background-position: -140px -148px !important
+    }
+
+    .cart-main-container .quantity input {
+        width: 40px !important
+    }
+
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 10px 0 0
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        padding: 0;
+        width: 120px;
+        font-size: 12px;
+        margin: 0 0 10px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row label, .shipping-main-container .viewer-container .bill-table-container .bill-row span {
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row {
+        height: 30px;
+        line-height: 30px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type label, .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type span {
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container label {
+        font-size: 26px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container p {
+        font-size: 12px
+    }
+
+    .stepsbar a:before {
+        left: 30px
+    }
+
+    .stepsbar a {
+        font-size: 13px;
+        padding: 0 0 0 60px
+    }
+
+    .stepsbar a:last-child {
+        padding: 0;
+        background-size: 22%
+    }
+
+    .shipping-main-container .ddl-container-a select option {
+        width: 153px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner input[type=email], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=tel], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=text] {
+        width: 194px
+    }
+
+    .stepsbar a:after {
+        top: 0;
+        right: -17px;
+        height: 36px
+    }
+
+    .shipping-main-container .ddl-container-b {
+        width: 194px;
+        background-size: 5%;
+        background-position: 172px center !important
+    }
+
+    .shipping-main-container .ddl-container-b label {
+        width: 176px
+    }
+
+    .shipping-main-container .ddl-container-b select, .shipping-main-container .ddl-container-b select option {
+        width: 191px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container {
+        margin: 10px 0 0
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container {
+        margin: 10px 0 0 80px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images {
+        width: 55px;
+        height: 45px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container {
+        height: 50px;
+        margin: 10px 0 0;
+        width: 100%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-a, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-b, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-c, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-d, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-e, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-f {
+        background-position: center 2px
+    }
+}
+@media all and (max-width: 739px) and (min-width: 611px) {
+    .tooltip .images-click {
+        width: 32px;
+        height: 31px;
+        background: url(../images/cvc1.svg);
+        background-size: contain;
+        margin: 4px 0 0 0;
+        background-repeat: no-repeat;
+    }
+    .shipping-main-container .information-container {
+        width: 100% !important
+    }
+
+    .shipping-main-container .viewer-container {
+        width: 100% !important;
+        margin: 0 0 0 0px !important;
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 259px !important;
+        font-size: 12px !important
+    }
+
+    .cart-main-container .disply-table-caption .display-table-cell {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 100% !important
+    }
+
+    .shipping-main-container .ddl-container-a, .shipping-main-container .ddl-container-a:nth-child(2) {
+        width: 259px !important;
+        background-position: 220px center !important
+    }
+
+    .shipping-main-container .ddl-container-a:nth-child(2) {
+        float: left !important;
+        margin: 5px 0 0 15px !important
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 142px !important
+    }
+
+    .shipping-main-container .ddl-container-a select {
+        width: 259px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+        width: 20px !important;
+        height: 20px !important;
+        margin: 5px 5px 0 !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-a {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 40px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress h1, .shipping-main-container .information-container .payment-method h1, .shipping-main-container .information-container .shipping-method h1 {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card, .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-b {
+        height: 28px !important;
+        line-height: 27px !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 100px !important;
+        margin: 0 10px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .text, .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px !important;
+        line-height: 20px !important;
+        width: 20px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 35px !important;
+        line-height: 35px !important;
+        width: 97% !important
+    }
+
+    .shipping-main-container .note-container .text {
+        font-size: 12px !important;
+        width: 92% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 50% !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 36% !important;
+        font-size: 12px !important
+    }
+
+    .cart-main-container .disply-table-caption, .cart-main-container .quantity input {
+        height: 35px !important;
+        line-height: 35px !important
+    }
+
+    .cart-main-container .section-check .image-a i, .cart-main-container .section-check .image-b i, .cart-main-container .section-check .image-c i {
+        width: 20px !important;
+        height: 20px !important;
+        margin: 7px 5px 0 0 !important
+    }
+
+    .cart-main-container .section-check .text1 {
+        font-size: 10px !important;
+        margin: 0 0 0 5px !important
+    }
+
+    .cart-main-container a.button {
+        height: 25px !important;
+        line-height: 20px !important;
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .button-buy-container a {
+        height: 25px !important;
+        line-height: 20px !important;
+        font-size: 10px !important;
+        margin: 15px 20px 15px 0 !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .text {
+        min-width: 84px !important
+    }
+
+    .shipping-main-container .viewer-container .viewer-container-background {
+        width: 100% !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-b {
+        background-size: 38px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-a {
+        background-size: 70% !important;
+        background-position: center 2px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+        background-size: 250px 245px !important;
+        background-position: -139px -141px !important;
+        width: 100px !important;
+        margin: 0 10px 0 15px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        background-size: 250px 253px !important;
+        background-position: -140px -148px !important
+    }
+
+    .cart-main-container .quantity input {
+        width: 40px !important
+    }
+
+    .cart-main-container .section-check ul li {
+        margin: 5px 0 0 10px !important
+    }
+
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 0 0 0 28px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        padding: 0;
+        width: 120px;
+        font-size: 12px;
+        margin: 0 0 10px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row label, .shipping-main-container .viewer-container .bill-table-container .bill-row span {
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row {
+        height: 30px;
+        line-height: 30px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type label, .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type span {
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container label {
+        font-size: 26px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container p {
+        font-size: 12px
+    }
+
+    .stepsbar a:before {
+        left: 25px
+    }
+
+    .stepsbar a {
+        font-size: 10px;
+        padding: 0 0 0 50px
+    }
+
+    .stepsbar a:last-child {
+        padding: 0;
+        background-size: 28%
+    }
+
+    .shipping-main-container .ddl-container-a select option {
+        width: 153px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner input[type=email], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=tel], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=text] {
+        width: 194px
+    }
+
+    .stepsbar a:after {
+        top: 0;
+        right: -17px;
+        height: 32px
+    }
+
+    .shipping-main-container .ddl-container-b {
+        width: 194px;
+        background-size: 5%;
+        background-position: 172px center !important
+    }
+
+    .shipping-main-container .ddl-container-b label {
+        width: 176px
+    }
+
+    .shipping-main-container .ddl-container-b select, .shipping-main-container .ddl-container-b select option {
+        width: 191px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container {
+        margin: 10px 0 0;
+        background-size: 30%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container {
+        margin: 10px 0 0 80px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images {
+        width: 55px;
+        height: 45px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container {
+        height: 50px;
+        margin: 10px 20px 0 0;
+        width: 60%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-a, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-b, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-c, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-d, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-e, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-f {
+        background-position: center 2px
+    }
+
+    .stepsbar a:first-child:before {
+        left: 10px
+    }
+
+    .stepsbar a:first-child {
+        padding-left: 35px
+    }
+
+    .stepsbar a:before {
+        width: 15px;
+        height: 15px;
+        line-height: 16px;
+        font-size: 9px;
+        margin: 12px 0
+    }
+}
+@media all and (max-width: 610px) and (min-width: 560px) {
+    .tooltip .images-click {
+        width: 32px;
+        height: 31px;
+        background: url(../images/cvc1.svg);
+        background-size: contain;
+        margin: 4px 0 0 0;
+        background-repeat: no-repeat;
+    }
+    .shipping-main-container .information-container, .shipping-main-container .viewer-container {
+        width: 100% !important
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 250px !important;
+        font-size: 12px !important
+    }
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 100% !important
+    }
+
+    .shipping-main-container .ddl-container-a {
+        width: 244px !important;
+        background-position: 200px center !important
+    }
+
+    .shipping-main-container .ddl-container-a:nth-child(2) {
+        width: 259px !important;
+        float: left !important;
+        margin: 5px 0 0 15px !important;
+        background-position: 240px center !important
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 142px !important
+    }
+
+    .shipping-main-container .ddl-container-a select {
+        width: 259px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+        width: 20px !important;
+        height: 20px !important;
+        margin: 5px 5px 0 !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-a {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 14px !important;
+        height: 30px !important;
+        line-height: 30px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress h1, .shipping-main-container .information-container .payment-method h1, .shipping-main-container .information-container .shipping-method h1 {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important;
+        padding: 0 !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card, .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-b {
+        height: 28px !important;
+        line-height: 27px !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 100px !important;
+        margin: 0 10px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .text, .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px !important;
+        line-height: 20px !important;
+        width: 20px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 30px !important;
+        line-height: 30px !important;
+        width: 100% !important
+    }
+
+    .shipping-main-container .note-container .text {
+        font-size: 12px !important;
+        width: 92% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 50% !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 36% !important;
+        font-size: 12px !important
+    }
+
+    .cart-main-container .disply-table-caption {
+        height: 35px !important;
+        line-height: 35px !important
+    }
+
+    .cart-main-container .quantity input {
+        height: 30px !important;
+        line-height: 30px !important
+    }
+
+    .cart-main-container .section-check .image-a i, .cart-main-container .section-check .image-b i, .cart-main-container .section-check .image-c i {
+        width: 20px !important;
+        height: 20px !important;
+        margin: 7px 5px 0 0 !important
+    }
+
+    .cart-main-container .section-check .text1 {
+        font-size: 10px !important;
+        margin: 0 0 0 5px !important
+    }
+
+    .cart-main-container a.button {
+        height: 25px !important;
+        line-height: 20px !important;
+        font-size: 10px !important;
+        padding: 0 15px !important
+    }
+
+    .shipping-main-container .button-buy-container a {
+        height: 25px !important;
+        line-height: 20px !important;
+        font-size: 10px !important;
+        margin: 15px 20px 15px 0 !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .text {
+        min-width: 84px !important
+    }
+
+    .shipping-main-container .viewer-container .viewer-container-background {
+        width: 100% !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-b {
+        background-size: 38px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-a {
+        background-size: 70% !important;
+        background-position: center 2px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+        background-size: 250px 245px !important;
+        background-position: -139px -141px !important;
+        width: 100px !important;
+        margin: 0 10px 0 15px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        background-size: 250px 253px !important;
+        background-position: -140px -148px !important
+    }
+
+    .cart-main-container .quantity input {
+        width: 40px !important
+    }
+
+    .cart-main-container .section-check ul li {
+        margin: 5px 0 0 5px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .inputs-container, .shipping-main-container .viewer-container {
+        margin: 0 !important
+    }
+
+    .cart-main-container .bottom-container-main .silver-section .left-section-card, .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card {
+        width: 100% !important
+    }
+
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 10px 0 10px 2px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        padding: 0;
+        width: 120px;
+        font-size: 12px;
+        margin: 0 0 10px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row label, .shipping-main-container .viewer-container .bill-table-container .bill-row span {
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row {
+        height: 30px;
+        line-height: 30px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type label, .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type span {
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container label {
+        font-size: 26px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container p {
+        font-size: 12px
+    }
+
+    .stepsbar a:before {
+        left: 25px
+    }
+
+    .stepsbar a {
+        font-size: 9px;
+        padding: 0 0 0 50px;
+        line-height: 26px
+    }
+
+    .stepsbar a:last-child {
+        padding: 0;
+        background-size: 23%
+    }
+
+    .shipping-main-container .ddl-container-a select option {
+        width: 153px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner input[type=email], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=tel], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=text] {
+        width: 194px
+    }
+
+    .stepsbar a:after {
+        top: 0;
+        right: -17px;
+        height: 16px
+    }
+
+    .shipping-main-container .ddl-container-b {
+        width: 191px;
+        background-size: 5%;
+        background-position: 172px center !important
+    }
+
+    .shipping-main-container .ddl-container-b label {
+        width: 176px
+    }
+
+    .shipping-main-container .ddl-container-b select, .shipping-main-container .ddl-container-b select option {
+        width: 191px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container {
+        margin: 10px 0 0;
+        background-size: 30%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container {
+        margin: 10px 0 0 80px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images {
+        width: 55px;
+        height: 45px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container {
+        height: 50px;
+        margin: 10px 20px 0 0;
+        width: 70%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-a, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-b, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-c, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-d, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-e, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-f {
+        background-position: center 2px
+    }
+
+    .stepsbar a:first-child:before {
+        left: 10px
+    }
+
+    .stepsbar a:first-child {
+        padding-left: 35px
+    }
+
+    .stepsbar a:before {
+        width: 15px;
+        height: 15px;
+        line-height: 14px;
+        font-size: 8px;
+        margin: 6px 0
+    }
+
+    .stepsbar a.active:before {
+        font-size: 8px
+    }
+
+    .shipping-main-container .information-container .billing-adress span {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important
+    }
+}
+@media all and (max-width: 559px) and (min-width: 460px) {
+    .tooltip .images-click {
+        width: 32px;
+        height: 31px;
+        background: url(../images/cvc1.svg);
+        background-size: contain;
+        margin: 4px 0 0 0;
+        background-repeat: no-repeat;
+    }
+    .shipping-main-container .information-container .billing-adress .line-row input:last-of-type {
+        margin: 10px 0 0
+    }
+
+    .shipping-main-container .information-container .billing-adress .line-row {
+        margin: 0
+    }
+
+    .shipping-main-container .ddl-container-a {
+        margin: 5px 0
+    }
+
+    .shipping-main-container .information-container .billing-adress .address-area-a, .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        margin: 10px 17px 5px 0
+    }
+    .shipping-main-container .information-container, .shipping-main-container .viewer-container {
+        width: 100% !important
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 100% !important;
+        font-size: 12px !important
+    }
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 100% !important
+    }
+
+    .shipping-main-container .ddl-container-a {
+        width: 100% !important;
+        background-position: 400px 9px !important;
+        background-size: 3% !important
+    }
+
+    .shipping-main-container .ddl-container-a:nth-child(2) {
+        width: 100% !important;
+        float: left !important;
+        margin: 5px 0 0 !important;
+        background-position: 410px 7px !important
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 100% !important;
+        margin: 0 !important
+    }
+
+    .shipping-main-container .ddl-container-a select {
+        width: 100% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+        width: 20px !important;
+        height: 20px !important;
+        margin: 5px 5px 0 !important
+    }
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 14px !important;
+        height: 30px !important;
+        line-height: 30px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress h1, .shipping-main-container .information-container .payment-method h1, .shipping-main-container .information-container .shipping-method h1 {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important;
+        padding: 0 !important
+    }
+
+    .shipping-main-container .information-container .billing-adress span {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important;
+        background-size: 7.3%
+    }
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 100px !important;
+        margin: 0 10px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .text, .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 20px !important;
+        line-height: 20px !important;
+        width: 20px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 30px !important;
+        line-height: 30px !important;
+        width: 100% !important
+    }
+
+    .shipping-main-container .note-container .text {
+        font-size: 12px !important;
+        width: 92% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 50% !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 36% !important;
+        font-size: 12px !important
+    }
+    .shipping-main-container .button-buy-container a {
+        height: 25px !important;
+        line-height: 20px !important;
+        font-size: 10px !important;
+        margin: 15px 20px 15px 0 !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .text {
+        min-width: 84px !important
+    }
+
+    .shipping-main-container .viewer-container .viewer-container-background {
+        width: 100% !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-b {
+        background-size: 38px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-a {
+        background-size: 70% !important;
+        background-position: center 2px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+        background-size: 250px 245px !important;
+        background-position: -139px -141px !important;
+        width: 100px !important;
+        margin: 0 10px 0 15px !important
+    }
+
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        background-size: 250px 253px !important;
+        background-position: -140px -148px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .inputs-container, .shipping-main-container .viewer-container {
+        margin: 0 !important
+    }
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 10px 0 10px 2px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        padding: 0;
+        width: 120px;
+        font-size: 12px;
+        margin: 0 0 10px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row label, .shipping-main-container .viewer-container .bill-table-container .bill-row span {
+        font-size: 12px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row {
+        height: 30px;
+        line-height: 30px
+    }
+
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type label, .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type span {
+        font-size: 14px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container label {
+        font-size: 26px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container p {
+        font-size: 12px
+    }
+    .shipping-main-container .ddl-container-a select option {
+        width: 153px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner input[type=email], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=tel], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=text] {
+        width: 194px
+    }
+    .shipping-main-container .ddl-container-b {
+        width: 191px;
+        background-size: 5%;
+        background-position: 172px center !important
+    }
+
+    .shipping-main-container .ddl-container-b label {
+        width: 176px
+    }
+
+    .shipping-main-container .ddl-container-b select, .shipping-main-container .ddl-container-b select option {
+        width: 191px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container {
+        margin: 10px 0 0;
+        background-size: 30%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container {
+        margin: 10px 0 0 80px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images {
+        width: 55px;
+        height: 45px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container {
+        height: 50px;
+        margin: 10px 20px 0 0;
+        width: 70%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-a, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-b, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-c, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-d, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-e, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-f {
+        background-position: center 2px
+    }
+}
+@media all and (max-width: 459px) and (min-width: 320px) {
+    .tooltip .images-click {
+        width: 12px;
+        height: 12px;
+        background: url(../images/cvc1.svg);
+        background-size: contain;
+        margin: 0px 0 0 0;
+        background-repeat: no-repeat;
+    }
+    .shipping-main-container .information-container .billing-adress .line-row input:last-of-type {
+        margin: 10px 0 0
+    }
+
+    .shipping-main-container .information-container .billing-adress .line-row {
+        margin: 0
+    }
+
+    .shipping-main-container .ddl-container-a {
+        margin: 5px 0
+    }
+
+    .shipping-main-container .information-container .billing-adress .address-area-a, .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        margin: 10px 17px 5px 0
+    }
+    .shipping-main-container .information-container .billing-adress span {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important
+    }
+    .shipping-main-container .information-container, .shipping-main-container .viewer-container {
+        width: 100% !important
+    }
+
+    .shipping-main-container .information-container .billing-adress input[type=email], .shipping-main-container .information-container .billing-adress input[type=tel], .shipping-main-container .information-container .billing-adress input[type=text] {
+        width: 100% !important;
+        font-size: 12px !important
+    }
+    .shipping-main-container .information-container .billing-adress, .shipping-main-container .information-container .payment-method, .shipping-main-container .information-container .shipping-method {
+        width: 100% !important
+    }
+
+    .shipping-main-container .ddl-container-a {
+        width: 100% !important;
+        background-position: 89% 50% !important;
+        background-size: 4% !important
+    }
+
+    .shipping-main-container .ddl-container-a:nth-child(2) {
+        width: 100% !important;
+        float: left !important;
+        margin: 5px 0 0 !important;
+        background-position: 96% 50% !important
+    }
+
+    .shipping-main-container .ddl-container-a label {
+        width: 100% !important;
+        margin: 0 !important
+    }
+
+    .shipping-main-container .ddl-container-a select {
+        width: 100% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .image-a, .shipping-main-container .viewer-container .cell-container.Type label .image-b, .shipping-main-container .viewer-container .cell-container.Type label .image-c {
+        width: 20px !important;
+        height: 20px !important;
+        margin: 5px 5px 0 !important;
+        display: none !important
+    }
+    .shipping-main-container .viewer-container .ReviewYourOrder {
+        font-size: 14px !important;
+        height: 30px !important;
+        line-height: 30px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress h1, .shipping-main-container .information-container .payment-method h1, .shipping-main-container .information-container .shipping-method h1 {
+        font-size: 14px !important;
+        height: 40px !important;
+        line-height: 37px !important;
+        padding: 0 !important
+    }
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        width: 80px !important;
+        margin: 0 10px !important
+    }
+
+    .shipping-main-container .information-container .billing-adress .address {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content label {
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .text {
+        font-size: 11px !important
+    }
+
+    .shipping-main-container .note-container .starnote, .shipping-main-container .viewer-container .info-container-table .line-content span {
+        font-size: 16px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.subTotal {
+        font-size: 12px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container .number {
+        height: 15px !important;
+        line-height: 15px !important;
+        width: 15px !important
+    }
+
+    .shipping-main-container .viewer-container .info-container-table .line-content {
+        height: 30px !important;
+        line-height: 30px !important;
+        width: 100% !important
+    }
+
+    .shipping-main-container .note-container .text {
+        font-size: 12px !important;
+        width: 90% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 50% !important;
+        font-size: 14px !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10% !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 36% !important;
+        font-size: 12px !important
+    }
+
+
+    .shipping-main-container .button-buy-container a {
+        height: 20px !important;
+        line-height: 15px !important;
+        font-size: 10px !important;
+        margin: 15px 20px 15px 0 !important
+    }
+
+    .shipping-main-container .viewer-container .cell-container.Type label .text {
+        min-width: 84px !important;
+        margin: 0 0 0 5px !important
+    }
+
+    .shipping-main-container .viewer-container .viewer-container-background {
+        width: 100% !important
+    }
+
+    .shipping-main-container .information-container .payment-method .section-check-row .image-b {
+        background-size: 38px !important;
+        width: 50px
+    }
+    .shipping-main-container .information-container .payment-method .section-check-row .image-a {
+        background-size: 93% !important;
+        background-position: center 2px !important;
+        width: 50px
+    }
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-b {
+        background-size: 250px 235px !important;
+        background-position: -139px -141px !important;
+        width: 80px !important;
+        margin: 0 10px 0 15px !important
+    }
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a {
+        background-size: 240px 250px !important;
+        background-position: -140px -148px !important
+    }
+    .shipping-main-container .information-container .billing-adress .inputs-container, .shipping-main-container .viewer-container {
+        margin: 0 !important
+    }
+    .shipping-main-container .ddl-container-b:nth-of-type(2) {
+        margin: 10px 0
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner .lbl-data-a {
+        padding: 0;
+        width: 84px;
+        font-size: 12px;
+        margin: 0 0 10px
+    }
+    .shipping-main-container .viewer-container .bill-table-container .bill-row h1 {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px
+    }
+    .shipping-main-container .viewer-container .bill-table-container .bill-row label, .shipping-main-container .viewer-container .bill-table-container .bill-row span {
+        font-size: 12px
+    }
+    .shipping-main-container .viewer-container .bill-table-container .bill-row {
+        height: 30px;
+        line-height: 30px
+    }
+    .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type label, .shipping-main-container .viewer-container .bill-table-container .bill-row:last-of-type span {
+        font-size: 14px
+    }
+    .shipping-main-container .viewer-container .safe-secure-container .text-container label {
+        font-size: 21px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container p {
+        font-size: 12px
+    }
+    .shipping-main-container .ddl-container-a select option {
+        width: 153px
+    }
+
+    .shipping-main-container .information-container .payment-method .credit-card-inner input[type=email], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=tel], .shipping-main-container .information-container .payment-method .credit-card-inner input[type=text] {
+        width: 194px
+    }
+    .shipping-main-container .ddl-container-b {
+        width: 194px;
+        background-size: 5%;
+        background-position: 172px center !important
+    }
+
+    .shipping-main-container .ddl-container-b label {
+        width: 176px
+    }
+
+    .shipping-main-container .ddl-container-b select, .shipping-main-container .ddl-container-b select option {
+        width: 191px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container {
+        margin: 10px 0 0;
+        background-size: 40%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .text-container {
+        margin: 10px 0 0 80px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images {
+        width: 45px;
+        height: 45px
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container {
+        height: 50px;
+        margin: 10px 0 0;
+        width: 91%
+    }
+
+    .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-a, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-b, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-c, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-d, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-e, .shipping-main-container .viewer-container .safe-secure-container .bottom-container .images-f {
+        background-position: center 60%
+    }
+}

@@ -1,0 +1,149 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    /*background-color: #f0e0c8;*/
+    background: url("../images/help-bg.png") repeat;
+    background-attachment: fixed;
+}
+.footer-help
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 10%;
+    -webkit-box-shadow: 1px 2px 6px rgba(129,108,81,.85);
+    -moz-box-shadow: 1px 2px 6px rgba(129,108,81,.85);
+    box-shadow: 1px 2px 6px rgba(129,108,81,.85);
+    /*background: rgb(214, 170, 100);*/
+    /*background: -moz-linear-gradient(90deg, rgb(214, 170, 100) 0%, rgb(222, 185, 125) 100%);*/
+    /*background: -webkit-linear-gradient(90deg, rgb(214, 170, 100) 0%, rgb(222, 185, 125) 100%);*/
+    /*background: -o-linear-gradient(90deg, rgb(214, 170, 100) 0%, rgb(222, 185, 125) 100%);*/
+    /*background: -ms-linear-gradient(90deg, rgb(214, 170, 100) 0%, rgb(222, 185, 125) 100%);*/
+    /*background: linear-gradient(180deg, rgb(214, 170, 100) 0%, rgb(222, 185, 125) 100%);*/
+    background-color: #1f3d7a;
+    position: absolute;
+    bottom: 0;
+}
+.back-btn-help
+{
+    display: block;
+    overflow: hidden;
+    width: 6%;
+    height: 95%;
+    background: url(../images/icon_blank.svg) no-repeat center;
+    background-size: 100% 100%;
+    margin: 0.3% 0 0 2%;
+    cursor: pointer;
+}
+.back-btn-help i
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    height: 90%;
+    background: url("../images/home-icon.svg") no-repeat center;
+    background-size: 100% 100%;
+    margin-left: 5%;
+}
+.swiper-pagination-progress .swiper-pagination-progressbar {
+    background: #2572b7;
+}
+.swiper-container-horizontal>.swiper-pagination-progress {
+    width: 100%;
+    height: 3%;
+    left: 0;
+    top: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    overflow: hidden;
+}
+.swiper-slide {
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.swiper-slide img {
+    display: block;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.count {
+    position: absolute;
+    top: 0;
+    lefT: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 25px;
+    width: 100px;
+    color: white;
+}
+.count label {
+    /*color: rgba(77,49,8,0.4);*/
+    color: #ffffff;
+    width: 35px;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 25px;
+}
+.swiper-button-next, .swiper-button-prev
+{
+    background: url("../images/icon_blank.svg") no-repeat center !important;
+    background-size: 100% 100% !important;
+    width: 6%;
+    height: 13%;
+    bottom: 0%;
+    top: auto;
+}
+/*.swiper-button-next*/
+/*{*/
+    /*left: 38% !important;*/
+/*}*/
+/*.swiper-button-prev*/
+/*{*/
+    /*right: 38% !important;*/
+/*}*/
+.swiper-button-next i, .swiper-button-prev i
+{
+    display: inline-block;
+    overflow: hidden;
+    height: 64%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.swiper-button-next i
+{
+    background-image: url(../images/right.svg);
+    width: 55%;
+    height: 90%;
+    margin: 0;
+}
+.swiper-button-prev i
+{
+    background-image: url(../images/left.svg);
+    width: 55%;
+    height: 75%;
+    margin: 6% 0 0 12%;
+}
+
+
+
+

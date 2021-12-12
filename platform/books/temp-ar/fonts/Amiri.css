@@ -1,0 +1,32 @@
+/* arabic Pmj8RyKsUWpsaz_klfK4LA.woff2 */
+@font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amiri'), local('Amiri-Regular'), url(../../editor-fonts/Pmj8RyKsUWpsaz_klfK4LA.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amiri'), local('Amiri-Regular'), url(../../editor-fonts/k2MEYNRoSfd5tdYW9SpWiA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* arabic */
+@font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Amiri Bold'), local('Amiri-Bold'), url(../../editor-fonts/mmHwJz0KRs9eU5Fnp3rH_hTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Amiri Bold'), local('Amiri-Bold'), url(../../editor-fonts/8b_RNX_MuT-wzF5O8XZEVvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}

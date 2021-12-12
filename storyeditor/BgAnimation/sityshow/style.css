@@ -1,0 +1,36 @@
+* {margin: 0px;padding: 0px}
+html {width: 100%;width: 100%;}
+
+#multi-background {
+  width: 100%;
+  height: 100vh;
+  background-color: #555;
+
+  background-image:
+          url(img/p-part-5.png),
+          url(img/p-part-4.png),
+          url(img/p-part-3.png),
+          url(img/p-part-2.png),
+          url(img/p-part-1.png);
+
+  background-size: auto 100%;
+  animation: multi-background linear 100s infinite;
+}
+
+
+@keyframes multi-background {
+  from {
+    background-position: 0px 0px,
+    0px 0px,
+    0px 0px,
+    0px 0px,
+    0px 0px;
+  }
+  to {
+    background-position: 7800px 0px,
+    6500px 0px,
+    5200px 0px,
+    3900px 0px,
+    2600px 0px;
+  }
+}

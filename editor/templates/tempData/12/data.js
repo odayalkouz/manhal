@@ -1,0 +1,55 @@
+
+/**
+ * Created by osaid zalloum on 14/12/2020.
+ */
+
+//#Manhal#data#
+
+var itemList2=[];
+var shuffleList1=[];
+var shuffleList2=[];
+var itemSelct=[];
+function drawlistArray() {
+    itemList2=[]
+    shuffleList1=[];
+    shuffleList2=[];
+    shuffleList1=randomarray(itemList.length);
+    for(var i=0;i<itemList.length;i++){
+        itemList2.push(itemList[shuffleList1[i]])
+    }
+    if(itemList2.length<=4){
+        itemSelct=itemList2;
+    }else if(itemList2.length>4){
+        for (var x=0;x<4;x++){
+            itemSelct.push(itemList2[x]);
+        }
+    }
+    $(".text-inner-container").css("top","6.047%");
+    if(itemSelct.length==4){
+        $(".text-inner-container").css("top","6.047%");
+    }else if(itemSelct.length==3){
+        $(".text-inner-container").css("top","21.047%");
+    }else if(itemSelct.length==2){
+        $(".text-inner-container").css("top","35.047%");
+    }
+
+}
+
+function drawItem(){
+    $(".title span").html(title);
+    drawlistArray()
+    $(".text-inner-container").html("");
+    var html="";
+    for(var i=0;i<itemSelct.length;i++){
+        html+='<div class="text-container" data="'+itemSelct[i].type+'">' +
+              '<div class="number-question"><span>'+(i+1)+'</span></div> ' +
+              '<div class="text-bg-container"><p>'+itemSelct[i].word+'</p></div> ' +
+              '<div class="trueFalse">' +
+              '<a class="true-btn" data="1" onclick="choseCorrect(this)"><span>'+itemSelct[i].true+'</span></a>' +
+              '<a class="false-btn" data="0" onclick="choseCorrect(this)"><span>'+itemSelct[i].false+'</span></a>' +
+              '</div>' +
+              '</div>'
+    }
+    $(".text-inner-container").append(html);
+    // shuffleDivs(".text-inner-container");
+}

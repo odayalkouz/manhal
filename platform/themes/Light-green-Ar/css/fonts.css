@@ -1,0 +1,192 @@
+/* arabic */
+@font-face
+{
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amiri'), local('Amiri-Regular'), url(fonts/Pmj8RyKsUWpsaz_klfK4LA.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face
+{
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amiri'), local('Amiri-Regular'), url(fonts/k2MEYNRoSfd5tdYW9SpWiA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* arabic */
+@font-face
+{
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Amiri Bold'), local('Amiri-Bold'), url(fonts/mmHwJz0KRs9eU5Fnp3rH_hTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face
+{
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Amiri Bold'), local('Amiri-Bold'), url(fonts/8b_RNX_MuT-wzF5O8XZEVvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face
+{
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/DroidKufi-Regular.eot);
+    src: url(../fonts/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/DroidKufi-Regular.woff2) format('woff2'),
+    url(../fonts/DroidKufi-Regular.woff) format('woff'),
+    url(../fonts/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face
+{
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/DroidKufi-Bold.eot);
+    src: url(../fonts/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/DroidKufi-Bold.woff2) format('woff2'),
+    url(../fonts/DroidKufi-Bold.woff) format('woff'),
+    url(../fonts/DroidKufi-Bold.ttf) format('truetype');
+}
+@font-face
+{
+    font-family: 'Droid Arabic Naskh';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/DroidNaskh-Regular.eot);
+    src: url(../fonts/DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/DroidNaskh-Regular.woff2) format('woff2'),
+    url(../fonts/DroidNaskh-Regular.woff) format('woff'),
+    url(../fonts/DroidNaskh-Regular.ttf) format('truetype');
+}
+@font-face
+{
+    font-family: 'Droid Arabic Naskh';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/DroidNaskh-Bold.eot);
+    src: url(../fonts/DroidNaskh-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/DroidNaskh-Bold.woff2) format('woff2'),
+    url(../fonts/DroidNaskh-Bold.woff) format('woff'),
+    url(../fonts/DroidNaskh-Bold.ttf) format('truetype');
+}
+/* arabic */
+@font-face
+{
+    font-family: 'Lateef';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lateef'), url(../fonts/_hjeHDsHwaiVMYwxvpdBwvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face
+{
+    font-family: 'Lateef';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lateef'), url(../fonts/Ujbb_aqcpJSANBY7B8AwXw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* arabic */
+@font-face
+{
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Scheherazade'), local('Scheherazade-Regular'), url(../fonts/AuKlqGWzUC-8XqMOmsqXiy9v-EK_Ded0-YUWZQf3ru4.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face
+{
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Scheherazade'), local('Scheherazade-Regular'), url(../fonts/AuKlqGWzUC-8XqMOmsqXi-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* arabic */
+@font-face
+{
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Scheherazade Bold'), local('Scheherazade-Bold'), url(../fonts/C1wtT46acJkQxc6mPHwvHOrSe37bsKuxrWvNpCsQRCI.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face
+{
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Scheherazade Bold'), local('Scheherazade-Bold'), url(../fonts/C1wtT46acJkQxc6mPHwvHHNuWYKPzoeKl5tYj8yhly0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face
+{
+    font-family: 'Thabit';
+    font-style: italic;
+    font-weight: 500;
+    src: url(../fonts/Thabit-Oblique.eot);
+    src: url(../fonts/Thabit-Oblique.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Thabit-Oblique.woff2) format('woff2'),
+    url(../fonts/Thabit-Oblique.woff) format('woff'),
+    url(../fonts/Thabit-Oblique.ttf) format('truetype');
+}
+@font-face
+{
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/Thabit.eot);
+    src: url(../fonts/Thabit.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Thabit.woff2) format('woff2'),
+    url(../fonts/Thabit.woff) format('woff'),
+    url(../fonts/Thabit.ttf) format('truetype');
+}
+@font-face
+{
+    font-family: 'Thabit';
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/Thabit-BoldOblique.eot);
+    src: url(../fonts/Thabit-BoldOblique.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Thabit-BoldOblique.woff2) format('woff2'),
+    url(../fonts/Thabit-BoldOblique.woff) format('woff'),
+    url(../fonts/Thabit-BoldOblique.ttf) format('truetype');
+}
+@font-face
+{
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/Thabit-Bold.eot);
+    src: url(../fonts/Thabit-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Thabit-Bold.woff2) format('woff2'),
+    url(../fonts/Thabit-Bold.woff) format('woff'),
+    url(../fonts/Thabit-Bold.ttf) format('truetype');
+}@font-face
+{
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../../fonts/Thabit-Bold.eot);
+    src: url(../../fonts/Thabit-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../../fonts/Thabit-Bold.woff2) format('woff2'),
+    url(../fonts/Thabit-Bold.woff) format('woff'),
+    url(../fonts/Thabit-Bold.ttf) format('truetype');
+}
+
+
+
+

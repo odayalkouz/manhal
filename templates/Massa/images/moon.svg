@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="55.2354mm" height="27.4324mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 23200431 11522384"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#4D4D4D;stroke-width:106645}
+    .fil0 {fill:#000066}
+    .fil4 {fill:#DDDDDD}
+    .fil5 {fill:#E6E6E6}
+    .fil6 {fill:white}
+    .fil2 {fill:url(#id0)}
+    .fil1 {fill:url(#id1)}
+    .fil3 {fill:url(#id2)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="2.19496e+007" y1="5.76119e+006" x2="1.25084e+006" y2="5.76119e+006">
+   <stop offset="0" style="stop-opacity:1; stop-color:gray"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#E6E6E6"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="53343.6" y1="5.76119e+006" x2="2.31471e+007" y2="5.76119e+006">
+  </linearGradient>
+  <radialGradient id="id2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(5.46306E-005 1.1504 -1.0768 0.106202 1.09803E+007 -1.09034E+006)" cx="5.15278e+006" cy="5.41219e+006" r="3.07541e+006" fx="5.15278e+006" fy="5.41219e+006">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="0.831373" style="stop-opacity:1; stop-color:#F2F2F2"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#E6E6E6"/>
+  </radialGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M16776224 10116045l-10352017 0c-2315616,0 -4210238,-1894537 -4210238,-4210237l0 -289274c0,-2315658 1894622,-4210195 4210238,-4210195l10352017 0c2315658,0 4210237,1894537 4210237,4210195l0 289274c0,2315700 -1894579,4210237 -4210237,4210237z"/>
+  <g id="_1691083088">
+   <path class="fil1 str0" d="M17628755 53344l-12057164 0c-3035082,0 -5518247,2483249 -5518247,5518331l0 379034c0,3035082 2483165,5518331 5518247,5518331l12057164 0c3035083,0 5518332,-2483249 5518332,-5518331l0 -379034c0,-3035082 -2483249,-5518331 -5518332,-5518331zm-852531 10062701l-10352017 0c-2315616,0 -4210238,-1894537 -4210238,-4210237l0 -289274c0,-2315658 1894622,-4210195 4210238,-4210195l10352017 0c2315658,0 4210237,1894537 4210237,4210195l0 289274c0,2315700 -1894579,4210237 -4210237,4210237z"/>
+   <path class="fil2" d="M17003585 10877095l-10806698 0c-2720313,0 -4946043,-2225688 -4946043,-4946044l0 -339718c0,-2720356 2225730,-4946044 4946043,-4946044l10806698 0c2720313,0 4946001,2225688 4946001,4946044l0 339718c0,2720356 -2225688,4946044 -4946001,4946044zm-227361 -761050l-10352017 0c-2315616,0 -4210238,-1894537 -4210238,-4210237l0 -289274c0,-2315658 1894622,-4210195 4210238,-4210195l10352017 0c2315658,0 4210237,1894537 4210237,4210195l0 289274c0,2315700 -1894579,4210237 -4210237,4210237z"/>
+  </g>
+  <circle class="fil3" cx="7246706" cy="5870231" r="3271726"/>
+  <circle class="fil4" cx="6541500" cy="3818246" r="638590"/>
+  <circle class="fil5" cx="6481057" cy="3848866" r="554626"/>
+  <ellipse class="fil4" cx="7554062" cy="5481474" rx="363472" ry="292361"/>
+  <ellipse class="fil5" cx="7519659" cy="5495493" rx="315681" ry="253920"/>
+  <ellipse class="fil4" cx="5610222" cy="7330196" rx="518621" ry="417156"/>
+  <ellipse class="fil5" cx="5561135" cy="7350198" rx="450431" ry="362307"/>
+  <circle class="fil4" transform="matrix(-0.041027 -0.153115 0.144321 -0.0386707 8.0049E+006 7.8298E+006)" r="3271726"/>
+  <circle class="fil5" transform="matrix(-0.0356326 -0.132983 0.125345 -0.0335861 8.04025E+006 7.87115E+006)" r="3271726"/>
+  <ellipse class="fil4" cx="9528821" cy="5579159" rx="367865" ry="346738"/>
+  <ellipse class="fil5" cx="9494003" cy="5595785" rx="319497" ry="301148"/>
+  <ellipse class="fil4" cx="5504824" cy="5688787" rx="367865" ry="346738"/>
+  <ellipse class="fil5" cx="5470006" cy="5705412" rx="319497" ry="301148"/>
+  <ellipse class="fil4" cx="8487881" cy="3732839" rx="257795" ry="242989"/>
+  <ellipse class="fil5" cx="8463480" cy="3744490" rx="223900" ry="211040"/>
+  <ellipse class="fil4" cx="4864675" cy="4722089" rx="257795" ry="242989"/>
+  <ellipse class="fil5" cx="4840274" cy="4733740" rx="223900" ry="211040"/>
+  <polygon class="fil6" points="17341246,3303648 17425714,3597962 18132789,2814148 17531057,3730019 18132789,4058859 17493464,3894712 17670464,4485608 17341246,3968007 17061801,4432096 17189028,3894712 16670755,3913698 17151435,3730019 16974015,3480438 17256778,3597962 "/>
+  <polygon class="fil6" points="14003197,5946046 14058893,6140016 14572419,5845702 14128324,6227045 14428980,6430759 14103542,6335623 14173981,7134853 14003197,6383926 13658312,6666101 13902894,6335623 13561327,6348098 13878113,6227045 13541124,5845702 13947543,6140016 "/>
+  <polygon class="fil6" points="18093097,6779215 18131613,7198487 18697643,6921478 18201044,7285517 18501700,7489230 18176262,7394094 18246701,8193324 18075917,7442397 17630771,7881663 17975615,7394094 17488550,7383803 17950833,7285517 17239599,6388042 18020264,7198487 "/>
+  <circle class="fil6" cx="13232806" cy="3389058" r="82812"/>
+  <circle class="fil6" cx="16147799" cy="5444974" r="117713"/>
+  <circle class="fil6" cx="15617177" cy="8154996" r="117713"/>
+  <circle class="fil6" cx="12761152" cy="8940953" r="117713"/>
+  <circle class="fil6" cx="19469004" cy="5869622" r="117713"/>
+  <circle class="fil6" cx="17573753" cy="9060283" r="58279"/>
+  <circle class="fil6" cx="12543185" cy="5411008" r="143068"/>
+ </g>
+</svg>

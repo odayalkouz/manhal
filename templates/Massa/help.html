@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/swiper_help.css" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/help.css" type="text/css">
+
+    <link href="css/size.css" rel="stylesheet" type="text/css">
+    <!--<link rel="stylesheet" href="css/icon.css" type="text/css">-->
+    <script src="js/oldJS/hummer.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/oldJS/scrollerJS.js"></script>
+    <script src="js/oldJS/render.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/oldJS/animiate.js"></script>
+    <script type="text/javascript" src="js/oldJS/fastclick.js"></script>
+    <script>
+        function log(ev) {
+        //    console.log(ev);
+        }
+        if ('addEventListener' in document) {
+            document.addEventListener('DOMContentLoaded', function() {
+                FastClick.attach(document.body);
+            }, false);
+        }
+
+        $(document).ready(function() {
+            parent.onLoadIframeShow()
+            document.body.addEventListener('touchstart', log, false);
+            document.body.addEventListener('touchmove', log, false);
+            document.body.addEventListener('touchend', log, false);
+            parent.hideLoader()
+            // get a reference to an element
+        })
+    </script>
+    <style>
+        @media all and (max-device-width: 640px) and (min-device-width: 360px)and (orientation : landscape){
+            .swiper-button-next, .swiper-button-prev
+            {
+                width: 6%;
+                height: 10%;
+            }
+            .footer-help
+            {
+                height: 11%;
+            }
+            .swiper-wrapper
+            {
+                height: 89%;
+            }
+        }
+        @media all and (max-device-width: 1280px) and (min-device-width: 800px)and (orientation : landscape) {
+            .swiper-button-next, .swiper-button-prev
+            {
+                width: 6%;
+                height: 10%;
+            }
+            .footer-help
+            {
+                height: 11%;
+            }
+            .swiper-wrapper
+            {
+                height: 89%;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- Swiper -->
+<div class="swiper-container" id="swc" dir="rtl">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" id="c1" ><img class="swiper-slideIMG" id="image1" src="images/img1.png"></div>
+        <div class="swiper-slide" id="c2" ><img class="swiper-slideIMG" id="image2" src="images/img2.jpg"></div>
+        <div class="swiper-slide" id="c3"><img class="swiper-slideIMG" id="image3" src="images/img4.jpg"></div>
+        <div class="swiper-slide" id="c4" ><img class="swiper-slideIMG" id="image4" src="images/img5.jpg"></div>
+        <div class="swiper-slide" id="c5" ><img class="swiper-slideIMG" id="image5" src="images/img3.jpg"></div>
+        <div class="swiper-slide" id="c6" ><img class="swiper-slideIMG" id="image6" src="images/img6.jpg"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next">
+        <i class="flaticon-left226 shadow-setting-green"></i>
+    </div>
+    <div class="swiper-button-prev">
+        <i class="flaticon-left226 shadow-setting-green"></i>
+    </div>
+    <div class="footer-help">
+        <div class="count">
+            <label id="countend">6</label>
+            <label id="">/</label>
+            <label id="countStart">1</label>
+        </div>
+        <a id="back-help" class="back-btn-help floating-left"><i></i></a>
+    </div>
+</div>
+
+<!-- Swiper JS -->
+<script src="js/swiper-help.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    function checkIFPc(){
+
+
+        if (navigator.userAgent.match(/Android/i) ||
+                navigator.userAgent.match(/webOS/i) ||
+                navigator.userAgent.match(/iPhone/i) ||
+                navigator.userAgent.match(/iPad/i) ||
+                navigator.userAgent.match(/iPod/i) ||
+                navigator.userAgent.match(/BlackBerry/) ||
+                navigator.userAgent.match(/Windows Phone/i) ||
+                navigator.userAgent.match(/ZuneWP7/i)
+        ){
+            return false
+
+        }else{
+            return true
+
+        }
+    }
+    var count=1
+
+     swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        pagination: '.swiper-pagination',
+        paginationType: 'progress'
+            });
+
+
+    swiper.on('slideChangeEnd', function () {
+
+//        $('#countStart').html(swiper.activeIndex+1);
+//        var stage = document.getElementById('image'+2);
+//        $stage = jQuery(stage);
+//        $.Velocity.hook($stage, 'scale', 1);
+//        $.Velocity.hook($stage, 'translateX', 0 + 'px');
+//        $.Velocity.hook($stage, 'translateY', 0 + 'px');
+        scrollerPan('image'+eval(swiper.activeIndex+1),'c'+eval(swiper.activeIndex+1))
+       // GestureStart(swiper.activeIndex+1)
+
+    });
+
+
+    swiper.on('onTouchStart', function () {
+
+        $('#countStart').html(swiper.activeIndex+1)
+        console.log(scroller.getValues().zoom)
+        if(scroller.getValues().zoom>1)
+            {
+
+
+                swiper.lockSwipes()
+                return
+            }
+        swiper.unlockSwipes()
+    });
+
+
+    swiper.on('onDoubleTap', function () {
+        if(scroller.getValues().zoom>1){
+            scroller.zoomTo(1);
+        }
+        else{
+            scroller.zoomTo(1.5);
+        }
+
+    });
+   // scrollerPan('image'+eval(swiper.activeIndex+1),'c'+eval(swiper.activeIndex+1))
+    scrollerPan('image1','c1')
+    $('#back-help').click(function(){
+        parent.showContainer();
+        parent.closeIframe();
+    });
+
+    //  scroller.getValues("zoom");
+
+
+    var container
+    var content
+
+
+    function scrollerPan(id,cont){
+// Intialize layout
+
+        container = document.getElementById(cont);
+        content= document.getElementById(id);
+        var contentWidth = container.clientWidth;
+        var contentHeight = container.clientHeight;
+        console.log("contentWidth =" , contentWidth);
+        console.log("contentHeight =" , contentHeight);
+        var clientWidth = 0;
+        var clientHeight = 0;
+
+// Initialize Scroller
+
+
+
+
+        scroller = new Scroller(render, {
+            zooming: true
+        });
+
+
+
+        var manager = new Hammer.Manager(container);
+
+// create recognizers
+
+        var DoubleTap = new Hammer.Tap({
+            event: 'doubletap',
+            taps: 2
+        });
+
+        manager.add(DoubleTap);
+        manager.on('doubletap', function() {
+
+//            if(scroller.getValues().zoom>1){
+//                scroller.zoomTo(1);
+//            }
+//            else{
+//                scroller.zoomTo(1.5);
+//            }
+//
+
+        })
+
+
+
+        var rect = container.getBoundingClientRect();
+        scroller.setPosition(rect.left + container.clientLeft, rect.top + container.clientTop);
+// Reflow handling
+        console.log(rect.width,rect.height)
+
+        var reflow = function() {
+            clientWidth = container.clientWidth;
+            clientHeight = container.clientHeight;
+            scroller.setDimensions(clientWidth, clientHeight, contentWidth, contentHeight);
+        };
+
+        window.addEventListener("resize", reflow, false);
+        reflow();
+        if ('ontouchstart' in window) {
+
+            var bodyHammer = new Hammer(document.querySelector('#swc'))
+            bodyHammer.get('pan').set({
+                enable: true,
+                direction: Hammer.DIRECTION_ALL
+            })
+            bodyHammer.get('pinch').set({
+                enable: true
+            })
+
+
+            bodyHammer.on('panstart pinchstart', function(e) {
+                if(scroller.getValues().zoom==1 && e.type=="panstart" && (e.direction==2 || e.direction==4)){
+                    return
+                }
+                var touches = e.srcEvent.touches
+                if (touches[0] && touches[0].target && touches[0].target.tagName.match(/input|textarea|select/i)) {
+                    return
+                }
+                scroller.doTouchStart(touches, Date.now())
+                e.preventDefault()
+            })
+
+            bodyHammer.on('panmove pinchmove', function(e) {
+                if(scroller.getValues().zoom==1 && e.type=="panmove" && (e.direction==2 || e.direction==4)){
+                    return
+                }
+                var touches = e.srcEvent.touches
+                scroller.doTouchMove(touches, Date.now(), e.scale)
+            })
+
+            bodyHammer.on('panend pinchend', function(e) {
+                scroller.doTouchEnd(Date.now())
+            })
+            container.addEventListener(navigator.userAgent.indexOf("Firefox") > -1 ? "DOMMouseScroll" :  "mousewheel", function(e) {
+                scroller.doMouseZoom(e.detail ? (e.detail * -120) : e.wheelDelta, e.timeStamp, e.pageX, e.pageY);
+            }, false);
+
+        } else {
+
+            var mousedown = false;
+
+            container.addEventListener("mousedown", function(e) {
+                if(scroller.getValues().zoom==1){
+                    return
+                }
+                if (e.target.tagName.match(/input|textarea|select/i)) {
+                    return;
+                }
+
+                scroller.doTouchStart([{
+                    pageX: e.pageX,
+                    pageY: e.pageY
+                }], e.timeStamp);
+
+                mousedown = true;
+            }, false);
+
+            document.addEventListener("mousemove", function(e) {
+if(scroller.getValues().zoom==1){
+    return
+}
+                if (!mousedown) {
+                    return;
+                }
+
+                scroller.doTouchMove([{
+                    pageX: e.pageX,
+                    pageY: e.pageY
+                }], e.timeStamp);
+
+                mousedown = true;
+            }, false);
+
+            document.addEventListener("mouseup", function(e) {
+                if (!mousedown) {
+                    return;
+                }
+
+                scroller.doTouchEnd(e.timeStamp);
+
+                mousedown = false;
+            }, false);
+
+            container.addEventListener(navigator.userAgent.indexOf("Firefox") > -1 ? "DOMMouseScroll" :  "mousewheel", function(e) {
+                scroller.doMouseZoom(e.detail ? (e.detail * -120) : e.wheelDelta, e.timeStamp, e.pageX, e.pageY);
+            }, false);
+
+        }
+
+        /*
+         // Test for background activity (slow down scrolling)
+         setInterval(function() {
+         var arr = [];
+         for (var i=0, l=Math.random()*600; i<l; i++) {
+         arr.push.call(arr, document.querySelectorAll(".abc" + i));
+         }
+         }, 50);
+         */
+
+    }
+
+
+
+//    function GestureStart(id){
+//        var stage = document.getElementById('image'+id);
+//        $stage = jQuery(stage);
+//        containment=$( ".swiper-slide" )
+//// create a manager for that element
+//        var manager = new Hammer.Manager(stage);
+//
+//// create recognizers
+//        var Pan = new Hammer.Pan();
+//        // var Rotate = new Hammer.Rotate();
+//        var Pinch = new Hammer.Pinch();
+//        var Tap = new Hammer.Tap({
+//            taps: 1
+//        });
+//        var DoubleTap = new Hammer.Tap({
+//            event: 'doubletap',
+//            taps: 2
+//        });
+//
+//// use them together
+//        //  Rotate.recognizeWith([Pan]);
+//        //   Pinch.recognizeWith([Rotate, Pan]);
+//
+//        DoubleTap.recognizeWith([Tap]);
+//        Tap.requireFailure([DoubleTap]);
+//
+//// add the recognizers
+//        manager.add(Pan);
+//        // manager.add(Rotate);
+//        manager.add(Pinch);
+//        manager.add(DoubleTap);
+//        manager.add(Tap);
+//        manager.get('pan').set({ direction: Hammer.DIRECTION_ALL });
+//// subscribe to events
+//        var liveScale = 1;
+//        var currentRotation = 0;
+////        manager.on('rotatemove', function(e) {
+////            console.log(e.type)
+////            // do something cool
+////            var rotation = currentRotation + Math.round(liveScale * e.rotation);
+////            $.Velocity.hook($stage, 'rotateZ', rotation + 'deg');
+////        });
+////        manager.on('rotateend', function(e) {
+////            // cache the rotation
+////            currentRotation += Math.round(e.rotation);
+////        });
+//
+//        var deltaX = 0;
+//        var deltaY = 0;
+////        manager.on('panmove', function(e) {
+////            // do something cool
+////            var dX = deltaX + (e.deltaX);
+////            var dY = deltaY + (e.deltaY);
+////            $.Velocity.hook($stage, 'translateX', dX + 'px');
+////            $.Velocity.hook($stage, 'translateY', dY + 'px');
+////        });
+//
+//        manager.on('panend', function(e) {
+//            deltaX = deltaX + e.deltaX;
+//            deltaY = deltaY + e.deltaY;
+//        });
+//dX=dY=0
+//
+//
+//        manager.on('panleft', function(e) {
+//            allowLeft=(parseInt(containment.width())-stage.getBoundingClientRect().width);
+//            if((stage.getBoundingClientRect().left)<=allowLeft ){
+//
+//            return
+//            }
+//            var dX = deltaX + (e.deltaX);
+//            $.Velocity.hook($stage, 'translateX', dX + 'px');
+//        })
+//        manager.on('panright', function(e) {
+//            allowLeft=(parseInt(containment.width())-stage.getBoundingClientRect().width);
+//
+//            if( (stage.getBoundingClientRect().left)>=0 ){
+//                return
+//            }
+//            var dX = deltaX + (e.deltaX);
+//            $.Velocity.hook($stage, 'translateX', dX + 'px');
+//        })
+//        manager.on('panup', function(e) {
+//            allowTop=(parseInt(containment.height())-stage.getBoundingClientRect().height);
+//
+//            if((stage.getBoundingClientRect().top)<=allowTop ){
+//
+//
+//                return
+//            }
+//            var dY = deltaY + (e.deltaY);
+//            $.Velocity.hook($stage, 'translateY', dY + 'px');
+//        })
+//        manager.on('pandown', function(e) {
+//            allowTop=(parseInt(containment.height())-stage.getBoundingClientRect().height);
+//
+//            if( (stage.getBoundingClientRect().top)>=0 ){
+//
+//
+//                return
+//            }
+//            var dY = deltaY + (e.deltaY);
+//            $.Velocity.hook($stage, 'translateY', dY + 'px');
+//        })
+//
+//        //**************************************************************************
+////        manager.on("panleft panright panup pandown ", function(ev) {
+////            console.log(ev.type)
+////            if(currentScale==1)
+////            {
+////                swiper.unlockSwipes()
+////                return
+////            }
+////            swiper.lockSwipes()
+////
+////
+////            if(ev.type=="panright"){
+////                allowLeft=(parseInt(containment.width())-stage.getBoundingClientRect().width);
+//////
+////            if( (stage.getBoundingClientRect().left)>=0 ){
+////
+////            }
+////                else{
+////                var dX = deltaX + (ev.deltaX);
+////                $.Velocity.hook($stage, 'translateX', dX + 'px');
+////            }
+////
+////            }
+////            if(ev.type=="panleft") {
+////                allowLeft = (parseInt(containment.width()) - stage.getBoundingClientRect().width);
+////                if ((stage.getBoundingClientRect().left) <= allowLeft ) {
+////
+////
+////                }
+////                else {
+////                    var dX = deltaX + (ev.deltaX);
+////                    $.Velocity.hook($stage, 'translateX', dX + 'px');
+////                }
+////            }
+////            //************************************
+////            if(ev.type=="panup") {
+////                allowTop = (parseInt(containment.height()) - stage.getBoundingClientRect().height);
+////
+////                if ((stage.getBoundingClientRect().top) <= allowTop) {
+////
+////                } else {
+////                    var dY = deltaY + (ev.deltaY);
+////                    $.Velocity.hook($stage, 'translateY', dY + 'px');
+////                }
+////            }
+////            if(ev.type=="pandown") {
+////                allowTop = (parseInt(containment.height()) - stage.getBoundingClientRect().height);
+////
+////                if ((stage.getBoundingClientRect().top) >= 0) {
+////
+////                }
+////                else {
+////                    var dY = deltaY + (ev.deltaY);
+////                    $.Velocity.hook($stage, 'translateY', dY + 'px');
+////                }
+////            }
+////        });
+//
+////        manager.on('panmove', function(ev) {
+////
+////                        console.log(ev.direction)
+////            if(currentScale==1)
+////            {
+////                swiper.unlockSwipes()
+////                return
+////            }
+////            swiper.lockSwipes()
+////
+////
+////            if(ev.direction==4){
+////                allowLeft=(parseInt(containment.width())-stage.getBoundingClientRect().width);
+//////
+////            if( (stage.getBoundingClientRect().left)>=0 ){
+////
+////            }
+////                else{
+////                 dX = deltaX + (ev.deltaX);
+////
+////            }
+////
+////            }
+////            if(ev.direction==2) {
+////                allowLeft = (parseInt(containment.width()) - stage.getBoundingClientRect().width);
+////                if ((stage.getBoundingClientRect().left) <= allowLeft ) {
+////
+////
+////                }
+////                else {
+////                     dX = deltaX + (ev.deltaX);
+////
+////                }
+////            }
+////            //************************************
+////            if(ev.direction==8) {
+////                allowTop = (parseInt(containment.height()) - stage.getBoundingClientRect().height);
+////
+////                if ((stage.getBoundingClientRect().top) <= allowTop) {
+////
+////                } else {
+////                     dY = deltaY + (ev.deltaY);
+////
+////                }
+////            }
+////            if(ev.direction==16) {
+////                allowTop = (parseInt(containment.height()) - stage.getBoundingClientRect().height);
+////
+////                if ((stage.getBoundingClientRect().top) >= 0) {
+////
+////                }
+////                else {
+////                     dY = deltaY + (ev.deltaY);
+////
+////                }
+////            }
+////
+////
+////
+////
+//////            var dX = deltaX + (e.deltaX);
+//////            var dY = deltaY + (e.deltaY);
+////            $.Velocity.hook($stage, 'translateX', dX + 'px');
+////            $.Velocity.hook($stage, 'translateY', dY + 'px');
+////        });
+//
+//
+//// subscribe to events
+//        var currentScale = 1;
+//        function getRelativeScale(scale) {
+//            return scale * currentScale;
+//        }
+//        manager.on('pinchmove', function(e) {
+//            swiper.lockSwipes()
+//
+//            // do something cool
+//
+//            if(getRelativeScale(e.scale)>2.1) {
+//                var scale = getRelativeScale(e.scale);
+//                $.Velocity.hook($stage, 'scale', 2);
+//                return
+//            }
+//
+//            var scale = getRelativeScale(e.scale);
+//            $.Velocity.hook($stage, 'scale', scale);
+//        });
+//        manager.on('pinchend', function(e) {
+//            swiper.lockSwipes();
+//            // cache the scale
+//            if(getRelativeScale(e.scale)>2.1) {
+//                var scale = getRelativeScale(e.scale);
+//                $.Velocity.hook($stage, 'scale', 2);
+//                return
+//            }
+//            currentScale = getRelativeScale(e.scale);
+//            liveScale = currentScale;
+//
+//            if(currentScale<.8){
+//                swiper.unlockSwipes()
+//                $.Velocity.hook($stage, 'scale', 1);
+//                $.Velocity.hook($stage, 'translateX', 0 + 'px');
+//                $.Velocity.hook($stage, 'translateY', 0 + 'px');
+//                liveScale = 1;
+//                isShrunken = !isShrunken;
+//                deltaX = 0;
+//                deltaY = 0;
+//                currentScale=1
+//            }
+//        });
+//
+//
+//        var currentColorIndex = 0;
+//
+//        manager.on('tap', function(e) {
+//
+//        });
+//
+//        var isShrunken = false;
+//        manager.on('doubletap', function() {
+//
+////                console.log('doubletapped');
+////                var scale = $.Velocity.hook($stage, 'scale');
+////                if (isShrunken) {
+////                    $.Velocity.hook($stage, 'scale', 2 * scale);
+////                } else {
+////                    $.Velocity.hook($stage, 'scale', .5 * scale);
+////                }
+//            swiper.unlockSwipes()
+//            $.Velocity.hook($stage, 'scale', 1);
+//            $.Velocity.hook($stage, 'translateX', 0 + 'px');
+//            $.Velocity.hook($stage, 'translateY', 0 + 'px');
+//            liveScale = 1;
+//            isShrunken = !isShrunken;
+//            deltaX = 0;
+//            deltaY = 0;
+//            currentScale=1
+//        });
+//    }
+</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.layers {
+  /*background: #00111e;*/
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#00111e), to(#033d5e));*/
+  /*background: linear-gradient(to bottom, #00111e 0%, #033d5e 100%);*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00111e', endColorstr='#033d5e',GradientType=0 );*/
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.layer {
+  height: 100%;
+  position: absolute;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  width: 100%;
+}
+
+.layer--background {
+  -webkit-animation: fallLoop 10000ms linear infinite;
+  animation: fallLoop 10000ms linear infinite;
+  opacity: 0.4;
+}
+.layer--background .snowflake {
+  -webkit-animation: spin 15000ms linear infinite;
+  animation: spin 15000ms linear infinite;
+  height: 20%;
+}
+
+.layer--middleground {
+  -webkit-animation: fallLoop 7500ms linear infinite;
+  animation: fallLoop 7500ms linear infinite;
+  opacity: 0.6;
+}
+.layer--middleground .snowflake {
+  -webkit-animation: spin 12500ms linear infinite;
+  animation: spin 12500ms linear infinite;
+  height: 33.33333%;
+}
+
+.layer--foreground {
+  opacity: 0.8;
+  -webkit-animation: fallLoop 5000ms linear infinite;
+  animation: fallLoop 5000ms linear infinite;
+}
+.layer--foreground .snowflake {
+  -webkit-animation: spin 10000ms linear infinite;
+  animation: spin 10000ms linear infinite;
+  height: 50%;
+}
+
+.snowflakes {
+  align-content: flex-start;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.snowflake {
+  box-sizing: border-box;
+}
+.snowflake svg {
+  height: 100%;
+  width: 50%;
+}
+
+.snowflake--small {
+  width: 10%;
+}
+.snowflake--small svg {
+  height: 70%;
+}
+
+.snowflake--medium {
+  width: 20%;
+}
+.snowflake--medium svg {
+  height: 80%;
+}
+
+.snowflake--large {
+  width: 30%;
+}
+.snowflake--large svg {
+  height: 30%;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes fallLoop {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0%, 0);
+    transform: translate3d(0, 0%, 0);
+  }
+}
+@keyframes fallLoop {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0%, 0);
+    transform: translate3d(0, 0%, 0);
+  }
+}

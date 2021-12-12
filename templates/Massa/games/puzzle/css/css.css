@@ -1,0 +1,72 @@
+@keyframes animateBorder {
+    from {
+        outline-color:  #16889e;
+        box-shadow: 0 0 0 2px #0fa1a5;
+    }
+    to {
+        outline-color: #0fa1a5;
+        box-shadow: 0 0 0 2px #16889e;
+    }
+}
+
+
+.banners{
+    outline: 1px dashed #0fa1a5;
+    box-shadow: 0 0 0 2px #16889e;
+    animation: 1s animateBorder infinite;
+}
+
+.HardwareAccelerated
+{
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    /* more specific animation properties here */
+}
+
+#pile{
+    width:100% !important;
+    height:100 !important;%
+}
+
+.puzzle_solved{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    width: 25%;
+    background: rgba(0,0,0,.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 151px;
+}
+/* required snapPuzzle styles */
+.snappuzzle-wrap { position: absolute; display: block;width:100%;height:100% }
+.snappuzzle-pile { position: relative; }
+.snappuzzle-piece { cursor: move;
+    /*border: 1px dotted #000;*/
+}
+.snappuzzle-slot {
+    position: absolute;
+    background: #fff;
+    opacity: 0.8;
+    border: 1px solid black;
+}
+.snappuzzle-slot-hover { background: #eee; }
+
+
+.correct{
+    display: none !important;
+}
+
+#source_image{
+    width:100%;
+    height:100%;
+}
+
+

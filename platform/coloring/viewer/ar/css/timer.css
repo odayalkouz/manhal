@@ -1,0 +1,80 @@
+.obj9
+{
+    display: block;
+    /*width: 210px;*/
+    /*height: 53px;*/
+    width: 30%;
+    height: 9%;
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    z-index: 1000;
+    overflow: visible;
+}
+#timerCount
+{
+    top: 5px;
+    position: absolute;
+    left: -44px;
+    color: rgb(247, 211, 166);
+}
+#timer
+{
+    display: block;
+    overflow: hidden;
+    width: 74%;
+    height: 33%;
+    /*background: url(../images/timer-bg.svg) no-repeat center;*/
+    /*background-size: 100% 100%;*/
+    background: #fde09c;
+    border: 2px solid #aa6f2d;
+    position: absolute;
+    bottom: 19%;
+    left: 25%;
+    z-index: -1;
+    box-shadow: 0px 1px 3px #000;
+    border-radius: 5px;
+}
+.bar
+{
+    /*width: 136px;*/
+    width: 83%;
+    /*height: 11px;*/
+    height: 60%;
+    z-index: 1;
+    position: relative;
+    position: absolute;
+    /* right: 12px; */
+    /*top: 22%;*/
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    left: 16%;
+}
+#bar
+{
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background: -webkit-repeating-linear-gradient(135deg, #fb7e06, #fb7e06 10px, #fe000c 10px, #fe000c 20px, #fb7e06 20px) top left;
+    background: repeating-linear-gradient(-45deg, #fb7e06, #fb7e06 10px, #fe000c 10px, #fe000c 20px, #fb7e06 20px) top left;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.timer-clock
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 8%;
+    top: -25%;
+    width: 30%;
+    height: 129%;
+    background: url("../images/timer.svg") no-repeat center;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,48 @@
+
+
+/*
+ * Thabit (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+    font-family: 'Thabit';
+    font-style: italic;
+    font-weight: 500;
+    src: url(../../editor-fonts/Thabit-Oblique.eot);
+    src: url(../../editor-fonts/Thabit-Oblique.eot?#iefix) format('embedded-opentype'),
+    url(../../editor-fonts/Thabit-Oblique.woff2) format('woff2'),
+    url(../../editor-fonts/Thabit-Oblique.woff) format('woff'),
+    url(../../editor-fonts/Thabit-Oblique.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../../editor-fonts/Thabit.eot);
+    src: url(../../editor-fonts/Thabit.eot?#iefix) format('embedded-opentype'),
+    url(../../editor-fonts/Thabit.woff2) format('woff2'),
+    url(../../editor-fonts/Thabit.woff) format('woff'),
+    url(../../editor-fonts/Thabit.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Thabit';
+    font-style: italic;
+    font-weight: 700;
+    src: url(../../editor-fonts/Thabit-BoldOblique.eot);
+    src: url(../../editor-fonts/Thabit-BoldOblique.eot?#iefix) format('embedded-opentype'),
+    url(../../editor-fonts/Thabit-BoldOblique.woff2) format('woff2'),
+    url(../../editor-fonts/Thabit-BoldOblique.woff) format('woff'),
+    url(../../editor-fonts/Thabit-BoldOblique.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../../editor-fonts/Thabit-Bold.eot);
+    src: url(../../editor-fonts/Thabit-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../../editor-fonts/Thabit-Bold.woff2) format('woff2'),
+    url(../../editor-fonts/Thabit-Bold.woff) format('woff'),
+    url(../../editor-fonts/Thabit-Bold.ttf) format('truetype');
+}
+

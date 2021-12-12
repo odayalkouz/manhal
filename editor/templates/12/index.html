@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/manhalloader.css" rel="stylesheet" type="text/css">
+    <script src="https://www.manhal.com/js/scorm.js"></script>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/manhalLoader.js"></script>
+    <script type="text/javascript" src="js/TouchPunch.js"></script>
+</head>
+<script>
+    window.addEventListener("touchmove", function(event) {event.preventDefault();}, {passive: false} );
+</script>
+<body onunload="disconnetLMS();">
+<div class="main-container" id="gameConainer">
+    <div id="inner-gameContainer" class="inner-gameContainer">
+        <div class="header-container">
+            <div class="inner-header"></div>
+            <a class="title-icon"></a>
+            <div class="title">
+                <span></span>
+            </div>
+        </div>
+        <div class="text-main-container">
+            <div class="text-inner-container"></div>
+        </div>
+        <div class="footer"></div>
+        <div class="help-main-popup">
+            <a class="close"></a>
+            <div class="inner-help-popup">
+                <iframe></iframe>
+            </div>
+        </div>
+        <div class="main-message-container">
+            <div class="inner-message-container">
+                <span id="message-icone" class=""></span>
+                <span id="feedback" class=""></span>
+                <span class="result-text"></span>
+                <div class="result-container">
+                    <span></span>
+                </div>
+                <a class="reload"></a>
+            </div>
+        </div>
+        <div class="main-message-container_nextMessage">
+            <div class="inner-message-container">
+                <span id="feedback1" class="wellDonw"></span>
+                <a class="next-scene" onclick="nextSceneClick()"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

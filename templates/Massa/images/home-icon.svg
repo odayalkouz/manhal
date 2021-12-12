@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="21.6637mm" height="22.3501mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 329454 339892"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#663300;stroke-width:6437.39;stroke-linecap:round;stroke-linejoin:round}
+    .fil1 {fill:#AB5623}
+    .fil0 {fill:white}
+    .fil2 {fill:url(#id0)}
+   ]]>
+  </style>
+  <radialGradient id="id0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.02918E-005 -1.10403 -0.902019 -6.90004E-005 411770 455759)" cx="165625" cy="272884" r="39250.9" fx="165625" fy="272884">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FFEBB9"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FDE09C"/>
+  </radialGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M28201 331265c-262,4261 3668,7742 8138,7759l98690 325 57 542 62937 0 53 -326 98696 326c4474,10 8474,-3498 8130,-7753l-14485 -181552 19581 14190c10704,7759 19456,940 19456,-15147 0,-16097 -8752,-35608 -19456,-43349 -195556,-141706 -94974,-141706 -290537,0 -10709,7741 -19461,27252 -19461,43349 0,16087 8752,22906 19461,15147l20016 -14505 -11276 180994zm301253 -181636l0 0zm-329454 0l0 0z"/>
+  <path class="fil1 str0" d="M266000 123424l-99034 -65792 -103517 65792c-3309,2101 -6899,3216 -7131,7129l-11183 188500c-231,3913 3207,7119 7129,7131l228116 800c3922,11 7424,-3220 7129,-7131l-14378 -189300c-295,-3911 -3868,-4961 -7131,-7129z"/>
+  <path class="fil1 str0" d="M37475 112047c-9374,7134 -17042,25079 -17042,39883l0 3c0,14803 7668,21078 17042,13943l127250 -96844 127248 96844c9375,7135 17043,860 17043,-13943l0 -3c0,-14804 -7668,-32749 -17043,-39883 -171300,-130371 -83197,-130371 -254498,0z"/>
+  <polygon class="fil2 str0" points="209040,230376 130104,241199 138765,326985 193887,326985 "/>
+ </g>
+</svg>

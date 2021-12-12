@@ -1,0 +1,50 @@
+* {
+    scroll-behavior: smooth;
+    -webkit-print-color-adjust: exact!important;
+    -webkit-text-size-adjust: 100%!important;
+    -moz-text-size-adjust: 100%!important;
+    -o-text-size-adjust: 100%!important;
+    -ms-text-size-adjust: 80%!important;
+    -webkit-text-shadow: none!important;
+}
+*, .book__back, .book__side-info, .plyr--full-ui, .site-container * {
+    box-sizing: border-box;
+}
+.element {
+    border: none!important;
+    z-index: 1;
+}
+.real-content.goto {
+    cursor: pointer!important;
+}
+.real-content {
+    display: block;
+    overflow: visible!important;
+    margin: 20px 0 0;
+    height: 100%;
+}
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://www.manhal.com/platform/books/815/https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidKufi-Regular.eot);
+    src: url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/ar/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'), url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidKufi-Regular.woff2) format('woff2'), url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidKufi-Regular.woff) format('woff'), url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidKufi-Regular.ttf) format('truetype')
+}
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidKufi-Bold.eot);
+    src: url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'), url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidKufi-Bold.woff2) format('woff2'), url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidKufi-Bold.woff) format('woff'), url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidKufi-Bold.ttf) format('truetype')
+}
+@font-face {
+    font-family: 'Droid Arabic Naskh';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidNaskh-Regular.eot);
+    src: url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'), url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidNaskh-Regular.woff2) format('woff2'), url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidNaskh-Regular.woff) format('woff'), url(https://www.manhal.com/platform/books/815/themes/Brown-Ar/fonts/DroidNaskh-Regular.ttf) format('truetype')
+}
+body{
+    width: 980px;
+    height: 1300px;
+}

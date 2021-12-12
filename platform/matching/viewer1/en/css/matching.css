@@ -1,0 +1,1629 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    scrollbar-3dlight-color: #025E83;
+    scrollbar-arrow-color: #025E83;
+    scrollbar-darkshadow-color: #000000;
+    scrollbar-face-color: #025E83;
+    scrollbar-highlight-color: #025E83;
+    scrollbar-shadow-color: #025E83;
+    scrollbar-track-color: #025E83;
+    scrollbar-base-color: #025E83;
+    scrollbar-3dlight-color: #025E83;
+    scrollbar-highlight-color: #025E83;
+    scrollbar-track-color: #025E83;
+    scrollbar-arrow-color: black;
+    scrollbar-shadow-color: #025E83;
+    scrollbar-dark-shadow-color: #025E83;
+    -webkit-text-size-adjust: 100%;
+    background: #000;
+}
+@font-face {
+    font-family: kufi;
+    src: url(../fonts/DroidKufi-Bold.woff);
+}
+*{
+    font-family: kufi !important;
+}
+
+
+.floating-left {
+    float: left;
+}
+
+.floating-right {
+    float: right;
+}
+
+/*start vertical*/
+.matching-container-vertical {
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*max-height:700px;*/
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+}
+
+.matching-container-vertical .matching-content {
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 450px;
+    width: 960px;
+}
+
+.matching-container-vertical .gameConainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background: url(../../all/img/StartBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #40b1e4;
+
+}
+
+.matching-container-vertical canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.matching-container-vertical .coloumn2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    bottom: 0;
+    height: 100%;
+    /*right: 0;*/
+}
+
+.matching-container-vertical .coloumn1 {
+    position: absolute;
+    top: 1.7%;
+    right: 0;
+    width: 50%;
+    height: 90%;
+}
+
+.matching-container-vertical .coloumn1Element {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    height: 100%;
+    width: 32.536%;
+    margin: 0;
+    right: 7%;
+    padding: 0px;
+}
+
+.matching-container-vertical .coloumn2Element {
+    display: inline-block;
+    position: absolute;
+    top: 1.7%;
+    left: 7%;
+    height: 90%;
+    width: 32.536%;
+    /* right: 0; */
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.matching-container-vertical .elemMatch {
+    width: 100%;
+    border: 1px solid #00AB67;
+    direction: rtl;
+    margin: 0 0 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.matching-container-vertical .elemMatch:first-child {
+    margin-top: 10px;
+}
+
+.matching-container-vertical .imageElem {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.matching-container-vertical .imageCheckAnswer {
+    position: absolute;
+    left: 100%
+}
+.matching-container-vertical .imageCheckAnswer.true
+{
+    display: block;
+    overflow: hidden;
+    width: 152%;
+    height: 33px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 954%;
+    margin: auto;
+    background: url(../../all/img/true.svg) no-repeat;
+    background-size:contain;
+    background-position: center;
+    z-index: 999;
+}
+.matching-container-vertical .imageCheckAnswer.false
+{
+    display: block;
+    overflow: hidden;
+    width: 152%;
+    height: 33px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /*bottom: 0;*/
+    left: 954%;
+    margin: auto;
+    background: url(../../all/img/false.svg) no-repeat;
+    background-size:contain;
+    background-position: center;
+    z-index: 9;
+}
+.matching-container-horizental .imageCheckAnswer.true
+{
+    display: block;
+    overflow: hidden;
+    width: 21%;
+    height: 30px;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../../all/img/true.svg) no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+.matching-container-horizental .imageCheckAnswer.false
+{
+    display: block;
+    overflow: hidden;
+    width: 21%;
+    height: 30px;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../../all/img/false.svg) no-repeat;
+    background-size:contain;
+    background-position: center;
+    z-index: 9;
+}
+
+.matching-container-vertical .btn-container {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.matching-container-vertical .audio-btn {
+    display: inline-block;
+    overflow: hidden;
+    border: 0;
+    border-radius: 10px;
+    background: #00AB67;
+    color: #fff;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.matching-container-vertical .audio-btn:first-child {
+    margin: 0 0 0 10px;
+}
+
+.matching-container-vertical .audio-btn:hover {
+    background: #000;
+    color: #00AB67;
+}
+
+.matching-container-vertical .lbl-data-matching {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    color: #00AB67;
+    font-size: 20px;
+    height: 30px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.matching-container-vertical .element-container {
+    overflow: visible;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 29%;
+    background: #ffffff;
+    border: 3px solid #0089ff;
+    border-radius: 10px;
+    /* bottom: 2%; */
+    margin-bottom: 7%;
+}
+
+.matching-container-vertical .display-table-row {
+    overflow: hidden;
+    display: table-row;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.matching-container-vertical .display-table-cell {
+    overflow: hidden;
+    display: table-cell;
+}
+
+.matching-container-vertical .element-container .main-image {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    background-position: center!important;
+    background-size: 100% 100% !important;
+}
+.matching-container-vertical .element-container .main-image span{
+    -moz-transform:  translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 47%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    color: #f4ae4c;
+}
+.matching-container-horizental .element-container .main-image span{
+    -moz-transform:  translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 47%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    color: #f4ae4c;
+}
+
+.matching-container-vertical .footer .buttons, .matching-container-vertical .footer .buttons {
+    display: inline-block;
+    overflow: hidden;
+    background-position: center;
+    background-size: 100% 100%;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    height: 116.3%;
+    width: 17.67%;
+    padding: 0;
+    background-color: transparent;
+    float: none;
+    background: url(../../all/img/31.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: -30%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.matching-container-vertical .element-container .main-image video,
+.matching-container-vertical .element-container .main-image iframe,
+.matching-container-vertical .element-container .main-image .text {
+    display: table-cell;
+    overflow: hidden;
+    width: 160px;
+    height: 140px;
+    background-size: contain;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+}
+
+.matching-container-vertical .dot-container {
+    display: block;
+    overflow: visible;
+    /*height: 100%;*/
+    /*width: 15%;*/
+    vertical-align: middle;
+    text-align: center;
+    /* padding: 0px 10px 0px 10px; */
+    position: absolute;
+    /* width: 10%; */
+    /*top: 0;*/
+    bottom: 44%;
+    left: -22%;
+    /* right: 0; */
+    margin: auto;
+}
+
+.matching-container-vertical .coloumn2Element .dot-container-b {
+    /*margin: auto;*/
+    /*display: table-cell;*/
+    /*overflow: hidden;*/
+    /*height: 100%;*/
+    /*width: 52%;*/
+    /*vertical-align: middle;*/
+    /*text-align: center;*/
+    /*padding: 0px 10px 0px 10px;*/
+    display: inline-block;
+    float: right;
+    overflow: visible;
+    vertical-align: middle;
+    text-align: center;
+    /* padding: 0px 10px 0px 10px; */
+    position: absolute;
+    bottom: 44%;
+    /* width: 11%; */
+    /*left: 0;*/
+    right: -26%;
+    /* bottom: 0; */
+    margin: auto;
+    z-index: 9999;
+}
+
+.matching-container-vertical .dot-class {
+    display: table-cell;
+    overflow: hidden;
+    background: url("../../all/img/dot.svg") no-repeat;
+    width: 20px;
+    height: 30px;
+    border-radius: initial;
+    margin: 0% 0px 0px 0px;
+    background-size: contain;
+    vertical-align: middle;
+    text-align: center;
+    background-position-y: bottom;
+}
+
+
+
+
+/*.matching-container-vertical .footer .buttons:last-child {*/
+/*margin: 9px 0px 0px 20px;*/
+/*}*/
+
+.matching-container-vertical .main-check {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.matching-container-vertical .check {
+    display: inline-block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    background: #e5e5e5;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transform: translateX(-0%) translateY(-0%);
+    -ms-transform: translateX(-0%) translateY(-0%);
+    -webkit-transform: translateX(-0%) translateY(-0%);
+    transform: translateX(-0%) translateY(-0%);
+    -moz-box-shadow: 0px -4px 4px 0px rgba(255, 255, 255, 0.75), inset 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px -4px 4px 0px rgba(255, 255, 255, 0.75), inset 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px -4px 4px 0px rgba(255, 255, 255, 0.75), inset 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    text-align: center;
+}
+
+.matching-container-vertical .check:before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 9%;
+    left: 9%;
+    right: 9%;
+    bottom: 9%;
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.matching-container-vertical .check:after {
+    content: "";
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-color: #60b247;
+    border-width: 0;
+    border-style: solid;
+}
+
+.matching-container-vertical .check-a:after {
+    content: "";
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-color: #FC1414 !important;
+    border-width: 0;
+    border-style: solid;
+}
+
+.matching-container-vertical .check .check-icon {
+    position: absolute;
+    z-index: 3;
+    top: 0%;
+    left: 28%;
+    width: 45%;
+    fill: #e5e5e5;
+}
+
+.matching-container-vertical .check.active:after {
+    -moz-transition: all ease-out 0.1s;
+    -o-transition: all ease-out 0.1s;
+    -webkit-transition: all ease-out 0.1s;
+    transition: all ease-out 0.1s;
+    border-width: 25px;
+}
+
+.matching-container-vertical .check.active .check-icon {
+    fill: #fff;
+    -moz-animation: bounce 0.5s;
+    -webkit-animation: bounce 0.5s;
+    animation: bounce 0.5s;
+    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+/*end vertical*/
+
+/*start horizental*/
+.matching-container-horizental {
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.matching-container-horizental .matching-content {
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 90%;
+    width: 100%;
+    top: 0px;
+    margin: 0px;
+}
+
+.matching-container-horizental .gameConainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    top: 0%;
+    background-repeat: no-repeat;
+    background: url(../../all/img/StartBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #40b1e4;
+    background-position: center;
+}
+.inner-gameConainer
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 82.5%;
+    background: url(../../all/img/bg.png) no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.matching-container-horizental canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.matching-container-horizental .coloumn2 {
+    position: absolute;
+    /*top: 50%;*/
+    left: 0;
+    width: 100%;
+    height: 21.128%;
+    /*border: 1px solid red;*/
+    bottom: 3.112%;
+}
+
+.matching-container-horizental .coloumn1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.matching-container-horizental .coloumn1Element {
+    display: inline-block;
+    position: absolute;
+    top: 3.112%;
+    left: 0;
+    height: 21.128%;
+    width: 100%;
+    margin: 0 auto;
+    right: 0;
+    /*border: 1px solid red;*/
+}
+
+.matching-container-horizental .coloumn2Element {
+    display: inline-block;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.matching-container-horizental .elemMatch {
+    width: 100%;
+    border: 1px solid #00AB67;
+    direction: rtl;
+    margin: 0 0 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.matching-container-horizental .elemMatch:first-child {
+    margin-top: 10px;
+}
+
+.matching-container-horizental .imageElem {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.matching-container-horizental .imageCheckAnswer {
+}
+
+.matching-container-horizental .btn-container {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.matching-container-horizental .audio-btn {
+    display: inline-block;
+    overflow: hidden;
+    border: 0;
+    border-radius: 10px;
+    background: #00AB67;
+    color: #fff;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.matching-container-horizental .audio-btn:first-child {
+    margin: 0 0 0 10px;
+}
+
+.matching-container-horizental .audio-btn:hover {
+    background: #000;
+    color: #00AB67;
+}
+
+.matching-container-horizental .lbl-data-matching {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    color: #00AB67;
+    font-size: 20px;
+    height: 30px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.matching-container-horizental .element-container {
+    overflow: visible;
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    width: 162px;
+    height: 100%;
+    margin: 0 2% 0 0;
+    background: #ffffff;
+    border: 3px solid #0089ff;
+    border-radius: 10px;
+}
+
+.matching-container-horizental .display-table-row {
+    overflow: hidden;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.matching-container-horizental .display-table-cell {
+    overflow: hidden;
+    display: table-cell;
+}
+
+.headPart{
+    position: relative;
+    width: 100%;
+    top: 1.5%;
+    height: 5.845%;
+}
+.white-container
+{
+    position: absolute;
+    margin:auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    width: 97%;
+    height: 100%;
+    border-radius: 10px;
+    border: solid 1px #79bb41;
+    border-bottom: solid 2px #79bb41;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px 3px rgba(0,0,0,0.2);
+}
+.underastand
+{
+    position: absolute;
+    margin:auto;
+    left: 0;
+    top: 9%;
+    bottom: 0;
+    background: url(../images/understand.svg) no-repeat;
+    background-size: contain;
+    width: 10%;
+    height: 153.35%;
+    background-position-x: right;
+}
+.textQustion
+{
+    position: absolute;
+    display: block;
+    color: #0c4b81;
+    text-align: center;
+    left: 10%;
+    top: 50%;
+    font-size: 2.5vmin;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* direction: rtl; */
+}
+.textQustion span
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    font-size: 2.7vw;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.81) 1px 3px 3px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    line-height: 2em;
+    direction: rtl;
+}
+.matching-container-horizental .element-container .main-image
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../all/img/letter-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: contain !important;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+.matching-container-horizental .element-container .main-image.bottom-element
+{
+    background-image: url("../../all/img/image-bg.svg");
+}
+.matching-container-horizental .element-container .main-image span
+{
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.matching-container-horizental .element-container .main-image video,
+.matching-container-horizental .element-container .main-image iframe,
+.matching-container-horizental .element-container .main-image .text {
+    display: table-cell;
+    overflow: hidden;
+    width: 160px;
+    height: 140px;
+    background-size: contain;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+}
+
+.matching-container-horizental .dot-container {
+    display: block;
+    overflow: visible;
+    height: 14%;
+    vertical-align: middle;
+    text-align: center;
+    /* padding: 0px 10px 0px 10px; */
+    position: absolute;
+    width: 12%;
+    top: 115%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.matching-container-horizental .coloumn2Element .dot-container-b {
+    display: block;
+    overflow: visible;
+    height: 16%;
+    vertical-align: middle;
+    text-align: center;
+    /* padding: 0px 10px 0px 10px; */
+    position: absolute;
+    bottom: 114%;
+    width: 12%;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    margin: auto;
+}
+
+.matching-container-horizental .dot-class {
+    display: inline-block;
+    overflow: hidden;
+    background: url("../../all/img/dot.svg") no-repeat;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+    /* margin: 10px auto; */
+    background-size: contain;
+    vertical-align: middle;
+    text-align: center;
+    float: none;
+    z-index: 999;
+}
+
+.footer {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 10%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0%;
+}
+.matching-container-horizental .footer .buttons .button-counter, .matching-container-horizental .footer .button-counter
+{
+    display: block;
+    overflow: hidden;
+    width: 8%;
+    height: 60%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    float: none;
+}
+.matching-container-horizental .button-container,.matching-container-vertical .button-container
+{
+    display: block;
+    overflow: visible;
+    width: 27.566%;
+    height: 55.86%;
+    background: url("../../all/img/1.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.matching-container-horizental .footer .buttons, .matching-container-horizental .footer .buttons
+{
+    display: inline-block;
+    overflow: hidden;
+    background-position: center;
+    background-size: 100% 100%;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    height: 116.3%;
+    width: 17.67%;
+    padding: 0;
+    background-color: transparent;
+    float: none;
+    background: url(../../all/img/31.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: -30%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.matching-container-horizental .main-check {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.matching-container-horizental .check {
+    display: inline-block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    background: #e5e5e5;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transform: translateX(-0%) translateY(-0%);
+    -ms-transform: translateX(-0%) translateY(-0%);
+    -webkit-transform: translateX(-0%) translateY(-0%);
+    transform: translateX(-0%) translateY(-0%);
+    -moz-box-shadow: 0px -4px 4px 0px rgba(255, 255, 255, 0.75), inset 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px -4px 4px 0px rgba(255, 255, 255, 0.75), inset 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px -4px 4px 0px rgba(255, 255, 255, 0.75), inset 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    text-align: center;
+}
+
+.matching-container-horizental .check:before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 9%;
+    left: 9%;
+    right: 9%;
+    bottom: 9%;
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.matching-container-horizental .check:after {
+    content: "";
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-color: #60b247;
+    border-width: 0;
+    border-style: solid;
+}
+
+.matching-container-horizental .check-a:after {
+    content: "";
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-color: #FC1414 !important;
+    border-width: 0;
+    border-style: solid;
+}
+
+.matching-container-horizental .check .check-icon {
+    position: absolute;
+    z-index: 3;
+    top: 0%;
+    left: 28%;
+    width: 45%;
+    fill: #e5e5e5;
+}
+
+.matching-container-horizental .check.active:after {
+    -moz-transition: all ease-out 0.1s;
+    -o-transition: all ease-out 0.1s;
+    -webkit-transition: all ease-out 0.1s;
+    transition: all ease-out 0.1s;
+    border-width: 25px;
+}
+
+.matching-container-horizental .check.active .check-icon {
+    fill: #fff;
+    -moz-animation: bounce 0.5s;
+    -webkit-animation: bounce 0.5s;
+    animation: bounce 0.5s;
+    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+/*end vertical*/
+
+@-moz-keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.gameConainer{
+    margin: auto;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#matching-content{
+    margin: auto;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    overflow: hidden;
+    display: none;
+}
+
+.header-container
+{
+    display: block;
+    overflow: visible;
+    width: 100%;
+    height: 11%;
+    background: url("../../all/img/header.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 999;
+}
+.header-lbl
+{
+    display: block;
+    overflow: hidden;
+    width: 12%;
+    height: 150%;
+    background: url("../../all/img/header-lbl.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.powerBy
+{
+    display: block;
+    overflow: hidden;
+    width: 13%;
+    height: 100%;
+    background: url("../../all/img/POWEREDBY.svg") no-repeat center;
+    background-size: 100% 100%;
+    margin: 0 0 0 9%;
+}
+
+.sound-btn
+{
+    display: block;
+    overflow: hidden;
+    height: 60%;
+    width: 3%;
+    margin: 1.2% 3% 0 0;
+}
+.sound-btn i
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.sound-btn i.sound-off
+{
+    background-image: url("../../all/img/sound-off.svg");
+}
+.sound-btn i.sound-on
+{
+    background-image: url("../../all/img/sound-on.svg");
+}
+
+.description-game
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: url("../../all/img/bg.png") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 3.4%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.inner-description-game
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 82.5%;
+    background: url("../../all/img/bg.png") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.description-container
+{
+    display: block;
+    overflow: hidden;
+    width: 60%;
+    height: 61%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../../all/img/description.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.play-btn
+{
+    display: block;
+    overflow: hidden;
+    width: 6%;
+    height: 9%;
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../../all/img/play.svg") no-repeat center;
+    background-size: 100% 100%;
+    z-index: 99999999999;
+}
+.game-main-container
+{
+    display: block;
+    overflow: hidden;
+    width: 97%;
+    height: 79.3%;
+    position: absolute;
+    top: 9.7%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*background: url(../../all/img/board.svg) no-repeat;*/
+    /*background-size: 95% 100%;*/
+    /*background-position: center;*/
+    background: rgba(255,255,255,0.7);
+    border: 4px solid #9ad080;
+    border-radius: 13px;
+}
+
+.sound-option
+{
+    display: block;
+    overflow: hidden;
+    width: 5%;
+    height: 60%;
+    position: absolute;
+    top: 21%;
+    right: 2%;
+    background: url("../../all/img/11.svg") no-repeat center;
+    background-size: contain;
+    z-index: 99999;
+    cursor: pointer;
+}
+.sound-option.selected
+{
+    display: block;
+    overflow: hidden;
+    width: 5%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    background: url("../../all/img/12.svg") no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.help-main-container
+{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    background-position: center !important;
+    background-size: contain;
+    top: 0%;
+    z-index: 99999999;
+}
+.help-content
+{
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 33%;
+    height: 48%;
+    margin: 0 auto;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    background: url(../../all/img/message-bg1.svg) no-repeat;
+    background-position: center !important;
+    background-size: contain;
+    top: 22%;
+}
+.help-content .title
+{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 7%;
+    margin: auto;
+    width: 52%;
+    height: 15%;
+    color: #e87549;
+    font-size: 6.5vmin;
+    background: url("../images/help-title.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.help-content .text
+{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 27%;
+    width: 87%;
+    height: 54%;
+    margin: auto;
+    color: #000;
+    font-size: 3.5vmin;
+    direction: rtl;
+    background: url("../images/help-text.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.close
+{
+    display: block;
+    width: 11%;
+    margin: 0 auto;
+    position: absolute;
+    right: 1%;
+    height: 11%;
+    top: 6%;
+    font-weight: bold;
+    font-size: 3vmin;
+    background: url(../../all/img/close.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 9;
+}
+.message-main-container
+{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    background-position: center !important;
+    background-size: contain;
+    top: 0%;
+    z-index: 99999999;
+}
+.message-content
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 33%;
+    height: 48%;
+    margin: 0 auto;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    background: url(../../all/img/message-bg1.svg) no-repeat;
+    background-position: center !important;
+    background-size: contain;
+    top: 22%;
+}
+.message-content-a
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 33%;
+    height: 48%;
+    margin: 0 auto;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    background: url(../../all/img/message-bg1.svg) no-repeat;
+    background-position: center !important;
+    background-size: contain;
+    top: 22%;
+}
+.title-1
+{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8%;
+    margin: auto;
+    width: 69%;
+    height: 13%;
+    color: #000;
+    font-size: 4vmin;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.image-a
+{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 66%;
+    height: 40%;
+    margin: auto;
+    background: url(../../all/img/20.svg) no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.image-b
+{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 66%;
+    height: 40%;
+    margin: auto;
+    background: url(../../all/img/replay.svg) no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.replay-in-popup
+{
+    display: block;
+    overflow: hidden;
+    width: 16%;
+    height: 15%;
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../../all/img/btn-2.svg) no-repeat center;
+    background-size: contain;
+    z-index: 99999999999;
+    cursor: pointer;
+}
+.powerby
+{
+    display: block;
+    overflow: hidden;
+    width: 15%;
+    height: 60%;
+    position: absolute;
+    top: 32%;
+    left: 2%;
+    background: url(../../all/img/POWEREDBY.svg) no-repeat center;
+    background-size: contain;
+    z-index: 99999;
+    cursor: pointer;
+}
+.play
+{
+    display: none;
+    overflow: hidden;
+    width: 6.721%;
+    height: 8.962%;
+    position: absolute;
+    bottom: 10.39%;
+    left: 0;
+    margin: auto;
+    right: 0;
+    background: url("../../all/img/play.svg") no-repeat center;
+    background-size: contain;
+    z-index: 99999999999;
+    cursor: pointer;
+}
+.game-title
+{
+    display: none;
+    overflow: hidden;
+    width: 49.872%;
+    height: 24.676%;
+    background: url("../images/game-title.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 5.586%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99999999999;
+}
+.game-title-image
+{
+    display: none;
+    overflow: hidden;
+    width: 51%;
+    height: 57%;
+    background: url("../../all/img/2.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99999999999;
+}
+.powerby-1
+{
+    display: block;
+    overflow: hidden;
+    width: 15.39%;
+    height: 4.287%;
+    background: url("../../all/img/POWEREDBY.svg") no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 3.638%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99999999999;
+}
+.help-button
+{
+    display: block;
+    overflow: hidden;
+    width: 3.215%;
+    height: 4.287%;
+    position: absolute;
+    top: 2.2%;
+    right: 3%;
+    margin: auto;
+    background: url("../images/help.svg") no-repeat center;
+    background-size: contain;
+    z-index: 99999;
+    cursor: pointer;
+}
+.background-play
+{
+    display: block;
+    width: 100%;
+    right: 0;
+    height: 14.7%;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0,0,0,0.3);
+    z-index: 99999999;
+    border-top: solid 4px rgba(0,0,0,0.3);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    transform: translateY(100%)!important;
+    -ms-transform: translateY(100%)!important;
+    -webkit-transform: translateY(100%)!important;
+    opacity: 0;
+
+}
+.background-play-top
+{
+    transform: translateY(0%)!important;
+    -ms-transform: translateY(0%)!important;
+    -webkit-transform: translateY(0%)!important;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 1 !important;
+
+}
+
+video{
+    width: auto;
+    bottom: 0;
+    height: auto;
+    position: absolute;
+    left: 0;
+    margin: auto;
+    top: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+audio {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    margin: auto;
+    top: 0;
+    right: 0;
+}
+
+.svgImage{
+    width: auto;
+    height: auto;
+    position: absolute;
+    /* max-width: 99%; */
+    /* max-height: 100%; */
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}

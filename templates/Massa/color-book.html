@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Book</title>
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/size.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <!--<script src="js/ui.js"></script>-->
+    <script src="js/slider.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/velocity.js"></script>
+</head>
+<style>
+    @media all and (max-width: 1920px) and (min-width: 989px){
+        .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+            height: 11%;
+            width: 9%;
+        }
+        .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+            height: 11%;
+            width: 9%;
+        }
+    }
+</style>
+<body>
+<div class="main-template-colorBook">
+    <div id="main-container" class="main-container-colorBook">
+        <div id="inner-container" class="inner-container-colorBook">
+            <div class="main-title" id="main-title" style="z-index: 100;">
+                <div id="innertitle">
+                    <div class="main-content-colorBook">
+                        <a class="back-btn-color-boock" href="games.html"><span></span></a>
+                        <div class="slid-container">
+                            <!--<a class="btn-icon next webkitForceHardwareAcceleration"><i></i></a>-->
+                            <!--<a class="btn-icon prev webkitForceHardwareAcceleration"><i></i></a>-->
+                            <div class="inner-slid-container">
+                                <div class="slid-image-main-container" >
+
+                                    <div class="swiper-button-prev"><i></i></div>
+                                    <div class="swiper-button-next"><i></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+//    if ('addEventListener' in document) {
+//        document.addEventListener('DOMContentLoaded', function() {
+//            FastClick.attach(document.body);
+//        }, false);
+//    }
+function resizeGame() {
+    var gameArea = document.getElementById('main-title');
+    var widthToHeight = 4 / 3;
+    var newWidth = window.innerWidth;
+    var newHeight = window.innerHeight;
+    var newWidthToHeight = newWidth / newHeight;
+
+    if (newWidthToHeight > widthToHeight) {
+        newWidth = newHeight * widthToHeight;
+        gameArea.style.height = newHeight + 'px';
+        gameArea.style.width = newWidth + 'px';
+    } else {
+        newHeight = newWidth / widthToHeight;
+        gameArea.style.width = newWidth + 'px';
+        gameArea.style.height = newHeight + 'px';
+    }
+
+    //gameArea.style.marginTop = (-newHeight / 2) + 'px';
+    //gameArea.style.marginLeft = (-newWidth / 2) + 'px';
+
+    var gameCanvas = document.getElementById('innertitle');
+    gameCanvas.style.width = newWidth + 'px';
+    gameCanvas.style.height = newHeight + 'px';
+}
+function BackgroundSound(src) {
+
+    if ($('.BackgroundSound').length)
+        $('.BackgroundSound').remove();
+    // stopAll()
+
+    $("<audio class='BackgroundSound'></audio>").attr({
+        'src':  src,
+
+
+        'autoplay': 'autoplay'
+    }).appendTo("body");
+
+    $(".BackgroundSound").prop("loop", false);
+    $(".BackgroundSound").prop("volume", $("#musicSound").val());
+
+    $('.BackgroundSound').on('ended', function () {
+
+        $(this).trigger('play')
+    })
+}
+function speachSound(src) {
+    if ($('.titleSound').length)$('.titleSound').remove();
+    if ($('.speachSound').length)
+        $('.speachSound').remove();
+    // stopAll()
+
+    $("<audio class='speachSound'></audio>").attr({
+        'src': src,
+
+
+        'autoplay': 'autoplay'
+    }).appendTo("body");
+
+    $(".speachSound").prop("loop", false);
+
+
+}
+
+function soundEffect(src) {
+
+    if ($('.SoundEffect').length)
+        $('.SoundEffect').remove();
+    // stopAll()
+
+    $("<audio class='SoundEffect'></audio>").attr({
+        'src': src,
+
+
+        'autoplay': 'autoplay'
+    }).appendTo("body");
+
+    $(".SoundEffect").prop("loop", false);
+    //  $(".SoundEffect").prop("volume", $("#musicSound").val());
+}
+BackgroundSound('sound/fillingBg.mp3');
+function checkIFPc() {
+
+
+    if (navigator.userAgent.match(/Android/i) ||
+            navigator.userAgent.match(/webOS/i) ||
+            navigator.userAgent.match(/iPhone/i) ||
+            navigator.userAgent.match(/iPad/i) ||
+            navigator.userAgent.match(/iPod/i) ||
+            navigator.userAgent.match(/BlackBerry/) ||
+            navigator.userAgent.match(/Windows Phone/i) ||
+            navigator.userAgent.match(/ZuneWP7/i)
+    ) {
+        return false
+
+    } else {
+        return true
+
+    }
+}
+
+$(window).on("resize", function () {
+    resizeGame();
+})
+    $(document).ready(function(){
+        parent.onLoadIframeShow()
+        resizeGame()
+        Path=(localStorage['applicationPath']+localStorage['folderName']+"/")
+
+        str='<div class="swiper-container" dir="rtl">'+
+        '<div class="swiper-wrapper">'+
+        '<div  class="swiper-slide thumb-color-book1"  srcAttr="/images/1.png" style="background:url('+Path+'/images/1.png) no-repeat center;background-size: 100% 100%;"></div>'+
+        ' <div class="swiper-slide thumb-color-book1" srcAttr="/images/2.png" style="background: url('+Path+'/images/2.png) no-repeat center;background-size: 100% 100%;"></div>'+
+        ' <div class="swiper-slide thumb-color-book1" srcAttr="/images/3.png" style="background: url('+Path+'/images/3.png) no-repeat center;background-size: 100% 100%;"></div>'+
+        ' <div class="swiper-slide thumb-color-book1" srcAttr="/images/4.png" style="background: url('+Path+'/images/4.png) no-repeat center;background-size: 100% 100%;"></div>'+
+        '</div>'+
+        '<div class="swiper-pagination"></div>'+
+ '</div>'
+
+
+$(str).appendTo(".slid-image-main-container")
+
+
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            pagination: '.swiper-pagination',
+            paginationType: 'fraction'
+        });
+
+
+        var swiper = new Swiper('.gallery-thumbs', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 4,
+            paginationClickable: true,
+            spaceBetween: 30
+        });
+
+
+
+
+        $('.thumb-color-book1').click(function(){
+
+
+            if(checkIFPc() ||  localStorage['storyStatus']=="free" ){
+                Path="../../"+(localStorage['applicationPath']+localStorage['folderName']+"")
+
+            }
+            else{
+                Path=(localStorage['applicationPath']+localStorage['folderName']+"")
+
+            }
+
+           // Path="../../"+(localStorage['applicationPath']+localStorage['folderName']+"")
+
+            localStorage['fillingSrcImage']=Path+$(this).attr('srcAttr')
+
+            parent.fillingColorPages()
+
+        });
+    })
+
+</script>
+</html>

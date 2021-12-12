@@ -1,0 +1,4026 @@
+@import url('https://fonts.googleapis.com/css?family=Open%20Sans');
+.floating-left
+{
+    float: left;
+}
+.floating-right
+{
+    float: right;
+}
+.text-left
+{
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.clear-both {
+    clear: both;
+}
+.display-inline-block {
+    display: inline-block;
+    overflow: hidden;
+}
+.display-block {
+    display: block;
+    overflow: hidden;
+}
+input {
+    font-family: 'open_sansregular';
+    font-weight: 400;
+    color: #5b5b5b;
+}
+input::-webkit-input-placeholder
+{
+    color: #c2c2c2;
+}
+input:-moz-placeholder
+{
+    color: #c2c2c2;
+}
+
+input::-moz-placeholder
+{
+    color: #c2c2c2;
+}
+
+input:-ms-input-placeholder
+{
+    color: #c2c2c2;
+}
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+body
+{
+    display: block;
+    overflow: auto;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    background-color: #fff;
+}
+.center-peice
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+}
+.site-container
+{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 510px;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+    position: relative;
+    margin: 78px 0px;
+    z-index: 0;
+}
+header
+{
+    display:block;
+    overflow:hidden;
+    width:100%;
+    background-color:#00AB67;
+    position:fixed;
+    top:0px;
+    z-index:99;
+    border-bottom: solid 2px #fff;
+}
+header img
+{
+    display:inline-block;
+    overflow:hidden;
+    width:160px;
+    height:40px;
+    margin:0px 0px 2px 30px;
+    padding: 3px;
+}
+.line-row
+{
+    display: block;
+    overflow: hidden;
+    margin: 10px 0px 0px 0px;
+}
+.line-row-a
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 20px;
+}
+.line-row-b
+{
+    display: block;
+    overflow: hidden;
+    margin: 20px;
+}
+.admin-login
+{
+    display: block;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 999;
+    margin: auto;
+}
+.admin-login .popup-main-container
+{
+    display: block;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 999;
+    margin: auto;
+    background: url(../images/bg-popup.png);
+}
+.admin-login .popup-tabel
+{
+    display: table;
+    overflow: hidden;
+    margin: 0px auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.admin-login .popup-row
+{
+    display: table-row;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+}
+.admin-login .popup-cell
+{
+    display: table-cell;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+}
+.admin-login .popup-container
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px;
+}
+.admin-login .popup-container .close-container
+{
+    display:block;
+    overflow: hidden;
+    height:35px;
+    line-height: 35px;
+    background: #00AB67;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.admin-login .popup-container .close-container i
+{
+    display:block;
+    overflow: hidden;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.admin-login .popup-content
+{
+    display: block;
+    overflow: hidden;
+    margin: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+header nav
+{
+    display: block;
+    overflow: hidden;
+    width: calc(100% - 276px);
+    margin: 0px 0 0 50px;
+    height: 48px;
+    line-height: 48px;
+}
+header nav a {
+    display: block;
+    overflow: hidden;
+    line-height: 48px;
+    margin: 1px 0 0 8px;
+    color: #fff;
+    font-size: 25px;
+    background: #00AB67;
+    padding: 0px 10px 0px 10px;
+    font-weight: normal;
+    height: 48px;
+}
+header nav a:hover, header nav .selected
+{
+    background: #187D55;
+}
+header nav span
+{
+    display: block;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 10px;
+    color: #5b5b5b;
+    font-size: 15px;
+}
+.goto-container
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 15px 0px 0px;
+}
+.goto-container label
+{
+    display: inline-block;
+    overflow: hidden;
+    height: 48px;
+    line-height: 48px;
+    margin: 1px 0 0 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    background: #00AB67;
+    padding: 0px 10px 0px 10px;
+}
+.goto-container select
+{
+    display: inline-block;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+    width: 50px;
+    margin: 10px 30px 0px 5px;
+    border: 0px;
+    border-radius: 3px;
+}
+.goto-container optgroup
+{
+    display: inline-block;
+    overflow: hidden;
+    color: #00AB67;
+}
+.goto-container option
+{
+    display: inline-block;
+    overflow: hidden;
+    color: #000;
+}
+.action-content
+{
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+    width: 200px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 13px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 6px 13px rgba(0, 0, 0, .3);
+    box-shadow: 0 6px 13px rgba(0, 0, 0, .3);
+    z-index: 99;
+}
+.action-content a
+{
+    display: block;
+    overflow: hidden;
+    clear: both;
+    color: #00AB67;
+    height: 35px;
+    line-height: 35px;
+    width: 180px;
+    padding: 0px 0px 0px 10px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-align: left;
+    border-bottom: solid 1px #e9e9e9;
+    font-size: 16px;
+    cursor: pointer;
+}
+.action-content a i
+{
+    margin: 0px 10px 0px 0px;
+    color: #00AB67;
+}
+.page
+{
+    width: 980px;
+    height: 1307px;
+    Position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 auto;
+    background-size: contain;
+    border: dashed 1px #00AB67;
+    z-index: 100;
+}
+.element
+{
+    border: dashed 1px red;
+    z-index: 1;
+}
+.move_handler
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 18px;
+    background: #fff;
+    color: #00AB67;
+    padding: 1px 15px 1px 15px;
+    border-radius: 3px;
+    margin: -10px auto;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0px;
+    left:42%;
+    border: solid 1px #00ab67;
+    line-height: 20px;
+}
+.move_handler:hover
+{
+    cursor: move;
+}
+.move_handler-inner
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 18px;
+    background: #fff;
+    color: #00AB67;
+    padding: 1px 5px 1px 5px !important;
+    border-radius: 3px;
+    margin: -10px auto;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0px;
+    left: 17%;
+    border: solid 1px #00ab67;
+    line-height: 14px;
+    margin: 0px 0px 0px 0px !important;
+}
+.move_handler-inner:hover
+{
+    cursor: move;
+}
+.delete_widget
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    cursor: pointer;
+    opacity: 0.9;
+    line-height: 14px;
+    z-index: 999999;
+}
+.edit_widget
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 21px;
+    top:0px;
+    cursor: pointer;
+    opacity: 0.9;
+    line-height: 14px;
+    z-index: 99999;
+}
+.edit_widget-a
+{
+    right: 0px;
+}
+.real-content
+{
+    display: block;
+    overflow: hidden;
+    margin: 20px 0px 0px 0px;
+    height: 100%;
+}
+.trace-content{
+    margin: 0px 0px 0px 0px !important;
+}
+.real-content div
+{
+    display: block;
+    overflow: visible;
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+}
+.real-content span br
+{
+    display: block;
+    overflow: hidden;
+}
+.real-content p
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+}
+.remove-margin{
+    margin: 0px 0px 0px 0px !important;
+}
+.popup-content .container
+{
+    width:700px;
+    height: 500px;
+    background: #fff;
+    border-radius: 0px 0px 5px 5px;
+}
+.popup-content .containers
+{
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 0px 0px 5px 5px;
+    padding:10px;
+}
+.popup-content form
+{
+    margin: 0px;
+    padding:0px;
+    max-width: 980px;
+}
+#action
+{
+    font-size: 16px;
+}
+#action i
+{
+    margin: 0px 0px 0px 5px;
+}
+.fu-container-a
+{
+    display: block;
+    overflow: hidden;
+    width: 348px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 0;
+    font-family: 'open_sanssemibold';
+    font-size: 12px;
+    color: #949494;
+    border: 1px solid #c2c2c2;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+.fu-container-a .label-a
+{
+    display: inline-block;
+    overflow: hidden;
+    font-family: 'open_sansregular';
+    font-size: 16px;
+    color: #fff;
+    height:30px;
+    line-height: 30px;
+    margin: 0 5px 0px 0px;
+    width: 35px;
+    background: #00AB67;
+}
+.fu-container-a .label-b
+{
+    display: inline-block;
+    overflow: hidden;
+    font-family: 'open_sansregular';
+    font-size: 16px;
+    color: #464646;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px 0px 10px;
+    text-align: left;
+    width: 280px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fu-container-a input[type=file]
+{
+    display: block;
+    overflow: hidden;
+    width: 348px;
+    height: 30px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+}
+.fu-container-b-container
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+}
+.fu-container-b
+{
+    display: block;
+    overflow: hidden;
+    width: 22px;
+    height: 22px;
+    border: 0;
+    border-radius: 5px;
+    margin: 0;
+    font-family: 'open_sanssemibold';
+    font-size: 12px;
+    color: #949494;
+    position: relative;
+}
+.fu-container-b .label-a
+{
+    display: inline-block;
+    overflow: hidden;
+    font-family: 'open_sansregular';
+    font-size: 16px;
+    color: #00AB67;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 0px 0px 0px;
+    width: 20px;
+    background: #fff;
+}
+.fu-container-b .label-b
+{
+    display: inline-block;
+    overflow: hidden;
+    font-family: 'open_sansregular';
+    font-size: 16px;
+    color: #464646;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px 0px 10px;
+    text-align: left;
+}
+.fu-container-b input[type=file]
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 22px;
+    height: 22px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+}
+.lbl-data-a
+{
+    display: block;
+    overflow: hidden;
+    width: 120px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #464646;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px 0 0;
+}
+.txt-a
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 338px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #464646;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    border: 1px solid #c2c2c2;
+    padding: 0 5px;
+    border-radius: 5px;
+    resize: none;
+}
+.txtaria-a
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 338px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #464646;
+    height: 90px;
+    line-height: 30px;
+    margin: 0;
+    border: 1px solid #c2c2c2;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.txt-c
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 350px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #464646;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    border: 1px solid #c2c2c2;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.txt-a-number
+{
+    display: block;
+    overflow: hidden;
+    width: 326px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #464646;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    border: 1px solid #c2c2c2;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.txt-b
+{
+    display: block;
+    overflow: hidden;
+    width: 273px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #464646;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    border: 1px solid #c2c2c2;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin:0px 0px 10px 0px;
+}
+.txt-d
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 273px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #464646;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    border: 1px solid #c2c2c2;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin:0px 0px 10px 0px;
+}
+.btn-default
+{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 20px;
+    margin: 0px 0 0 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #00AB67;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.btn-default:hover
+{
+    background: #187D55;
+}
+.btn-default-d
+{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 20px;
+    margin: 0px 0 0 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #00AB67;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.btn-default-d:hover
+{
+    background: #187D55;
+}
+.btn-addCircle
+{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 20px;
+    margin: 0px 0 0 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #00AB67;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.btn-addCircle:hover
+{
+    background: #187D55;
+}
+.background-icon
+{
+    display: none;
+    overflow: hidden;
+
+}
+@-webkit-keyframes jump {
+    0% { width:20px; height: 180px; margin-left:0; margin-top:0;
+        box-shadow: inset 0 1px 1px rgba(255,255,255,.2), 0 2px 2px rgba(0,0,0,.7); }
+    50% { width:26px; height: 200px; margin-left:-3px; margin-top:-10px;
+        box-shadow: inset 0 1px 1px rgba(255,255,255,.2), 0 20px 25px rgba(0,0,0,.7); }
+    100% { width:20px; height: 180px; margin-left:0; margin-top:0;
+        box-shadow: inset 0 1px 1px rgba(255,255,255,.2), 0 2px 2px rgba(0,0,0,.7); }
+}
+#loader {
+    position: absolute;
+    left:50%; top:50%;
+    width:300px; height:180px;
+    margin-left:-150px; margin-top:-90px;
+}
+.bar {
+    position: absolute;
+    animation: jump 1s ease infinite;
+    -webkit-animation: jump 1s ease infinite;
+    border-radius: 2px;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,.1));
+    background: #00AB67;
+}
+.bar:nth-child(1) { left: 0; }
+.bar:nth-child(2) { left: 40px; animation-delay: .1s; -webkit-animation-delay: .1s; }
+.bar:nth-child(3) { left: 80px; animation-delay: .2s; -webkit-animation-delay: .2s; }
+.bar:nth-child(4) { left: 120px; animation-delay: .3s; -webkit-animation-delay: .3s; }
+.bar:nth-child(5) { left: 160px; animation-delay: .4s; -webkit-animation-delay: .4s; }
+.bar:nth-child(6) { left: 200px; animation-delay: .5s; -webkit-animation-delay: .5s; }
+.bar:nth-child(7) { left: 240px; animation-delay: .6s; -webkit-animation-delay: .6s; }
+.bar:nth-child(8) { left: 280px; animation-delay: .7s; -webkit-animation-delay: .7s; }
+
+
+.loader-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    position: fixed;
+    z-index: 999999999999999;
+    background: url(../images/bg-popup.png);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.loader-cell
+{
+    display: table-cell;
+    overflow: hidden;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+.popup-content .containers .jq_index
+{
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    width: calc(50% - 30px);
+    text-align: left;
+    padding: 0px 0px 5px 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: url(../images/filled13.png) no-repeat;
+    background-size: 10px;
+    height: 25px;
+    line-height: 25px;
+    background-position: 0px 8px;
+}
+.ui-wrapper
+{
+    display: inline-block !important;
+}
+.question
+{
+    width: 980px;
+    min-height: 150px;
+    Position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 auto;
+    background-size: contain;
+    border: dashed 1px #00AB67;
+}
+.selected_dropable
+{
+    border: dashed 1px red !important;
+}
+.answer{
+    width: 980px;
+    min-height: 150px;
+    Position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 20px auto;
+    background-size: contain;
+    border: dashed 1px #00AB67;
+    padding: 25px 0px 0px 0px;
+}
+.copy_widget
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 21px;
+    top: 0px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.copy_widget-a
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 41px;
+    top: 0px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.dir_right
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 41px;
+    top: 0px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.font-big-size
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 61px;
+    top: 0px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.dir_left
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 41px;
+    top: 0px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.section-check ul
+{
+    display: block;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.section-check li
+{
+    display: inline-block;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 2px 0px;
+    color: #3b4719;
+    height: 30px;
+    line-height: 30px;
+    min-width: 100px;
+}
+.section-check .input-control.checkbox
+{
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0px 15px 0px 0px;
+    cursor: pointer;
+    width: 4%;
+}
+.section-check .input-control.checkbox.new
+{
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 7px 15px 0px 0px;
+    cursor: pointer;
+    width: 4%;
+}
+.section-check .input-control.checkbox input[type="checkbox"]
+{
+    position: absolute;
+    opacity: 0;
+    width: 0.0625rem;
+    height: 0.0625rem;
+}
+.section-check .input-control.checkbox .check
+{
+    width: 25px;
+    height: 25px;
+    background-color: #fffcfc;
+    border: 1px #c2c2c2 solid;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:4px ;
+}
+.section-check .input-control.checkbox .check:focus
+{
+    border-color: #bcd9e2;
+}
+.section-check .input-control.checkbox .check:before
+{
+    position: absolute;
+    vertical-align: middle;
+    color: transparent;
+    font-size: 0;
+    content: "";
+    height: .3125rem;
+    width: .565rem;
+    background-color: transparent;
+    left: 33%;
+    top: 24%;
+    margin-left: -0.325rem;
+    margin-top: -0.365rem;
+    display: block;
+    transition: all 0.2s linear;
+}
+.section-check .input-control.checkbox input[type="checkbox"]:checked ~ .check:before
+{
+    background: url(../images/check.png) no-repeat;
+    width: 28px;
+    height: 100%;
+    transition: all 0.2s linear;
+}
+.section-check .input-control.checkbox input[type="checkbox"]:disabled ~ .check
+{
+    border-color: #cacaca;
+    cursor: default;
+}
+.section-check .input-control.checkbox input[type="checkbox"]:disabled:checked ~ .check:before
+{
+    border-color: #cacaca;
+}
+.section-check .input-control.radio .check {
+    border: 1px #999999 solid;
+    border-radius: 50%;
+}
+.section-check ul li .text
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 40px 0px 5px;
+    height: 45px;
+    line-height: 48px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+.section-check-font ul
+{
+    display: block;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.section-check-font li
+{
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 2px 0px;
+    color: #3b4719;
+    height: 50px;
+    line-height: 50px;
+    width: 190px;
+}
+.section-check-font li:nth-child(2n+1)
+{
+    clear: both}
+.section-check-font .input-control.checkbox
+{
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 10px 15px 0px 5px;
+    cursor: pointer;
+    width: 15%;
+}
+.section-check-font .input-control.checkbox input[type="checkbox"]
+{
+    position: absolute;
+    opacity: 0;
+    width: 0.0625rem;
+    height: 0.0625rem;
+}
+.section-check-font .input-control.checkbox .check
+{
+    width: 25px;
+    height: 25px;
+    background-color: #fffcfc;
+    border: 1px #c2c2c2 solid;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:4px ;
+}
+.section-check-font .input-control.checkbox .check:focus
+{
+    border-color: #bcd9e2;
+}
+.section-check-font .input-control.checkbox .check:before
+{
+    position: absolute;
+    vertical-align: middle;
+    color: transparent;
+    font-size: 0;
+    content: "";
+    height: .3125rem;
+    width: .565rem;
+    background-color: transparent;
+    left: 33%;
+    top: 24%;
+    margin-left: -0.325rem;
+    margin-top: -0.365rem;
+    display: block;
+    transition: all 0.2s linear;
+}
+.section-check-font .input-control.checkbox input[type="checkbox"]:checked ~ .check:before
+{
+    background: url(../images/check.png) no-repeat;
+    width: 28px;
+    height: 100%;
+    transition: all 0.2s linear;
+}
+.section-check-font .input-control.checkbox input[type="checkbox"]:disabled ~ .check
+{
+    border-color: #cacaca;
+    cursor: default;
+}
+.section-check-font .input-control.checkbox input[type="checkbox"]:disabled:checked ~ .check:before
+{
+    border-color: #cacaca;
+}
+.section-check-font .input-control.radio .check {
+    border: 1px #999999 solid;
+    border-radius: 50%;
+}
+.section-check-font ul li .text
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 0px 0px 10px;
+    height: 45px;
+    line-height: 48px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+.ui-wrapper .aicon
+{
+    display: inline-block !important;
+}
+.quiz-content-container
+{
+    display: inline-block;
+    overflow: visible;
+    margin: 0 auto;
+    width: 980px;
+}
+.quiz-answer-container
+{
+    display: inline-block;
+    overflow: visible;
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+}
+.quiz-answer-container .quiz-add-answer
+{
+    position: absolute;
+    top:23px;
+    right: 0px;
+    font-size: 12px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.9;
+    z-index: 9;
+}
+.quiz-answer-container .delete_answer
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.9;
+    line-height: 14px;
+}
+footer
+{
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background:#00AB67;
+    height: 48px;
+}
+footer .correct
+{
+    display: inline-block;
+    overflow: hidden;
+}
+footer .lbl-data-a
+{
+    display: inline-block;
+    overflow: hidden;
+    height: 40px;
+    width: auto;
+    line-height: 40px;
+    margin: 0px 0 0 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    background: #00AB67;
+    padding: 5px 25px 5px 25px;
+}
+footer .txtaria
+{
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 250px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #464646;
+    height: 40px;
+    line-height: 20px;
+    margin: 4px 0px 0px 0px;
+    border: 1px solid #c2c2c2;
+    padding: 0 5px;
+    border-radius: 5px;
+    resize: none;
+}
+footer input[type="text"]
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 50px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #464646;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #c2c2c2;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin: 9px 0 0 0px;
+    text-align: center;
+}
+footer .incorrect
+{
+    display: inline-block;
+    overflow: hidden;
+}
+.quiz-types-container
+{
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+.quiz-types-container a
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height:40px;
+    line-height: 40px;
+    padding: 0px 0px 0px 10px;
+    color: #00AB67;
+}
+.answer-container
+{
+    display: block;
+    overflow: hidden;
+    margin: 0px 0 0 0;
+    clear: both;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.answer-container .font-text
+{
+    display: block;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 0 10px 0 5px;
+    color: #00AB67;
+    cursor: pointer;
+}
+.answer-container .section-radio ul
+{
+    display: block;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.answer-container .section-radio .content-list
+{
+    display: block;
+    overflow: hidden;
+    background-color: #DAF3E9;
+    margin: 2px 0px;
+    color: #3b4719;
+    height: auto;
+    line-height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+.answer-container .section-radio .content-list:hover
+{
+    background-color: #ECF1EF;
+}
+.answer-container .section-radio
+{
+    display: block;
+    overflow: hidden;
+}
+.answer-container .section-radio .input-control.radio
+{
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 6px 15px 0px 3px;
+    cursor: pointer;
+    width:4%;
+}
+.answer-container .section-radio .input-control.radio input[type="radio"]
+{
+    position: absolute;
+    opacity: 0;
+    width: 0.0625rem;
+    height: 0.0625rem;
+}
+.answer-container .section-radio .input-control.radio .check
+{
+    width: 25px;
+    height: 25px;
+    background-color: #FFFCFC;
+    border: 1px solid #00ab67;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:4px ;
+}
+.answer-container .section-radio .input-control.radio .check:focus
+{
+    border-color: #bcd9e2;
+}
+.answer-container .section-radio .input-control.radio .check:before
+{
+    position: absolute;
+    vertical-align: middle;
+    color: transparent;
+    font-size: 0;
+    content: "";
+    height: .3125rem;
+    width: .565rem;
+    background-color: transparent;
+    left: 0%;
+    right: 0px;
+    top: 23%;
+    margin-left: -0.325rem;
+    margin-top: -0.365rem;
+    display: block;
+    transition: all 0.2s linear;
+    margin: 0px auto;
+}
+.answer-container .section-radio .input-control.radio input[type="radio"]:checked ~ .check:before
+{
+    background:#00ab67;
+    width: 13px;
+    height: 13px;
+    transition: all 0.2s linear;
+    border-radius: 100%;
+}
+.answer-container .section-radio .input-control.radio input[type="radio"]:disabled ~ .check
+{
+    border-color: #cacaca;
+    cursor: default;
+}
+.answer-container .section-radio .input-control.radio input[type="radio"]:disabled:checked ~ .check:before
+{
+    border-color: #cacaca;
+}
+.answer-container .section-radio .input-control.radio .check {
+    border: 1px #00ab67 solid;
+    border-radius: 50%;
+}
+.answer-container .section-radio ul .content-list .text{
+    display: inline-block;
+    overflow: hidden;
+    margin: 2px 40px 0px 5px;
+    height: 45px;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.answer-container .section-radio ul .content-list .text-a{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 10px 0px 0px;
+    height: 42px;
+    line-height: 42px;
+    text-align: right;
+    font-size: 16px;
+    width: 50%;
+}
+.answer-container .section-radio ul .content-list .number-container{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px;
+    width:30%;
+}
+.answer-container .section-radio ul .content-list .number-container input[type="number"]{
+    display: inline-block;
+    overflow: hidden;
+    width:65%;
+    height: 28px;
+    border: 1px solid #c4cb94;
+    border-radius: 4px;
+    margin: 10px 0px 0px 0px;
+    background: #faf8eb;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color:#3b4719;
+}
+.section-check ul
+{
+    display: block;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.section-check .content-list
+{
+    display: block;
+    overflow: hidden;
+    background-color: #DAF3E9;
+    margin: 2px 0px;
+    color: #3b4719;
+    height: auto;
+    line-height: 40px;
+    min-width: 100px;
+    width: 100%;
+    cursor: pointer;
+}
+.section-check .content-list:hover
+{
+    background-color: #ECF1EF;
+}
+.section-check .input-control.checkbox
+{
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: -1px 15px 0px 3px;
+    cursor: pointer;
+    width: 4%;
+}
+.section-check .input-control.checkbox input[type="checkbox"]
+{
+    position: absolute;
+    opacity: 0;
+    width: 0.0625rem;
+    height: 0.0625rem;
+}
+.section-check .input-control.checkbox .check
+{
+    width: 25px;
+    height: 25px;
+    background-color: #fffcfc;
+    border: 1px #00ab67 solid;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:4px;
+}
+.section-check .input-control.checkbox .check:focus
+{
+    border-color: #bcd9e2;
+}
+.section-check .input-control.checkbox .check:before
+{
+    position:absolute;
+    vertical-align:middle;
+    color:transparent;
+    font-size:0;
+    content:"";
+    height:.3125rem;
+    width:.565rem;
+    background-color:transparent;
+    left:33%;
+    top:24%;
+    margin-left:-0.325rem;
+    margin-top:-0.365rem;
+    display:block;
+    transition:all 0.2s linear;
+}
+.section-check .input-control.checkbox input[type="checkbox"]:checked ~ .check:before
+{
+    background:url(../images/check.png) no-repeat;
+    width:28px;
+    height:100%;
+    transition:all 0.2s linear;
+}
+.section-check .input-control.checkbox input[type="checkbox"]:disabled ~ .check
+{
+    border-color:#cacaca;
+    cursor:default;
+}
+.section-check .input-control.checkbox input[type="checkbox"]:disabled:checked ~ .check:before
+{
+    border-color:#cacaca;
+}
+.section-check .input-control.radio .check
+{
+    border:1px #999999 solid;
+    border-radius:50%;
+}
+.section-check ul .content-list .text
+{
+    display:inline-block;
+    overflow:hidden;
+    margin:0px 40px 0px 5px;
+    height:40px;
+    line-height:38px;
+    text-align:left;
+    font-size:16px;
+    font-weight:bold;
+}
+.answer-container .matcing-content
+{
+    display: block;
+    overflow: hidden;
+    padding: 0px 0px 0px 18px;
+}
+.answer-container .matcing-content .matching-line-row
+{
+    display: block;
+    overflow: hidden;
+    margin: 2px 0px;
+}
+.answer-container .matcing-content .matching-line-row .match-box
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 45%;
+    height:auto;
+    border: solid 1px #00ab67;
+    background-color: #DAF3E9;
+}
+.fill-in-the-blank
+{
+    display: block;
+    overflow: hidden;
+    width:calc(100% - 10px);
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #00AB67;
+    background: url(../images/filled13.png) no-repeat left center;
+    background-size: 10px;
+}
+.fill-in-the-blank label
+{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0px 0px 0px 20px;
+    max-width: 925px;
+}
+.circle-map
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 50px;
+    top: 50px;
+    border: 2px dashed #00AB67;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 13px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 13px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 13px 5px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+.real-content .circle-handle
+{
+    left:49%;
+    margin: auto;
+    bottom: -19px;
+}
+.circle-container
+{
+    margin:auto;
+}
+.short-essay
+{
+    display: block;
+    overflow: hidden;
+    width:calc(100% - 10px);
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #00AB67;
+    background-size: 10px;
+}
+.short-essay label
+{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0px 0px 0px 20px;
+    max-width: 925px;
+}
+.ui-sortable
+{
+    box-shadow: none;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+}
+#sequance li
+{
+    display: block;
+    padding: 2px 0px 2px 0px;
+    min-height: 20px;
+    width: 100%;
+    color: #fff;
+    line-height: 28px;
+    background: #00AB67;
+    border: 1px solid #fff;
+    cursor: move;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: default;
+}
+#sequance li a
+{
+    font-size: 12px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.9;
+    line-height: 14px;
+    cursor: move;
+}
+.poplinable
+{
+    cursor: text;
+}
+.words-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.words-container .ans
+{
+    display: inline-block;
+    overflow: hidden;
+    width:20%;
+    margin: 15px 5px 0px 5px;
+    border: solid 1px #00ab67;
+    font-family: 'Open Sans', sans-serif;
+    color: #00AB67;
+}
+.words-container .ans label
+{
+    display: inline-block;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    color: #00AB67;
+    height: 20PX;
+    line-height: 20px;
+}
+#jq_fill_paragraph
+{
+    display: inline-block;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    color: #00AB67;
+}
+#jq_fill_paragraph span
+{
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 5px 0px 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: #00AB67;
+}
+.box-number
+{
+    text-align: center;
+    font-size: 22px;
+    color: #000;
+}
+.addcolor
+{
+    display: inline-block;
+    overflow: hidden;
+    color: #00ab67;
+    margin: 5px 0px 0px 10px;
+    font-size: 15px;
+}
+.section-check-a
+{
+    display: inline-block;
+    overflow: hidden;
+}
+
+.section-check-a ul
+{
+    display: block;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.section-check-a li
+{
+    display: inline-block;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 2px 0px;
+    color: #3b4719;
+    height: 50px;
+    line-height: 50px;
+}
+.section-check-a .input-control.checkbox
+{
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0px 15px 0px 0px;
+    cursor: pointer;
+    width: 4%;
+}
+.section-check-a .input-control.checkbox.new
+{
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 7px 15px 0px 0px;
+    cursor: pointer;
+    width: 4%;
+}
+.section-check-a .input-control.checkbox input[type="checkbox"]
+{
+    position: absolute;
+    opacity: 0;
+    width: 0.0625rem;
+    height: 0.0625rem;
+}
+.section-check-a .input-control.checkbox .check
+{
+    width: 25px;
+    height: 25px;
+    background-color: #fffcfc;
+    border: 1px #c2c2c2 solid;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:4px ;
+}
+.section-check-a .input-control.checkbox .check:focus
+{
+    border-color: #bcd9e2;
+}
+.section-check-a .input-control.checkbox .check:before
+{
+    position: absolute;
+    vertical-align: middle;
+    color: transparent;
+    font-size: 0;
+    content: "";
+    height: .3125rem;
+    width: .565rem;
+    background-color: transparent;
+    left: 33%;
+    top: 24%;
+    margin-left: -0.325rem;
+    margin-top: -0.365rem;
+    display: block;
+    transition: all 0.2s linear;
+}
+.section-check-a .input-control.checkbox input[type="checkbox"]:checked ~ .check:before
+{
+    background: url(../images/check.png) no-repeat;
+    width: 28px;
+    height: 100%;
+    transition: all 0.2s linear;
+}
+.section-check-a .input-control.checkbox input[type="checkbox"]:disabled ~ .check
+{
+    border-color: #cacaca;
+    cursor: default;
+}
+.section-check-a .input-control.checkbox input[type="checkbox"]:disabled:checked ~ .check:before
+{
+    border-color: #cacaca;
+}
+.section-check-a .input-control.radio .check {
+    border: 1px #999999 solid;
+    border-radius: 50%;
+}
+.section-check-a ul li .text
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 30px 0px 5px;
+    height: 45px;
+    line-height: 48px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+.section-check-font ul
+{
+    display: block;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.section-check-font li
+{
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 2px 0px;
+    color: #3b4719;
+    height: 50px;
+    line-height: 50px;
+    width: 190px;
+}
+.section-check-font li:nth-child(2n+1)
+{
+    clear: both}
+.section-check-font .input-control.checkbox
+{
+    display: block;
+    overflow: visible;
+    line-height: 1.875rem;
+    min-width: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 10px 15px 0px 5px;
+    cursor: pointer;
+    width: 15%;
+}
+.section-check-font .input-control.checkbox input[type="checkbox"]
+{
+    position: absolute;
+    opacity: 0;
+    width: 0.0625rem;
+    height: 0.0625rem;
+}
+.section-check-font .input-control.checkbox .check
+{
+    width: 25px;
+    height: 25px;
+    background-color: #fffcfc;
+    border: 1px #c2c2c2 solid;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:4px ;
+}
+.section-check-font .input-control.checkbox .check:focus
+{
+    border-color: #bcd9e2;
+}
+.section-check-font .input-control.checkbox .check:before
+{
+    position: absolute;
+    vertical-align: middle;
+    color: transparent;
+    font-size: 0;
+    content: "";
+    height: .3125rem;
+    width: .565rem;
+    background-color: transparent;
+    left: 33%;
+    top: 24%;
+    margin-left: -0.325rem;
+    margin-top: -0.365rem;
+    display: block;
+    transition: all 0.2s linear;
+}
+.section-check-font .input-control.checkbox input[type="checkbox"]:checked ~ .check:before
+{
+    background: url(../images/check.png) no-repeat;
+    width: 28px;
+    height: 100%;
+    transition: all 0.2s linear;
+}
+.section-check-font .input-control.checkbox input[type="checkbox"]:disabled ~ .check
+{
+    border-color: #cacaca;
+    cursor: default;
+}
+.section-check-font .input-control.checkbox input[type="checkbox"]:disabled:checked ~ .check:before
+{
+    border-color: #cacaca;
+}
+.section-check-font .input-control.radio .check {
+    border: 1px #999999 solid;
+    border-radius: 50%;
+}
+.section-check-font ul li .text
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 0px 0px 10px;
+    height: 45px;
+    line-height: 48px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+#color_container
+{
+    display: block;
+    overflow: hidden;
+}
+#color_container .section-check-a ul li .text
+{
+    display: none !important;
+}
+
+/*start circle one*/
+.circle-container-1
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.circle-container-1 .circle-content
+{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 18px 21px 22px 18px;
+    background: #EBEFF4;
+    max-width: 370px;
+}
+.circle-container-1 .circle-content .left-container
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px auto;
+    width: 50%;
+}
+.circle-container-1 .circle-content .right-container
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto ;
+    width: 100%;
+    padding: 0px;
+}
+.circle-container-1 .circle-content .right-container .background
+{
+    display:inline-block;
+    overflow:hidden;
+    width:365px;
+    height:400px;
+    max-width:470px;
+    max-height:480px;
+    background-size: contain !important;
+    padding:0px;
+    margin:0px;
+    background-position: center!important;
+    position: relative;
+    border:dashed 1px #00ab67;
+}
+.circle-container-1 .circle-content .right-container .background a
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+}
+.circle-container-1 .circle-content .right-container .background i
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #00ab67;
+    margin: 2px 3px 0px 0px;
+}
+.circle-container-1 .circle-content .right-container .word
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 365px;
+    height: 76px;
+    line-height: 76px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border: dashed 1px;
+}
+.circle-container-1 .circle-content .right-container .word-input-a
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 364px;
+    height: 76px;
+    line-height: 76px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border: dashed 1px;
+}
+.circle-container-1 .circle-content .right-container .word-input
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 99%;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.circle-container-1 .circle-content .right-container .word .edit-circle
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-1 .circle-content .right-container .word .edit-circle i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-1 .circle-content .right-container .word .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-1 .circle-content .right-container .word .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+}
+
+.circle-container-1 .circle-content .right-container .word-input .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-1 .circle-content .right-container .word-input .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-1 .circle-content .circle-radius
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius:50%;
+    color:#00AB67;
+    border:solid 1px #00AB67 ;
+}
+.circle-container-1 .circle-content .colored
+{
+    color:red;
+}
+/*start circle tow*/
+.circle-container-2
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.circle-container-2 .circle-content
+{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100% - 50px);
+    background: #EBEFF4;
+}
+.circle-container-2 .circle-content .right-container
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto ;
+    width: 49%;
+    padding: 0px;
+}
+.circle-container-2 .circle-content .right-container .background
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 362px;
+    height: 400px;
+    max-width: 470px;
+    max-height: 480px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position: center!important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-2 .circle-content .right-container .background a
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+}
+.circle-container-2 .circle-content .right-container .background i
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #00ab67;
+    margin: 2px 3px 0px 0px;
+}
+.circle-container-2 .circle-content .right-container .word
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 365px;
+    height: 76px;
+    line-height: 76px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border: dashed 1px;
+}
+.circle-container-2 .circle-content .right-container .word-input-a
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 366px;
+    height: 76px;
+    line-height: 76px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border: dashed 1px;
+}
+.circle-container-2 .circle-content .right-container .word-input
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 365px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.circle-container-2 .circle-content .right-container .word .edit-circle
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-2 .circle-content .right-container .word .edit-circle i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-2 .circle-content .right-container .word .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-2 .circle-content .right-container .word .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+}
+
+.circle-container-2 .circle-content .right-container .word-input .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-2 .circle-content .right-container .word-input .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-2 .circle-content .circle-radius
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius:50%;
+    color:#00AB67;
+    border:solid 1px #00AB67 ;
+}
+.circle-container-2 .circle-content .colored
+{
+    color:red;
+}
+/*start circle three*/
+.circle-container-3
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.circle-container-3 .check-container .main-check
+{
+    display:inline-block;
+    overflow:hidden;
+    width:33.133%;
+}
+.circle-container-3 .circle-content
+{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100% - 50px);
+    background: #EBEFF4;
+}
+.circle-container-3 .circle-content .right-container
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 10px 0px 10px;
+    float: left;
+    width: 300px;
+}
+.circle-container-3 .circle-content .right-container:nth-child(1) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 298px;
+    height: 300px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:left !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-3 .circle-content .right-container .background a
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+}
+.circle-container-3 .circle-content .right-container .background i
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #00ab67;
+    margin: 2px 3px 0px 0px;
+}
+.circle-container-3 .circle-content .right-container:nth-child(2) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 298px;
+    height: 300px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-3 .circle-content .right-container:nth-child(3) .background
+{
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 298px;
+    height: 300px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:right !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-3 .circle-content .right-container .word
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px auto;
+    width: 298px;
+    height: 76px;
+    line-height: 76px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 45px;
+    cursor: pointer;
+    position: relative;
+    border: dashed 1px;
+}
+.circle-container-3 .circle-content .right-container .word-input-a
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 366px;
+    height: 76px;
+    line-height: 76px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border: dashed 1px;
+}
+.circle-container-3 .circle-content .right-container .word-input
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 365px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.circle-container-3 .circle-content .right-container .word .edit-circle
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-3 .circle-content .right-container .word .edit-circle i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-3 .circle-content .right-container .word .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-3 .circle-content .right-container .word .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.circle-container-3 .circle-content .right-container .word-input .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-3 .circle-content .right-container .word-input .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.circle-container-3 .circle-content .circle-radius
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius:50%;
+    color:#00AB67;
+    border:solid 1px #00AB67 ;
+}
+.circle-container-3 .circle-content .colored
+{
+    color:red;
+}
+/*start circle four*/
+.circle-container-4
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.circle-container-4 .circle-content
+{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 900px;
+    height: calc(100% - 50px);
+    background: #EBEFF4;
+}
+.circle-container-4 .circle-content .right-container
+{
+    display:inline-block;
+    overflow:hidden;
+    margin:0px 10px 10px 10px;
+    width:22.7%;
+    float:left;
+}
+.circle-container-4 .circle-content .right-container .background a
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+}
+.circle-container-4 .circle-content .right-container .background i
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #00ab67;
+    margin: 2px 3px 0px 0px;
+}
+.circle-container-4 .circle-content .right-container:nth-child(1) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 99%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-4 .circle-content .right-container:nth-child(2) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 99%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-4 .circle-content .right-container:nth-child(3) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 99%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-4 .circle-content .right-container:nth-child(4) .background
+{
+    display:block;
+    overflow:hidden;
+    width:99%;
+    height:240px;
+    background-size: contain !important;
+    padding:0px;
+    margin:0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-4 .circle-content .right-container .word-input-a
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 202px;
+    height: 38px;
+    line-height: 40px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 35px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border: dashed 1px;
+}
+.circle-container-4 .circle-content .right-container .word-input
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px auto 0px auto;
+    width: 204px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 35px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    height: 45px;
+    line-height:45px;
+}
+.circle-container-4 .circle-content .right-container .word
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px auto 10px auto;
+    width: 99%;
+    height: 40px;
+    line-height:40px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    border: dashed 1px;
+}
+.circle-container-4 .circle-content .right-container .word .edit-circle
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-4 .circle-content .right-container .word .edit-circle i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-4 .circle-content .right-container .word .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-4 .circle-content .right-container .word .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-4 .circle-content .right-container .word-input .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-4 .circle-content .right-container .word-input .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-4 .circle-content .circle-radius
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    color:#00AB67;
+    border:solid 1px #00AB67;
+}
+.circle-container-4 .circle-content .colored
+{
+    color:red;
+}
+/*start circle five*/
+.circle-container-5
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.circle-container-5 .circle-content
+{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 900px;
+    height: calc(100% - 50px);
+    background: #EBEFF4;
+}
+.circle-container-5 .circle-content .right-container
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 10px 10px 10px;
+    width: 17.7%;
+    float: left;
+}
+.circle-container-5 .circle-content .right-container .background a
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+}
+.circle-container-5 .circle-content .right-container .background i
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #00ab67;
+    margin: 2px 3px 0px 0px;
+}
+
+.circle-container-5 .circle-content .right-container:nth-child(1) .background
+{
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 98%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00AB67;
+
+}
+.circle-container-5 .circle-content .right-container:nth-child(2) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00AB67;
+
+}
+.circle-container-5 .circle-content .right-container:nth-child(3) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00AB67;
+
+}
+.circle-container-5 .circle-content .right-container:nth-child(4) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 99%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00AB67;
+}
+.circle-container-5 .circle-content .right-container:last-child .background
+{
+    display: block;
+    overflow: hidden;
+    width: 99%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00AB67;
+}
+.circle-container-5 .circle-content .right-container .word-input-a
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px auto 0px auto;
+    width: 157px;
+    height: 30px;
+    line-height: 30px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border: dashed 1px;
+}
+.circle-container-5 .circle-content .right-container .word-input
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 160px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.circle-container-5 .circle-content .right-container .word
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px auto 10px auto;
+    width: 99%;
+    height: 30px;
+    line-height: 30px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    border: dashed 1px #00AB67;
+}
+.circle-container-5 .circle-content .right-container .word .edit-circle
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-5 .circle-content .right-container .word .edit-circle i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.circle-container-5 .circle-content .right-container .word .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-5 .circle-content .right-container .word .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-5 .circle-content .right-container .word-input .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-5 .circle-content .right-container .word-input .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.circle-container-5 .circle-content .circle-radius
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    color:#00AB67;
+    border:solid 1px #00AB67;
+}
+.circle-container-5 .circle-content .colored
+{
+    color:red;
+}
+/*start circle five*/
+.circle-container-6
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.circle-container-6 .circle-content
+{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 900px;
+    height: calc(100% - 50px);
+    background: #EBEFF4;
+}
+.circle-container-6 .circle-content .right-container
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 10px 10px 10px;
+    width: 14.4%;
+}
+.circle-container-6 .circle-content .right-container .background a
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+}
+.circle-container-6 .circle-content .right-container .background i
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #00ab67;
+    margin: 2px 3px 0px 0px;
+}
+.circle-container-6 .circle-content .right-container:nth-child(1) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-6 .circle-content .right-container:nth-child(2) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-6 .circle-content .right-container:nth-child(3) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-6 .circle-content .right-container:nth-child(4) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height:240px;
+    background-size:contain !important;
+    padding:0px;
+    margin:0px;
+    background-position:center !important;
+    position:relative;
+    border:dashed 1px #00ab67;
+}
+.circle-container-6 .circle-content .right-container:nth-child(5) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-6 .circle-content .right-container:nth-child(6) .background
+{
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    height: 240px;
+    background-size: contain !important;
+    padding: 0px;
+    margin: 0px;
+    background-position:center !important;
+    position: relative;
+    border: dashed 1px #00ab67;
+}
+.circle-container-6 .circle-content .right-container .word-input-a
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 366px;
+    height: 76px;
+    line-height: 76px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border: solid 1px;
+}
+.circle-container-6 .circle-content .right-container .word-input
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    width: 365px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.circle-container-6 .circle-content .right-container .word
+{
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px auto 10px auto;
+    width: 98%;
+    height: 30px;
+    line-height: 30px;
+    color:#00AB67;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    border: dashed 1px;
+}
+.circle-container-6 .circle-content .right-container .word .edit-circle
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-6 .circle-content .right-container .word .edit-circle i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-6 .circle-content .right-container .word .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-6 .circle-content .right-container .word .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+.circle-container-6 .circle-content .right-container .word-input .save-circle-word
+{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    font-size:14px;
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+}
+.circle-container-6 .circle-content .right-container .word-input .save-circle-word i
+{
+    display:inline-block;
+    overflow:hidden;
+    color:#00ab67;
+    margin:0px;
+    padding:0px;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.circle-container-6 .circle-content .circle-radius
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    color:#00AB67;
+    border:solid 1px #00AB67;
+}
+.circle-container-6 .circle-content .colored
+{
+    color: red;
+}
+.negative-container
+{
+    display:inline-block;
+    z-index:-999;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    position:absolute;
+    -webkit-filter:grayscale(100%);
+    filter:grayscale(100%);
+    left: 0px;
+    right:0px;
+    bottom: 0px;
+    top:0px
+;background-size: cover !important;
+}
+.editor-main-menu-container
+{
+    display:inline-block;
+    overflow:hidden;
+    position:fixed;
+    left: 40px;
+    top: 70px;
+    width:65px;
+    height:calc(100vh - 50px);
+    z-index:999;
+}
+.editor-main-menu-container .nav
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    left:10px;
+    top: 37px;
+}
+.editor-main-menu-container .nav a
+{
+    display:block;
+    overflow:hidden;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius:50%;
+    margin: 0px 5px 15px 5px;
+    font-size: 16px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.96) 0%, rgba(238, 238, 238, 0.96) 100%);
+    box-shadow: 0 2px 5px 0 rgba(22, 45, 61, 0.58);
+    color: #00AB67;
+    -webkit-transition: all 2s;
+    transition: all 0.2s;
+}
+.editor-main-menu-container .nav a.active
+{
+    background:#00AB67;
+    color: #fff;
+    border-radius: 24px 0px 0px 24px;
+    width: 61px;
+}
+.editor-main-menu-container .nav #Layer_menu.active i
+{
+    background: url(../images/layers-white.svg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.editor-main-menu-container .nav a i
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 20px;
+}
+.editor-main-menu-container .nav-content
+{
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    left:76px;
+    top:20px;
+    width: 300px;
+    box-shadow: 0 0 14px 0 rgba(22, 45, 61, 0.36);
+    border-radius: 8px;
+    background-color: #fff;
+    border-left:solid 6px #00AB67;
+}
+.editor-main-menu-container .overview
+{
+    display:inline-block;
+    overflow:hidden;
+    width: 220px;
+    height:80px;
+    box-shadow:0 0 14px 0 rgba(22, 45, 61, 0.36);
+    border-radius:8px;
+    background-color:#fff;
+    margin: 20px 0px 0px 0px;
+    color:#00AB67;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.editor-main-menu-container .nav-content .header
+{
+    display:block;
+    overflow:hidden;
+    border-bottom:1px solid #e3e3e3;
+    height:35px;
+    line-height:35px;
+}
+.editor-main-menu-container .nav-content .header .close-menu
+{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    font-size: 10px;
+    margin: 7px 7px 0px 0px;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+.editor-main-menu-container .nav-content .header a i
+{
+    display:inline-block;
+    overflow:hidden;
+    font-size: 10px;
+    color: #00AB67;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+.editor-main-menu-container .nav-content .header .title
+{
+    margin: 0px 0px 0px 20px;
+    color: #00AB67;
+}
+.editor-main-menu-container .nav-content .content
+{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 550px;
+}
+.editor-main-menu-container .nav-content .content .row-layer
+{
+    display: block;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.editor-main-menu-container .nav-content .content .row-layer.active
+{
+    background: #dbece6;
+}
+.editor-main-menu-container .nav-content .content .row-layer .checkbox
+{
+    padding: 1px 10px 0px 10px;
+}
+.editor-main-menu-container .nav-content .content .row
+{
+    display: block;
+    overflow: hidden;
+    height: 105px;
+    line-height: 105px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.editor-main-menu-container .nav-content .content .row:last-child
+{
+    border-bottom: 0px solid #e3e3e3;
+}
+.editor-main-menu-container .nav-content .content .row .icon
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 70px;
+    height: 105px;
+    line-height: 105px;
+    padding: 0px 10px 0px 10px;
+}
+.editor-main-menu-container .nav-content .content .row .icon i
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 30px;
+    color:#00AB67;
+    height: 105px;
+    line-height: 105px;
+}
+.editor-main-menu-container .nav-content .content .row-layer .title
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+}
+.editor-main-menu-container .nav-content .content .row .title
+{
+    display: inline-block;
+    overflow: hidden;
+}
+.animation-image-container-popup
+{
+    display:inline-block;
+    overflow:hidden;
+    width: 980px;
+    height: 700px;
+}
+.external-widget-container-popup
+{
+    display:inline-block;
+    overflow:hidden;
+    max-width: 980px;
+    max-height: 800px;
+    min-width:500px;
+    min-height:300px;
+}
+.external-widget-container-popup .line-row-d
+{
+    display:block;
+    overflow:hidden;
+    margin: 10px 0px 10px 0px;
+}
+.external-widget-container-popup .update-external-widget-btn
+{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 20px;
+    margin:10px 35px 0 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #00AB67;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    clear: both;
+}
+.animation-image-container-popup .left-container
+{
+    display:inline-block;
+    overflow:hidden;
+    max-height: 37%;
+    width: 50%;
+    margin: 20px 0px 0px 0px;
+}
+.animation-image-container-popup .left-container .add-animation-btn
+{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 20px;
+    margin: 10px 20px 0 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #00AB67;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.animation-image-container-popup .update-animation-btn
+{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 20px;
+    margin: 0px 20px 0 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #00AB67;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    clear: both;
+}
+.animation-image-container-popup .left-container .content-container
+{
+    display:inline-block;
+    overflow-x:hidden;
+    overflow-y:auto;
+    height: 85%;
+    padding: 0px 10px 0px 0px;
+}
+.animation-image-container-popup .left-container .content-container .delete-animation
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:1;
+    cursor:pointer;
+    height:30px;
+    line-height:30px;
+}
+.animation-image-container-popup .left-container .content-container .delete-animation i
+{
+    display:inline-block;
+    overflow: hidden;
+    color: #00AB67;
+    font-size: 18px;
+}
+.animation-image-container-popup .left-container .content-container a
+{
+    opacity:0.5;
+    position: relative;
+    float: left;
+}
+.animation-image-container-popup .left-container .content-container a.selected
+{
+    opacity:1;
+}
+.animation-image-container-popup .line-row-d
+{
+    display:block;
+    overflow:hidden;
+    margin: 10px 0px 10px 0px;
+}
+.animation-image-container-popup .line-row-d:first-child
+{
+    display:block;
+    overflow:hidden;
+    margin: 0px 0px 0px 0px;
+}
+.animation-image-container-popup .right-container
+{
+    display:inline-block;
+    overflow:hidden;
+    width:50%;
+    /* height: 23%; */
+    margin: 20px 0px 0px 0px;
+}
+.display-table
+{
+    display:table;
+    overflow:hidden;
+    width:100%;
+    height:56.5%;
+    position: relative;
+}
+.display-row
+{
+    display:table-row;
+    overflow:hidden;
+    vertical-align: middle;
+}
+.display-cell
+{
+    display:table-cell;
+    overflow:hidden;
+    vertical-align: middle;
+    border: dashed 2px #00AB67;
+}
+.display-cell img
+{
+    display:inline-block;
+    overflow:hidden;
+    max-width: 500px;
+    max-height: 430px;
+}
+.display-cell iframe
+{
+    display:inline-block;
+    overflow:hidden;
+    max-width: 500px;
+    max-height: 500px;
+    width: 500px;
+    height: 400px;
+}
+.display-cell input
+{
+    display:inline-block;
+    overflow:hidden;
+    max-width: 500px;
+    max-height: 500px;
+    width: 500px;
+    height: 400px;
+}
+.animate_widget
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 41px;
+    top: 2px;
+    cursor: pointer;
+    opacity: 0.9;
+    line-height: 13px;
+    z-index: 999999;
+}
+.index_widget
+{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 13px;
+    background: #fff;
+    color: #00AB67;
+    margin: 0px 0px 0px 3px;
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 101px;
+    top: 2px;
+    cursor: pointer;
+    opacity: 0.9;
+    line-height: 13px;
+    z-index: 999999;
+}
+.animate_widget-text
+{
+    right: 81px !important;
+}
+.answer .dropable{
+    min-height: 40px;
+}
+.matching-line-row .dropable{
+    min-height: 100px;
+}
+.popup-content .containers iframe,
+#upload_target
+{
+    border: none;
+}
+.doaction[actiontype=image] {
+    display: inline-block;
+    overflow: hidden;
+    background: url(../images/viewpage/enrichment/image.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 1
+}
+
+.doaction[actiontype=exercise], .doaction[actiontype=game], .doaction[actiontype=gift], .doaction[actiontype=quiz], .doaction[actiontype=sound], .doaction[actiontype=url], .doaction[actiontype=worksheet], .doaction[actiontype=youtube],.doaction[actiontype=douknow] {
+    display: inline-block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    z-index: 9;
+    position: relative
+}
+.doaction[actiontype=douknow] {
+    background:url(../images/viewpage/enrichment/info.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important
+}
+.doaction[actiontype=exercise] {
+    background: url(../images/viewpage/enrichment/exercise.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important
+}
+
+.doaction[actiontype=game] {
+    background: url(../images/viewpage/enrichment/game.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important
+}
+
+.doaction[actiontype=gift] {
+    background: url(../images/viewpage/enrichment/gift.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important
+}
+
+.doaction[actiontype=url] {
+    background: url(../images/viewpage/enrichment/link.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important
+}
+
+.doaction[actiontype=quiz] {
+    background: url(../images/viewpage/enrichment/quiz.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important
+}
+
+.doaction[actiontype=sound] {
+    background: url(../images/viewpage/enrichment/sound.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important
+}
+
+.doaction[actiontype=youtube] {
+    background: url(../images/viewpage/enrichment/video.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important
+}
+
+.doaction[actiontype=worksheet] {
+    background: url(../images/viewpage/enrichment/worksheet.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important
+}
+.layer-icon
+{
+    display: block;
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+    line-height: 28px;
+    background: url(../images/layers.svg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 13px 0px 0 0;
+}
+.element.selected
+{
+    outline: 3px solid red !important;
+}
+.ui-rotatable-handle {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    background-image: url(https://cdn.jsdelivr.net/jquery.ui.rotatable/1.0.1/rotate.png);
+    background-size: 100%;
+    left: 2px;
+    bottom: 2px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.symbols-container {
+    display: block;
+    overflow-y: auto;
+    height: 544px;
+    width: 720px;
+}
+
+.symbols-container .symbols-item {
+    display: inline-block;
+    overflow: hidden;
+    width: 140.5px;
+    height: 90px;
+    font-size: 51px;
+    line-height: 80px;
+}
+
+.symbols-container .symbols-item.active {
+    color: #58b436;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/abo-thar.ttf);
+}
+.symbol_font
+{
+    font-family: myFirstFont !important;
+}

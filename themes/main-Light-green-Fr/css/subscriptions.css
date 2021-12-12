@@ -1,0 +1,1546 @@
+.inner-pages-main-container-faq-item .wrapper {
+    min-width: 600px;
+    margin: 0 auto
+}
+
+.inner-pages-main-container-faq-item .tabs {
+    display: block;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    overflow: auto;
+    padding: 0;
+    margin: 0 0 0 40px
+}
+
+.inner-pages-main-container-faq-item .tabs li {
+    transition-duration: .25s;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    color: #aaa;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    font-weight: 500;
+    min-width: 320px;
+    border-radius: 10px 10px 0 0;
+    background: -ms-linear-gradient(top, #ccc 0, #eaeaea 100%);
+    background: -moz-linear-gradient(top, #ccc 0, #eaeaea 100%);
+    background: -o-linear-gradient(top, #ccc 0, #eaeaea 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccc), color-stop(100, #eaeaea));
+    background: -webkit-linear-gradient(top, #ccc 0, #eaeaea 100%);
+    background: linear-gradient(to bottom, #ccc 0, #eaeaea 100%);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+    margin: 0 20px 0 0;
+    pointer-events: none
+}
+
+.inner-pages-main-container-faq-item .tabs li i.families, .inner-pages-main-container-faq-item .tabs li i.schools, .inner-pages-main-container-faq-item .tabs li.active i.families, .inner-pages-main-container-faq-item .tabs li.active i.schools {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px 15px 0 0;
+    overflow: hidden
+}
+
+.inner-pages-main-container-faq-item .tabs li a {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 50px;
+    cursor: default
+}
+
+.inner-pages-main-container-faq-item .tabs li i.families {
+    background: url(../images/useroff.png) center no-repeat;
+    background-size: contain
+}
+
+.inner-pages-main-container-faq-item .tabs li.active i.families {
+    background: url(../images/useron.png) center no-repeat;
+    background-size: contain
+}
+
+.inner-pages-main-container-faq-item .tabs li i.schools {
+    background: url(../images/schooloff.png) center no-repeat;
+    background-size: contain
+}
+
+.inner-pages-main-container-faq-item .tabs li.active i.schools {
+    background: url(../images/schoolon.png) center no-repeat;
+    background-size: contain
+}
+
+.inner-pages-main-container-faq-item .tabs li:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 120%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .3);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition-duration: .25s;
+    border-radius: 5px 5px 0 0
+}
+
+.inner-pages-main-container-faq-item .tabs li:hover:before {
+    -webkit-transform: translateY(70%);
+    transform: translateY(70%)
+}
+
+.inner-pages-main-container-faq-item .tabs li.active {
+    color: #777;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    background: #fff
+}
+
+.inner-pages-main-container-faq-item .tabs li.active:before {
+    transition-duration: .5s;
+    background-color: #fff;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.inner-pages-main-container-faq-item .tab__content {
+    position: relative;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    min-height: 294px;
+    height: auto !important;
+    display: block;
+    overflow: hidden
+}
+
+.inner-pages-main-container-faq-item .tab__content li {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    list-style: none
+}
+
+.inner-pages-main-container-faq-item .tab__content li .content__wrapper {
+    overflow: visible;
+    text-align: center;
+    width: 100%
+}
+
+.inner-pages-main-container-faq-item .center-content {
+    display: block;
+    overflow: hidden;
+    margin: -1px 0 20px;
+    border: 1px solid #ccc;
+    direction: rtl;
+    background: -ms-linear-gradient(bottom, #f7f7f7 0, #fff 100%);
+    background: -moz-linear-gradient(bottom, #f7f7f7 0, #fff 100%);
+    background: -o-linear-gradient(bottom, #f7f7f7 0, #fff 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f7f7f7), color-stop(100, #fff));
+    background: -webkit-linear-gradient(bottom, #f7f7f7 0, #fff 100%);
+    background: linear-gradient(to top, #f7f7f7 0, #fff 100%);
+    border-radius: 5px;
+    padding: 15px 10px
+}
+
+.inner-pages-main-container-faq-item .center-content .left-container {
+    display: inline-block;
+    overflow: visible;
+    width: 100%;
+    direction: ltr
+}
+
+.inner-pages-main-container-faq-item h1 {
+    display: block;
+    overflow: hidden;
+    line-height: 59px;
+    color: #626161;
+    font-size: 25px;
+    font-weight: 600;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    text-align: left
+}
+
+.inner-pages-main-container-faq-item .top-box {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #d6d4d4;
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .2);
+    margin: 0 0 15px;
+    height: 70px;
+    line-height: 65px;
+    padding: 0 15px
+}
+
+.inner-pages-main-container-faq-item .top-box label {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 3px 0 0;
+    color: #626161;
+    font-size: 18px
+}
+
+.inner-pages-main-container-faq-item .top-box span {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 3px 0 0;
+    color: #626161;
+    font-size: 22px;
+    font-weight: 500
+}
+
+.inner-pages-main-container-faq-item .top-box a {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 3px 0 0;
+    color: #009345;
+    font-size: 22px;
+    font-weight: 500
+}
+
+.right-resources-container, .right-resources-container h1 {
+    display: block;
+    overflow: hidden
+}
+
+.right-resources-container .content-container {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #d4d4d4;
+    margin: 0 0 20px;
+    background: -ms-linear-gradient(bottom, #f7f7f7 0, #fff 100%);
+    background: -moz-linear-gradient(bottom, #f7f7f7 0, #fff 100%);
+    background: -o-linear-gradient(bottom, #f7f7f7 0, #fff 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f7f7f7), color-stop(100, #fff));
+    background: -webkit-linear-gradient(bottom, #f7f7f7 0, #fff 100%);
+    background: linear-gradient(to top, #f7f7f7 0, #fff 100%);
+    border-radius: 5px;
+    padding: 20px 0 20px 20px
+}
+
+.right-resources-container h1 {
+    line-height: 59px;
+    color: #626161;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-align: left
+}
+
+.right-resources-container .content-container .left-container {
+    display: inline-block;
+    overflow: hidden
+}
+
+.right-resources-container .content-container .left-container h2 {
+    color: #626161;
+    font-size: 18px;
+    margin: 0 0 10px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    clear: both;
+    font-weight: 700
+}
+
+.right-resources-container .content-container .left-container ul {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.right-resources-container .content-container .left-container ul h1, .right-resources-container .content-container .left-container ul li {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    line-height: 40px;
+    font-weight: 400;
+    width: 100%
+}
+
+.right-resources-container .content-container .left-container ul li i {
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 15px 0 0;
+    padding: 0;
+    text-align: left;
+    line-height: 40px;
+    background: url(../images/icoright.png) center no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px
+}
+
+.right-resources-container .content-container .left-container ul li label {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 0 12px;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+    font-size: 16px;
+    color: #626161;
+    width: 90%
+}
+
+.right-resources-container .content-container .left-container ul li:last-child label {
+    border-bottom: 0;
+    margin-bottom: 0
+}
+
+.right-resources-container .content-container .right-container {
+    display: inline-block;
+    overflow: hidden;
+    background: url(../images/obj03.png) left no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 27%;
+    height: 222px
+}
+
+.blue-offer-container {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 40px 0 0;
+    width: 45%
+}
+
+.blue-offer-container .item-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+    background: #fff;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .3);
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, .3);
+    margin: 10px 0 0
+}
+
+.blue-offer-container .item-container .title {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    background: url(../images/obj02.png) -18px -1px no-repeat
+}
+
+.blue-offer-container .item-container .title h3 {
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 26px;
+    margin: 20px 0 0 20px;
+    font-weight: 500
+}
+
+.blue-offer-container .item-container .title span {
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 13px;
+    margin: 31px 0 0 20px
+}
+
+.blue-offer-container .item-container .lists {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #eee
+}
+
+.blue-offer-container .item-container .lists .list-item {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: #eef0f1;
+    padding: 0 0 0 20px;
+    margin: 15px 0 0
+}
+
+.blue-offer-container .item-container .lists .list-item:nth-child(1) {
+    margin: 0
+}
+
+.blue-offer-container .item-container .lists .list-item .circle {
+    display: inline-block;
+    overflow: hidden;
+    width: 18px;
+    height: 18px;
+    line-height: 15px;
+    background-image: -moz-linear-gradient(90deg, #3996d2 0, #38b5f6 100%);
+    background-image: -webkit-linear-gradient(90deg, #3996d2 0, #38b5f6 100%);
+    background-image: -ms-linear-gradient(90deg, #3996d2 0, #38b5f6 100%);
+    box-shadow: 0 1px 0 0 rgba(168, 168, 168, .004);
+    margin: 10px 0 0;
+    border-radius: 50%
+}
+
+.blue-offer-container .item-container .lists .list-item .number {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 35px 0 20px;
+    color: #626161;
+    font-size: 16px;
+    width: 120px;
+    text-align: left
+}
+
+.blue-offer-container .item-container .lists .list-item .month {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 0 0 20px
+}
+
+.blue-offer-container .item-container .lists .list-item .month span:nth-child(1) {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 4px 0 0;
+    color: #00aed9;
+    font-size: 14px;
+    line-height: 45px
+}
+
+.blue-offer-container .item-container .lists .list-item .month span:nth-child(2) {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 3px 0 0;
+    color: #00aed9;
+    font-size: 25px;
+    font-weight: 600
+}
+
+.blue-offer-container .item-container .lists .list-item .month label {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 0 0 2px;
+    color: #989797;
+    font-size: 12px;
+    line-height: 42px;
+    font-weight: 400
+}
+
+.blue-offer-container .item-container .user-account-row {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0
+}
+
+.blue-offer-container .item-container .user-account-row.special {
+    margin: 24px 0 24px 0 !important
+}
+
+.blue-offer-container .item-container .user-account-row .text {
+    display: inline-block;
+    overflow: hidden;
+    margin: 15px 20px 0;
+    color: #626161;
+    font-size: 16px;
+    width: 195px;
+    text-align: left
+}
+
+.blue-offer-container .item-container .user-account-row .right {
+    display: inline-block;
+    overflow: hidden;
+    margin: 15px 0 0
+}
+
+.blue-offer-container .item-container .user-account-row .right input {
+    display: inline-block;
+    overflow: hidden;
+    width: 74px;
+    height: 34px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    -moz-box-shadow: inset 0 0 10px #e0e2e2;
+    -webkit-box-shadow: inset 0 0 10px #e0e2e2;
+    box-shadow: inset 0 0 10px #e0e2e2;
+    text-align: center;
+    color: #626161;
+    font-size: 18px;
+    margin: 0 20px 0 0
+}
+
+.blue-offer-container .item-container .user-account-row .right .hit {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    line-height: 34px;
+    color: #626161;
+    margin: 0 14px 0 0
+}
+
+.blue-offer-container .item-container .user-account-row .right .number {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    line-height: 34px;
+    color: #00aed9;
+    font-size: 14px
+}
+
+.blue-offer-container .item-container .total-row {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: solid 1px #eee
+}
+
+.blue-offer-container .item-container .total-row .text {
+    display: inline-block;
+    overflow: hidden;
+    margin: 17px 20px 0;
+    color: #626161;
+    font-size: 20px;
+    width: 195px;
+    font-weight: 600;
+    text-align: left
+}
+
+.blue-offer-container .item-container .total-row .right {
+    display: inline-block;
+    overflow: hidden;
+    margin: 15px 0 0
+}
+
+.blue-offer-container .item-container .total-row .right .number {
+    display: inline-block;
+    overflow: hidden
+}
+
+.blue-offer-container .item-container .total-row .right .number label:nth-child(1) {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    color: #00aed9;
+    font-size: 14px;
+    line-height: 45px;
+    margin: 0 4px 0 0
+}
+
+.blue-offer-container .item-container .total-row .right .number label:nth-child(2) {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    line-height: 34px;
+    color: #00aed9;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 4px 0 0
+}
+
+.blue-offer-container .item-container .total-row .right .number span {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    color: #989797;
+    font-size: 14px;
+    line-height: 42px
+}
+
+.blue-offer-container .item-container .button-join {
+    display: inline-block;
+    overflow: hidden;
+    background: #00aed9;
+    height: 35px;
+    line-height: 31px;
+    padding: 0 25px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    margin: 5px 10px 5px 0;
+    color: #fefefe;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+    cursor: pointer
+}
+
+.blue-offer-container .item-container .button-join:hover {
+    background-color: transparent;
+    border: 2px solid #00aed9;
+    color: #00aed9
+}
+
+.orange-offer-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 45%;
+    height: 373px;
+}
+
+.orange-offer-container .item-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+    background: #fff;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .3);
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, .3);
+    margin: 10px 0 0;
+    background: url(../images/ads.png) center no-repeat;
+    background-size: 100% 100%;
+    height: 96%;
+}
+
+.orange-offer-container .item-container .title {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    /*background: url(../images/obj01.png) -18px -1px no-repeat*/
+}
+
+.orange-offer-container .item-container .title h3 {
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 26px;
+    margin: 20px 0 0 20px;
+    font-weight: 500
+}
+
+.orange-offer-container .item-container .title span {
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 13px;
+    margin: 31px 0 0 20px
+}
+
+.orange-offer-container .item-container .lists {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #eee
+}
+
+.orange-offer-container .item-container .lists .list-item {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: #eef0f1;
+    margin: 10px 0 0;
+    padding: 0 0 0 20px
+}
+
+.orange-offer-container .item-container .lists .list-item:nth-child(2) {
+    margin: 10px 0 0
+}
+
+.orange-offer-container .item-container .lists .list-item .circle {
+    display: inline-block;
+    overflow: hidden;
+    width: 18px;
+    height: 18px;
+    line-height: 15px;
+    background-image: -moz-linear-gradient(90deg, #e6930f 0, #f5a320 100%);
+    background-image: -webkit-linear-gradient(90deg, #e6930f 0, #f5a320 100%);
+    background-image: -ms-linear-gradient(90deg, #e6930f 0, #f5a320 100%);
+    box-shadow: 0 1px 0 0 rgba(168, 168, 168, .004);
+    margin: 10px 0 0;
+    border-radius: 50%
+}
+
+.orange-offer-container .item-container .lists .list-item .number {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 35px 0 20px;
+    color: #626161;
+    font-size: 16px;
+    width: 120px;
+    text-align: left
+}
+
+.orange-offer-container .item-container .lists .list-item .month {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 0 0 20px
+}
+
+.orange-offer-container .item-container .lists .list-item .month span:nth-child(1) {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 4px 0 0;
+    color: #f5a320;
+    font-size: 14px;
+    line-height: 45px
+}
+
+.orange-offer-container .item-container .lists .list-item .month span:nth-child(2) {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 3px 0 0;
+    color: #f5a320;
+    font-size: 25px;
+    font-weight: 600
+}
+
+.orange-offer-container .item-container .lists .list-item .month label {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 0 0 3px;
+    color: #989797;
+    font-size: 12px;
+    line-height: 42px;
+    font-weight: 400
+}
+
+.orange-offer-container .item-container .user-account-row {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0
+}
+
+.orange-offer-container .item-container .user-account-row .text {
+    display: inline-block;
+    overflow: hidden;
+    margin: 15px 20px 0;
+    color: #626161;
+    font-size: 16px;
+    width: 195px;
+    text-align: left
+}
+
+.orange-offer-container .item-container .user-account-row .right {
+    display: inline-block;
+    overflow: hidden;
+    margin: 15px 0 0
+}
+
+.orange-offer-container .item-container .user-account-row .right input {
+    display: inline-block;
+    overflow: hidden;
+    width: 74px;
+    height: 34px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    -moz-box-shadow: inset 0 0 10px #e0e2e2;
+    -webkit-box-shadow: inset 0 0 10px #e0e2e2;
+    box-shadow: inset 0 0 10px #e0e2e2;
+    text-align: center;
+    color: #626161;
+    font-size: 18px;
+    margin: 0 20px 0 0
+}
+
+.orange-offer-container .item-container .user-account-row .right .hit {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    line-height: 34px;
+    color: #626161;
+    margin: 0 14px 0 0
+}
+
+.orange-offer-container .item-container .user-account-row .right .number {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    line-height: 34px;
+    color: #f5a320;
+    font-size: 14px
+}
+
+.orange-offer-container .item-container .total-row {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: solid 1px #eee
+}
+
+.orange-offer-container .item-container .total-row .text {
+    display: inline-block;
+    overflow: hidden;
+    margin: 17px 20px 0;
+    color: #626161;
+    font-size: 20px;
+    width: 195px;
+    font-weight: 600;
+    text-align: left
+}
+
+.orange-offer-container .item-container .total-row .right {
+    display: inline-block;
+    overflow: hidden;
+    margin: 15px 0 0
+}
+
+.orange-offer-container .item-container .total-row .right .number {
+    display: inline-block;
+    overflow: hidden
+}
+
+.orange-offer-container .item-container .total-row .right .number label:nth-child(1) {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    color: #f5a320;
+    font-size: 14px;
+    line-height: 45px;
+    margin: 0 4px 0 0
+}
+
+.orange-offer-container .item-container .total-row .right .number label:nth-child(2) {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    line-height: 34px;
+    color: #f5a320;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 4px 0 0
+}
+
+.orange-offer-container .item-container .total-row .right .number span {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    color: #989797;
+    font-size: 14px;
+    line-height: 42px
+}
+
+.orange-offer-container .item-container .button-join {
+    display: inline-block;
+    overflow: hidden;
+    background: transparent;
+    color: #00ad68;
+    border: solid 1px #00ad68;
+    height: 35px;
+    line-height: 31px;
+    padding: 0 25px;
+    font-weight: 600;
+    /*border: 2px solid transparent;*/
+    margin: 33% 15% 5px 0;
+    /*color: #fefefe;*/
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+    cursor: pointer
+}
+
+.orange-offer-container .item-container .button-join:hover {
+    background-color: transparent;
+    border: 1px solid #f5a320;
+    color: #f5a320
+}
+
+.lbl-data-a, .lbl-data-b {
+    color: #c2c2c2;
+    display: inline-block;
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px
+}
+
+.lbl-data-a {
+    width: 120px
+}
+
+.lbl-data-b {
+    margin: 0 0 0 28px;
+    width: 150px
+}
+
+.input-type-number {
+    display: inline-block;
+    overflow: hidden;
+    width: 34.8%;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 15px;
+    border: 1px solid #c2c2c2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #00a951;
+    font-weight: 400;
+    margin: 0 0 0 28px
+}
+
+@media (max-width: 1600px) and (min-width: 1400px) {
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -80px -1px
+    }
+}
+
+@media all and (max-width: 1399px) and (min-width: 1301px) {
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -80px -1px
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -104px -1px
+    }
+}
+
+@media all and (max-width: 1199px) and (min-width: 1025px) {
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -104px -1px
+    }
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px)and (orientation: landscape) {
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -104px -1px
+    }
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -219px -1px
+    }
+
+    .inner-pages-main-container-faq-item .top-box label {
+        font-size: 14px
+    }
+
+    .inner-pages-main-container-faq-item .top-box span {
+        font-size: 16px
+    }
+
+    .inner-pages-main-container-faq-item .top-box a {
+        font-size: 18px
+    }
+
+    .blue-offer-container .item-container .title h3, .orange-offer-container .item-container .title h3 {
+        font-size: 26px;
+        margin: 20px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .title span, .orange-offer-container .item-container .title span {
+        font-size: 13px;
+        margin: 31px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .lists .list-item .number, .orange-offer-container .item-container .lists .list-item .number {
+        margin: 0 30px 0 20px;
+        font-size: 16px;
+        min-width: 90px
+    }
+
+    .blue-offer-container .item-container .user-account-row .text, .orange-offer-container .item-container .user-account-row .text {
+        margin: 15px 10px 0 20px;
+        font-size: 16px;
+        width: 115px
+    }
+
+    .blue-offer-container .item-container .total-row .text, .orange-offer-container .item-container .total-row .text {
+        margin: 17px 20px 0;
+        font-size: 20px;
+        width: 105px
+    }
+}
+
+@media all and (max-width: 767px) and (min-width: 740px) {
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -232px -1px
+    }
+
+    .inner-pages-main-container-faq-item .top-box label, .inner-pages-main-container-faq-item .top-box span {
+        font-size: 14px
+    }
+
+    .inner-pages-main-container-faq-item .top-box a {
+        font-size: 18px
+    }
+
+    .blue-offer-container .item-container .title h3, .orange-offer-container .item-container .title h3 {
+        font-size: 26px;
+        margin: 20px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .title span, .orange-offer-container .item-container .title span {
+        font-size: 13px;
+        margin: 31px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .lists .list-item .number, .orange-offer-container .item-container .lists .list-item .number {
+        margin: 0 30px 0 20px;
+        font-size: 16px;
+        min-width: 90px
+    }
+
+    .blue-offer-container .item-container .user-account-row .text, .orange-offer-container .item-container .user-account-row .text {
+        margin: 15px 10px 0 20px;
+        font-size: 16px;
+        width: 115px
+    }
+
+    .blue-offer-container .item-container .total-row .text, .orange-offer-container .item-container .total-row .text {
+        margin: 17px 20px 0;
+        font-size: 20px;
+        width: 105px
+    }
+}
+
+@media all and (max-width: 739px) and (min-width: 611px) {
+    .blue-offer-container,.orange-offer-container
+    {
+        width:100% ;
+    }
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -50px -1px
+    }
+
+    .inner-pages-main-container-faq-item .top-box label {
+        font-size: 10px
+    }
+
+    .inner-pages-main-container-faq-item .top-box span {
+        font-size: 12px
+    }
+
+    .inner-pages-main-container-faq-item .top-box a {
+        font-size: 16px
+    }
+
+    .blue-offer-container .item-container .title h3, .orange-offer-container .item-container .title h3 {
+        font-size: 26px;
+        margin: 20px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .title span, .orange-offer-container .item-container .title span {
+        font-size: 13px;
+        margin: 31px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .lists .list-item .number, .orange-offer-container .item-container .lists .list-item .number {
+        margin: 0;
+        font-size: 16px;
+        min-width: 90px
+    }
+
+    .blue-offer-container .item-container .user-account-row .text, .orange-offer-container .item-container .user-account-row .text {
+        margin: 20px 0 0 10px;
+        font-size: 14px;
+        width: 115px
+    }
+
+    .blue-offer-container .item-container .total-row .text, .orange-offer-container .item-container .total-row .text {
+        margin: 17px 20px 0 10px;
+        font-size: 20px;
+        width: 95px
+    }
+
+    .inner-pages-main-container-faq-item .tabs li {
+        min-width: 230px
+    }
+
+    .inner-pages-main-container-faq-item .wrapper {
+        min-width: 100%
+    }
+
+    .blue-offer-container .item-container .lists .list-item .circle, .orange-offer-container .item-container .lists .list-item .circle {
+        width: 15px;
+        height: 15px;
+        line-height: 15px
+    }
+
+    .blue-offer-container .item-container .lists .list-item .month, .orange-offer-container .item-container .lists .list-item .month {
+        margin: 0 0 0 20px
+    }
+
+    .blue-offer-container .item-container .lists .list-item, .orange-offer-container .item-container .lists .list-item {
+        padding: 0 0 0 10px
+    }
+
+    .blue-offer-container .item-container .user-account-row .right input, .orange-offer-container .item-container .user-account-row .right input {
+        width: 35px;
+        height: 34px;
+        font-size: 18px
+    }
+
+    .right-resources-container .content-container .left-container ul li label {
+        width: 90%
+    }
+}
+
+@media all and (max-width: 610px) and (min-width: 560px) {
+    .blue-offer-container,.orange-offer-container
+    {
+        width:100% ;
+    }
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -50px -1px
+    }
+
+    .inner-pages-main-container-faq-item .top-box label {
+        font-size: 10px
+    }
+
+    .inner-pages-main-container-faq-item .top-box span {
+        font-size: 12px
+    }
+
+    .inner-pages-main-container-faq-item .top-box a {
+        font-size: 16px
+    }
+
+    .blue-offer-container .item-container .title h3, .orange-offer-container .item-container .title h3 {
+        font-size: 26px;
+        margin: 20px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .title span, .orange-offer-container .item-container .title span {
+        font-size: 13px;
+        margin: 31px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .lists .list-item .number, .orange-offer-container .item-container .lists .list-item .number {
+        margin: 0;
+        font-size: 14px;
+        min-width: 90px
+    }
+
+    .blue-offer-container .item-container .user-account-row .text, .orange-offer-container .item-container .user-account-row .text {
+        margin: 20px 0 0 10px;
+        font-size: 14px;
+        width: 115px
+    }
+
+    .blue-offer-container .item-container .total-row .text, .orange-offer-container .item-container .total-row .text {
+        margin: 17px 20px 0 10px;
+        font-size: 20px;
+        width: 88px
+    }
+
+    .inner-pages-main-container-faq-item .tabs li {
+        min-width: 230px
+    }
+
+    .inner-pages-main-container-faq-item .wrapper {
+        min-width: 100%
+    }
+
+    .blue-offer-container .item-container .lists .list-item .circle, .orange-offer-container .item-container .lists .list-item .circle {
+        width: 15px;
+        height: 15px;
+        line-height: 15px
+    }
+
+    .blue-offer-container .item-container .lists .list-item .month, .orange-offer-container .item-container .lists .list-item .month {
+        margin: 0 0 0 5px
+    }
+
+    .blue-offer-container .item-container .lists .list-item, .orange-offer-container .item-container .lists .list-item {
+        padding: 0 0 0 10px
+    }
+
+    .blue-offer-container .item-container .user-account-row .right input, .orange-offer-container .item-container .user-account-row .right input {
+        width: 30px;
+        height: 34px;
+        font-size: 18px;
+        margin: 0 10px 0 0
+    }
+
+    .right-resources-container .content-container .left-container ul li label {
+        width: 90%
+    }
+
+    .inner-pages-main-container-faq-item .top-box {
+        padding: 0 5px
+    }
+
+    .blue-offer-container .item-container:last-child, .orange-offer-container .item-container:last-child {
+        margin: 0 0 0 10px
+    }
+
+    .blue-offer-container .item-container, .orange-offer-container .item-container {
+        width: 48%
+    }
+}
+
+@media all and (max-width: 559px) and (min-width: 460px) {
+    .blue-offer-container,.orange-offer-container
+    {
+        width:100% ;
+    }
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -165px -1px
+    }
+
+    .inner-pages-main-container-faq-item .top-box label {
+        font-size: 12px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .inner-pages-main-container-faq-item .top-box span {
+        font-size: 14px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .inner-pages-main-container-faq-item .top-box a {
+        font-size: 18px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .blue-offer-container .item-container .title h3, .orange-offer-container .item-container .title h3 {
+        font-size: 26px;
+        margin: 20px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .title span, .orange-offer-container .item-container .title span {
+        font-size: 13px;
+        margin: 31px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .lists .list-item .number, .orange-offer-container .item-container .lists .list-item .number {
+        margin: 0;
+        font-size: 14px;
+        min-width: 90px
+    }
+
+    .blue-offer-container .item-container .user-account-row .text, .orange-offer-container .item-container .user-account-row .text {
+        font-size: 14px;
+        width: 107px
+    }
+
+    .blue-offer-container .item-container .total-row .text, .orange-offer-container .item-container .total-row .text {
+        margin: 17px 20px 0 10px;
+        font-size: 20px;
+        width: 117px
+    }
+
+    .inner-pages-main-container-faq-item .tabs li {
+        min-width: 170px
+    }
+
+    .inner-pages-main-container-faq-item .wrapper {
+        min-width: 100%
+    }
+
+    .blue-offer-container .item-container .lists .list-item .circle, .orange-offer-container .item-container .lists .list-item .circle {
+        width: 15px;
+        height: 15px;
+        line-height: 15px
+    }
+
+    .blue-offer-container .item-container .user-account-row .right input, .orange-offer-container .item-container .user-account-row .right input {
+        height: 34px;
+        font-size: 18px
+    }
+
+    .right-resources-container .content-container .left-container ul li label {
+        width: 87%;
+        font-size: 14px
+    }
+
+    .inner-pages-main-container-faq-item .top-box {
+        padding: 0 5px;
+        height: auto
+    }
+
+    .blue-offer-container .item-container:last-child, .orange-offer-container .item-container:last-child {
+        margin: 0
+    }
+
+    .blue-offer-container .item-container, .orange-offer-container .item-container {
+        width: 90%;
+        margin: 10px 0 20px
+    }
+
+    .inner-pages-main-container-faq-item .tab__content {
+        overflow-y: auto;
+        height: 300px !important
+    }
+
+    .email-us-container label {
+        padding: 0 5px !important;
+        font-size: 12px
+    }
+
+    .email-us-container a {
+        padding: 0 5px !important
+    }
+
+    .inner-pages-main-container-faq-item h1, .right-resources-container h1 {
+        font-size: 20px
+    }
+}
+
+@media (max-width: 459px) and (min-width: 320px) {
+    .blue-offer-container,.orange-offer-container
+    {
+        width:100% !important;
+    }
+    .blue-offer-container .item-container .title, .orange-offer-container .item-container .title {
+        background-position: -165px -1px
+    }
+
+    .inner-pages-main-container-faq-item .top-box label {
+        font-size: 12px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .inner-pages-main-container-faq-item .top-box span {
+        font-size: 14px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .inner-pages-main-container-faq-item .top-box a {
+        font-size: 18px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .blue-offer-container .item-container .title h3, .orange-offer-container .item-container .title h3 {
+        font-size: 26px;
+        margin: 20px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .title span, .orange-offer-container .item-container .title span {
+        font-size: 13px;
+        margin: 31px 0 0 10px
+    }
+
+    .blue-offer-container .item-container .lists .list-item .number, .orange-offer-container .item-container .lists .list-item .number {
+        margin: 0;
+        font-size: 14px;
+        min-width: 90px
+    }
+
+    .blue-offer-container .item-container .user-account-row .text, .orange-offer-container .item-container .user-account-row .text {
+        margin: 20px 0 0 10px;
+        font-size: 14px;
+        width: 107px
+    }
+
+    .blue-offer-container .item-container .total-row .text, .orange-offer-container .item-container .total-row .text {
+        margin: 17px 20px 0 10px;
+        font-size: 20px;
+        width: 87px
+    }
+
+    .inner-pages-main-container-faq-item .tabs li {
+        min-width: 120px
+    }
+
+    .inner-pages-main-container-faq-item .wrapper {
+        min-width: 100%
+    }
+
+    .blue-offer-container .item-container .lists .list-item .circle, .orange-offer-container .item-container .lists .list-item .circle {
+        width: 15px;
+        height: 15px;
+        line-height: 15px
+    }
+
+    .blue-offer-container .item-container .lists .list-item .month, .orange-offer-container .item-container .lists .list-item .month {
+        margin: 0
+    }
+
+    .blue-offer-container .item-container .lists .list-item, .orange-offer-container .item-container .lists .list-item {
+        padding: 0 0 0 10px
+    }
+
+    .blue-offer-container .item-container .user-account-row .right input, .orange-offer-container .item-container .user-account-row .right input {
+        width: 30px;
+        height: 34px;
+        font-size: 18px;
+        margin: 0 10px 0 0
+    }
+
+    .right-resources-container .content-container .left-container ul li label {
+        width: 87%;
+        font-size: 14px
+    }
+
+    .inner-pages-main-container-faq-item .top-box {
+        padding: 0 5px;
+        height: auto
+    }
+
+    .blue-offer-container .item-container:last-child, .orange-offer-container .item-container:last-child {
+        margin: 0
+    }
+
+    .blue-offer-container .item-container, .orange-offer-container .item-container {
+        width: 90%;
+        margin: 10px 0 20px
+    }
+
+    .inner-pages-main-container-faq-item .tab__content {
+        overflow-y: auto
+    }
+
+    .email-us-container label {
+        padding: 0 5px !important;
+        font-size: 11px;
+        margin: 0 !important
+    }
+
+    .email-us-container a {
+        padding: 0 5px !important
+    }
+
+    .inner-pages-main-container-faq-item h1, .right-resources-container h1 {
+        font-size: 18px
+    }
+
+    .inner-pages-main-container-faq-item .tabs {
+        margin: 0 0 0 10px
+    }
+
+    .inner-pages-main-container-faq-item .tabs li.active i.families {
+        width: 40px;
+        height: 40px;
+        margin: 5px 10px 0 0
+    }
+
+    .email-us-container {
+        height: auto !important
+    }
+
+    .right-resources-container .content-container .left-container, .right-resources-container .content-container .right-container {
+        width: 100%
+    }
+
+    .inner-pages-main-container-faq-item .tabs li i.families, .inner-pages-main-container-faq-item .tabs li i.schools, .inner-pages-main-container-faq-item .tabs li.active i.schools {
+        width: 40px;
+        height: 40px;
+        margin: 5px 5px 0 0
+    }
+
+    .right-resources-container .content-container {
+        margin: 0
+    }
+
+    .lbl-data-b {
+        margin: 0 !important;
+        width: 150px
+    }
+
+    .input-type-number {
+        margin-bottom: 20px
+    }
+
+    .about-us-main-container h1 {
+        font-size: 17px
+    }
+}
+
+.about-us-main-container h1 {
+    line-height: 59px;
+    color: #626161;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-align: left
+}
+
+.howtosubscribe {
+    display: inline-block;
+    overflow: hidden;
+    height: 60px;
+    line-height: 60px;
+    float: right;
+    color: #00a951;
+    font-weight: 700;
+    text-decoration: underline;
+    position: fixed
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .about-us-main-container .contact-form .line-row .txt-a#school {
+        width: 100% !important
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .input-type-number {
+        margin: 0 0 0 14px !important
+    }
+
+    .lbl-data-b {
+        margin: 0 0 0 5px !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a {
+        width: 48.6% !important
+    }
+
+    .about-us-main-container .contact-form .line-row .txt-a#school {
+        width: 100% !important
+    }
+}

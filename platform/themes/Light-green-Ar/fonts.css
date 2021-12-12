@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+@font-face {
+    font-family: 'droid_arabic_kufiregular';
+    src: url('fonts/ar/droidkufi-regular-webfont.eot');
+    src: url('fonts/ar/droidkufi-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ar/droidkufi-regular-webfont.woff2') format('woff2'),
+    url('fonts/ar/droidkufi-regular-webfont.woff') format('woff'),
+    url('fonts/ar/droidkufi-regular-webfont.ttf') format('truetype'),
+    url('fonts/ar/droidkufi-regular-webfont.svg#droid_arabic_kufiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

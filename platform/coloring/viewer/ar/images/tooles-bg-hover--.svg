@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 59.8 60.8" style="enable-background:new 0 0 59.8 60.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:none;stroke:url(#SVGID_2_);stroke-width:0.1958;stroke-miterlimit:10;}
+	.st2{opacity:0.75;fill:#FFFBE1;enable-background:new    ;}
+</style>
+<g>
+	<g id="XMLID_58_">
+		<g>
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="29" y1="61.6053" x2="29" y2="-0.8767" gradientTransform="matrix(1 0 0 -1 0 62)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.1866" style="stop-color:#F8F8F9"/>
+				<stop  offset="0.4642" style="stop-color:#E4E6E8"/>
+				<stop  offset="0.7968" style="stop-color:#C3C8CD"/>
+				<stop  offset="1" style="stop-color:#ABB2BA"/>
+			</linearGradient>
+			<path class="st0" d="M29,0.7C13,0.7,0.1,13.6,0.1,29.6S13,58.5,29,58.5s28.9-12.9,28.9-28.9S45,0.7,29,0.7z M29,56
+				C14.5,56,2.7,44.1,2.7,29.6S14.5,3.2,29,3.2c14.6,0,26.4,11.8,26.4,26.4S43.6,56,29,56z"/>
+			
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="2.099998e-03" y1="32.4" x2="57.9979" y2="32.4" gradientTransform="matrix(1 0 0 -1 0 62)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="8.403669e-02" style="stop-color:#F8F8F9"/>
+				<stop  offset="0.2091" style="stop-color:#E4E6E8"/>
+				<stop  offset="0.3589" style="stop-color:#C3C8CD"/>
+				<stop  offset="0.4504" style="stop-color:#ABB2BA"/>
+				<stop  offset="0.9109" style="stop-color:#FBFCFC"/>
+				<stop  offset="0.9335" style="stop-color:#EFF0F1"/>
+				<stop  offset="0.9722" style="stop-color:#D5D7DB"/>
+				<stop  offset="1" style="stop-color:#C0C4CA"/>
+			</linearGradient>
+			<path class="st1" d="M29,0.7C13,0.7,0.1,13.6,0.1,29.6S13,58.5,29,58.5s28.9-12.9,28.9-28.9S45,0.7,29,0.7z M29,56
+				C14.5,56,2.7,44.1,2.7,29.6S14.5,3.2,29,3.2c14.6,0,26.4,11.8,26.4,26.4S43.6,56,29,56z"/>
+		</g>
+	</g>
+	<circle id="XMLID_18_" class="st2" cx="29" cy="29.6" r="26.4"/>
+</g>
+</svg>

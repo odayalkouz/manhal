@@ -1,0 +1,1 @@
+DELETE FROM `pages` WHERE `pageid`=43 AND `bookid`=5

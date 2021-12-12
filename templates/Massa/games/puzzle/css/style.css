@@ -1,0 +1,305 @@
+
+a,
+a:focus {
+    outline: none;
+}
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.floating-right
+{
+    float: right;
+}
+.floating-left
+{
+    float: left;
+}
+body  {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 80px;
+}
+
+/*=====================================================*/
+.puzzle-main-container
+{
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url("../../../images/puzzleBg.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.puzzle-inner-container
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.title-game
+{
+    display: block;
+    overflow: hidden;
+    width: 26%;
+    height: 11%;
+    background: url(../../../images/blank_wood_bord.svg) no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 999;
+}
+.title-game i
+{
+    display: block;
+    overflow: hidden;
+    width: 70%;
+    height: 65%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../../../images/puzzle-title.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.pizzle-container
+{
+    display: block;
+    overflow: hidden;
+    width: 89%;
+    height: 83%;
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
+.btn-game
+{
+    display: block;
+    overflow: hidden;
+    width: 7%;
+    height: 9%;
+    background: url(../../../images/icon_blank.svg) no-repeat center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0%;
+    cursor: pointer;
+}
+.btn-game.relode-btn-game
+{
+    top: 12%;
+}
+.btn-game.back-btn-game
+{
+    top: 22%;
+}
+.btn-game.home-btn-game
+{
+    top: 32%;
+}
+
+.btn-game i
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    height: 90%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn-game.relode-btn-game i
+{
+    background-image: url("../../../images/back.svg");
+}
+.btn-game.back-btn-game i
+{
+    background-image: url("../../../images/right.svg");
+}
+.btn-game.btn-game.home-btn-game i
+{
+    background-image: url("../../../images/home-icon.svg");
+    width: 45%;
+    margin-left: 5%;
+}
+.cloud-game
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    background: url("../../../images/Cloud.svg") no-repeat center;
+    background-size: 100% 100%;
+}
+.cloud-game.small
+{
+    width: 8%;
+    height: 7%;
+    left: 0%;
+    top: 1%;
+}
+.cloud-game.medium
+{
+    width: 5%;
+    height: 4%;
+    left: 5%;
+    top: 7%;
+}
+.cloud-game.large
+{
+    width: 13%;
+    height: 11%;
+    right: 0%;
+    top: 0;
+}
+.plane
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 1%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9999;
+}
+.plane.top
+{
+    background-image: url("../../../images/plane-1.svg");
+    top: 6%;
+    width: 8%;
+    height: 11%;
+    right: 0%;
+}
+.plane.center
+{
+    background-image: url("../../../images/plane-2.svg");
+    top: 50%;
+    width: 6%;
+    height: 8%;
+}
+.plane.bottom
+{
+    background-image: url("../../../images/plane-3.svg");
+    bottom: 4%;
+    width: 6%;
+    height: 9%;
+}
+
+.Airship,.anchor,.Ship
+{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 6%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9999;
+}
+.Airship
+{
+    background-image: url("../../../images/Airship.svg");
+    top: 8%;
+    width: 5%;
+    height: 10%;
+}
+.anchor
+{
+    background-image: url("../../../images/anchor.svg");
+    top: 50%;
+    width: 4%;
+    height: 7%;
+}
+.Ship
+{
+    background-image: url("../../../images/Ship.svg");
+    bottom: 4%;
+    width: 7%;
+    height: 6%;
+}
+/*.back-btn*/
+/*{*/
+/*display: block;*/
+/*overflow: hidden;*/
+/*width: 52px;*/
+/*height: 30px;*/
+/*float: left;*/
+/*margin: 20px 0 0 20px;*/
+/*}*/
+/*.back-btn:before*/
+/*{*/
+/*font-size: 32px !important;*/
+/*color: rgba(77,49,8,0.4);*/
+/*line-height: 30px;*/
+/*text-align: center;*/
+/*margin-left: 0!important;*/
+/*}*/
+/*.back-btn-game,.relode-btn-game*/
+/*{*/
+/*display: inline-block !important;*/
+/*overflow: hidden;*/
+/*width: 68px !important;*/
+/*height: 64px;*/
+/*background-size: 100% 100%;*/
+/*background-repeat: no-repeat;*/
+/*}*/
+/*.back-btn-game*/
+/*{*/
+/*background-image: url("../../../images/playGame.svg");*/
+/*}*/
+/*.relode-btn-game*/
+/*{*/
+/*background-image: url("../../../images/relod.svg");*/
+/*}*/
+/*@-webkit-keyframes shakeit {*/
+/*0% { -webkit-transform: rotate(0deg) translate(2px, 1px); }*/
+/*10% { -webkit-transform: rotate(2deg) translate(1px, 2px); }*/
+/*20% { -webkit-transform: rotate(-2deg) translate(3px, 0px) ; }*/
+/*30% { -webkit-transform: rotate(0deg) translate(0px, -2px); }*/
+/*40% { -webkit-transform: rotate(-2deg) translate(-1px, 1px); }*/
+/*50% { -webkit-transform: rotate(2deg) translate(1px, -2px); }*/
+/*60% { -webkit-transform: rotate(0deg) translate(3px, -1px); }*/
+/*70% { -webkit-transform: rotate(2deg) translate(-2px, -1px); }*/
+/*80% { -webkit-transform: rotate(-2deg) translate(1px, 1px); }*/
+/*90% { -webkit-transform: rotate(0deg) translate(-2px, -2px); }*/
+/*100% { -webkit-transform: rotate(2deg) translate(-1px, 2px); }*/
+/*}*/
+/*@keyframes shakeit {*/
+/*0% { transform: rotate(0deg) translate(2px, 1px); }*/
+/*10% { transform: rotate(2deg) translate(1px, 2px); }*/
+/*20% { transform: rotate(-2deg) translate(3px, 0px) ; }*/
+/*30% { transform: rotate(0deg) translate(0px, -2px); }*/
+/*40% { transform: rotate(-2deg) translate(-1px, 1px); }*/
+/*50% { transform: rotate(2deg) translate(1px, -2px); }*/
+/*60% { transform: rotate(0deg) translate(3px, -1px); }*/
+/*70% { transform: rotate(2deg) translate(-2px, -1px); }*/
+/*80% { transform: rotate(-2deg) translate(1px, 1px); }*/
+/*90% { transform: rotate(0deg) translate(-2px, -2px); }*/
+/*100% { transform: rotate(2deg) translate(-1px, 2px); }*/
+/*}*/
+/*.relode-btn-game:hover,.back-btn-game:hover,.bt-menu-trigger:hover*/
+/*{*/
+/*-webkit-animation-name: shakeit;*/
+/*-webkit-animation-duration: 1s;*/
+/*-webkit-animation-timing-function: linear;*/
+/*-webkit-animation-iteration-count: infinite;*/
+/*animation-name: shakeit;*/
+/*animation-duration: 1s;*/
+/*animation-timing-function: linear;*/
+/*animation-iteration-count: infinite;*/
+/*}*/

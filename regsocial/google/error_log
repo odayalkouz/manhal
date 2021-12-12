@@ -1,0 +1,1 @@
+[20-Oct-2015 12:50:09 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/manhalco/public_html/regsocial/socialConfig.php:21) in /home/manhalco/public_html/regsocial/google/getUser.php on line 141

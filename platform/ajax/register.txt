@@ -1,0 +1,1 @@
+INSERT INTO `users`(`userid`,`uname`,`email`, `password`, `status`,`cdate`, `views_count`, `sales_count`,`country`,`page`) VALUES ('','hussam654','hussam66@manhal.com','123',1,CURDATE(),0,0,'-','"http://localhost/Manhal/"')

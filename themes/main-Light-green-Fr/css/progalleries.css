@@ -1,0 +1,25 @@
+@media only screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)
+{
+    .galleries-main-container-page .ui-panels .item-container:nth-child(odd) {
+        width: 321px;
+        margin: 20px 0px 20px 10px;
+    }
+
+    .galleries-main-container-page .ui-panels .item-container:nth-child(even) {
+        width: 321px;
+    }
+
+    .galleries-main-container-page .ui-panels .item-container .galleries-container {
+        width: 305px;
+    }
+    .inner-pages-main-container-galleries-inner .galleries-inner-content .main-galleries-container .item-container {
+        width: 242px !important;
+    }
+    .close-container-gall {
+        right: 4%;
+    }
+    .swiper-container video
+    {
+        width: 100% !important;
+    }
+}

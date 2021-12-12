@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 167.4 167.4" enable-background="new 0 0 167.4 167.4" xml:space="preserve">
+<circle fill="#FFFFFF" cx="83.7" cy="83.7" r="83.7"/>
+<circle fill="#4EB86E" cx="83.7" cy="83.7" r="73.7"/>
+<g>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="83.7" cy="83.7" r="73.7"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_2_)" fill="#E6E9EE" d="M90.9,149.1L18,128.6c-1.5-0.5-2.3-2-2-3.5l25.3-90.3c0.5-1.5,2-2.3,3.5-2
+			l72.8,20.5c1.5,0.5,2.3,2,2,3.5l-25.3,90.3C93.9,148.6,92.3,149.4,90.9,149.1z"/>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_3_" cx="83.7" cy="83.7" r="73.7"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_4_)" fill="#FFFFFF" d="M105.6,140.7H30.1c-1.5,0-2.8-1.3-2.8-2.8V44.2c0-1.5,1.3-2.8,2.8-2.8h75.6
+			c1.5,0,2.8,1.3,2.8,2.8v93.7C108.4,139.4,107.3,140.7,105.6,140.7z"/>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_5_" cx="83.7" cy="83.7" r="73.7"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_6_)">
+			<path fill="#84DBFF" d="M32.9,56.5c0-0.5,0.3-0.9,0.9-0.9c1.2,0,1.3-1.2,1.3-1.3v-6.6c0-0.5,0.3-0.9,0.9-0.9
+				c0.5,0,0.9,0.3,0.9,0.9v6.6c0,0.1,0,0.8-0.3,1.5c-0.5,1-1.5,1.6-2.6,1.6C33.2,57.4,32.9,57,32.9,56.5z"/>
+			<path fill="#84DBFF" d="M38.1,52.1c0-2.9,2.3-5.3,5.1-5.3s5.1,2.3,5.1,5.3c0,2.9-2.3,5.3-5.1,5.3C40.2,57.4,38.1,55,38.1,52.1z
+				 M39.8,52.1c0,2,1.5,3.5,3.2,3.5c1.8,0,3.3-1.6,3.3-3.5c0-2-1.5-3.5-3.3-3.5C41.3,48.7,39.8,50.2,39.8,52.1z"/>
+			<path fill="#84DBFF" d="M56.4,54.1c0,2.1-1.6,3.3-3.1,3.3h-3.1c-0.5,0-0.9-0.3-0.9-0.9v-8.8c0-0.5,0.3-0.9,0.9-0.9h2.4
+				c0.1,0,0.7,0,1.4,0.3c0.9,0.5,1.5,1.4,1.5,2.5c0,0.6-0.1,1.2-0.5,1.6C55.9,52,56.4,52.9,56.4,54.1z M51.1,50.9h1.3
+				c0.2,0,1.3,0,1.3-1.2c0-1-0.7-1.2-0.9-1.2c-0.1,0-0.1,0-0.1,0h-1.5V50.9z M54.6,54.1c0-0.6-0.3-1.5-1.4-1.5h-2.1v3.1h2.1
+				c0,0,0.5,0,0.8-0.2C54.5,55.1,54.6,54.5,54.6,54.1z"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_7_" cx="83.7" cy="83.7" r="73.7"/>
+		</defs>
+		<clipPath id="SVGID_8_">
+			<use xlink:href="#SVGID_7_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_8_)">
+			<rect x="31.5" y="63.6" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="63.6" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="31.5" y="71.1" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="71.1" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="31.5" y="78.7" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="78.7" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="31.5" y="86.3" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="86.3" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="31.5" y="93.9" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="93.9" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="31.5" y="101.5" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="101.5" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="31.5" y="109.1" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="109.1" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="31.5" y="116.7" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="116.7" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="31.5" y="124.3" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="124.3" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="31.5" y="131.9" fill="#E6E9EE" width="33.6" height="2.5"/>
+			<rect x="70.6" y="131.9" fill="#E6E9EE" width="33.6" height="2.5"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_9_" cx="83.7" cy="83.7" r="73.7"/>
+		</defs>
+		<clipPath id="SVGID_10_">
+			<use xlink:href="#SVGID_9_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_10_)">
+			<path fill="#E9EFF4" d="M154.5,158.5H38.3v-19.7c0-14,9-26.4,22.2-30.9l21.3-7.1h29.1l21.3,7.1c13.3,4.4,22.2,16.9,22.2,30.9
+				L154.5,158.5L154.5,158.5z"/>
+			<path fill="#D0D1D3" d="M154.5,138.8c0-14-9-26.4-22.2-30.9l-21.3-7.1H96.4v57.7h58.1V138.8z"/>
+			<polygon fill="#FED8B2" points="110.9,100.8 96.4,115.3 81.9,100.8 81.9,86.3 110.9,86.3 			"/>
+			<polygon fill="#EFC095" points="110.9,86.3 96.4,86.3 96.4,115.3 110.9,100.8 			"/>
+			<path fill="#F4E3C3" d="M67.4,57.2c0-16,13-29.1,29.1-29.1s29.1,13,29.1,29.1c0,16-13,43.6-29.1,43.6S67.4,73.3,67.4,57.2z"/>
+			<path fill="#FED8B2" d="M125.5,57.2c0-16-13-29.1-29.1-29.1v72.6C112.5,100.8,125.5,73.3,125.5,57.2z"/>
+			<path fill="#3F3B3B" d="M125.5,57.2c0-16-13-29.1-29.1-29.1s-29.1,13-29.1,29.1c0,6.4,2.1,14.6,5.6,22.2
+				c-0.8-4.4-0.6-8.8-0.2-12.2C91.2,65.8,109,57.2,109,57.2s2.3,4.1,10.7,7.8c0.6,3.4,1.2,9,0.2,14.5
+				C123.4,71.9,125.5,63.6,125.5,57.2z"/>
+			<path fill="#272525" d="M125.5,57.2c0-16-13-29.1-29.1-29.1v34c7.5-2.5,12.6-5,12.6-5s2.3,4.1,10.7,7.8c0.6,3.4,1.2,9,0.2,14.5
+				C123.4,71.9,125.5,63.6,125.5,57.2z"/>
+			<polygon fill="#FC9483" points="90.3,158 94.4,120.2 98.4,120.2 102.5,158 			"/>
+			<polygon fill="#FD8469" points="98.4,120.2 96.4,120.2 96.4,158 102.5,158 			"/>
+			<path fill="#324A5E" d="M96.4,158L75.2,103l-14.7,4.9c-13.3,4.4-22.2,16.9-22.2,30.9v19.7h58.1L96.4,158L96.4,158z"/>
+			<path fill="#2B3B4E" d="M154.5,138.8c0-14-9-26.4-22.2-30.9l-14.7-4.9L96.4,158v0.5h58.1L154.5,138.8L154.5,138.8z"/>
+			<polygon fill="#1B2B3A" points="117.6,103 121.6,120.2 114,124 121.6,132.8 96.4,158 			"/>
+			<polygon fill="#2B3B4E" points="75.2,103 71.2,120.2 78.8,124 71.2,132.8 96.4,158 			"/>
+			<polygon fill="#FD8469" points="104.4,115.4 99.1,128 93.7,128 88.4,115.4 			"/>
+			<polygon fill="#FC6F58" points="104.4,115.4 96.4,115.4 96.4,128 99.1,128 			"/>
+			<polygon fill="#E9EFF4" points="109,120.2 117.6,103 110.9,100.8 96.4,115.3 			"/>
+			<polygon fill="#FFFFFF" points="83.8,120.2 75.2,103 81.9,100.8 96.4,115.3 			"/>
+		</g>
+	</g>
+</g>
+</svg>

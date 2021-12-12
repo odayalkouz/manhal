@@ -1,0 +1,194 @@
+
+/*
+ * Droid Arabic Kufi (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face
+{
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(DroidKufi-Regular.eot);
+    src: url(DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+    url(DroidKufi-Regular.woff2) format('woff2'),
+    url(DroidKufi-Regular.woff) format('woff'),
+    url(DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face
+{
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url(DroidKufi-Bold.eot);
+    src: url(DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+    url(DroidKufi-Bold.woff2) format('woff2'),
+    url(DroidKufi-Bold.woff) format('woff'),
+    url(DroidKufi-Bold.ttf) format('truetype');
+}
+/* arabic Pmj8RyKsUWpsaz_klfK4LA.woff2 */
+@font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amiri'), local('Amiri-Regular'), url(Pmj8RyKsUWpsaz_klfK4LA.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amiri'), local('Amiri-Regular'), url(k2MEYNRoSfd5tdYW9SpWiA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* arabic */
+@font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Amiri Bold'), local('Amiri-Bold'), url(mmHwJz0KRs9eU5Fnp3rH_hTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Amiri Bold'), local('Amiri-Bold'), url(8b_RNX_MuT-wzF5O8XZEVvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* arabic */
+@font-face {
+    font-family: 'Lateef';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lateef'), url(_hjeHDsHwaiVMYwxvpdBwvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+    font-family: 'Lateef';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lateef'), url(Ujbb_aqcpJSANBY7B8AwXw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+/*
+ * Droid Arabic Naskh (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+    font-family: 'Droid Arabic Naskh';
+    font-style: normal;
+    font-weight: 400;
+    src: url(DroidNaskh-Regular.eot);
+    src: url(DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'),
+    url(DroidNaskh-Regular.woff2) format('woff2'),
+    url(DroidNaskh-Regular.woff) format('woff'),
+    url(DroidNaskh-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Droid Arabic Naskh';
+    font-style: normal;
+    font-weight: 700;
+    src: url(DroidNaskh-Bold.eot);
+    src: url(DroidNaskh-Bold.eot?#iefix) format('embedded-opentype'),
+    url(DroidNaskh-Bold.woff2) format('woff2'),
+    url(DroidNaskh-Bold.woff) format('woff'),
+    url(DroidNaskh-Bold.ttf) format('truetype');
+}
+
+
+/* arabic */
+@font-face {
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Scheherazade'), local('Scheherazade-Regular'), url(AuKlqGWzUC-8XqMOmsqXiy9v-EK_Ded0-YUWZQf3ru4.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Scheherazade'), local('Scheherazade-Regular'), url(AuKlqGWzUC-8XqMOmsqXi-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* arabic */
+@font-face {
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Scheherazade Bold'), local('Scheherazade-Bold'), url(C1wtT46acJkQxc6mPHwvHOrSe37bsKuxrWvNpCsQRCI.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Scheherazade Bold'), local('Scheherazade-Bold'), url(C1wtT46acJkQxc6mPHwvHHNuWYKPzoeKl5tYj8yhly0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+/*
+ * Thabit (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+    font-family: 'Thabit';
+    font-style: italic;
+    font-weight: 500;
+    src: url(Thabit-Oblique.eot);
+    src: url(Thabit-Oblique.eot?#iefix) format('embedded-opentype'),
+    url(Thabit-Oblique.woff2) format('woff2'),
+    url(Thabit-Oblique.woff) format('woff'),
+    url(Thabit-Oblique.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 500;
+    src: url(Thabit.eot);
+    src: url(Thabit.eot?#iefix) format('embedded-opentype'),
+    url(Thabit.woff2) format('woff2'),
+    url(Thabit.woff) format('woff'),
+    url(Thabit.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Thabit';
+    font-style: italic;
+    font-weight: 700;
+    src: url(Thabit-BoldOblique.eot);
+    src: url(Thabit-BoldOblique.eot?#iefix) format('embedded-opentype'),
+    url(Thabit-BoldOblique.woff2) format('woff2'),
+    url(Thabit-BoldOblique.woff) format('woff'),
+    url(Thabit-BoldOblique.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Thabit';
+    font-style: normal;
+    font-weight: 700;
+    src: url(Thabit-Bold.eot);
+    src: url(Thabit-Bold.eot?#iefix) format('embedded-opentype'),
+    url(Thabit-Bold.woff2) format('woff2'),
+    url(Thabit-Bold.woff) format('woff'),
+    url(Thabit-Bold.ttf) format('truetype');
+}
+
+/*Ruqaa font */
+@font-face {
+    font-family: 'Ruqaa';
+    src: url('BArabicStyle.eot');
+    src: url('BArabicStyle.eot?#iefix') format('embedded-opentype'),
+    url('BArabicStyle.woff2') format('woff2'),
+    url('BArabicStyle.woff') format('woff'),
+    url('BArabicStyle.ttf') format('truetype'),
+    url('BArabicStyle.svg#BArabicStyle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

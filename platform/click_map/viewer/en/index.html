@@ -1,0 +1,79 @@
+<html>
+<header>
+    <meta charset="UTF-8">
+    <link href="css/shapes.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/hover.css" rel="stylesheet" type="text/css">
+    <link href="css/manhalloader.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/manhalLoader.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/getType.js"></script>
+    <script type="text/javascript" src="js/scorm.js"></script>
+</header>
+<title>Find Object</title>
+<body>
+<div class="loader"></div>
+<div id="help-main-container" class="help-main-container">
+    <div id="help-inner-container">
+        <div class="help-inner-container">
+            <div class="text-container"></div>
+            <a class="play-btn"><i></i></a>
+        </div>
+        <div class="boy"></div>
+        <div class="char-help"></div>
+        <div class="logo"></div>
+    </div>
+
+</div>
+<div id="gameContainer" class="gameContainer">
+    <div class="headerGame">
+        <div class="question-icon"></div>
+        <div class="titleContainer">
+            <span class="titleText resizeText"></span>
+            <!--<img class="textIcon">-->
+        </div>
+    </div>
+    <div class="gameContentContainer">
+    <div id="gameContent" class="gameContent"></div>
+    </div>
+    <div class="fotterGame">
+        <div class="inner-footer">
+            <div class="head-img"></div>
+            <div class="inner-footer-left floating-left">
+                <!--<img id="hear" onclick="listen()" src="images/ear_button.png">-->
+                <div id="score" class="floating-left">
+                    <div class="scor-icon"><i></i></div>
+                    <div class="scor-number-container floating-right">
+                        <span class="resizeText">0</span>
+                    </div>
+                </div>
+                <div id="scoreFail" class="floating-left">
+                    <div class="scor-icon"><i></i></div>
+                    <div class="scor-number-container floating-right">
+                        <span class="resizeText">0</span>
+                    </div>
+                </div>
+                <a class="floating-right" id="help" onclick="helpQustion()"><i></i></a>
+                <div class="MuteCont floating-right"><i class="muteIcon textIcon"></i></div>
+                <div class="separator floating-right"></div>
+            </div>
+            <div class="inner-footer-right floating-right">
+                <div class="cn-wrapper" id="cn-wrapper">
+                    <ul>
+                        <li><span class=""><i></i></span></li>
+                        <li><span class=""><i></i></span></li>
+                        <li><span class=""><i></i></span></li>
+                        <li><span class=""><i></i></span></li>
+                        <li><span class=""><i></i></span></li>
+                    </ul>
+                </div>
+                <div class="circle-point"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

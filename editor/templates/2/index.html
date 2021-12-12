@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arabic letter forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/manhalloader.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://www.manhal.com/js/scorm.js"></script>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/manhalLoader.js"></script>
+
+</head>
+<script>
+    window.addEventListener("touchmove", function(event) {event.preventDefault();}, {passive: false} );
+</script>
+<body onunload="disconnetLMS();">
+<div id="main-container" class="main-container">
+    <div id="inner-container" class="inner-container">
+        <i class="title-icon"></i>
+        <div class="title"><i></i>
+            <div class="title-text">
+                <span class="jq_editable jq_title">أُحلِّلُ الْكَلِماتِ إِلى مَقاطِعَ:</span>
+            </div>
+        </div>
+        <div class="drop-main-container">
+            <div class="drop-inner-container">
+                <a class="jq_addsquare" title="Add"></a>
+                <div class="word-container">
+                    <div class="word"><span class="jq_editable"></span></div>
+                    <div class="arrow"></div>
+                    <div class="drop-item-container"></div>
+                </div>
+            </div>
+        </div>
+        <div class="drag-container"></div>
+        <div class="img-1"></div>
+        <div class="img-2"></div>
+        <div class="img-3"></div>
+        <div class="img-4"></div>
+        <div class="image-object"></div>
+        <div class="true-false-container">
+            <a class="jq_addquestion" title="Add Question"></a>
+        </div>
+        <!--<a class="sound-all-btn"></a>-->
+        <!--<a class="poweredBy" href="https://www.manhal.com/"></a>-->
+        <div class="help-main-popup">
+            <a class="close"></a>
+            <div class="inner-help-popup">
+                <iframe></iframe>
+            </div>
+        </div>
+        <div class="main-message-container">
+            <div class="inner-message-container">
+                <span id="message-icone" class=""></span>
+                <span id="feedback" class=""></span>
+                <span class="result-text"></span>
+                <div class="result-container">
+                    <span></span>
+                </div>
+                <a class="reload"></a>
+                <a class="home"></a>
+            </div>
+        </div>
+        <div class="main-message-container_nextMessage">
+            <div class="inner-message-container">
+                <span id="feedback1" class="wellDonw"></span>
+                <a class="next-scene" onclick="nextSceneClick(this)"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/data.js"></script>
+<script src="js/js.js"></script>
+<script type="text/javascript" src="js/TouchPunch.js"></script>
+</html>

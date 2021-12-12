@@ -1,0 +1,21 @@
+﻿.ie-placeholders {
+  display: block;
+  float: left;
+  
+  padding: 10px 10px 12px 14px;
+  background-color: #e2e2e2;
+  border: 1px solid #c8c8c8;
+  width: 90px;
+  color: #838383;
+  margin: 10px -1px 0 0;
+  font-size: 15px;
+}
+
+.form input[type=text],.form input[type=password] {
+  width: 221px;
+}
+
+.forgotten-password-box input[type=text]  {
+  margin: 10px 10px 0 0;
+  width: 100px;
+}

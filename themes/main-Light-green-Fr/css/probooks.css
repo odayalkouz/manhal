@@ -1,0 +1,98 @@
+@media only screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)
+{
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(1),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(10),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(13),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(16),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(19),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(22),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(4),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(7),
+    .books-main-container-page .ui-panels .item-container:nth-child(1),
+    .books-main-container-page .ui-panels .item-container:nth-child(10),
+    .books-main-container-page .ui-panels .item-container:nth-child(13),
+    .books-main-container-page .ui-panels .item-container:nth-child(16),
+    .books-main-container-page .ui-panels .item-container:nth-child(19),
+    .books-main-container-page .ui-panels .item-container:nth-child(22),
+    .books-main-container-page .ui-panels .item-container:nth-child(4),
+    .books-main-container-page .ui-panels .item-container:nth-child(7) {
+        margin: 10px 0px 10px 20px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(11), .books-main-container-page .ui-panels .item-container-ar:nth-child(14), .books-main-container-page .ui-panels .item-container-ar:nth-child(17), .books-main-container-page .ui-panels .item-container-ar:nth-child(2), .books-main-container-page .ui-panels .item-container-ar:nth-child(20), .books-main-container-page .ui-panels .item-container-ar:nth-child(23), .books-main-container-page .ui-panels .item-container-ar:nth-child(5), .books-main-container-page .ui-panels .item-container-ar:nth-child(8), .books-main-container-page .ui-panels .item-container:nth-child(11), .books-main-container-page .ui-panels .item-container:nth-child(14), .books-main-container-page .ui-panels .item-container:nth-child(17), .books-main-container-page .ui-panels .item-container:nth-child(2), .books-main-container-page .ui-panels .item-container:nth-child(20), .books-main-container-page .ui-panels .item-container:nth-child(23), .books-main-container-page .ui-panels .item-container:nth-child(5), .books-main-container-page .ui-panels .item-container:nth-child(8) {
+        margin: 10px 0px 10px 20px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(12), .books-main-container-page .ui-panels .item-container-ar:nth-child(15), .books-main-container-page .ui-panels .item-container-ar:nth-child(18), .books-main-container-page .ui-panels .item-container-ar:nth-child(21), .books-main-container-page .ui-panels .item-container-ar:nth-child(24), .books-main-container-page .ui-panels .item-container-ar:nth-child(3), .books-main-container-page .ui-panels .item-container-ar:nth-child(6), .books-main-container-page .ui-panels .item-container-ar:nth-child(9), .books-main-container-page .ui-panels .item-container:nth-child(12), .books-main-container-page .ui-panels .item-container:nth-child(15), .books-main-container-page .ui-panels .item-container:nth-child(18), .books-main-container-page .ui-panels .item-container:nth-child(21), .books-main-container-page .ui-panels .item-container:nth-child(24), .books-main-container-page .ui-panels .item-container:nth-child(3), .books-main-container-page .ui-panels .item-container:nth-child(6), .books-main-container-page .ui-panels .item-container:nth-child(9) {
+        margin: 10px 0 10px 10px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(12), .books-main-container-page .ui-panels .item-container-ar:nth-child(15), .books-main-container-page .ui-panels .item-container-ar:nth-child(18), .books-main-container-page .ui-panels .item-container-ar:nth-child(21), .books-main-container-page .ui-panels .item-container-ar:nth-child(24), .books-main-container-page .ui-panels .item-container-ar:nth-child(3), .books-main-container-page .ui-panels .item-container-ar:nth-child(6), .books-main-container-page .ui-panels .item-container-ar:nth-child(9), .books-main-container-page .ui-panels .item-container:nth-child(12), .books-main-container-page .ui-panels .item-container:nth-child(15), .books-main-container-page .ui-panels .item-container:nth-child(18), .books-main-container-page .ui-panels .item-container:nth-child(21), .books-main-container-page .ui-panels .item-container:nth-child(24), .books-main-container-page .ui-panels .item-container:nth-child(3), .books-main-container-page .ui-panels .item-container:nth-child(6), .books-main-container-page .ui-panels .item-container:nth-child(9) {
+        margin: 10px 0 10px 20px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .book-container .libro,
+    .books-main-container-page .ui-panels .item-container .book-container .libro
+    {
+        height: 250px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .book-container .libro img,
+    .books-main-container-page .ui-panels .item-container .book-container .libro img
+    {
+        height: 235px;
+    }
+}
+@media only screen and (device-height: 1024px) and (device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)
+{
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(1),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(10),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(13),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(16),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(19),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(22),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(4),
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(7),
+    .books-main-container-page .ui-panels .item-container:nth-child(1),
+    .books-main-container-page .ui-panels .item-container:nth-child(10),
+    .books-main-container-page .ui-panels .item-container:nth-child(13),
+    .books-main-container-page .ui-panels .item-container:nth-child(16),
+    .books-main-container-page .ui-panels .item-container:nth-child(19),
+    .books-main-container-page .ui-panels .item-container:nth-child(22),
+    .books-main-container-page .ui-panels .item-container:nth-child(4),
+    .books-main-container-page .ui-panels .item-container:nth-child(7) {
+        margin: 10px 11px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(11), .books-main-container-page .ui-panels .item-container-ar:nth-child(14), .books-main-container-page .ui-panels .item-container-ar:nth-child(17), .books-main-container-page .ui-panels .item-container-ar:nth-child(2), .books-main-container-page .ui-panels .item-container-ar:nth-child(20), .books-main-container-page .ui-panels .item-container-ar:nth-child(23), .books-main-container-page .ui-panels .item-container-ar:nth-child(5), .books-main-container-page .ui-panels .item-container-ar:nth-child(8), .books-main-container-page .ui-panels .item-container:nth-child(11), .books-main-container-page .ui-panels .item-container:nth-child(14), .books-main-container-page .ui-panels .item-container:nth-child(17), .books-main-container-page .ui-panels .item-container:nth-child(2), .books-main-container-page .ui-panels .item-container:nth-child(20), .books-main-container-page .ui-panels .item-container:nth-child(23), .books-main-container-page .ui-panels .item-container:nth-child(5), .books-main-container-page .ui-panels .item-container:nth-child(8) {
+        margin: 10px 11px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(12), .books-main-container-page .ui-panels .item-container-ar:nth-child(15), .books-main-container-page .ui-panels .item-container-ar:nth-child(18), .books-main-container-page .ui-panels .item-container-ar:nth-child(21), .books-main-container-page .ui-panels .item-container-ar:nth-child(24), .books-main-container-page .ui-panels .item-container-ar:nth-child(3), .books-main-container-page .ui-panels .item-container-ar:nth-child(6), .books-main-container-page .ui-panels .item-container-ar:nth-child(9), .books-main-container-page .ui-panels .item-container:nth-child(12), .books-main-container-page .ui-panels .item-container:nth-child(15), .books-main-container-page .ui-panels .item-container:nth-child(18), .books-main-container-page .ui-panels .item-container:nth-child(21), .books-main-container-page .ui-panels .item-container:nth-child(24), .books-main-container-page .ui-panels .item-container:nth-child(3), .books-main-container-page .ui-panels .item-container:nth-child(6), .books-main-container-page .ui-panels .item-container:nth-child(9) {
+        margin: 10px 11px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(12), .books-main-container-page .ui-panels .item-container-ar:nth-child(15), .books-main-container-page .ui-panels .item-container-ar:nth-child(18), .books-main-container-page .ui-panels .item-container-ar:nth-child(21), .books-main-container-page .ui-panels .item-container-ar:nth-child(24), .books-main-container-page .ui-panels .item-container-ar:nth-child(3), .books-main-container-page .ui-panels .item-container-ar:nth-child(6), .books-main-container-page .ui-panels .item-container-ar:nth-child(9), .books-main-container-page .ui-panels .item-container:nth-child(12), .books-main-container-page .ui-panels .item-container:nth-child(15), .books-main-container-page .ui-panels .item-container:nth-child(18), .books-main-container-page .ui-panels .item-container:nth-child(21), .books-main-container-page .ui-panels .item-container:nth-child(24), .books-main-container-page .ui-panels .item-container:nth-child(3), .books-main-container-page .ui-panels .item-container:nth-child(6), .books-main-container-page .ui-panels .item-container:nth-child(9) {
+        margin: 10px 11px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(11), .books-main-container-page .ui-panels .item-container-ar:nth-child(12), .books-main-container-page .ui-panels .item-container-ar:nth-child(15), .books-main-container-page .ui-panels .item-container-ar:nth-child(16), .books-main-container-page .ui-panels .item-container-ar:nth-child(19), .books-main-container-page .ui-panels .item-container-ar:nth-child(20), .books-main-container-page .ui-panels .item-container-ar:nth-child(23), .books-main-container-page .ui-panels .item-container-ar:nth-child(24), .books-main-container-page .ui-panels .item-container-ar:nth-child(27), .books-main-container-page .ui-panels .item-container-ar:nth-child(28), .books-main-container-page .ui-panels .item-container-ar:nth-child(3), .books-main-container-page .ui-panels .item-container-ar:nth-child(4), .books-main-container-page .ui-panels .item-container-ar:nth-child(7), .books-main-container-page .ui-panels .item-container-ar:nth-child(8) {
+        margin: 10px 11px !important;
+    }
+    .books-main-container-page .ui-panels .item-container {
+
+        width: 275px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar {
+
+        width: 275px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .book-container .libro {
+        margin: 10px auto 0 40px !important;
+    }
+    .books-main-container-page .ui-panels .item-container .book-container .libro {
+        margin: 10px 15px 0 25px !important;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .book-container .libro,
+    .books-main-container-page .ui-panels .item-container .book-container .libro
+    {
+        height: 260px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .book-container .libro img,
+    .books-main-container-page .ui-panels .item-container .book-container .libro img
+    {
+        height: 245px;
+    }
+}
+

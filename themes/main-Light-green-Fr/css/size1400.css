@@ -1,0 +1,1383 @@
+@media all and (max-width: 1600px) and (min-width: 1400px)
+{
+    /*start home*/
+    .center-piece,
+    .center-piece-header-bottom,
+    header .bottom-header-container .menu-header-container nav li .current-tab,
+        /*.jq-section .content,*/
+    .about-us-main-container .map-container,
+    .inner-pages-main-container-view-item .related-content-container #slider
+    {
+        max-width: 1024px;
+    }
+    /*header*/
+    header .bottom-header-container .menu-header-container
+    {
+        width: 68%;
+    }
+    header .bottom-header-container .right-header-container {
+        width: 32%;
+    }
+    header .bottom-header-container .right-header-container .sign-container a .cart
+    {
+        width: 30px;
+    }
+    header .bottom-header-container .menu-header-container nav li > a
+    {
+        font-size: 1.2vw;
+        padding: 0px 15px 0px 15px;
+    }
+    header .bottom-header-container .right-header-container .sign-container a
+    {
+
+        padding: 0px 10px 0px 10px;
+    }
+    header .bottom-header-container .menu-header-container nav li .current-tab .item-container .title
+    {
+        font-size: 14px;
+    }
+    /*slider*/
+    .jq-section-first
+    {
+        height: calc(100vh - 157px);
+    }
+    .jq-section-first .img-fill .img
+    {
+        background-size: cover;
+    }
+    .jq-section-first .Modern-Slider .item .slide3-image2 {
+        width: 8%;
+        right: 34%;
+        top: 124px;
+    }
+    .jq-section-first .Modern-Slider .item .slide3-image1 {
+        width: 8%;
+        right: 10%;
+        top: 174px;
+    }
+    .jq-section-first .Modern-Slider .item .slide3-image4 {
+        width: 9%;
+        right: 34%;
+        top: 42%;
+    }
+    .jq-section-first .Modern-Slider .item .slide3-image3 {
+        width: 8%;
+        right: 10%;
+        top: 46%;
+    }
+    .jq-section-first .Modern-Slider .item .slide3-image5
+    {
+        right: 0px;
+    }
+    .jq-section-first .Modern-Slider .item .slide2-image1 {
+        width: 9%;
+        right: 16%;
+        top: 48%;
+    }
+    .btn-more-slider {
+        left: 32%;
+    }
+    .jq-section-first .Modern-Slider .item .slide1-image5 {
+        top: 25%;
+    }
+    /*products*/
+    .jq-section-first .Modern-Slider .item .slide3-text-container {
+        left: 10%;
+    }
+    header .top-header-container .left-header-container a {
+        width: 290px;
+    }
+    .section-main-container .display-cell .content-container .benifits-container .top-container
+    {
+        height: 130px;
+    }
+    .section-main-container .display-cell .content-container .benifits-container .top-container h2 {
+        margin: 15px 0px 0px 0px;
+        font-size: 32px;
+    }
+    .section-main-container .display-cell .content-container .benifits-container .bottom-container p {
+        margin: 30px 0px 30px 0px;
+    }
+    .section-main-container .display-cell .content-container .benifits-container .bottom-container .item-container {
+        width: 26%;
+        height: 235px;
+    }
+    .section-main-container .display-cell .content-container .benifits-container .bottom-container .item-container .flip-container, .section-main-container .display-cell .content-container .benifits-container .bottom-container .item-container .front, .section-main-container .display-cell .content-container .benifits-container .bottom-container .item-container .back {
+        height: 235px
+    }
+    .section-main-container .display-cell .content-container .benifits-container .bottom-container .item-container .icon-bg {
+        width: 110px;
+        height: 200px;
+    }
+    .section-main-container .display-cell .content-container .benifits-container .bottom-container .item-container .back label {
+        max-height: 180px;
+    }
+    .section-main-container .display-cell .content-container .benifits-container .bottom-container .item-container .icon-bg-container {
+        height: 180px;
+    }
+    /*books*/
+    .books-main-container .theme-cactus .ui-tabgroup > .ui-tabs > [class^="ui-tab"]
+    {
+        width: 17.5%;
+        font-size: 18px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .books-main-container .ui-panels .item-container .bottom-container .center .rating-container .number
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .theme-cactus .ui-tabgroup > .ui-panels > [class^="ui-tab"]
+    {
+        padding: 30px 0px 0px 0px;
+    }
+    .books-main-container .ui-panels .item-container
+    {
+        width: 240px;
+    }
+    .books-main-container label.star
+    {
+        font-size: 19px;
+    }
+    .books-main-container .ui-panels .item-container .book-container .libro
+    {
+        margin: 10px auto 0 10px;
+        transform: scaleX(0.78) scaleY(0.85);
+        height: 255px;
+    }
+    .books-main-container .ui-panels .item-container .bottom-container .center .rating-container {
+        padding: 0px 10px 0px 25px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container a.all
+    {
+        margin: 30px 0px 0px 0px;
+    }
+    .books-main-container .ui-panels .item-container .book-container .libro img {
+        height: 235px;
+    }
+    .books-main-container .ui-panels .item-container:hover .hover-container
+    {
+        height: 35px;
+    }
+    .books-main-container .ui-panels .item-container .hover-container .buttons-container a {
+        height: 35px;
+        line-height: 35px;
+        background-size: 20px 20px;
+    }
+    .books-main-container .ui-panels .item-container .hover-container .view-container
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .ui-panels .item-container .hover-container .view-container .view-icon
+    {
+        height: 35px;
+        background-size: 20px 20px;
+    }
+    .books-main-container .ui-panels .item-container .hover-container .view-container .view-number
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab1:checked ~ .ui-tabs > .ui-tab1, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab2:checked ~ .ui-tabs > .ui-tab2, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab3:checked ~ .ui-tabs > .ui-tab3, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab4:checked ~ .ui-tabs > .ui-tab4, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab5:checked ~ .ui-tabs > .ui-tab5, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab6:checked ~ .ui-tabs > .ui-tab6, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab7:checked ~ .ui-tabs > .ui-tab7, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab8:checked ~ .ui-tabs > .ui-tab8, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab9:checked ~ .ui-tabs > .ui-tab9
+    {
+        font-size: 18px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab1:checked ~ .ui-tabs > .ui-tab1:after, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab2:checked ~ .ui-tabs > .ui-tab2:after, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab3:checked ~ .ui-tabs > .ui-tab3:after, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab4:checked ~ .ui-tabs > .ui-tab4:after, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab5:checked ~ .ui-tabs > .ui-tab5:after, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab6:checked ~ .ui-tabs > .ui-tab6:after, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab7:checked ~ .ui-tabs > .ui-tab7:after, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab8:checked ~ .ui-tabs > .ui-tab8:after, .books-main-container .theme-cactus .ui-tabgroup > input.ui-tab9:checked ~ .ui-tabs > .ui-tab9:after
+    {
+        top: 38px;
+    }
+
+    .books-main-container .ui-panels .item-container .book-container .libro .backcover {
+        height: 98%;
+    }
+    .books-main-container .ui-panels .item-container .bottom-container .center
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .ui-panels .item-container .bottom-container .right {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .ui-panels .item-container .bottom-container .right span
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .books-main-container .ui-panels .item-container-ar .book-container .libro .backcover {
+        height: 98%;
+    }
+    .books-main-container .ui-panels .item-container-ar .bottom-container .center
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .ui-panels .item-container-ar .bottom-container .right {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .ui-panels .item-container-ar .bottom-container .right span
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .ui-panels .item-container-ar .bottom-container .center .rating-container .number
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .ui-panels .item-container-ar
+    {
+        width: 240px;
+    }
+    .books-main-container .ui-panels .item-container-ar .book-container .libro
+    {
+        margin: 10px 0px 0 23px;
+        transform: scaleX(0.78) scaleY(0.85);
+        height: 255px;
+    }
+    .books-main-container .ui-panels .item-container-ar .bottom-container .center .rating-container {
+        padding: 0px 10px 0px 25px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container a.all
+    {
+        margin: 30px 0px 0px 0px;
+    }
+    .books-main-container .ui-panels .item-container-ar .book-container .libro img {
+        height: 235px;
+    }
+    .books-main-container .ui-panels .item-container-ar:hover .hover-container
+    {
+        height: 35px;
+    }
+    .books-main-container .ui-panels .item-container-ar .hover-container .buttons-container a {
+        height: 35px;
+        line-height: 35px;
+        background-size: 20px 20px;
+    }
+    .books-main-container .ui-panels .item-container-ar .hover-container .view-container
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container .ui-panels .item-container-ar .hover-container .view-container .view-icon
+    {
+        height: 35px;
+        background-size: 20px 20px;
+    }
+    .books-main-container .ui-panels .item-container-ar .hover-container .view-container .view-number
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    /*make mony*/
+    .section-main-container .display-cell .content-container .section-title-white-makemony
+    {
+        width: 50%;
+    }
+    .makemony-main-container .right-side-text .button
+    {
+        margin: 20px 0px 0px 0px;
+    }
+    .section-main-container .display-cell .content-container .features-container .bottom-container .item-container .right
+    {
+        width: 259px;
+    }
+    /*stories*/
+    .stories-main-container .top-container-description .left-container p
+    {
+        max-width: 600px;
+    }
+    .section-main-container .multi-parallex-effect.image-a
+    {
+        left: 660px;
+        background-size: 60px;
+    }
+    .section-main-container .multi-parallex-effect.image-f {
+        background-size: 270px;
+        left: 773px;
+        top: 5px;
+    }
+    .section-main-container .multi-parallex-effect.image-d {
+        background-size: 100px;
+        left: 760px;
+        top: 150px;
+    }
+    .section-main-container .multi-parallex-effect.image-e {
+        background-size: 270px;
+        left: 760px;
+    }
+    .section-main-container .multi-parallex-effect.image-c {
+        background-size: 100px;
+        left: 930px;
+        top: 180px;
+    }
+    .section-main-container .multi-parallex-effect.image-b {
+        background-size: 120px;
+        left: 0px;
+        top: 250px;
+        height: 30%;
+    }
+    .stories-main-container .ui-panels .item-container-ar:last-child
+    {
+        display: none;
+    }
+    .stories-main-container .ui-panels .item-container:last-child
+    {
+        display: none;
+    }
+    .stories-main-container .ui-panels .item-container-ar:first-child {
+        margin: 0px 24px 0px 29px;
+    }
+    .stories-main-container .ui-panels .item-container:first-child {
+        margin: 0px 24px 0px 29px;
+    }
+    .stories-main-container .ui-panels .item-container-ar
+    {
+        width: 250px;
+        margin: 0px 24px 0px 24px;
+    }
+    .stories-main-container .ui-panels .item-container
+    {
+        width: 250px;
+        margin: 0px 24px 0px 24px;
+    }
+    .stories-main-container .ui-panels .item-container-ar .book-container .libro
+    {
+        transform: scaleX(0.78) scaleY(0.85);
+        margin: 5px auto 0 0px;
+    }
+    .stories-main-container .ui-panels .item-container .book-container .libro
+    {
+        transform: scaleX(0.78) scaleY(0.85);
+        margin: 5px auto 0 -17px;
+    }
+    .stories-main-container .ui-panels .item-container-ar .title-sub-container
+    {
+        padding: 6px 0px 10px 40px;
+    }
+    .stories-main-container .ui-panels .item-container .title-sub-container
+    {
+        padding: 6px 0px 10px 40px;
+    }
+    .stories-main-container .ui-tabgroup > .ui-panels > [class^="ui-tab"] {
+        width: 100%;
+        margin: 1px 0px 0px 19px;
+        padding: 22px 0px 30px 0px !important;
+    }
+    .stories-main-container .ui-panels .item-container-ar:hover .hover-container
+    {
+        height: 35px;
+    }
+    .stories-main-container .ui-panels .item-container-ar .hover-container .buttons-container a
+    {
+        height: 35px;
+        line-height: 35px;
+        background-size: 20px 20px;
+    }
+    .stories-main-container .ui-panels .item-container-ar .hover-container .view-container .view-icon {
+        height: 35px;
+        line-height: 35px;
+        background-size: 25px 25px;
+    }
+    .stories-main-container .ui-panels .item-container-ar .hover-container .view-container
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container .ui-panels .item-container-ar .hover-container .view-container .view-number {
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container .ui-panels .item-container-ar .bottom-container .center,
+    .stories-main-container .ui-panels .item-container-ar .bottom-container .center .rating-container,
+    .stories-main-container .ui-panels .item-container-ar .bottom-container .right,
+    .stories-main-container .ui-panels .item-container-ar .bottom-container .center .rating-container .number,
+    .stories-main-container .ui-panels .item-container-ar .bottom-container .right span {
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container .ui-panels .item-container .hover-container .buttons-container a
+    {
+        height: 35px;
+        line-height: 35px;
+        background-size: 20px 20px;
+    }
+    .stories-main-container .ui-panels .item-container .hover-container .view-container .view-icon {
+        height: 35px;
+        line-height: 35px;
+        background-size: 25px 25px;
+    }
+    .stories-main-container .ui-panels .item-container .hover-container .view-container
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container .ui-panels .item-container .hover-container .view-container .view-number {
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container .ui-panels .item-container .bottom-container .center,
+    .stories-main-container .ui-panels .item-container .bottom-container .center .rating-container,
+    .stories-main-container .ui-panels .item-container .bottom-container .right,
+    .stories-main-container .ui-panels .item-container .bottom-container .center .rating-container .number,
+    .stories-main-container .ui-panels .item-container .bottom-container .right span {
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container .ui-panels .item-container:hover .hover-container
+    {
+        height: 35px;
+    }
+    /*statistics*/
+    .statistics-container .item-container {
+        width: 23.4%;
+    }
+    /*our events*/
+    .event-main-container .things-container .row-container .rectangle
+    {
+        width: 400px;
+        height: 140px;
+        padding: 15px 15px 15px 15px;
+    }
+    .event-main-container .things-container .row-container .rectangle .right {
+        width: 249px;
+    }
+    .event-main-container .things-container .row-container .rectangle .square
+    {
+        width: 81px;
+        height: 81px;
+    }
+    .event-main-container .things-container .row-container .rectangle .square .event-anchor {
+        width: 71px;
+        height: 71px;
+    }
+    .event-main-container .things-container .row-container .rectangle .square .event-img {
+        width: 81px;
+        height: 81px;
+    }
+    .event-main-container .things-container .row-container .rectangle .square .event-anchor span
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    /*editors*/
+    .editor-main-container .top-container .right-container
+    {
+        width: 640px;
+    }
+    .editor-main-container .top-container .right-container .bottom-side .item-container .image.img-a,
+    .editor-main-container .top-container .right-container .bottom-side .item-container .image.img-b,
+    .editor-main-container .top-container .right-container .bottom-side .item-container .image.img-c
+    {
+        width: 67px;
+    }
+    .editor-main-container .top-container .right-container .top-side h2
+    {
+        font-size: 32px;
+    }
+    .editor-main-container .top-container .right-container .bottom-side .item-container
+    {
+        margin: 0px 10px 0px 0px;
+    }
+    .editor-main-container .top-container .left-container .image {
+        width: 340px;
+        height: 310px;
+    }
+    .editor-main-container .top-container .right-container .bottom-side .item-container .right-side h3 {
+        height: 25px;
+        line-height: 25px;
+    }
+    .editor-main-container .bottom-container .item-container .image-container
+    {
+        width: 325px;
+    }
+    .editor-main-container .bottom-container .item-container label
+    {
+        width: 325px;
+    }
+    /*our partner*/
+    .our-partner-container .right-container
+    {
+        width: 600px;
+    }
+    .our-partner-container .left-container
+    {
+        width: 400px;
+    }
+    .lana-maming
+    {
+        margin: 20px 0px 0px 0px;
+    }
+    /*footer*/
+    footer .center-a-footer label
+    {
+        width: 63.7%;
+    }
+    footer .center-a-footer .right-links ul li {
+        width: 199px;
+    }
+    footer .center-b-footer .left-side .social-container a
+    {
+        margin: 26px 0px 0px 5px;
+    }
+    footer .center-b-footer .right-side input[type="text"]
+    {
+        width: 307px;
+    }
+    .makemony-main-container .left-side-image
+    {
+        width: 30%;
+        background-position: 0px 80px;
+    }
+    .jq-section .quote-container .quote
+    {
+        width: 70%;
+        float: left;
+        margin: 0px 0px 0px 15px;
+    }
+    .jq-section .slick-next {
+        right: 107px;
+    }
+    /*end home*/
+    /*start what client say*/
+    .section-main-container .display-cell .content-container .section-title-white
+    {
+        width: 40%;
+    }
+    .jq-section .quote-container .quote
+    {
+        height: 200px;
+    }
+    /*start what client say*/
+    /*start books*/
+    .books-main-container-page .ui-panels .item-container-ar
+
+    {
+        width: 240px;
+    }
+    .books-main-container-page .ui-panels .item-container
+    {
+        width: 240px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .book-container .libro
+    {
+        transform: scaleX(0.78) scaleY(0.85);
+        margin: 10px auto 0 20px;
+    }
+    .books-main-container-page .ui-panels .item-container .book-container .libro {
+        transform: scaleX(0.78) scaleY(0.85);
+        margin: 10px auto 0 5px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(1), .books-main-container-page .ui-panels .item-container-ar:nth-child(5), .books-main-container-page .ui-panels .item-container-ar:nth-child(9), .books-main-container-page .ui-panels .item-container-ar:nth-child(13), .books-main-container-page .ui-panels .item-container-ar:nth-child(17)
+    {
+        margin: 20px 10px 20px 0px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar
+    {
+        margin: 20px 10px 20px 10px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:nth-child(4), .books-main-container-page .ui-panels .item-container-ar:nth-child(8), .books-main-container-page .ui-panels .item-container-ar:nth-child(12), .books-main-container-page .ui-panels .item-container-ar:nth-child(16), .books-main-container-page .ui-panels .item-container-ar:nth-child(20), .books-main-container-page .ui-panels .item-container-ar:nth-child(24), .books-main-container-page .ui-panels .item-container-ar:nth-child(28)
+    {
+        margin: 20px 2px 20px 10px;
+    }
+    .books-main-container-page .ui-panels .item-container:nth-child(1), .books-main-container-page .ui-panels .item-container:nth-child(5), .books-main-container-page .ui-panels .item-container:nth-child(9), .books-main-container-page .ui-panels .item-container:nth-child(13), .books-main-container-page .ui-panels .item-container:nth-child(17)
+    {
+        margin: 20px 10px 20px 0px;
+    }
+    .books-main-container-page .ui-panels .item-container
+    {
+        margin: 20px 10px 20px 10px;
+    }
+    .books-main-container-page .ui-panels .item-container:nth-child(4), .books-main-container-page .ui-panels .item-container:nth-child(8), .books-main-container-page .ui-panels .item-container:nth-child(12), .books-main-container-page .ui-panels .item-container:nth-child(16), .books-main-container-page .ui-panels .item-container:nth-child(20), .books-main-container-page .ui-panels .item-container:nth-child(24), .books-main-container-page .ui-panels .item-container:nth-child(28)
+    {
+        margin: 20px 2px 20px 10px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .hover-container .buttons-container a
+    {
+        height: 35px;
+        line-height: 35px;
+        background-size: 20px 20px;
+    }
+    .books-main-container-page .ui-panels .item-container .hover-container .buttons-container a
+    {
+        height: 35px;
+        line-height: 35px;
+        background-size: 20px 20px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar:hover .hover-container
+    {
+        width: 240px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container-page .ui-panels .item-container:hover .hover-container
+    {
+        width: 240px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container-page .ui-panels .item-container .hover-container .view-container .view-number,
+    .books-main-container-page .ui-panels .item-container .hover-container .view-container
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .hover-container .view-container .view-number,
+    .books-main-container-page .ui-panels .item-container-ar .hover-container .view-container
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container-page .ui-panels .item-container .hover-container .view-container .view-icon
+    {
+        height: 35px;
+        line-height: 35px;
+        width: 28px;
+    }
+
+    .books-main-container-page .ui-panels .item-container-ar .hover-container .view-container .view-icon
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .books-main-container-page .ui-panels .item-container .title-sub-container
+    {
+        padding: 5px 0px 0px 40px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .title-sub-container
+    {
+        padding: 5px 0px 0px 40px;
+    }
+    .books-main-container-page label.star
+    {
+        font-size: 19px;
+    }
+    .books-main-container-page .ui-panels .item-container .bottom-container .center .rating-container
+    {
+        padding: 0px 10px 0px 25px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .bottom-container .center .rating-container
+    {
+        padding: 0px 10px 0px 25px;
+    }
+    .books-main-container-page .ui-panels .item-container .bottom-container .right
+    {
+        width: 64px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .bottom-container .right
+    {
+        width: 64px;
+    }
+    .books-main-container-page .ui-panels .item-container .bottom-container .center .rating-container .number
+    {
+        padding: 0px 0px 0px 10px;
+    }
+    .books-main-container-page .ui-panels .item-container-ar .bottom-container .center .rating-container .number
+    {
+        padding: 0px 0px 0px 10px;
+    }
+    /*end books*/
+    /*start stories*/
+    .stories-main-container-page .ui-panels .item-container-ar
+    {
+        width: 240px;
+    }
+    .stories-main-container-page .ui-panels .item-container
+    {
+        width: 240px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar .book-container .libro
+    {
+        transform: scaleX(0.78) scaleY(0.85);
+        margin: 10px auto 0 20px;
+    }
+    .stories-main-container-page .ui-panels .item-container .book-container .libro {
+        transform: scaleX(0.78) scaleY(0.85);
+        margin: 10px auto 0 5px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar:nth-child(1), .stories-main-container-page .ui-panels .item-container-ar:nth-child(5), .stories-main-container-page .ui-panels .item-container-ar:nth-child(9), .stories-main-container-page .ui-panels .item-container-ar:nth-child(13), .stories-main-container-page .ui-panels .item-container-ar:nth-child(17)
+    {
+        margin: 20px 10px 20px 0px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar
+    {
+        margin: 20px 10px 20px 10px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar:nth-child(4), .stories-main-container-page .ui-panels .item-container-ar:nth-child(8), .stories-main-container-page .ui-panels .item-container-ar:nth-child(12), .stories-main-container-page .ui-panels .item-container-ar:nth-child(16), .stories-main-container-page .ui-panels .item-container-ar:nth-child(20), .stories-main-container-page .ui-panels .item-container-ar:nth-child(24), .stories-main-container-page .ui-panels .item-container-ar:nth-child(28)
+    {
+        margin: 20px 2px 20px 10px;
+    }
+    .stories-main-container-page .ui-panels .item-container:nth-child(1), .stories-main-container-page .ui-panels .item-container:nth-child(5), .stories-main-container-page .ui-panels .item-container:nth-child(9), .stories-main-container-page .ui-panels .item-container:nth-child(13), .stories-main-container-page .ui-panels .item-container:nth-child(17)
+    {
+        margin: 20px 10px 20px 0px;
+    }
+    .stories-main-container-page .ui-panels .item-container
+    {
+        margin: 20px 10px 20px 10px;
+    }
+    .stories-main-container-page .ui-panels .item-container:nth-child(4), .stories-main-container-page .ui-panels .item-container:nth-child(8), .stories-main-container-page .ui-panels .item-container:nth-child(12), .stories-main-container-page .ui-panels .item-container:nth-child(16), .stories-main-container-page .ui-panels .item-container:nth-child(20), .stories-main-container-page .ui-panels .item-container:nth-child(24), .stories-main-container-page .ui-panels .item-container:nth-child(28)
+    {
+        margin: 20px 2px 20px 10px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar .hover-container .buttons-container a
+    {
+        height: 35px;
+        line-height: 35px;
+        background-size: 20px 20px;
+    }
+    .stories-main-container-page .ui-panels .item-container .hover-container .buttons-container a
+    {
+        height: 35px;
+        line-height: 35px;
+        background-size: 20px 20px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar:hover .hover-container
+    {
+        width: 240px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container-page .ui-panels .item-container:hover .hover-container
+    {
+        width: 240px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container-page .ui-panels .item-container .hover-container .view-container .view-number,
+    .stories-main-container-page .ui-panels .item-container .hover-container .view-container,
+    .stories-main-container-page .ui-panels .item-container .hover-container .view-container .view-icon
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar .hover-container .view-container .view-number,
+    .stories-main-container-page .ui-panels .item-container-ar .hover-container .view-container
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar .hover-container .view-container .view-icon
+    {
+        height: 35px;
+        line-height: 35px;
+        width: 28px;
+    }
+    .stories-main-container-page .ui-panels .item-container .title-sub-container
+    {
+        padding: 5px 0px 0px 40px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar .title-sub-container
+    {
+        padding: 5px 0px 0px 40px;
+    }
+    .stories-main-container-page label.star
+    {
+        font-size: 19px;
+    }
+    .stories-main-container-page .ui-panels .item-container .bottom-container .center .rating-container
+    {
+        padding: 0px 10px 0px 25px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar .bottom-container .center .rating-container
+    {
+        padding: 0px 10px 0px 25px;
+    }
+    .stories-main-container-page .ui-panels .item-container .bottom-container .right
+    {
+        width: 64px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar .bottom-container .right
+    {
+        width: 64px;
+    }
+    .stories-main-container-page .ui-panels .item-container .bottom-container .center .rating-container .number
+    {
+        padding: 0px 0px 0px 10px;
+    }
+    .stories-main-container-page .ui-panels .item-container-ar .bottom-container .center .rating-container .number
+    {
+        padding: 0px 0px 0px 10px;
+    }
+    /*end stories*/
+    /*start game*/
+    .inner-pages-main-container-games .grace-green {
+        left: 155px;
+        bottom: 2%;
+        width: 1260px;
+    }
+    .inner-pages-main-container-games .mo-tree {
+        left: -20px;
+        bottom: 4%;
+        width: 30%;
+    }
+    /*end game*/
+    /*start view book*/
+    .inner-pages-main-container-view-item .related-content-container #slider .item-container-book-ar
+    {
+        width: 220px;
+    }
+    .inner-pages-main-container-view-item .related-content-container #slider .item-container-book-ar .book-container .libro
+    {
+        transform: scaleX(0.64) scaleY(0.75);
+        margin: 0px auto 0 18px;
+    }
+    .inner-pages-main-container-view-item .related-content-container #slider .frame .item .inset
+    {
+        margin: 10px 10px 10px 7px;
+    }
+    .inner-pages-main-container-view-item .related-content-container #slider .item-container-book
+    {
+        width: 220px;
+    }
+    .inner-pages-main-container-view-item .related-content-container #slider .item-container-book .book-container .libro
+    {
+        transform: scaleX(0.64) scaleY(0.75);
+        margin: 0px auto 0 -4px;
+    }
+    .inner-pages-main-container-view-item .related-content-container #slider .frame .item .inset
+    {
+        width: 220px;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .bottom-container .item-container
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .bottom-container .item-container .icon1
+    {
+        height: 35px;
+        line-height: 35px;
+        width: 45px;
+        background-size: 55%;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .bottom-container .item-container .icon2
+    {
+        height: 35px;
+        line-height: 35px;
+        width: 45px;
+        background-size: 45%;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .bottom-container .item-container .icon3
+    {
+        height: 35px;
+        line-height: 35px;
+        width: 45px;
+        background-size: 45%;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .bottom-container .item-container .icon4
+    {
+        height: 35px;
+        line-height: 35px;
+        width: 45px;
+        background-size: 40%;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .bottom-container .item-container .number
+    {
+        padding: 0px 5px 0px 5px;
+        width: 68px;
+    }
+    .a2a_svg
+    {
+        height: 25px !important;
+        line-height: 32px!important;
+        width: 25px!important;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .buttons-container .right-button .without-icon {
+        height: 25px;
+        line-height: 22px;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .buttons-container .right-button .without-icon .fav {
+        width: 20px;
+        height: 25px;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .buttons-container .right-button .without-icon .comment
+    {
+        width: 20px;
+        height: 25px;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .buttons-container .right-button .with-icon {
+
+        height: 25px;
+        line-height: 32px;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .buttons-container .right-button .with-icon .screenshot {
+        height: 25px;
+        line-height: 23px;
+        background-size: 14%;
+        padding: 0px 10px 0px 25px;
+        background-position: 7px 3px;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .buttons-container .right-button .with-icon .livedemo
+    {
+        height: 25px;
+        line-height: 23px;
+        background-size: 17%;
+        padding: 0px 10px 0px 25px;
+        background-position: 7px center;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .buttons-container .right-button
+    {
+        margin: 23px 0px 18px 0px;
+    }
+    .inner-pages-main-container-view-item .tab__content li .content__wrapper.first-tab-content .buttons-container .right-button .with-icon
+    {
+        font-size: 13px;
+    }
+    /*end view book*/
+    /*start services*/
+    .inner-pages-main-container-services .image-header-container,.text-privacy-term-about .title-container-about
+    {
+        background-position:  -7px -4px;;
+    }
+    .inner-pages-main-container-services .image-header-container h1,
+    .inner-pages-main-container-features .image-header-container h1,
+    .inner-pages-main-container-application .image-header-container h1,
+    .inner-pages-main-container-editor .image-header-container h1,
+    .inner-pages-main-container-products .image-header-container h1,
+    .inner-pages-main-container-news .image-header-container h1,
+    .inner-pages-main-container-events .image-header-container h1,
+    .inner-pages-main-container-makemony .image-header-container h1,
+    .about-us-main-container .image-header-container h1,
+    .text-privacy-term-about .title-container-about h1,
+    .text-privacy-term-about .title-container-a h1
+    {
+        top: 15px;
+        line-height: 51px;
+        height: 51px;
+        width: 277px;
+        font-size: 22px
+    }
+    .inner-pages-main-container-ourpartner .image-header-container h1
+    {
+        top: 7px;
+        line-height: 51px;
+        height: 51px;
+        width: 277px;
+        font-size: 22px
+    }
+    .text-privacy-term-about .title-container h1
+    {
+        top: 19px;
+        line-height: 51px;
+        height: 51px;
+        width: 277px;
+        font-size: 22px
+    }
+    /*end services*/
+    /*start application*/
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-a,
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-b,
+    .inner-pages-main-container-application .application-content .our-application-container .item-container .image-c
+    {
+        width: 284px;
+    }
+    /*end application*/
+    /*start partners*/
+    .inner-pages-main-container-features .image-header-container
+    {
+        background-position: -7px -4px;
+    }
+    .inner-pages-main-container-ourpartner .image-header-container h1
+    {
+        top: 7px;
+        line-height: 52px;
+        height: 52px;
+        width: 277px;
+        font-size: 22px
+
+    }
+    .inner-pages-main-container-ourpartner .partner-section .partner {
+        width: calc(23.5%);
+    }
+    /*end partners*/
+    /*start event*/
+    .events-content .things-container .row-container .rectangle
+    {
+        width: 400px;
+        height: 140px;
+        background: #fff;
+        padding: 15px;
+    }
+    .events-content .things-container .row-container .rectangle .right
+    {
+        width: 249px;
+    }
+    .events-content .things-container .row-container .rectangle .square {
+        width: 81px;
+        height: 81px;
+    }
+    .events-content .things-container .row-container .rectangle .square .event-anchor {
+        width: 71px;
+        height: 71px;
+    }
+    .events-content .things-container .row-container .rectangle .square .event-img {
+        width: 81px;
+        height: 81px;
+    }
+    .events-content .things-container .row-container .rectangle .square .event-anchor span {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .events-content .things-container .row-container .rectangle .square .event-anchor label {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38px;
+    }
+    .inner-pages-main-container-games .coming-soon-white
+    {
+        font-size: 6em;
+    }
+    /*end event*/
+    /*start signin*/
+    .sign-in-container .left-container, .sign-up-container .left-container,
+    .sign-in-container .right-container, .sign-up-container .right-container
+    {
+        width: 450px;
+        height: 457px;
+    }
+    .popup-container {
+        min-width: 550px;
+        min-height: 450px;
+        max-height: 459px;
+    }
+    .sign-in-container .right-container .main-title
+    {
+        font-size: 36px;
+    }
+    .sign-up-container .right-container .main-title
+    {
+        font-size: 36px;
+        margin: 10px 0px 10px 0px;
+    }
+    .sign-in-container .right-container .sub-title, .sign-up-container .right-container .sub-title
+    {
+        font-size: 14px;
+    }
+    .sign-in-container .right-container input[type='button'],
+    .sign-up-container .right-container input[type='button']
+    {
+        height: 45px;
+        line-height: 39px;
+        margin: 20px 0px 0px 0px;
+    }
+    .sign-in-container .right-container input[type='text'], .sign-in-container .right-container input[type='password'], .sign-up-container .right-container input[type='text'], .sign-up-container .right-container input[type='password']
+    {
+        height: 45px;
+        line-height: 39px;
+        margin: 10px 0px 0px 0px;
+    }
+    .sign-in-container .left-container .welcome-manhal, .sign-up-container .left-container .welcome-manhal
+    {
+        font-size: 27px;
+    }
+    .sign-in-container .right-container .social-btns a.facebook, .sign-up-container .right-container .social-btns a.facebook,
+    .sign-in-container .right-container .social-btns a.google, .sign-up-container .right-container .social-btns a.google,
+    .sign-in-container .right-container .social-btns a.twitter, .sign-up-container .right-container .social-btns a.twitter,
+    .sign-in-container .right-container .social-btns a.facebook i, .sign-up-container .right-container .social-btns a.facebook i,
+    .sign-in-container .right-container .social-btns a.google i, .sign-up-container .right-container .social-btns a.google i,
+    .sign-in-container .right-container .social-btns a.twitter i, .sign-up-container .right-container .social-btns a.twitter i,
+    .sign-in-container .right-container .social-btns a span, .sign-up-container .right-container .social-btns a span
+    {
+        height: 32px;
+        line-height: 32px;
+    }
+    .sign-in-container .left-container .bottom-container, .sign-up-container .left-container .bottom-container,.sign-in-container .left-container .bottom-container a, .sign-up-container .left-container .bottom-container a
+    {
+        height: 50px;
+        line-height: 50px;
+    }
+    .sign-in-container .left-container .bottom-container .btn-a, .sign-up-container .left-container .bottom-container .btn-a {
+        width: 42px;
+        height: 30px;
+        position: relative;
+        margin: 0px 0px 0px 0px;
+    }
+    .sign-in-container .left-container .bottom-container a span
+    {
+        width: 41px;
+        height: 27px;
+        background-size: 20px 20px;
+    }
+    .sign-up-container .left-container .bottom-container a span{
+        width: 41px;
+        height: 27px;
+        background-size: 20px 20px;
+        background-position: 10px 0px;
+    }
+    .sign-in-container .right-container .buttom-link {
+        margin: 15px 0px 0px 0px;
+    }
+    .sign-in-container .left-container .bottom-container label, .sign-up-container .left-container .bottom-container label
+    {
+        height: 40px;
+        line-height: 47px;
+        margin: 0px 15px 0px 0px;
+    }
+    .sign-in-container .left-container p, .sign-up-container .left-container p
+    {
+        font-size: 14px;
+    }
+    .change-password-container .right-container, .reset-password-container .right-container
+    {
+        width: 450px;
+        height: 457px;
+    }
+    .change-password-container .left-container, .reset-password-container .left-container
+    {
+        width: 450px;
+        height: 457px;
+    }
+    .change-password-container .right-container .main-title, .reset-password-container .right-container .main-title
+    {
+        font-size: 36px;
+    }
+    .change-password-container .right-container input[type='button'], .reset-password-container .right-container input[type='button']
+    {
+        height: 45px;
+        line-height: 45px;
+    }
+    .change-password-container .right-container .sub-title, .reset-password-container .right-container .sub-title
+    {
+        font-size: 14px;
+    }
+    /*end signin*/
+    /*start cart*/
+    .cart-main-container .number-thump {
+        width: 180px;
+    }
+    .cart-main-container .number-thump .number {
+        width: 20px;
+        height:20px;
+        line-height:19px;
+    }
+    .cart-main-container .number-thump .thump-container {
+        width: 105px;
+    }
+    .cart-main-container .number-thump .thump-container .thump {
+        width: 100px;
+    }
+    .cart-main-container .title {
+        width: 190px;
+        font-size: 13px;
+    }
+    .cart-main-container .type {
+        width: 210px;
+    }
+    .cart-main-container .category {
+        width: 80px;
+        font-size: 13px;
+    }
+    .cart-main-container .price {
+        width: 90px;
+        font-size: 14px;
+    }
+    .cart-main-container .quantity {
+        width: 80px;
+    }
+    .cart-main-container .total-price {
+        width: 110px;
+        font-size: 14px;
+    }
+    .cart-main-container .delete_carts_item-style
+    {width: 70px;}
+    .cart-main-container .section-check .text
+    {
+        font-size: 13px;
+    }
+    .cart-main-container a.delete_carts_item
+    {
+        width: 20px;
+        height: 20px;
+        line-height: 19px;
+        background-size: 62%;
+    }
+    .shipping-main-container .information-container {
+        width: 45%;
+    }
+    .shipping-main-container .viewer-container {
+        width: calc(55% - 20px);
+        margin: 0px 0px 0px 20px;
+    }
+    .shipping-main-container .information-container .billing-adress input[type="text"], .shipping-main-container .information-container .billing-adress input[type="email"], .shipping-main-container .information-container .billing-adress input[type="tel"]
+    {
+        width: 206px;
+    }
+    .cart-main-container .disply-table-caption .display-table-cell
+    {
+        font-size: 16px;
+    }
+    .shipping-main-container .information-container .billing-adress,
+    .shipping-main-container .information-container .payment-method,
+    .shipping-main-container .information-container .shipping-method
+    {
+        width: 461px;
+    }
+    .shipping-main-container .ddl-container-a
+    {
+        width: 206px;
+    }
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-a
+    {
+        font-size: 16px;
+
+    }
+    .shipping-main-container .viewer-container .ReviewYourOrder
+    {
+        font-size: 16px;
+    }
+    .shipping-main-container .information-container .billing-adress h1,
+    .shipping-main-container .information-container .payment-method h1,
+    .shipping-main-container .information-container .shipping-method h1
+    {
+        font-size: 16px;
+    }
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card,
+    .cart-main-container .bottom-container-main .silver-section .left-section-card .line-row-card .lbl-data-b
+    {
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    .shipping-main-container .information-container .shipping-method .section-check-row .image-a
+    {
+        width: 135px;
+    }
+    .shipping-main-container .information-container .billing-adress .address
+    {
+        font-size: 14px;
+    }
+    .shipping-main-container .viewer-container .info-container-table .line-content label
+    {
+        font-size: 16px;
+    }
+    .shipping-main-container .information-container .payment-method .section-check-row .text
+    {
+        font-size: 14px;
+    }
+    .shipping-main-container .viewer-container .info-container-table .line-content span
+    {
+        font-size: 16px;
+    }
+    .shipping-main-container .note-container .starnote
+    {
+        font-size: 16px;
+    }
+    .shipping-main-container .viewer-container .cell-container.subTotal
+    {
+        font-size: 14px;
+    }
+    .shipping-main-container .viewer-container .cell-container .number
+    {
+        height: 20px;
+        line-height: 20px;
+        width: 20px;
+    }
+    .shipping-main-container .viewer-container .info-container-table .line-content
+    {
+        height: 35px;
+        line-height: 35px;
+    }
+    .shipping-main-container .note-container .text
+    {
+        font-size: 14px;
+    }
+    .shipping-main-container .viewer-container .cell-container.No {
+        width: 10%;
+    }
+    .shipping-main-container .viewer-container .cell-container.Product {
+        width: 30%;
+    }
+    .shipping-main-container .viewer-container .cell-container.QTY {
+        width: 10%;
+    }
+    .shipping-main-container .viewer-container .cell-container.Type {
+        width: 38%;
+    }
+    header .buy-content-container .item-container .right .price
+    {
+        font-size: 16px;
+    }
+    header .buy-content-container .total-price span
+    {
+        font-size: 22px;
+    }
+    /*end cart*/
+    /*start contact us*/
+    .about-us-main-container .contact-form .line-row .txt-a
+    {
+        width: 47.5%;
+    }
+    .about-us-main-container .image-header-container {
+        background-position:  -7px -4px;
+    }
+
+    /*end contact us*/
+
+}
+@media all and (max-width: 1399px) and (min-width: 1301px)
+{}
+@media all and (max-width: 1300px) and (min-width: 1250px)
+{}
+@media all and (max-width: 1249px) and (min-width: 1200px)
+{}
+@media all and (max-width: 1199px) and (min-width: 1150px)
+{}
+@media all and (max-width: 1149px) and (min-width: 1100px)
+{}
+@media all and (max-width: 1099px) and (min-width: 1025px)
+{}
+@media all and (max-device-width: 1024px) and (min-device-width: 768px)and (orientation : landscape)
+{
+
+}
+@media all and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation : portrait)
+{
+
+}
+@media all and (max-width: 767px) and (min-width: 740px)
+{
+
+}
+@media all and (max-width: 739px) and (min-width: 611px)
+{
+
+}
+@media all and (max-width: 610px) and (min-width: 560px)
+{
+
+}
+@media all and (max-width: 559px) and (min-width: 460px)
+{
+
+}
+@media all and (max-width: 459px) and (min-width: 320px)
+{
+
+}
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    /*body{*/
+    /*background: red;*/
+    /*}*/
+}
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+    /*body{*/
+    /*background: red;*/
+    /*}*/
+}
